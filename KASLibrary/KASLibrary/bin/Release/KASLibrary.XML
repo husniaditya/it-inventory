@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KASLibrary</name>
+    </assembly>
+    <members>
+        <member name="F:KASLibrary.FrmTextReportVariables.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportVariables.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportVariables.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KASLibrary.FrmTextReportPrintDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportPrintDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportPrintDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KASLibrary.FrmTextReportDesigner.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportDesigner.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportDesigner.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KASLibrary.FrmTextReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KASLibrary.FrmTextReportAddField.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportAddField.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KASLibrary.FrmTextReportAddField.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KASLibrary.SQL">
+            <summary>
+            This class is a helper class in executing sql statements to MySql server.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.SQL.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            The constructor that requires all parameters to connect to MySql
+            </summary>
+            <param name="userName">MySQL username</param>
+            <param name="password">MySQL password</param>
+            <param name="server">MySQL server</param>
+            <param name="database">MySQL database</param>
+        </member>
+        <member name="M:KASLibrary.SQL.#ctor(System.String,System.String)">
+            <summary>
+            The constructor that requires only user name and password to connect to MySql,
+            the server name and database name are located in application config file.
+            </summary>
+            <param name="userName">MySql user name</param>
+            <param name="password">MySql password</param>
+        </member>
+        <member name="M:KASLibrary.SQL.Select(System.String)">
+            <summary>
+            Executing a select query.
+            </summary>
+            <param name="query">sql statement</param>
+            <returns>DataTable filled with the result set</returns>
+        </member>
+        <member name="M:KASLibrary.SQL.Execute(System.String)">
+            <summary>
+            Executing sql query except for select query.
+            For select query use Select function.
+            </summary>
+            <param name="query">sql statement</param>
+        </member>
+        <member name="M:KASLibrary.SQL.CloseConnection">
+            <summary>
+            Force close connection via kill id
+            </summary>
+        </member>
+        <member name="M:KASLibrary.SQL.Finalize">
+            <summary>
+            Closing connection
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.ServerName">
+            <summary>
+            Return server name.
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.DatabaseName">
+            <summary>
+            Return database name
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.UserName">
+            <summary>
+            Return MySql user name
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.Password">
+            <summary>
+            Return MySql password
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.HandleException">
+            <summary>
+            Whether SQL class will handle the exception or throw. Default is false.
+            </summary>
+        </member>
+        <member name="P:KASLibrary.SQL.KeepAlive">
+            <summary>
+            Indicating to keep alive the connection or not. The default value is true.
+            </summary>
+        </member>
+        <member name="T:KASLibrary.ACL">
+            <summary>
+            This class is the main entry for accessing Access Control List (ACL).
+            With this class you can create user, delete user, and get specific user as well.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACL.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            The contructor for ACL class that requires all connection parameters.
+            </summary>
+            <param name="userName">MySql user name that has privilege to create user (ex: root)</param>
+            <param name="password">MySql password for the user name given in the previous parameter</param>
+            <param name="server">MySql server location, e.g: localhost, 192.168.12.7</param>
+            <param name="database">MySql database to use</param>
+        </member>
+        <member name="M:KASLibrary.ACL.#ctor(System.String,System.String)">
+            <summary>
+            The constructor that requires only user name and password,
+            the server name and database name will be retrieved from application config file. 
+            </summary>
+            <param name="userName">MySQL username</param>
+            <param name="password">MySQL password</param>
+        </member>
+        <member name="M:KASLibrary.ACL.GetRoles">
+            <summary>
+            Get all posible roles.
+            </summary>
+            <returns>Array of string contains roles</returns>
+        </member>
+        <member name="M:KASLibrary.ACL.GetUsers">
+            <summary>
+            To get all posible MySql users (alias ACL users) excluding the one you put in the constructor.
+            </summary>
+            <returns>ACL users available excluding the one you put in the constructor</returns>
+        </member>
+        <member name="M:KASLibrary.ACL.GetUsers(System.String)">
+            <summary>
+            To get all ACL users that have specific role
+            </summary>
+            <param name="role">the role of the ACL users</param>
+            <returns>ACL users</returns>
+        </member>
+        <member name="M:KASLibrary.ACL.GetUser(System.String)">
+            <summary>
+            Getting an ACLUser based on specific user name
+            </summary>
+            <param name="name">ACL user name or MySql user name</param>
+            <returns>ACLUser requested or null if not available</returns>
+        </member>
+        <member name="M:KASLibrary.ACL.CreateUser(System.String,System.String,System.String)">
+            <summary>
+            Create a new ACL user
+            </summary>
+            <param name="role">role of the user</param>
+            <param name="name">user name</param>
+            <param name="password">password</param>
+            <returns>ACLUser created</returns>
+        </member>
+        <member name="M:KASLibrary.ACL.DeleteUser(System.String)">
+            <summary>
+            Delete a specific ACL user
+            </summary>
+            <param name="name">user name to be deleted</param>
+        </member>
+        <member name="M:KASLibrary.ACL.Login(System.String,System.String,System.String@)">
+            <summary>
+            Perform the login process for user.
+            </summary>
+            <param name="name">user name</param>
+            <param name="password">password of the user</param>
+            <param name="status">status of the user</param>
+            <returns>ACLUser of logged-in user, null if login process failed</returns>
+            <remarks>status output: "Logged In", "Invalid", "Blocked"</remarks>
+        </member>
+        <member name="M:KASLibrary.ACL.IsBlocked(System.String)">
+            <summary>
+            Get whether a user is blocked or not.
+            </summary>
+            <param name="name">user name</param>
+            <returns></returns>
+        </member>
+        <member name="M:KASLibrary.ACL.UnBlock(System.String)">
+            <summary>
+            Unblock user who is blocked.
+            </summary>
+            <param name="name">user name</param>
+        </member>
+        <member name="T:KASLibrary.ACLUser">
+            <summary>
+            Class to manipulate an ACL user
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACLUser.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            The contructor to create ACLUser that requires all parameters
+            </summary>
+            <param name="name">ACL user name to be manipulated</param>
+            <param name="userName">MySql user name having privileges to create user and to manipulate database mysql</param>
+            <param name="password">Password of the MySql user name in the previous parameter</param>
+            <param name="server">Server name</param>
+            <param name="database">Database name</param>
+        </member>
+        <member name="M:KASLibrary.ACLUser.#ctor(System.String,System.String,System.String)">
+            <summary>
+            The contructor to create ACLUser that does not require server and database parameters.
+            The server name and database name will be retrieved from application config file.
+            </summary>
+            <param name="name">ACL user name to be manipulated</param>
+            <param name="userName">MySql user name having privileges to create user and to manipulate database mysql</param>
+            <param name="password">Password of the MySql user name in the previous parameter</param>
+        </member>
+        <member name="M:KASLibrary.ACLUser.Refresh">
+            <summary>
+            To refresh the content of TablePriv and ColumnPriv from the database.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACLUser.AllowInsert(System.String)">
+            <summary>
+            To check whether this user has privilege to insert entries into a table
+            </summary>
+            <param name="tableName">the database table name</param>
+            <returns>true if allowed</returns>
+        </member>
+        <member name="M:KASLibrary.ACLUser.AllowUpdate(System.String)">
+            <summary>
+            To check whether this user has privilege to update entries in a table
+            </summary>
+            <param name="tableName">the database table name</param>
+            <returns>true if allowed</returns>
+        </member>
+        <member name="M:KASLibrary.ACLUser.AllowDelete(System.String)">
+            <summary>
+            To check whether this user has privilege to delete entries in a table 
+            </summary>
+            <param name="tableName">the database table name</param>
+            <returns>true if allowed</returns>
+        </member>
+        <member name="M:KASLibrary.ACLUser.AllowSelect(System.String)">
+            <summary>
+            To check whether this user has privilege to select certain column in a certain table.
+            </summary>
+            <param name="tableName">the database table name</param>
+            <returns>true if allowed</returns>
+        </member>
+        <member name="M:KASLibrary.ACLUser.CopyPrivilegesFrom(KASLibrary.ACLUser)">
+            <summary>
+            Copying privileges from a user to other user.
+            If a user has the same role with another user then you can just copy the privileges.
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:KASLibrary.ACLUser.Update">
+            <summary>
+            Updating TablePriv and ColumnPriv back to the database.
+            The effect of the changed privileges is immediately apparent.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACLUser.Logout">
+            <summary>
+            Logout this user
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACLUser.ChangePassword(System.String)">
+            <summary>
+            Change password
+            </summary>
+            <param name="password">the new password</param>
+        </member>
+        <member name="M:KASLibrary.ACLUser.ChangeRole(System.String)">
+            <summary>
+            Change role
+            </summary>
+            <param name="role">the new role</param>
+        </member>
+        <member name="M:KASLibrary.ACLUser.ConstructDataStructure">
+            <summary>
+            Preparing the structure of TablePriv and ColumnPriv
+            </summary>
+        </member>
+        <member name="M:KASLibrary.ACLUser.FillTablePriv">
+            <summary>
+            Fill TablePriv from database
+            </summary>
+        </member>
+        <member name="P:KASLibrary.ACLUser.Role">
+            <summary>
+            Return the role of this user.
+            </summary>
+        </member>
+        <member name="P:KASLibrary.ACLUser.Name">
+            <summary>
+            Return the name of this ACL user.
+            </summary>
+        </member>
+        <member name="P:KASLibrary.ACLUser.Status">
+            <summary>
+            Return the status of this ACL user. If user do nothing today then status is empty string.
+            </summary>
+        </member>
+        <member name="P:KASLibrary.ACLUser.TablePriv">
+            <summary>
+            Return a DataTable containing the table privileges for this user.
+            Columns: table, insert, update, delete.
+            For select privileges use the ColumnPriv property.
+            This DataTable is related with ColumnPriv as a parent.
+            </summary>
+        </member>
+        <member name="M:KASLibrary.Utility.GetConfig(System.String)">
+            <summary>
+            Retrieve value of a given key in App.Config file
+            </summary>
+            <param name="key">Key to find</param>
+            <returns>Value of the key</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.SetConfig(System.String,System.String)">
+            <summary>
+            Change key-value pair in App.Config file, add new key-value pair if not already in App.Config file
+            </summary>
+            <param name="key">Key to add</param>
+            <param name="value">Value to add</param>
+        </member>
+        <member name="M:KASLibrary.Utility.NumberToText(System.Double)">
+            <summary>
+            Indonesian pronunciation of numbers.
+            </summary>
+            <param name="number">Number to pronounce</param>
+            <returns>String of number pronunciation</returns>
+            <example>NumberToText(5231)="lima ribu dua ratus tiga puluh satu "</example>
+        </member>
+        <member name="M:KASLibrary.Utility.Denomination(System.Double,System.Double[])">
+            <summary>
+            Split a number to a series of smaller values
+            </summary>
+            <param name="number">Number to split</param>
+            <param name="currency">Array of numbers to split into</param>
+            <returns>Hashtable with Value-Count pairs</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.RoundTo(System.Double,System.Double)">
+            <summary>
+            Round a number to closest rounder.
+            </summary>
+            <param name="number">Number to round</param>
+            <param name="rounder">Number to round to</param>
+            <returns>Rounded number</returns>
+            <example>RoundTo(1234,100)=1200, RoundTo(1234,50)=1250</example>
+        </member>
+        <member name="M:KASLibrary.Utility.ToTitleCase(System.String)">
+            <summary>
+            Convert Text To Title Case
+            </summary>
+            <param name="text">Input Text</param>
+            <returns>Text in Title Case</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.StringToDate(System.String,System.String)">
+            <summary>
+            Convert strings of Date and Time to DateTime
+            </summary>
+            <param name="strDate">Input Date string</param>
+            <param name="strTime">Input Time string</param>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.FirstDateInMonth(System.DateTime)">
+            <summary>
+            Get first date of a given month
+            </summary>
+            <param name="inputDate">Any date in any month</param>
+            <returns>First date of the month</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.LastDateInMonth(System.DateTime)">
+            <summary>
+            Get last date of a given month
+            </summary>
+            <param name="inputDate">Any date in any month</param>
+            <returns>Last date of the month</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.XLSToDataTable(System.String)">
+            <summary>
+            Read an XLS (Excel) File and import the table to a DataTable
+            </summary>
+            <param name="filename">Path of xls file to open</param>
+            <returns>DataTable representation</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.DataTableToOO(System.Data.DataTable)">
+            <summary>
+            Export DataTable to OpenOffice Calc by COM OpenOffice Automation
+            </summary>
+            <param name="dTable">DataTable</param>
+            <remarks>Reference: http://opendocument4all.com/content/view/68/47/</remarks>
+        </member>
+        <member name="M:KASLibrary.Utility.EncryptTripleDES(System.String,System.String)">
+            <summary>
+            MD5 String Encryption
+            </summary>
+            <param name="sIn">String to encrypt</param>
+            <param name="sKey">Encryption key</param>
+            <returns>Encrypted string</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.DecryptTripleDES(System.String,System.String)">
+            <summary>
+            MD5 String Decription
+            </summary>
+            <param name="sOut">String to decrypt</param>
+            <param name="sKey">Encryption key</param>
+            <returns>Decrypted string</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetIPAddress">
+            <summary>
+            Get this machine first available IP address 
+            </summary>
+            <returns>IP address</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetHostName">
+            <summary>
+            Get this machine host name
+            </summary>
+            <returns>Hostname</returns>
+        </member>
+        <member name="F:KASLibrary.Utility.maxDepth">
+            <summary>
+            The maximum depth level for expanding the content of the variable
+            </summary>
+        </member>
+        <member name="M:KASLibrary.Utility.ExceptionHandler(System.Exception,System.Object[])">
+            <summary>
+            To be called in the catch block. It dumps data into file "exception-[date]-[time].log".
+            </summary>
+            <param name="ex">The exception from the catch block</param>
+            <param name="data">Data to be written into the file. It always in pairs of the variable name and the variable itself.</param>
+        </member>
+        <member name="M:KASLibrary.Utility.GetObjectInformation(System.Object,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Return string representation of an object or a variable.
+            It can be used with MessageBox to analyze the content of the variable during run time without breakpoint/tracepoint.
+            If it is from System namespace then only public fields and properties are listed.
+            If it is not from System namespace then both public and private fields as well as properties are listed.
+            </summary>
+            <param name="obj">The variable / object to be analyzed.</param>
+            <param name="tabCount">The number of tab in the output. Normally is set to 0.</param>
+            <param name="depth">The starting depth. It will stop probing for further information when it is greater than maxDepth.</param>
+            <param name="showSelf">True to show the type and value of the object. False to show only fields and properties of the object. Normal value is true</param>
+            <param name="customProcessing">True to enable custom processing. False to disable custom processing. Normal value is true</param>
+            <returns>Information about the content of an object or a variable.</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetArrayInformation(System.Array,System.Int32,System.Int32)">
+            <summary>
+            Get the content of an array. This is a helper function used by GetObjectInformation.
+            You should use GetObjectInformation instead of using this one.
+            </summary>
+            <param name="arr">The array to be probed.</param>
+            <param name="tabCount">The number of tab in the output string.</param>
+            <param name="depth">The current depth. If depth is greater than maxDepth then it will return empty string.</param>
+            <returns>Information about the content of the array.</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetCollectionInformation(System.Collections.ICollection,System.Int32,System.Int32)">
+            <summary>
+            Get the content of a collection. This is a helper function to be used by GetObjectInformation.
+            You should use GetObjectInformation instead of using this one.
+            </summary>
+            <param name="col">The collection to be probed.</param>
+            <param name="tabCount">The number of tab in the output string.</param>
+            <param name="depth">The current depth. If depth is greater than maxDepth then it will return empty string.</param>
+            <returns>Information about the content of the collection.</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetFieldsInformation(System.Object,System.Int32,System.Int32,System.Reflection.BindingFlags)">
+            <summary>
+            Get the fields information of a class. This is a helper function to be used by GetObjectInformation.
+            You should use GetObjectInformation instead of using this one.
+            </summary>
+            <param name="obj">The class to be probed.</param>
+            <param name="tabCount">The number of tab in the output string.</param>
+            <param name="depth">The current depth. If depth is greater than maxDepth then it will return empty string.</param>
+            <param name="bindingAttr">Can be BindingFlags.Public or BindingFlags.NonPublic or both.</param>
+            <returns>Information about the fields of the class.</returns>
+        </member>
+        <member name="M:KASLibrary.Utility.GetPropertiesInformation(System.Object,System.Int32,System.Int32,System.Reflection.BindingFlags)">
+            <summary>
+            Get the properties information of a class. This is a helper function to be used by GetObjectInformation.
+            You should use GetObjectInformation instead of using this one.
+            </summary>
+            <param name="obj">The class to be probed.</param>
+            <param name="tabCount">The number of tab in the output string.</param>
+            <param name="depth">The current depth. If depth is greater than maxDepth then it will return empty string.</param>
+            <param name="bindingAttr">Can be BindingFlags.Public or BindingFlags.NonPublic or both.</param>
+            <returns>Information about the properties of the class.</returns>
+        </member>
+    </members>
+</doc>
