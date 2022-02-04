@@ -1,0 +1,503 @@
+namespace CAS.Transaction
+{
+    partial class FrmTSJJual
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Label shiptonameLabel;
+            System.Windows.Forms.Label angkutanLabel;
+            System.Windows.Forms.Label nopolLabel;
+            System.Windows.Forms.Label remarkLabel;
+            System.Windows.Forms.Label label5;
+            this.casDataSet = new CAS.casDataSet();
+            this.sjhBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sjdBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.ctrlSub = new CAS.Transaction.CtrlSub();
+            this.shiptonameTextBoxEx = new KASLibrary.TextBoxEx();
+            this.shiptoaddressMemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.nopolTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.remarkMemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.gcxSjd = new KASLibrary.GridControlEx();
+            this.spinTOP = new DevExpress.XtraEditors.SpinEdit();
+            this.spmTextBoxEx = new KASLibrary.TextBoxEx();
+            this.txtAlias = new KASLibrary.TextBoxEx();
+            this.angkutanTextBoxEx = new KASLibrary.TextBoxEx();
+            this.linkToForm1 = new CAS.linkToForm();
+            shiptonameLabel = new System.Windows.Forms.Label();
+            angkutanLabel = new System.Windows.Forms.Label();
+            nopolLabel = new System.Windows.Forms.Label();
+            remarkLabel = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPeriod.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ludSeri.Properties)).BeginInit();
+            this.pnlDetail.SuspendLayout();
+            this.pnlKey.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateDate.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curkurs.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curcur.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sjhBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sjdBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiptonameTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiptoaddressMemoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nopolTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.remarkMemoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinTOP.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spmTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAlias.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.angkutanTextBoxEx.Properties)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // txtNo
+            // 
+            this.txtNo.Location = new System.Drawing.Point(206, 13);
+            // 
+            // txtPeriod
+            // 
+            this.txtPeriod.Location = new System.Drawing.Point(157, 13);
+            // 
+            // ludSeri
+            // 
+            this.ludSeri.Location = new System.Drawing.Point(80, 13);
+            // 
+            // pnlDetail
+            // 
+            this.pnlDetail.Controls.Add(this.linkToForm1);
+            this.pnlDetail.Controls.Add(this.angkutanTextBoxEx);
+            this.pnlDetail.Controls.Add(this.txtAlias);
+            this.pnlDetail.Controls.Add(this.spmTextBoxEx);
+            this.pnlDetail.Controls.Add(this.spinTOP);
+            this.pnlDetail.Controls.Add(label5);
+            this.pnlDetail.Controls.Add(this.gcxSjd);
+            this.pnlDetail.Controls.Add(remarkLabel);
+            this.pnlDetail.Controls.Add(this.remarkMemoEdit);
+            this.pnlDetail.Controls.Add(nopolLabel);
+            this.pnlDetail.Controls.Add(this.nopolTextEdit);
+            this.pnlDetail.Controls.Add(angkutanLabel);
+            this.pnlDetail.Controls.Add(this.shiptonameTextBoxEx);
+            this.pnlDetail.Controls.Add(shiptonameLabel);
+            this.pnlDetail.Controls.Add(this.shiptoaddressMemoEdit);
+            this.pnlDetail.Controls.Add(this.ctrlSub);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 69);
+            this.pnlDetail.Size = new System.Drawing.Size(723, 499);
+            this.pnlDetail.Controls.SetChildIndex(this.dateDate, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.dateLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.curcur, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.curkurs, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.kursLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.curLabel1, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.ctrlSub, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.shiptoaddressMemoEdit, 0);
+            this.pnlDetail.Controls.SetChildIndex(shiptonameLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.shiptonameTextBoxEx, 0);
+            this.pnlDetail.Controls.SetChildIndex(angkutanLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.nopolTextEdit, 0);
+            this.pnlDetail.Controls.SetChildIndex(nopolLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.remarkMemoEdit, 0);
+            this.pnlDetail.Controls.SetChildIndex(remarkLabel, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.gcxSjd, 0);
+            this.pnlDetail.Controls.SetChildIndex(label5, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.spinTOP, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.spmTextBoxEx, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.txtAlias, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.angkutanTextBoxEx, 0);
+            this.pnlDetail.Controls.SetChildIndex(this.linkToForm1, 0);
+            // 
+            // pnlKey
+            // 
+            this.pnlKey.Size = new System.Drawing.Size(723, 44);
+            // 
+            // dateDate
+            // 
+            this.dateDate.EditValue = new System.DateTime(((long)(0)));
+            this.dateDate.Location = new System.Drawing.Point(470, 3);
+            this.dateDate.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
+            this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
+            // 
+            // dateLabel
+            // 
+            this.dateLabel.Location = new System.Drawing.Point(418, 6);
+            // 
+            // curkurs
+            // 
+            this.curkurs.Location = new System.Drawing.Point(363, 3);
+            this.curkurs.Visible = false;
+            // 
+            // curcur
+            // 
+            this.curcur.Location = new System.Drawing.Point(264, 3);
+            this.curcur.Properties.Appearance.BackColor = System.Drawing.SystemColors.Window;
+            this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.curcur.Properties.Appearance.Options.UseBackColor = true;
+            this.curcur.Properties.Appearance.Options.UseForeColor = true;
+            this.curcur.Visible = false;
+            // 
+            // curLabel1
+            // 
+            this.curLabel1.Location = new System.Drawing.Point(233, 6);
+            this.curLabel1.Visible = false;
+            // 
+            // kursLabel
+            // 
+            this.kursLabel.Location = new System.Drawing.Point(327, 6);
+            this.kursLabel.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(26, 16);
+            // 
+            // btnDocFlow
+            // 
+            this.btnDocFlow.Location = new System.Drawing.Point(455, 10);
+            this.btnDocFlow.Visible = true;
+            this.btnDocFlow.Click += new System.EventHandler(this.btnDocFlow_Click);
+            // 
+            // lblDeleted
+            // 
+            this.lblDeleted.Location = new System.Drawing.Point(347, 13);
+            // 
+            // shiptonameLabel
+            // 
+            shiptonameLabel.AutoSize = true;
+            shiptonameLabel.Location = new System.Drawing.Point(414, 127);
+            shiptonameLabel.Name = "shiptonameLabel";
+            shiptonameLabel.Size = new System.Drawing.Size(42, 13);
+            shiptonameLabel.TabIndex = 126;
+            shiptonameLabel.Text = "Ship To";
+            // 
+            // angkutanLabel
+            // 
+            angkutanLabel.AutoSize = true;
+            angkutanLabel.Location = new System.Drawing.Point(409, 84);
+            angkutanLabel.Name = "angkutanLabel";
+            angkutanLabel.Size = new System.Drawing.Size(53, 13);
+            angkutanLabel.TabIndex = 129;
+            angkutanLabel.Text = "Angkutan";
+            // 
+            // nopolLabel
+            // 
+            nopolLabel.AutoSize = true;
+            nopolLabel.Location = new System.Drawing.Point(413, 58);
+            nopolLabel.Name = "nopolLabel";
+            nopolLabel.Size = new System.Drawing.Size(46, 13);
+            nopolLabel.TabIndex = 131;
+            nopolLabel.Text = "No Polisi";
+            // 
+            // remarkLabel
+            // 
+            remarkLabel.AutoSize = true;
+            remarkLabel.Location = new System.Drawing.Point(12, 152);
+            remarkLabel.Name = "remarkLabel";
+            remarkLabel.Size = new System.Drawing.Size(63, 13);
+            remarkLabel.TabIndex = 132;
+            remarkLabel.Text = "Keterangan";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(433, 32);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(27, 13);
+            label5.TabIndex = 135;
+            label5.Text = "TOP";
+            // 
+            // casDataSet
+            // 
+            this.casDataSet.DataSetName = "casDataSet";
+            this.casDataSet.Locale = new System.Globalization.CultureInfo("id-ID");
+            this.casDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // sjhBindingSource
+            // 
+            this.sjhBindingSource.DataMember = "sjh";
+            this.sjhBindingSource.DataSource = this.casDataSet;
+            // 
+            // sjdBindingSource
+            // 
+            this.sjdBindingSource.DataMember = "sjd";
+            this.sjdBindingSource.DataSource = this.casDataSet;
+            // 
+            // ctrlSub
+            // 
+            this.ctrlSub.Location = new System.Drawing.Point(17, 29);
+            this.ctrlSub.Name = "ctrlSub";
+            this.ctrlSub.ReadOnly = true;
+            this.ctrlSub.Size = new System.Drawing.Size(335, 115);
+            this.ctrlSub.TabIndex = 125;
+            this.ctrlSub.Tag = "ReadOnly";
+            this.ctrlSub.Type = CAS.Transaction.CtrlSub.SubType.Customer;
+            // 
+            // shiptonameTextBoxEx
+            // 
+            this.shiptonameTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "shiptoname", true));
+            this.shiptonameTextBoxEx.ExAllowEmptyString = true;
+            this.shiptonameTextBoxEx.ExAllowNonDBData = false;
+            this.shiptonameTextBoxEx.ExAutoCheck = true;
+            this.shiptonameTextBoxEx.ExAutoShowResult = false;
+            this.shiptonameTextBoxEx.ExCondition = "";
+            this.shiptonameTextBoxEx.ExDialogTitle = "";
+            this.shiptonameTextBoxEx.ExFieldName = "shiptoname";
+            this.shiptonameTextBoxEx.ExFilterFields = new string[0];
+            this.shiptonameTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.shiptonameTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.shiptonameTextBoxEx.ExLabelContainer = null;
+            this.shiptonameTextBoxEx.ExLabelField = "";
+            this.shiptonameTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Bottom;
+            this.shiptonameTextBoxEx.ExLabelText = "";
+            this.shiptonameTextBoxEx.ExLabelVisible = false;
+            this.shiptonameTextBoxEx.ExSelectFields = new string[0];
+            this.shiptonameTextBoxEx.ExShowDialog = false;
+            this.shiptonameTextBoxEx.ExSimpleMode = true;
+            this.shiptonameTextBoxEx.ExSqlInstance = null;
+            this.shiptonameTextBoxEx.ExSqlQuery = "";
+            this.shiptonameTextBoxEx.ExTableName = "subto";
+            this.shiptonameTextBoxEx.Location = new System.Drawing.Point(470, 124);
+            this.shiptonameTextBoxEx.Name = "shiptonameTextBoxEx";
+            this.shiptonameTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, false, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.shiptonameTextBoxEx.Size = new System.Drawing.Size(163, 20);
+            this.shiptonameTextBoxEx.TabIndex = 128;
+            // 
+            // shiptoaddressMemoEdit
+            // 
+            this.shiptoaddressMemoEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "shiptoaddress", true));
+            this.shiptoaddressMemoEdit.Location = new System.Drawing.Point(470, 150);
+            this.shiptoaddressMemoEdit.Name = "shiptoaddressMemoEdit";
+            this.shiptoaddressMemoEdit.Size = new System.Drawing.Size(181, 38);
+            this.shiptoaddressMemoEdit.TabIndex = 127;
+            // 
+            // nopolTextEdit
+            // 
+            this.nopolTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "nopol", true));
+            this.nopolTextEdit.Location = new System.Drawing.Point(470, 55);
+            this.nopolTextEdit.Name = "nopolTextEdit";
+            this.nopolTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.nopolTextEdit.TabIndex = 132;
+            // 
+            // remarkMemoEdit
+            // 
+            this.remarkMemoEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "remark", true));
+            this.remarkMemoEdit.Location = new System.Drawing.Point(80, 150);
+            this.remarkMemoEdit.Name = "remarkMemoEdit";
+            this.remarkMemoEdit.Size = new System.Drawing.Size(293, 40);
+            this.remarkMemoEdit.TabIndex = 133;
+            // 
+            // gcxSjd
+            // 
+            this.gcxSjd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gcxSjd.BestFitColumn = true;
+            this.gcxSjd.ExAutoSize = false;
+            this.gcxSjd.Location = new System.Drawing.Point(12, 196);
+            this.gcxSjd.Name = "gcxSjd";
+            this.gcxSjd.Size = new System.Drawing.Size(703, 300);
+            this.gcxSjd.TabIndex = 134;
+            // 
+            // spinTOP
+            // 
+            this.spinTOP.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinTOP.Location = new System.Drawing.Point(470, 29);
+            this.spinTOP.Name = "spinTOP";
+            this.spinTOP.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.spinTOP.Properties.UseCtrlIncrement = false;
+            this.spinTOP.Size = new System.Drawing.Size(66, 20);
+            this.spinTOP.TabIndex = 136;
+            // 
+            // spmTextBoxEx
+            // 
+            this.spmTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "spm", true));
+            this.spmTextBoxEx.ExAllowEmptyString = true;
+            this.spmTextBoxEx.ExAllowNonDBData = false;
+            this.spmTextBoxEx.ExAutoCheck = true;
+            this.spmTextBoxEx.ExAutoShowResult = false;
+            this.spmTextBoxEx.ExCondition = "spm not in (select spm from sjh) and appspm=1 and group_=1";
+            this.spmTextBoxEx.ExDialogTitle = "Surat Perintah Muat";
+            this.spmTextBoxEx.ExFieldName = "spm";
+            this.spmTextBoxEx.ExFilterFields = new string[0];
+            this.spmTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.spmTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.spmTextBoxEx.ExLabelContainer = null;
+            this.spmTextBoxEx.ExLabelField = "";
+            this.spmTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Bottom;
+            this.spmTextBoxEx.ExLabelText = "";
+            this.spmTextBoxEx.ExLabelVisible = false;
+            this.spmTextBoxEx.ExSelectFields = new string[0];
+            this.spmTextBoxEx.ExShowDialog = true;
+            this.spmTextBoxEx.ExSimpleMode = true;
+            this.spmTextBoxEx.ExSqlInstance = null;
+            this.spmTextBoxEx.ExSqlQuery = "";
+            this.spmTextBoxEx.ExTableName = "spm";
+            this.spmTextBoxEx.Location = new System.Drawing.Point(82, 3);
+            this.spmTextBoxEx.Name = "spmTextBoxEx";
+            this.spmTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.spmTextBoxEx.Size = new System.Drawing.Size(140, 20);
+            this.spmTextBoxEx.TabIndex = 137;
+            this.spmTextBoxEx.EditValueChanged += new System.EventHandler(this.spmTextBoxEx_EditValueChanged);
+            this.spmTextBoxEx.ButtonPressed += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.spmTextBoxEx_ButtonPressed);
+            // 
+            // txtAlias
+            // 
+            this.txtAlias.ExAllowEmptyString = true;
+            this.txtAlias.ExAllowNonDBData = false;
+            this.txtAlias.ExAutoCheck = true;
+            this.txtAlias.ExAutoShowResult = false;
+            this.txtAlias.ExCondition = "";
+            this.txtAlias.ExDialogTitle = "";
+            this.txtAlias.ExFieldName = "alias";
+            this.txtAlias.ExFilterFields = new string[0];
+            this.txtAlias.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.txtAlias.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.txtAlias.ExLabelContainer = null;
+            this.txtAlias.ExLabelField = "";
+            this.txtAlias.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Bottom;
+            this.txtAlias.ExLabelText = "";
+            this.txtAlias.ExLabelVisible = false;
+            this.txtAlias.ExSelectFields = new string[0];
+            this.txtAlias.ExShowDialog = true;
+            this.txtAlias.ExSimpleMode = true;
+            this.txtAlias.ExSqlInstance = null;
+            this.txtAlias.ExSqlQuery = "Call SP_LookUp(\'subto\')";
+            this.txtAlias.ExTableName = "subto";
+            this.txtAlias.Location = new System.Drawing.Point(630, 124);
+            this.txtAlias.Name = "txtAlias";
+            this.txtAlias.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.txtAlias.Size = new System.Drawing.Size(21, 20);
+            this.txtAlias.TabIndex = 138;
+            this.txtAlias.EditValueChanged += new System.EventHandler(this.txtAlias_EditValueChanged);
+            // 
+            // angkutanTextBoxEx
+            // 
+            this.angkutanTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjhBindingSource, "angkutan", true));
+            this.angkutanTextBoxEx.ExAllowEmptyString = true;
+            this.angkutanTextBoxEx.ExAllowNonDBData = false;
+            this.angkutanTextBoxEx.ExAutoCheck = true;
+            this.angkutanTextBoxEx.ExAutoShowResult = false;
+            this.angkutanTextBoxEx.ExCondition = "group_=1 and aktif=1";
+            this.angkutanTextBoxEx.ExDialogTitle = "Select Supplier Angkutan";
+            this.angkutanTextBoxEx.ExFieldName = "Kode";
+            this.angkutanTextBoxEx.ExFilterFields = new string[0];
+            this.angkutanTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.angkutanTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.angkutanTextBoxEx.ExLabelContainer = null;
+            this.angkutanTextBoxEx.ExLabelField = "Nama";
+            this.angkutanTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Bottom;
+            this.angkutanTextBoxEx.ExLabelText = "";
+            this.angkutanTextBoxEx.ExLabelVisible = true;
+            this.angkutanTextBoxEx.ExSelectFields = new string[0];
+            this.angkutanTextBoxEx.ExShowDialog = true;
+            this.angkutanTextBoxEx.ExSimpleMode = true;
+            this.angkutanTextBoxEx.ExSqlInstance = null;
+            this.angkutanTextBoxEx.ExSqlQuery = "Call SP_LookUp(\'angkutan\')";
+            this.angkutanTextBoxEx.ExTableName = "sub";
+            this.angkutanTextBoxEx.Location = new System.Drawing.Point(470, 81);
+            this.angkutanTextBoxEx.Name = "angkutanTextBoxEx";
+            this.angkutanTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.angkutanTextBoxEx.Size = new System.Drawing.Size(100, 20);
+            this.angkutanTextBoxEx.TabIndex = 139;
+            // 
+            // linkToForm1
+            // 
+            this.linkToForm1.AutoSize = true;
+            this.linkToForm1.FormName = "FrmTSpmJual";
+            this.linkToForm1.Location = new System.Drawing.Point(33, 6);
+            this.linkToForm1.Name = "linkToForm1";
+            this.linkToForm1.Size = new System.Drawing.Size(43, 13);
+            this.linkToForm1.TabIndex = 140;
+            this.linkToForm1.TabStop = true;
+            this.linkToForm1.Text = "No SPM";
+            this.linkToForm1.TxtKode = this.spmTextBoxEx;
+            this.linkToForm1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkToForm1_LinkClicked);
+            // 
+            // FrmTSJJual
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(723, 623);
+            this.DetailBindingSource = this.sjdBindingSource;
+            this.DetailTable = this.casDataSet.sjd;
+            this.MasterBindingSource = this.sjhBindingSource;
+            this.MasterTable = this.casDataSet.sjh;
+            this.Name = "FrmTSJJual";
+            this.Text = "Surat Jalan Penjualan";
+            this.Load += new System.EventHandler(this.FrmTSJJual_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.txtNo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPeriod.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ludSeri.Properties)).EndInit();
+            this.pnlDetail.ResumeLayout(false);
+            this.pnlDetail.PerformLayout();
+            this.pnlKey.ResumeLayout(false);
+            this.pnlKey.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateDate.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curkurs.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curcur.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sjhBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sjdBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiptonameTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiptoaddressMemoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nopolTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.remarkMemoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinTOP.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spmTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAlias.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.angkutanTextBoxEx.Properties)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private casDataSet casDataSet;
+        private System.Windows.Forms.BindingSource sjhBindingSource;
+        private System.Windows.Forms.BindingSource sjdBindingSource;
+        private CtrlSub ctrlSub;
+        private KASLibrary.TextBoxEx shiptonameTextBoxEx;
+        private DevExpress.XtraEditors.MemoEdit shiptoaddressMemoEdit;
+        private DevExpress.XtraEditors.MemoEdit remarkMemoEdit;
+        private DevExpress.XtraEditors.TextEdit nopolTextEdit;
+        private KASLibrary.GridControlEx gcxSjd;
+        private DevExpress.XtraEditors.SpinEdit spinTOP;
+        private KASLibrary.TextBoxEx spmTextBoxEx;
+        private KASLibrary.TextBoxEx txtAlias;
+        private KASLibrary.TextBoxEx angkutanTextBoxEx;
+        private linkToForm linkToForm1;
+    }
+}

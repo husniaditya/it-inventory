@@ -1,0 +1,14 @@
+DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraBars.BarManager, DevExpress.XtraBars3, Version=3.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars3, Version=3.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars3, Version=3.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList3, Version=1.11.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar3, Version=2.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4
+DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4

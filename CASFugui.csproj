@@ -1,0 +1,479 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56116114-8909-4D83-B5E1-2A7CA47075E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CASFugui</RootNamespace>
+    <AssemblyName>CASFugui</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.Utils3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraBars3, Version=3.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraGrid3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraNavBar3, Version=2.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraReports3, Version=1.12.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList3, Version=1.11.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="KASLibrary, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KAS\KASLibrary\KASLibrary\bin\Debug\KASLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KAS\KASLibrary\KASLibrary\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="casDataSet.cs">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="casDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CASUser.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fungsi\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi\FrmUserGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fungsi\FrmUserGroup.Designer.cs">
+      <DependentUpon>FrmUserGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="linkToForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="linkToForm.Designer.cs">
+      <DependentUpon>linkToForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\BaseMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\BaseMaster.Designer.cs">
+      <DependentUpon>BaseMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterAcc.Designer.cs">
+      <DependentUpon>FrmMasterAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCct.Designer.cs">
+      <DependentUpon>FrmMasterCct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCur.Designer.cs">
+      <DependentUpon>FrmMasterCur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCustomer.Designer.cs">
+      <DependentUpon>FrmMasterCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterGroup.Designer.cs">
+      <DependentUpon>FrmMasterGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterInv.Designer.cs">
+      <DependentUpon>FrmMasterInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterJenis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterJenis.Designer.cs">
+      <DependentUpon>FrmMasterJenis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterKdtrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterKdtrans.Designer.cs">
+      <DependentUpon>FrmMasterKdtrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterLoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterLoc.Designer.cs">
+      <DependentUpon>FrmMasterLoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterModul.Designer.cs">
+      <DependentUpon>FrmMasterModul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterMtp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterMtp.Designer.cs">
+      <DependentUpon>FrmMasterMtp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSales.Designer.cs">
+      <DependentUpon>FrmMasterSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplier.Designer.cs">
+      <DependentUpon>FrmMasterSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplierTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplierTemp.Designer.cs">
+      <DependentUpon>FrmMasterSupplierTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fungsi\FrmUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fungsi\FrmUserGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUserGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linkToForm.resx">
+      <DependentUpon>linkToForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\BaseMaster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterAcc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterInv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterJenis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterJenis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterKdtrans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterKdtrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterLoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterLoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterModul.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterModul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterMtp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterMtp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSupplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSupplierTemp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSupplierTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\BaseTransaction.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\ctrlSupplier.resx">
+      <DependentUpon>ctrlSupplier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmDocFlow.resx">
+      <DependentUpon>FrmDocFlow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmJurnal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmJurnal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderjual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderjual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTLpb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTLpb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMsk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMsk_im.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMsk_im.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderbeli.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderbeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderbeli_im.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderbeli_im.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTPrq.resx">
+      <DependentUpon>FrmTPrq.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRma.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRms.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTUmh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTUmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\GridLookUpUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GridLookUpUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="casDataSet.xsc">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="casDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>casDataSet.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="casDataSet.xss">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Transaction\BaseTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\BaseTransaction.Designer.cs">
+      <DependentUpon>BaseTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ctrlSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Transaction\ctrlSupplier.Designer.cs">
+      <DependentUpon>ctrlSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmDocFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmDocFlow.Designer.cs">
+      <DependentUpon>FrmDocFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmJurnal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmJurnal.Designer.cs">
+      <DependentUpon>FrmJurnal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderjual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderjual.Designer.cs">
+      <DependentUpon>FrmTOrderjual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpb.Designer.cs">
+      <DependentUpon>FrmTLpb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk.Designer.cs">
+      <DependentUpon>FrmTMsk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk_im.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk_im.Designer.cs">
+      <DependentUpon>FrmTMsk_im.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli.Designer.cs">
+      <DependentUpon>FrmTOrderbeli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_im.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_im.Designer.cs">
+      <DependentUpon>FrmTOrderbeli_im.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTPrq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTPrq.designer.cs">
+      <DependentUpon>FrmTPrq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRma.Designer.cs">
+      <DependentUpon>FrmTRma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRms.Designer.cs">
+      <DependentUpon>FrmTRms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpb.Designer.cs">
+      <DependentUpon>FrmTSpb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpm.Designer.cs">
+      <DependentUpon>FrmTSpm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTUmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTUmh.Designer.cs">
+      <DependentUpon>FrmTUmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\GridLookUpUnit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Transaction\GridLookUpUnit.Designer.cs">
+      <DependentUpon>GridLookUpUnit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

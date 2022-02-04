@@ -1,0 +1,705 @@
+8
+
+dir
+2680
+file:///Z:/Backup%20Program/SVNRepo/cas_kias/trunk
+file:///Z:/Backup%20Program/SVNRepo
+
+
+
+2013-06-11T04:43:01.953125Z
+2680
+sanlyana
+has-props
+has-prop-mods
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9a9453f0-15d3-2049-a9d9-7685493707fc
+
+casDataSet.Designer.cs
+file
+
+
+
+
+2013-02-02T02:14:34.301767Z
+6a50d9b0981a76ba934aa5b1867ad15e
+2013-02-19T02:09:39.885090Z
+2641
+Rachmad Tiga
+
+casDataSet.cs
+file
+
+
+
+
+2013-01-30T08:12:40.279143Z
+a8264958f751c10c4e7a7381ef5027bf
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+auto update kias
+dir
+
+Transaction
+dir
+
+linkToForm.Designer.cs
+file
+
+
+
+
+2012-07-18T02:10:40.971070Z
+e061f6b096b0759bf78383705c9c1345
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+linkToForm.cs
+file
+
+
+
+
+2012-07-18T02:10:40.986670Z
+2ea8f94606411f280fbd89ece5a48acc
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+PassOto.Designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.002270Z
+ad18921d441381717c9c6da2716e74bd
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Fungsi
+dir
+
+PassOto.cs
+file
+
+
+
+
+2012-07-18T02:10:41.033470Z
+e2bade1f7bd080918035243921efab47
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmLogin.resx
+file
+
+
+
+
+2012-07-18T02:10:41.049070Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmTDO.cs
+file
+
+
+
+
+2012-07-18T02:10:41.127070Z
+8edb6e691d2b6cd9ff0a3980781eb31b
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Ankh.Load
+file
+
+
+
+
+2012-07-18T02:10:41.142670Z
+d41d8cd98f00b204e9800998ecf8427e
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmHome.Designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.222670Z
+5ac96c6d5ea410e15e3e2c2f15af99e7
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+logo.JPG
+file
+
+
+
+
+2012-07-18T02:10:41.547685Z
+04c57b5c6b4d3ff8aac21f07206f1b7f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+FrmLogin.cs
+file
+
+
+
+
+2012-07-18T02:10:41.594485Z
+de4a466641d98c716a3877b3719250ee
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmMainMenu.cs
+file
+
+
+
+
+2012-07-18T02:10:41.610085Z
+00711a39f2f1dbcf0f4538788bf212e6
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Icon2.ico
+file
+
+
+
+
+2012-07-18T02:10:41.656885Z
+fb3c3fe645da2e981498c76b5bc32ac0
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+App.config
+file
+
+
+
+
+2012-12-14T01:30:04.920412Z
+926dfe263c0632de0ceb43e72420d0bb
+2012-11-16T06:12:26.930524Z
+2563
+Rachmad Tiga
+
+logo1.gif
+file
+
+
+
+
+2012-07-18T02:10:41.703685Z
+5550ba13e5d3be4e894179483f3df625
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+logo2.gif
+file
+
+
+
+
+2012-07-18T02:10:41.766085Z
+1c38f76bd5573be950db3c6e65d2f429
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+logo3.gif
+file
+
+
+
+
+2012-07-18T02:10:41.797285Z
+1c38f76bd5573be950db3c6e65d2f429
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+DB.cs
+file
+
+
+
+
+2012-09-17T05:27:36.820090Z
+26df0fa989b9bcc141e413459d47da3f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Laporan
+dir
+
+Reports
+dir
+
+CAS.sln
+file
+
+
+
+
+2012-07-18T02:10:41.890885Z
+b17bd4d493cd644d94e19a2d82f6288d
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+linkToForm.resx
+file
+
+
+
+
+2012-07-18T02:10:41.922085Z
+50c7572ce5f62474106e08ac9608b001
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+PassOto.resx
+file
+
+
+
+
+2012-07-18T02:10:41.968885Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+CASUser.cs
+file
+
+
+
+
+2012-07-18T02:10:41.968885Z
+ebff6935ca2fda8334ee5c17ed77951f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Program.cs
+file
+
+
+
+
+2012-07-18T02:10:42.000085Z
+5aea4bbb89b22936550d63f27a9ccd35
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmLogin2.resx
+file
+
+
+
+
+2012-07-18T02:10:40.643469Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+CAS.csproj.user
+file
+
+
+
+
+2012-07-18T02:10:40.971070Z
+21226e77f582b0e71a1f6c71642f4ba6
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Master
+dir
+
+Properties
+dir
+
+gawilogo.psd
+file
+
+
+
+
+2012-07-18T02:10:41.111470Z
+b0a24703d18d9976dcbde60d81e32df3
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+FrmMainMenu.resx
+file
+
+
+
+
+2012-07-18T02:10:41.111470Z
+2746b6f0e5549387c5921c06334600b8
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+ClassDiagram1.cd
+file
+
+
+
+
+2012-07-18T02:10:41.158270Z
+7215ee9c7d9dc229d2921a40e899ec5f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Icon.ico
+file
+
+
+
+
+2012-07-18T02:10:41.242672Z
+0119071a39d9361c60f8c5959a71bb29
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+FrmLogin2.designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.258672Z
+a977cfcb45c5f81297235fae158900a9
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+LogDevelopment.txt
+file
+
+
+
+
+2012-07-18T02:10:41.287674Z
+f569e9ab35a46cb4d9a83f841c1f79f9
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmLogin2.cs
+file
+
+
+
+
+2012-07-18T02:10:41.309675Z
+dd00aae91205eae46187b94295f8e58a
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+CAS1.csproj.user
+file
+
+
+
+
+2012-07-18T02:10:41.324676Z
+eb65d78f32985a400265544171e9244e
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+CAS2.csproj.user
+file
+
+
+
+
+2012-07-18T02:10:41.341677Z
+21226e77f582b0e71a1f6c71642f4ba6
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+logo.gif
+file
+
+
+
+
+2012-07-18T02:10:41.368679Z
+5550ba13e5d3be4e894179483f3df625
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+CAS.csproj
+file
+
+
+
+
+2012-11-23T06:55:04.401238Z
+43d1fba26c281e0bdf21558448fe6635
+2012-12-24T03:11:27.688915Z
+2593
+Rachmad Tiga
+
+casDataSet.xsc
+file
+
+
+
+
+2013-01-30T08:12:40.419543Z
+79e4f863c91386c539a7ce5c3840c7fa
+2012-12-24T03:11:27.688915Z
+2593
+Rachmad Tiga
+
+bin
+dir
+
+casDataSet.xsd
+file
+
+
+
+
+2013-02-02T02:14:33.957747Z
+c55c209938c4c3bf50ba4ac68de04efe
+2013-02-19T02:09:39.885090Z
+2641
+Rachmad Tiga
+
+Resources
+dir
+
+CAS.suo
+file
+
+
+
+
+2013-02-15T09:06:26.221000Z
+f39b47f9e900e44036e0259f05ea7838
+2013-02-19T02:09:39.885090Z
+2641
+Rachmad Tiga
+has-props
+
+DB2.cs
+file
+
+
+
+
+2012-07-18T02:10:41.516485Z
+72eab856efb57b0bf254bf475949629f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmHome.resx
+file
+
+
+
+
+2012-07-18T02:10:41.532085Z
+b173a782f6f2f768ee64618e7a151306
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmLogin.designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.563285Z
+a977cfcb45c5f81297235fae158900a9
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmMainMenu.Designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.578885Z
+299789d5f73e17a91017fdf7a0752e2d
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+stroreprocedure.sql
+file
+
+
+
+
+2012-07-18T02:10:41.734885Z
+a3a50968041e8df3f2461904d6247707
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+hers_kecil.jpg
+file
+
+
+
+
+2012-07-18T02:10:41.781685Z
+424459ec5e07fd3d4b5d631715b65a02
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+has-props
+
+casDataSet.xss
+file
+
+
+
+
+2013-02-02T02:14:37.839969Z
+4f7b1aa288cedf3ee2e710b2346a2934
+2013-02-19T02:09:39.885090Z
+2641
+Rachmad Tiga
+
+CASUser2.cs
+file
+
+
+
+
+2012-07-18T02:10:41.844085Z
+ebff6935ca2fda8334ee5c17ed77951f
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+casDataSet.xsx
+file
+
+
+
+
+2013-01-30T08:12:40.673549Z
+4d371cbdb2658b644c247ee748bb6db2
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmTDO.Designer.cs
+file
+
+
+
+
+2012-07-18T02:10:41.875285Z
+8aadd92f4cae82d35b5ca88f1f2c429e
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmHome.cs
+file
+
+
+
+
+2012-07-18T02:10:41.906485Z
+d55a6fd18719d3aa972ccfb8cc0b9ffd
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+CASFugui.csproj
+file
+
+
+
+
+2012-07-18T02:10:41.937685Z
+276506bd9872079ded3defb8253311d1
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+FrmTDO.resx
+file
+
+
+
+
+2012-07-18T02:10:41.984485Z
+0044a24d71f02515ecb0ce3bd8bcdba1
+2012-07-18T01:49:42.745804Z
+2373
+Rachmad Tiga
+
+Proses
+dir
+

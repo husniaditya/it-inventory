@@ -1,0 +1,2002 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56116114-8909-4D83-B5E1-2A7CA47075E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAS</RootNamespace>
+    <AssemblyName>CAS KIAS</AssemblyName>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <StartupObject>CAS.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.Utils3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraBars3, Version=3.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraEditors3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraGrid3, Version=3.2.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraNavBar3, Version=2.7.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraPrinting3, Version=1.12.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraReports3, Version=1.12.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList3, Version=1.11.3.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="KASLibrary, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KABAS\bin\Debug\KASLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KASLibrary\KASLibrary\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="casDataSet.cs">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="casDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CASUser.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi\FrmKonfigurasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fungsi\FrmKonfigurasi.Designer.cs">
+      <DependentUpon>FrmKonfigurasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fungsi\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi\FrmUserGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fungsi\FrmUserGroup.Designer.cs">
+      <DependentUpon>FrmUserGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\BaseLaporan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\BaseLaporan.Designer.cs">
+      <DependentUpon>BaseLaporan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLUMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLUMK.Designer.cs">
+      <DependentUpon>FrmLUMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLKwt_outstanding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLKwt_outstanding.Designer.cs">
+      <DependentUpon>FrmLKwt_outstanding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusDO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusDO.Designer.cs">
+      <DependentUpon>FrmLStatusDO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLAccCct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLAccCct.Designer.cs">
+      <DependentUpon>FrmLAccCct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLBPHutangPiutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLBPHutangPiutang.Designer.cs">
+      <DependentUpon>FrmLBPHutangPiutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLBuktiMuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLBuktiMuat.Designer.cs">
+      <DependentUpon>FrmLBuktiMuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLBukuBesar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLBukuBesar.Designer.cs">
+      <DependentUpon>FrmLBukuBesar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLBus.Designer.cs">
+      <DependentUpon>FrmLBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLCustSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLCustSup.Designer.cs">
+      <DependentUpon>FrmLCustSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLDaftarAkt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLDaftarAkt.Designer.cs">
+      <DependentUpon>FrmLDaftarAkt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLGiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLGiro.Designer.cs">
+      <DependentUpon>FrmLGiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPO.Designer.cs">
+      <DependentUpon>FrmLHistoryPO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPORetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPORetur.Designer.cs">
+      <DependentUpon>FrmLHistoryPORetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistoryPR.Designer.cs">
+      <DependentUpon>FrmLHistoryPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistorySO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLHistorySO.Designer.cs">
+      <DependentUpon>FrmLHistorySO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLHutangXInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLHutangXInvoice.Designer.cs">
+      <DependentUpon>FrmLHutangXInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLJatuhTempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLJatuhTempo.Designer.cs">
+      <DependentUpon>FrmLJatuhTempo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLJurnal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLJurnal.Designer.cs">
+      <DependentUpon>FrmLJurnal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLKartuStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLKartuStock.Designer.cs">
+      <DependentUpon>FrmLKartuStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLKlrPerTanggal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLKlrPerTanggal.Designer.cs">
+      <DependentUpon>FrmLKlrPerTanggal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLLabaKotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLLabaKotor.Designer.cs">
+      <DependentUpon>FrmLLabaKotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLLHP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLLHP.Designer.cs">
+      <DependentUpon>FrmLLHP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLListMO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLListMO.designer.cs">
+      <DependentUpon>FrmLListMO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLLPB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLLPB.Designer.cs">
+      <DependentUpon>FrmLLPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLLPBRetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLLPBRetur.Designer.cs">
+      <DependentUpon>FrmLLPBRetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLMAktiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLMAktiva.Designer.cs">
+      <DependentUpon>FrmLMAktiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLMBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLMBarang.Designer.cs">
+      <DependentUpon>FrmLMBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLMskPerTanggal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLMskPerTanggal.Designer.cs">
+      <DependentUpon>FrmLMskPerTanggal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLMutasiKASBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLMutasiKASBank.Designer.cs">
+      <DependentUpon>FrmLMutasiKASBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLNeraca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLNeraca.Designer.cs">
+      <DependentUpon>FrmLNeraca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLNeracaSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLNeracaSaldo.Designer.cs">
+      <DependentUpon>FrmLNeracaSaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLPiutangXInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLPiutangXInvoice.Designer.cs">
+      <DependentUpon>FrmLPiutangXInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLPOEkspedisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLPOEkspedisi.Designer.cs">
+      <DependentUpon>FrmLPOEkspedisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLSJPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLSJPenjualan.Designer.cs">
+      <DependentUpon>FrmLSJPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusMOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusMOR.Designer.cs">
+      <DependentUpon>FrmLStatusMOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPO.Designer.cs">
+      <DependentUpon>FrmLStatusPO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPR.Designer.cs">
+      <DependentUpon>FrmLStatusPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPRRetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusPRRetur.Designer.cs">
+      <DependentUpon>FrmLStatusPRRetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusSO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLStatusSO.Designer.cs">
+      <DependentUpon>FrmLStatusSO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLUmurHutangPiutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmLUmurHutangPiutang.Designer.cs">
+      <DependentUpon>FrmLUmurHutangPiutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmMPerkiraan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\FrmMPerkiraan.Designer.cs">
+      <DependentUpon>FrmMPerkiraan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\GridReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linkToForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="linkToForm.Designer.cs">
+      <DependentUpon>linkToForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\BaseMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\BaseMaster.Designer.cs">
+      <DependentUpon>BaseMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterQOP_Loc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterQOP_Loc.Designer.cs">
+      <DependentUpon>FrmMasterQOP_Loc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterInvFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterInvFlow.designer.cs">
+      <DependentUpon>FrmMasterInvFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterAcc.Designer.cs">
+      <DependentUpon>FrmMasterAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterAktiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterAktiva.Designer.cs">
+      <DependentUpon>FrmMasterAktiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterBiaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterBiaya.Designer.cs">
+      <DependentUpon>FrmMasterBiaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCct.Designer.cs">
+      <DependentUpon>FrmMasterCct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCur.Designer.cs">
+      <DependentUpon>FrmMasterCur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterCustomer.Designer.cs">
+      <DependentUpon>FrmMasterCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterDesign.Designer.cs">
+      <DependentUpon>FrmMasterDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterDesignVar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterDesignVar.Designer.cs">
+      <DependentUpon>FrmMasterDesignVar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterFormula.Designer.cs">
+      <DependentUpon>FrmMasterFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterGroup.Designer.cs">
+      <DependentUpon>FrmMasterGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterHBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterHBL.designer.cs">
+      <DependentUpon>FrmMasterHBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterHJL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterHJL.Designer.cs">
+      <DependentUpon>FrmMasterHJL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterHJLPasar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterHJLPasar.Designer.cs">
+      <DependentUpon>FrmMasterHJLPasar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterInv.Designer.cs">
+      <DependentUpon>FrmMasterInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterJenis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterJenis.Designer.cs">
+      <DependentUpon>FrmMasterJenis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterKdtrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterKdtrans.Designer.cs">
+      <DependentUpon>FrmMasterKdtrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterKGr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterKGr.Designer.cs">
+      <DependentUpon>FrmMasterKGr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterKwalitet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterKwalitet.Designer.cs">
+      <DependentUpon>FrmMasterKwalitet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterLoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterLoc.Designer.cs">
+      <DependentUpon>FrmMasterLoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterModul.Designer.cs">
+      <DependentUpon>FrmMasterModul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterMsn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterMsn.designer.cs">
+      <DependentUpon>FrmMasterMsn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterMtp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterMtp.Designer.cs">
+      <DependentUpon>FrmMasterMtp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterProsenBOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterProsenBOP.Designer.cs">
+      <DependentUpon>FrmMasterProsenBOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSales.Designer.cs">
+      <DependentUpon>FrmMasterSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterStation.Designer.cs">
+      <DependentUpon>FrmMasterStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplier.Designer.cs">
+      <DependentUpon>FrmMasterSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplierTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMasterSupplierTemp.Designer.cs">
+      <DependentUpon>FrmMasterSupplierTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMGrpHarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMGrpHarga.Designer.cs">
+      <DependentUpon>FrmMGrpHarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMHargaDasar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMHargaDasar.Designer.cs">
+      <DependentUpon>FrmMHargaDasar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmMHrgGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmMHrgGroup.Designer.cs">
+      <DependentUpon>FrmMHrgGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassOto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassOto.Designer.cs">
+      <DependentUpon>PassOto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmHome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fungsi\FrmKonfigurasi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmKonfigurasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fungsi\FrmUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fungsi\FrmUserGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUserGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\BaseLaporan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseLaporan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLUMK.resx">
+      <DependentUpon>FrmLUMK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLKwt_outstanding.resx">
+      <DependentUpon>FrmLKwt_outstanding.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusDO.resx">
+      <DependentUpon>FrmLStatusDO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLAccCct.resx">
+      <DependentUpon>FrmLAccCct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLBPHutangPiutang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLBPHutangPiutang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLBuktiMuat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLBuktiMuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLBukuBesar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLBukuBesar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLBus.resx">
+      <DependentUpon>FrmLBus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLCustSup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLCustSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLDaftarAkt.resx">
+      <DependentUpon>FrmLDaftarAkt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLGiro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLGiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLHistoryPO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLHistoryPO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLHistoryPORetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLHistoryPORetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLHistoryPR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLHistoryPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLHistorySO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLHistorySO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLHutangXInvoice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLHutangXInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLJatuhTempo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLJatuhTempo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLJurnal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLJurnal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLKartuStock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLKartuStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLKlrPerTanggal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLKlrPerTanggal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLLabaKotor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLLabaKotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLLHP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLLHP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLListMO.resx">
+      <DependentUpon>FrmLListMO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLLPB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLLPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLLPBRetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLLPBRetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLMAktiva.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLMAktiva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLMBarang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLMBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLMskPerTanggal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLMskPerTanggal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLMutasiKASBank.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLMutasiKASBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLNeraca.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLNeraca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLNeracaSaldo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLNeracaSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLPiutangXInvoice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLPiutangXInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLPOEkspedisi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLPOEkspedisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLSJPenjualan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLSJPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusMOR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLStatusMOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusPO.resx">
+      <DependentUpon>FrmLStatusPO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusPR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLStatusPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusPRRetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLStatusPRRetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLStatusSO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLStatusSO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLUmurHutangPiutang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLUmurHutangPiutang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmMPerkiraan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMPerkiraan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linkToForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>linkToForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\BaseMaster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterQOP_Loc.resx">
+      <DependentUpon>FrmMasterQOP_Loc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterInvFlow.resx">
+      <DependentUpon>FrmMasterInvFlow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterAcc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterAktiva.resx">
+      <DependentUpon>FrmMasterAktiva.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterBiaya.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterBiaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterCustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterDesign.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterDesignVar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterDesignVar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterFormula.resx">
+      <DependentUpon>FrmMasterFormula.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterHBL.resx">
+      <DependentUpon>FrmMasterHBL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterHJL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterHJL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterHJLPasar.resx">
+      <DependentUpon>FrmMasterHJLPasar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterInv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterJenis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterJenis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterKdtrans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterKdtrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterKGr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterKGr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterKwalitet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterKwalitet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterLoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterLoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterModul.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterModul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterMsn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterMsn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterMtp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterMtp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterProsenBOP.resx">
+      <DependentUpon>FrmMasterProsenBOP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSales.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterStation.resx">
+      <DependentUpon>FrmMasterStation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSupplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMasterSupplierTemp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMasterSupplierTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMGrpHarga.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMGrpHarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMHargaDasar.resx">
+      <DependentUpon>FrmMHargaDasar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmMHrgGroup.resx">
+      <DependentUpon>FrmMHrgGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassOto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PassOto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proses\FrmPInvIT.resx">
+      <DependentUpon>FrmPInvIT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proses\FrmPAdjHpp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPAdjHpp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proses\FrmPLockPeriod.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPLockPeriod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proses\FrmPMultiProses.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPMultiProses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proses\FrmPReproses.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPReproses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\BaseTransaction.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTDO.resx">
+      <DependentUpon>FrmTDO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTFpjUM.resx">
+      <DependentUpon>FrmTFpjUM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderbeli_lok.resx">
+      <DependentUpon>FrmTOrderbeli_lok.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\ctrlSupplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmDocFlow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDocFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmJournalEntry.resx">
+      <DependentUpon>FrmJournalEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmJurnal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmJurnal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRFP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRFP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTBppb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTBppb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTCAD.resx">
+      <DependentUpon>FrmTCad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTCGr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTCGr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTCostAll.resx">
+      <DependentUpon>FrmTCostAll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTCsi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTCsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTHPP.resx">
+      <DependentUpon>FrmTHPP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTIno.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTIno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTJin.resx">
+      <DependentUpon>FrmTJin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTJsu.resx">
+      <DependentUpon>FrmTJsu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKBK.resx">
+      <DependentUpon>FrmTKBK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKBM.resx">
+      <DependentUpon>FrmTKBM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKkj.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTKkj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKlr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTKlr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKlrImport.resx">
+      <DependentUpon>FrmTKlrImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKontrakOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTKontrakOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTKwitansi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTKwitansi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTLhp.resx">
+      <DependentUpon>FrmTLhp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTLpbRetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTLpbRetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMOx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMOx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOpname.resx">
+      <DependentUpon>FrmTOpname.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderjual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderjual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTLpb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTLpb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMsk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTMsk_im.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTMsk_im.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderbeli.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderbeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTOrderbeli_im.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTOrderbeli_im.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTPHutang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTPHutang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTPPiutang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTPPiutang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTProforma.resx">
+      <DependentUpon>FrmTProforma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTPrq.resx">
+      <DependentUpon>FrmTPrq.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRkl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRkl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRma.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRms.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTRsk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTRsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTShippInt.resx">
+      <DependentUpon>FrmTShippInt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSJJual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSJJual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSJRetur.resx">
+      <DependentUpon>FrmTSJRetur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSORetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSORetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpbgd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpbgd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpbRetur.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpbRetur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpm.resx">
+      <DependentUpon>FrmTSpm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTSpmJual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTSpmJual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTStr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTStr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTTlk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTTlk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTTrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTTrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTUmh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTUmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\GridLookUpUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GridLookUpUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="Reports\repkkj.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCostAll.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCekBca.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="App.config" />
+    <None Include="casDataSet.xsc">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="casDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>casDataSet.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="casDataSet.xss">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="casDataSet.xsx">
+      <DependentUpon>casDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>
+      </SubType>
+    </None>
+    <Content Include="Icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepKlr.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BKK.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\Invoice.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepBuktiMuat.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BuktiUtang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\FakturPajakPengganti.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\FakturPajakCetakStd.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\FakturPajakSederhana.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\FakturPajakStandar.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\FakturPajakStandar1.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\InvoicePenj.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepBankUSD.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\InvoiceSJ.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepGiroEk.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCekEk.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepDraftkEk.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepDaftarAktiva.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepBOP.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepDraftkBca.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCekMandiri.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepGiroBca.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepGiroMandiri.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepGiroJatim.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCekUOB.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepGiroUOB.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepCreditMemo.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepHargaGroup.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\RepHistoryPO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepHistoryPR.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepHistoryPORetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepHistoryPRRetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepHistoryPOTanpaNilai.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepHistorySO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepLLHP.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLNeraca.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLBPHutang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLHutang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLabaRugi.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLGiro.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLDataError.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLabaKotor.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMBarang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLSupplier.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLhp.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepJurnal.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepInvoiceImport.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepJatuhTempo.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepJurnalUmumPerkiraan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepJurnalPerkiraan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepKartuStockGlobalQ.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\RepKartuStockGlobalV.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepLaccpercct.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepKwitansi.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepKlrUmk.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepLBPPB.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\RepLBPPBTanpaNilai.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\repLDO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepListMO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepLLHPTanpaNilai.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLPB.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLPBTanpaHarga.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMAktiva.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLPBRetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLPBXInvoice.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLSJHXInvoice.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMemoDebetKredit.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLPPN.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLHPTanpaNilaiCct.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLLHPTanpaNilaiMesin.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMOSO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\repLStatusDO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLkwt_out.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepMutasiKASBank.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepPOEkspedisi.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepPO_im.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepPackingList.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepPOReturTanpaHarga.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\RepPriceList.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepProforma.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepPRRetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\RepRekapPersediaan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\RepRekapPersediaanDenganNilai.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepRFP.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepRekapSJ.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepReturbeli.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepShipping.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Reports\RepSJPenjualan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Reports\transferekonomi.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSJPerSOBarang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSJPerPersediaan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStockOrderBeli.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepTransaksiAngkutanPerSupplier.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSubDetilCct.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusMOR.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusPORetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSOTanpaHarga.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusPRRetur.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSuratJalan.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepTRM.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepTRM.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusPR.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMsk.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLNeracaSaldo.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepMO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepBPPB.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepOPN.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepBAP.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusPO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepStatusSO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepBukuBantuDetail.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepKartuStockV.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSpm.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSpmJual.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepPrq.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepKartuStockQ.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepLpb.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepSpb.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepPO.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepUmurHutangPiutang.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepUmurHutangPiutangG.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\RepValuasiCustomerSupplier.repx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Proses\FrmPInvIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proses\FrmPInvIT.Designer.cs">
+      <DependentUpon>FrmPInvIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proses\FrmPAdjHpp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proses\FrmPAdjHpp.Designer.cs">
+      <DependentUpon>FrmPAdjHpp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proses\FrmPLockPeriod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proses\FrmPLockPeriod.Designer.cs">
+      <DependentUpon>FrmPLockPeriod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proses\FrmPMultiProses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proses\FrmPMultiProses.Designer.cs">
+      <DependentUpon>FrmPMultiProses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proses\FrmPReproses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proses\FrmPReproses.Designer.cs">
+      <DependentUpon>FrmPReproses.cs</DependentUpon>
+    </Compile>
+    <Content Include="Reports\RepDo.repx" />
+    <Compile Include="Transaction\BaseTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\BaseTransaction.Designer.cs">
+      <DependentUpon>BaseTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTDO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTDO.Designer.cs">
+      <DependentUpon>FrmTDO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTFpjUM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTFpjUM.Designer.cs">
+      <DependentUpon>FrmTFpjUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_lok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_lok.Designer.cs">
+      <DependentUpon>FrmTOrderbeli_lok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\ctrlSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Transaction\ctrlSupplier.Designer.cs">
+      <DependentUpon>ctrlSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmDocFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmDocFlow.Designer.cs">
+      <DependentUpon>FrmDocFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmJournalEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmJournalEntry.designer.cs">
+      <DependentUpon>FrmJournalEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmJurnal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmJurnal.Designer.cs">
+      <DependentUpon>FrmJurnal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRFP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRFP.Designer.cs">
+      <DependentUpon>FrmRFP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTBppb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTBppb.Designer.cs">
+      <DependentUpon>FrmTBppb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTCad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTCad.Designer.cs">
+      <DependentUpon>FrmTCad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTCGr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTCGr.Designer.cs">
+      <DependentUpon>FrmTCGr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTCostAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTCostAll.Designer.cs">
+      <DependentUpon>FrmTCostAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTCsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTCsi.Designer.cs">
+      <DependentUpon>FrmTCsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTHPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTHPP.Designer.cs">
+      <DependentUpon>FrmTHPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTIno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTIno.Designer.cs">
+      <DependentUpon>FrmTIno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTJin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTJin.designer.cs">
+      <DependentUpon>FrmTJin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTJsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTJsu.Designer.cs">
+      <DependentUpon>FrmTJsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKBK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKBK.Designer.cs">
+      <DependentUpon>FrmTKBK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKBM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKBM.Designer.cs">
+      <DependentUpon>FrmTKBM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKkj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKkj.Designer.cs">
+      <DependentUpon>FrmTKkj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKlr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKlr.Designer.cs">
+      <DependentUpon>FrmTKlr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKlrImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKlrImport.Designer.cs">
+      <DependentUpon>FrmTKlrImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKontrakOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKontrakOrder.Designer.cs">
+      <DependentUpon>FrmTKontrakOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTKwitansi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTKwitansi.Designer.cs">
+      <DependentUpon>FrmTKwitansi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTLhp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTLhp.Designer.cs">
+      <DependentUpon>FrmTLhp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpbRetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpbRetur.Designer.cs">
+      <DependentUpon>FrmTLpbRetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMor.Designer.cs">
+      <DependentUpon>FrmTMor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMOx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMOx.Designer.cs">
+      <DependentUpon>FrmTMOx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOpname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOpname.Designer.cs">
+      <DependentUpon>FrmTOpname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderjual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderjual.Designer.cs">
+      <DependentUpon>FrmTOrderjual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTLpb.Designer.cs">
+      <DependentUpon>FrmTLpb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk.Designer.cs">
+      <DependentUpon>FrmTMsk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk_im.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTMsk_im.Designer.cs">
+      <DependentUpon>FrmTMsk_im.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli.Designer.cs">
+      <DependentUpon>FrmTOrderbeli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_im.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTOrderbeli_im.Designer.cs">
+      <DependentUpon>FrmTOrderbeli_im.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTPHutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTPHutang.designer.cs">
+      <DependentUpon>FrmTPHutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTPPiutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTPPiutang.Designer.cs">
+      <DependentUpon>FrmTPPiutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTProforma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTProforma.Designer.cs">
+      <DependentUpon>FrmTProforma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTPrq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTPrq.designer.cs">
+      <DependentUpon>FrmTPrq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRkl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRkl.Designer.cs">
+      <DependentUpon>FrmTRkl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRma.Designer.cs">
+      <DependentUpon>FrmTRma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRms.Designer.cs">
+      <DependentUpon>FrmTRms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTRsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTRsk.Designer.cs">
+      <DependentUpon>FrmTRsk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTShippInt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTShippInt.Designer.cs">
+      <DependentUpon>FrmTShippInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSJJual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSJJual.Designer.cs">
+      <DependentUpon>FrmTSJJual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSJRetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSJRetur.Designer.cs">
+      <DependentUpon>FrmTSJRetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSORetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSORetur.Designer.cs">
+      <DependentUpon>FrmTSORetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpb.Designer.cs">
+      <DependentUpon>FrmTSpb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpbgd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpbgd.Designer.cs">
+      <DependentUpon>FrmTSpbgd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpbRetur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpbRetur.Designer.cs">
+      <DependentUpon>FrmTSpbRetur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpm.Designer.cs">
+      <DependentUpon>FrmTSpm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpmJual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTSpmJual.Designer.cs">
+      <DependentUpon>FrmTSpmJual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTStr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTStr.Designer.cs">
+      <DependentUpon>FrmTStr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTTlk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTTlk.Designer.cs">
+      <DependentUpon>FrmTTlk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTTrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTTrm.Designer.cs">
+      <DependentUpon>FrmTTrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTUmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTUmh.Designer.cs">
+      <DependentUpon>FrmTUmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\GridLookUpUnit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Transaction\GridLookUpUnit.Designer.cs">
+      <DependentUpon>GridLookUpUnit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

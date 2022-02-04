@@ -1,0 +1,211 @@
+namespace CAS.Master
+{
+    partial class FrmMasterKGr
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.casDataSet = new CAS.casDataSet();
+            this.kgrBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kgrTableAdapter = new CAS.casDataSetTableAdapters.kgrTableAdapter();
+            this.accslsTextBoxEx = new KASLibrary.TextBoxEx();
+            this.accTextBoxEx = new KASLibrary.TextBoxEx();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.jenisRadioGroup = new DevExpress.XtraEditors.RadioGroup();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pnlDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kgrBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accslsTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jenisRadioGroup.Properties)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pnlDetail
+            // 
+            this.pnlDetail.Controls.Add(this.label3);
+            this.pnlDetail.Controls.Add(this.jenisRadioGroup);
+            this.pnlDetail.Controls.Add(this.label2);
+            this.pnlDetail.Controls.Add(this.label1);
+            this.pnlDetail.Controls.Add(this.accslsTextBoxEx);
+            this.pnlDetail.Controls.Add(this.accTextBoxEx);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 42);
+            this.pnlDetail.Size = new System.Drawing.Size(527, 112);
+            // 
+            // pnlKey
+            // 
+            this.pnlKey.Size = new System.Drawing.Size(527, 17);
+            // 
+            // casDataSet
+            // 
+            this.casDataSet.DataSetName = "casDataSet";
+            this.casDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // kgrBindingSource
+            // 
+            this.kgrBindingSource.DataMember = "kgr";
+            this.kgrBindingSource.DataSource = this.casDataSet;
+            // 
+            // kgrTableAdapter
+            // 
+            this.kgrTableAdapter.ClearBeforeFill = true;
+            // 
+            // accslsTextBoxEx
+            // 
+            this.accslsTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.kgrBindingSource, "accbank", true));
+            this.accslsTextBoxEx.ExAllowEmptyString = true;
+            this.accslsTextBoxEx.ExAllowNonDBData = false;
+            this.accslsTextBoxEx.ExAutoCheck = true;
+            this.accslsTextBoxEx.ExAutoShowResult = false;
+            this.accslsTextBoxEx.ExCondition = "";
+            this.accslsTextBoxEx.ExDialogTitle = "";
+            this.accslsTextBoxEx.ExFieldName = "Kode Akun";
+            this.accslsTextBoxEx.ExFilterFields = new string[0];
+            this.accslsTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.accslsTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.accslsTextBoxEx.ExLabelContainer = null;
+            this.accslsTextBoxEx.ExLabelField = "Keterangan";
+            this.accslsTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Right;
+            this.accslsTextBoxEx.ExLabelVisible = true;
+            this.accslsTextBoxEx.ExSelectFields = new string[0];
+            this.accslsTextBoxEx.ExShowDialog = true;
+            this.accslsTextBoxEx.ExSimpleMode = true;
+            this.accslsTextBoxEx.ExSqlInstance = null;
+            this.accslsTextBoxEx.ExSqlQuery = "Call SP_LookUp(\'acc\')";
+            this.accslsTextBoxEx.ExTableName = "acc";
+            this.accslsTextBoxEx.Location = new System.Drawing.Point(104, 46);
+            this.accslsTextBoxEx.Name = "accslsTextBoxEx";
+            this.accslsTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.accslsTextBoxEx.Size = new System.Drawing.Size(100, 20);
+            this.accslsTextBoxEx.TabIndex = 11;
+            // 
+            // accTextBoxEx
+            // 
+            this.accTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.kgrBindingSource, "acc", true));
+            this.accTextBoxEx.ExAllowEmptyString = true;
+            this.accTextBoxEx.ExAllowNonDBData = false;
+            this.accTextBoxEx.ExAutoCheck = true;
+            this.accTextBoxEx.ExAutoShowResult = false;
+            this.accTextBoxEx.ExCondition = "";
+            this.accTextBoxEx.ExDialogTitle = "";
+            this.accTextBoxEx.ExFieldName = "Kode Akun";
+            this.accTextBoxEx.ExFilterFields = new string[0];
+            this.accTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.accTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.accTextBoxEx.ExLabelContainer = null;
+            this.accTextBoxEx.ExLabelField = "Keterangan";
+            this.accTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Right;
+            this.accTextBoxEx.ExLabelVisible = true;
+            this.accTextBoxEx.ExSelectFields = new string[0];
+            this.accTextBoxEx.ExShowDialog = true;
+            this.accTextBoxEx.ExSimpleMode = true;
+            this.accTextBoxEx.ExSqlInstance = null;
+            this.accTextBoxEx.ExSqlQuery = "Call SP_LookUp(\'acc\')";
+            this.accTextBoxEx.ExTableName = "acc";
+            this.accTextBoxEx.Location = new System.Drawing.Point(104, 20);
+            this.accTextBoxEx.Name = "accTextBoxEx";
+            this.accTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.accTextBoxEx.Size = new System.Drawing.Size(100, 20);
+            this.accTextBoxEx.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(18, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Perkiraan Giro :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Perkiraan Bank :";
+            // 
+            // jenisRadioGroup
+            // 
+            this.jenisRadioGroup.Location = new System.Drawing.Point(104, 72);
+            this.jenisRadioGroup.Name = "jenisRadioGroup";
+            this.jenisRadioGroup.Properties.Columns = 2;
+            this.jenisRadioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(1, "Hutang Giro"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(2, "Piutang Giro")});
+            this.jenisRadioGroup.Size = new System.Drawing.Size(269, 24);
+            this.jenisRadioGroup.TabIndex = 132;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(61, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 13);
+            this.label3.TabIndex = 133;
+            this.label3.Text = "Jenis :";
+            // 
+            // FrmMasterKGr
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(527, 221);
+            this.MasterBindingSource = this.kgrBindingSource;
+            this.MasterQuery = "select * from kgr";
+            this.MasterTable = this.casDataSet.kgr;
+            this.Name = "FrmMasterKGr";
+            this.Text = "FrmMasterKGr";
+            this.Load += new System.EventHandler(this.FrmMasterKGr_Load);
+            this.pnlDetail.ResumeLayout(false);
+            this.pnlDetail.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kgrBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accslsTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jenisRadioGroup.Properties)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private casDataSet casDataSet;
+        private System.Windows.Forms.BindingSource kgrBindingSource;
+        private CAS.casDataSetTableAdapters.kgrTableAdapter kgrTableAdapter;
+        private KASLibrary.TextBoxEx accslsTextBoxEx;
+        private KASLibrary.TextBoxEx accTextBoxEx;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private DevExpress.XtraEditors.RadioGroup jenisRadioGroup;
+    }
+}

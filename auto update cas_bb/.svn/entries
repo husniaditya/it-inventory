@@ -1,0 +1,66 @@
+8
+
+dir
+2680
+file:///Z:/Backup%20Program/SVNRepo/cas_kias/trunk/auto%20update%20kias
+file:///Z:/Backup%20Program/SVNRepo
+
+
+
+2012-11-16T06:12:26.930524Z
+2563
+Rachmad Tiga
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9a9453f0-15d3-2049-a9d9-7685493707fc
+
+AutoUpdate.cfg
+file
+
+
+
+
+2013-02-19T02:08:03.388570Z
+0a4c51917d35dade265e62ac031d948e
+2012-11-16T06:12:26.930524Z
+2563
+Rachmad Tiga
+
+AutoUpdate.exe
+file
+
+
+
+
+2013-02-19T02:08:03.412572Z
+ce77a3d28792e7ba247fec9993c480c2
+2012-11-16T06:12:26.930524Z
+2563
+Rachmad Tiga
+has-props
+
+CAS KIAS.exe
+file
+
+
+
+
+2013-02-19T02:08:03.771592Z
+3bdcc6686ec57df05ff608c74d87a864
+2012-11-16T06:12:26.930524Z
+2563
+Rachmad Tiga
+has-props
+

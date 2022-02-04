@@ -1,0 +1,847 @@
+namespace CAS.Master
+{
+    partial class FrmMasterCustomer
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Label subLabel;
+            System.Windows.Forms.Label remarkLabel;
+            System.Windows.Forms.Label maxkreditLabel;
+            System.Windows.Forms.Label aktifLabel;
+            System.Windows.Forms.Label gironameLabel;
+            System.Windows.Forms.Label grpLabel;
+            System.Windows.Forms.Label kode_areaLabel;
+            System.Windows.Forms.Label discustLabel;
+            System.Windows.Forms.Label duedateLabel;
+            System.Windows.Forms.Label salesLabel;
+            System.Windows.Forms.Label personLabel;
+            System.Windows.Forms.Label nameLabel;
+            System.Windows.Forms.Label addressLabel;
+            System.Windows.Forms.Label cityLabel;
+            System.Windows.Forms.Label countryLabel;
+            System.Windows.Forms.Label phoneLabel;
+            System.Windows.Forms.Label faxLabel;
+            System.Windows.Forms.Label kodefpLabel;
+            System.Windows.Forms.Label subpkpLabel;
+            System.Windows.Forms.Label subnpwpLabel;
+            System.Windows.Forms.Label kodeposLabel;
+            System.Windows.Forms.Label toleransiLabel;
+            System.Windows.Forms.Label curLabel;
+            System.Windows.Forms.Label kodeinvLabel;
+            this.subTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.subBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.casDataSet = new CAS.casDataSet();
+            this.nameTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.personTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.cityTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.phoneTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.faxTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.remarkTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.maxkreditSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.aktifCheckBox = new System.Windows.Forms.CheckBox();
+            this.gironameTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.grpTextBoxEx = new KASLibrary.TextBoxEx();
+            this.kode_areaTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.discustSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.countryTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.subnpwpTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.subpkpTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.kodefpTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.duedateSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.subtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.subtoTableAdapter = new CAS.casDataSetTableAdapters.subtoTableAdapter();
+            this.subTableAdapter = new CAS.casDataSetTableAdapters.subTableAdapter();
+            this.addressMemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.salesTextBoxEx = new KASLibrary.TextBoxEx();
+            this.gcsubto = new KASLibrary.GridControlEx();
+            this.kodeposTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.toleransiSpinEdit = new DevExpress.XtraEditors.SpinEdit();
+            this.label2 = new System.Windows.Forms.Label();
+            this.curTextBoxEx = new KASLibrary.TextBoxEx();
+            this.kodeinvComboBox = new System.Windows.Forms.ComboBox();
+            subLabel = new System.Windows.Forms.Label();
+            remarkLabel = new System.Windows.Forms.Label();
+            maxkreditLabel = new System.Windows.Forms.Label();
+            aktifLabel = new System.Windows.Forms.Label();
+            gironameLabel = new System.Windows.Forms.Label();
+            grpLabel = new System.Windows.Forms.Label();
+            kode_areaLabel = new System.Windows.Forms.Label();
+            discustLabel = new System.Windows.Forms.Label();
+            duedateLabel = new System.Windows.Forms.Label();
+            salesLabel = new System.Windows.Forms.Label();
+            personLabel = new System.Windows.Forms.Label();
+            nameLabel = new System.Windows.Forms.Label();
+            addressLabel = new System.Windows.Forms.Label();
+            cityLabel = new System.Windows.Forms.Label();
+            countryLabel = new System.Windows.Forms.Label();
+            phoneLabel = new System.Windows.Forms.Label();
+            faxLabel = new System.Windows.Forms.Label();
+            kodefpLabel = new System.Windows.Forms.Label();
+            subpkpLabel = new System.Windows.Forms.Label();
+            subnpwpLabel = new System.Windows.Forms.Label();
+            kodeposLabel = new System.Windows.Forms.Label();
+            toleransiLabel = new System.Windows.Forms.Label();
+            curLabel = new System.Windows.Forms.Label();
+            kodeinvLabel = new System.Windows.Forms.Label();
+            this.pnlDetail.SuspendLayout();
+            this.pnlKey.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phoneTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.faxTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.remarkTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maxkreditSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gironameTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grpTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kode_areaTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discustSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.countryTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subnpwpTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subpkpTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodefpTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duedateSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addressMemoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.salesTextBoxEx.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodeposTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toleransiSpinEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curTextBoxEx.Properties)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pnlDetail
+            // 
+            this.pnlDetail.Controls.Add(kodeinvLabel);
+            this.pnlDetail.Controls.Add(this.kodeinvComboBox);
+            this.pnlDetail.Controls.Add(curLabel);
+            this.pnlDetail.Controls.Add(this.curTextBoxEx);
+            this.pnlDetail.Controls.Add(this.label2);
+            this.pnlDetail.Controls.Add(toleransiLabel);
+            this.pnlDetail.Controls.Add(this.toleransiSpinEdit);
+            this.pnlDetail.Controls.Add(kodeposLabel);
+            this.pnlDetail.Controls.Add(this.kodeposTextEdit);
+            this.pnlDetail.Controls.Add(subnpwpLabel);
+            this.pnlDetail.Controls.Add(this.gcsubto);
+            this.pnlDetail.Controls.Add(salesLabel);
+            this.pnlDetail.Controls.Add(this.grpTextBoxEx);
+            this.pnlDetail.Controls.Add(grpLabel);
+            this.pnlDetail.Controls.Add(subpkpLabel);
+            this.pnlDetail.Controls.Add(personLabel);
+            this.pnlDetail.Controls.Add(kodefpLabel);
+            this.pnlDetail.Controls.Add(addressLabel);
+            this.pnlDetail.Controls.Add(nameLabel);
+            this.pnlDetail.Controls.Add(cityLabel);
+            this.pnlDetail.Controls.Add(countryLabel);
+            this.pnlDetail.Controls.Add(phoneLabel);
+            this.pnlDetail.Controls.Add(faxLabel);
+            this.pnlDetail.Controls.Add(this.gironameTextEdit);
+            this.pnlDetail.Controls.Add(this.label1);
+            this.pnlDetail.Controls.Add(this.addressMemoEdit);
+            this.pnlDetail.Controls.Add(discustLabel);
+            this.pnlDetail.Controls.Add(this.aktifCheckBox);
+            this.pnlDetail.Controls.Add(this.duedateSpinEdit);
+            this.pnlDetail.Controls.Add(aktifLabel);
+            this.pnlDetail.Controls.Add(this.maxkreditSpinEdit);
+            this.pnlDetail.Controls.Add(this.countryTextEdit);
+            this.pnlDetail.Controls.Add(this.discustSpinEdit);
+            this.pnlDetail.Controls.Add(this.kode_areaTextEdit);
+            this.pnlDetail.Controls.Add(this.kodefpTextEdit);
+            this.pnlDetail.Controls.Add(this.salesTextBoxEx);
+            this.pnlDetail.Controls.Add(this.subpkpTextEdit);
+            this.pnlDetail.Controls.Add(this.subnpwpTextEdit);
+            this.pnlDetail.Controls.Add(gironameLabel);
+            this.pnlDetail.Controls.Add(duedateLabel);
+            this.pnlDetail.Controls.Add(maxkreditLabel);
+            this.pnlDetail.Controls.Add(this.faxTextEdit);
+            this.pnlDetail.Controls.Add(kode_areaLabel);
+            this.pnlDetail.Controls.Add(remarkLabel);
+            this.pnlDetail.Controls.Add(this.phoneTextEdit);
+            this.pnlDetail.Controls.Add(this.cityTextEdit);
+            this.pnlDetail.Controls.Add(this.remarkTextEdit);
+            this.pnlDetail.Controls.Add(this.personTextEdit);
+            this.pnlDetail.Controls.Add(this.nameTextEdit);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 84);
+            this.pnlDetail.Size = new System.Drawing.Size(808, 513);
+            // 
+            // pnlKey
+            // 
+            this.pnlKey.Controls.Add(subLabel);
+            this.pnlKey.Controls.Add(this.subTextEdit);
+            this.pnlKey.Size = new System.Drawing.Size(808, 59);
+            // 
+            // subLabel
+            // 
+            subLabel.AutoSize = true;
+            subLabel.Location = new System.Drawing.Point(10, 39);
+            subLabel.Name = "subLabel";
+            subLabel.Size = new System.Drawing.Size(80, 13);
+            subLabel.TabIndex = 0;
+            subLabel.Text = "Kode Customer";
+            // 
+            // remarkLabel
+            // 
+            remarkLabel.AutoSize = true;
+            remarkLabel.Location = new System.Drawing.Point(27, 275);
+            remarkLabel.Name = "remarkLabel";
+            remarkLabel.Size = new System.Drawing.Size(63, 13);
+            remarkLabel.TabIndex = 14;
+            remarkLabel.Text = "Keterangan";
+            // 
+            // maxkreditLabel
+            // 
+            maxkreditLabel.AutoSize = true;
+            maxkreditLabel.Location = new System.Drawing.Point(424, 91);
+            maxkreditLabel.Name = "maxkreditLabel";
+            maxkreditLabel.Size = new System.Drawing.Size(58, 13);
+            maxkreditLabel.TabIndex = 16;
+            maxkreditLabel.Text = "Max Kredit";
+            // 
+            // aktifLabel
+            // 
+            aktifLabel.AutoSize = true;
+            aktifLabel.Location = new System.Drawing.Point(453, 11);
+            aktifLabel.Name = "aktifLabel";
+            aktifLabel.Size = new System.Drawing.Size(29, 13);
+            aktifLabel.TabIndex = 18;
+            aktifLabel.Text = "Aktif";
+            // 
+            // gironameLabel
+            // 
+            gironameLabel.AutoSize = true;
+            gironameLabel.Location = new System.Drawing.Point(400, 38);
+            gironameLabel.Name = "gironameLabel";
+            gironameLabel.Size = new System.Drawing.Size(81, 13);
+            gironameLabel.TabIndex = 20;
+            gironameLabel.Text = "Giro Atas Nama";
+            // 
+            // grpLabel
+            // 
+            grpLabel.AutoSize = true;
+            grpLabel.Location = new System.Drawing.Point(398, 198);
+            grpLabel.Name = "grpLabel";
+            grpLabel.Size = new System.Drawing.Size(85, 13);
+            grpLabel.TabIndex = 22;
+            grpLabel.Text = "Group Customer";
+            // 
+            // kode_areaLabel
+            // 
+            kode_areaLabel.AutoSize = true;
+            kode_areaLabel.Location = new System.Drawing.Point(424, 141);
+            kode_areaLabel.Name = "kode_areaLabel";
+            kode_areaLabel.Size = new System.Drawing.Size(57, 13);
+            kode_areaLabel.TabIndex = 24;
+            kode_areaLabel.Text = "Kode Area";
+            // 
+            // discustLabel
+            // 
+            discustLabel.AutoSize = true;
+            discustLabel.Location = new System.Drawing.Point(406, 115);
+            discustLabel.Name = "discustLabel";
+            discustLabel.Size = new System.Drawing.Size(75, 13);
+            discustLabel.TabIndex = 26;
+            discustLabel.Text = "Disc Customer";
+            // 
+            // duedateLabel
+            // 
+            duedateLabel.AutoSize = true;
+            duedateLabel.Location = new System.Drawing.Point(452, 66);
+            duedateLabel.Name = "duedateLabel";
+            duedateLabel.Size = new System.Drawing.Size(27, 13);
+            duedateLabel.TabIndex = 38;
+            duedateLabel.Text = "TOP";
+            // 
+            // salesLabel
+            // 
+            salesLabel.AutoSize = true;
+            salesLabel.Location = new System.Drawing.Point(448, 170);
+            salesLabel.Name = "salesLabel";
+            salesLabel.Size = new System.Drawing.Size(32, 13);
+            salesLabel.TabIndex = 40;
+            salesLabel.Text = "Sales";
+            // 
+            // personLabel
+            // 
+            personLabel.AutoSize = true;
+            personLabel.Location = new System.Drawing.Point(9, 35);
+            personLabel.Name = "personLabel";
+            personLabel.Size = new System.Drawing.Size(81, 13);
+            personLabel.TabIndex = 51;
+            personLabel.Text = "Contact Person";
+            // 
+            // nameLabel
+            // 
+            nameLabel.AutoSize = true;
+            nameLabel.Location = new System.Drawing.Point(7, 11);
+            nameLabel.Name = "nameLabel";
+            nameLabel.Size = new System.Drawing.Size(83, 13);
+            nameLabel.TabIndex = 50;
+            nameLabel.Text = "Nama Customer";
+            // 
+            // addressLabel
+            // 
+            addressLabel.AutoSize = true;
+            addressLabel.Location = new System.Drawing.Point(50, 58);
+            addressLabel.Name = "addressLabel";
+            addressLabel.Size = new System.Drawing.Size(40, 13);
+            addressLabel.TabIndex = 52;
+            addressLabel.Text = "Alamat";
+            // 
+            // cityLabel
+            // 
+            cityLabel.AutoSize = true;
+            cityLabel.Location = new System.Drawing.Point(60, 98);
+            cityLabel.Name = "cityLabel";
+            cityLabel.Size = new System.Drawing.Size(29, 13);
+            cityLabel.TabIndex = 53;
+            cityLabel.Text = "Kota";
+            // 
+            // countryLabel
+            // 
+            countryLabel.AutoSize = true;
+            countryLabel.Location = new System.Drawing.Point(47, 124);
+            countryLabel.Name = "countryLabel";
+            countryLabel.Size = new System.Drawing.Size(42, 13);
+            countryLabel.TabIndex = 56;
+            countryLabel.Text = "Negara";
+            // 
+            // phoneLabel
+            // 
+            phoneLabel.AutoSize = true;
+            phoneLabel.Location = new System.Drawing.Point(58, 148);
+            phoneLabel.Name = "phoneLabel";
+            phoneLabel.Size = new System.Drawing.Size(31, 13);
+            phoneLabel.TabIndex = 54;
+            phoneLabel.Text = "Telp.";
+            // 
+            // faxLabel
+            // 
+            faxLabel.AutoSize = true;
+            faxLabel.Location = new System.Drawing.Point(65, 175);
+            faxLabel.Name = "faxLabel";
+            faxLabel.Size = new System.Drawing.Size(25, 13);
+            faxLabel.TabIndex = 55;
+            faxLabel.Text = "Fax";
+            // 
+            // kodefpLabel
+            // 
+            kodefpLabel.AutoSize = true;
+            kodefpLabel.Location = new System.Drawing.Point(41, 249);
+            kodefpLabel.Name = "kodefpLabel";
+            kodefpLabel.Size = new System.Drawing.Size(46, 13);
+            kodefpLabel.TabIndex = 34;
+            kodefpLabel.Text = "Kode FP";
+            // 
+            // subpkpLabel
+            // 
+            subpkpLabel.AutoSize = true;
+            subpkpLabel.Location = new System.Drawing.Point(46, 225);
+            subpkpLabel.Name = "subpkpLabel";
+            subpkpLabel.Size = new System.Drawing.Size(38, 13);
+            subpkpLabel.TabIndex = 32;
+            subpkpLabel.Text = "NPPKP";
+            // 
+            // subnpwpLabel
+            // 
+            subnpwpLabel.AutoSize = true;
+            subnpwpLabel.Location = new System.Drawing.Point(49, 201);
+            subnpwpLabel.Name = "subnpwpLabel";
+            subnpwpLabel.Size = new System.Drawing.Size(36, 13);
+            subnpwpLabel.TabIndex = 30;
+            subnpwpLabel.Text = "NPWP";
+            // 
+            // kodeposLabel
+            // 
+            kodeposLabel.AutoSize = true;
+            kodeposLabel.Location = new System.Drawing.Point(240, 98);
+            kodeposLabel.Name = "kodeposLabel";
+            kodeposLabel.Size = new System.Drawing.Size(51, 13);
+            kodeposLabel.TabIndex = 57;
+            kodeposLabel.Text = "Kode Pos";
+            // 
+            // toleransiLabel
+            // 
+            toleransiLabel.AutoSize = true;
+            toleransiLabel.Location = new System.Drawing.Point(430, 223);
+            toleransiLabel.Name = "toleransiLabel";
+            toleransiLabel.Size = new System.Drawing.Size(50, 13);
+            toleransiLabel.TabIndex = 58;
+            toleransiLabel.Text = "Toleransi";
+            // 
+            // curLabel
+            // 
+            curLabel.AutoSize = true;
+            curLabel.Location = new System.Drawing.Point(427, 247);
+            curLabel.Name = "curLabel";
+            curLabel.Size = new System.Drawing.Size(51, 13);
+            curLabel.TabIndex = 60;
+            curLabel.Text = "Currency";
+            // 
+            // kodeinvLabel
+            // 
+            kodeinvLabel.AutoSize = true;
+            kodeinvLabel.Location = new System.Drawing.Point(430, 275);
+            kodeinvLabel.Name = "kodeinvLabel";
+            kodeinvLabel.Size = new System.Drawing.Size(48, 13);
+            kodeinvLabel.TabIndex = 62;
+            kodeinvLabel.Text = "kodeinv:";
+            // 
+            // subTextEdit
+            // 
+            this.subTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "sub", true));
+            this.subTextEdit.Location = new System.Drawing.Point(92, 36);
+            this.subTextEdit.Name = "subTextEdit";
+            this.subTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.subTextEdit.TabIndex = 1;
+            this.subTextEdit.EditValueChanged += new System.EventHandler(this.subTextEdit_EditValueChanged);
+            // 
+            // subBindingSource
+            // 
+            this.subBindingSource.DataMember = "sub";
+            this.subBindingSource.DataSource = this.casDataSet;
+            // 
+            // casDataSet
+            // 
+            this.casDataSet.DataSetName = "casDataSet";
+            this.casDataSet.Locale = new System.Globalization.CultureInfo("id-ID");
+            this.casDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // nameTextEdit
+            // 
+            this.nameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "name", true));
+            this.nameTextEdit.Location = new System.Drawing.Point(92, 6);
+            this.nameTextEdit.Name = "nameTextEdit";
+            this.nameTextEdit.Size = new System.Drawing.Size(273, 20);
+            this.nameTextEdit.TabIndex = 1;
+            // 
+            // personTextEdit
+            // 
+            this.personTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "person", true));
+            this.personTextEdit.Location = new System.Drawing.Point(92, 32);
+            this.personTextEdit.Name = "personTextEdit";
+            this.personTextEdit.Size = new System.Drawing.Size(273, 20);
+            this.personTextEdit.TabIndex = 3;
+            // 
+            // cityTextEdit
+            // 
+            this.cityTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "city", true));
+            this.cityTextEdit.Location = new System.Drawing.Point(92, 95);
+            this.cityTextEdit.Name = "cityTextEdit";
+            this.cityTextEdit.Size = new System.Drawing.Size(144, 20);
+            this.cityTextEdit.TabIndex = 7;
+            // 
+            // phoneTextEdit
+            // 
+            this.phoneTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "phone", true));
+            this.phoneTextEdit.Location = new System.Drawing.Point(92, 146);
+            this.phoneTextEdit.Name = "phoneTextEdit";
+            this.phoneTextEdit.Size = new System.Drawing.Size(208, 20);
+            this.phoneTextEdit.TabIndex = 9;
+            // 
+            // faxTextEdit
+            // 
+            this.faxTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "fax", true));
+            this.faxTextEdit.Location = new System.Drawing.Point(92, 172);
+            this.faxTextEdit.Name = "faxTextEdit";
+            this.faxTextEdit.Size = new System.Drawing.Size(138, 20);
+            this.faxTextEdit.TabIndex = 11;
+            // 
+            // remarkTextEdit
+            // 
+            this.remarkTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "remark", true));
+            this.remarkTextEdit.Location = new System.Drawing.Point(92, 272);
+            this.remarkTextEdit.Name = "remarkTextEdit";
+            this.remarkTextEdit.Size = new System.Drawing.Size(273, 20);
+            this.remarkTextEdit.TabIndex = 15;
+            // 
+            // maxkreditSpinEdit
+            // 
+            this.maxkreditSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "maxkredit", true));
+            this.maxkreditSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.maxkreditSpinEdit.Location = new System.Drawing.Point(484, 88);
+            this.maxkreditSpinEdit.Name = "maxkreditSpinEdit";
+            this.maxkreditSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.maxkreditSpinEdit.Properties.UseCtrlIncrement = false;
+            this.maxkreditSpinEdit.Size = new System.Drawing.Size(100, 20);
+            this.maxkreditSpinEdit.TabIndex = 17;
+            // 
+            // aktifCheckBox
+            // 
+            this.aktifCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.subBindingSource, "aktif", true));
+            this.aktifCheckBox.Location = new System.Drawing.Point(484, 6);
+            this.aktifCheckBox.Name = "aktifCheckBox";
+            this.aktifCheckBox.Size = new System.Drawing.Size(104, 24);
+            this.aktifCheckBox.TabIndex = 19;
+            // 
+            // gironameTextEdit
+            // 
+            this.gironameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "gironame", true));
+            this.gironameTextEdit.Location = new System.Drawing.Point(484, 35);
+            this.gironameTextEdit.Name = "gironameTextEdit";
+            this.gironameTextEdit.Size = new System.Drawing.Size(235, 20);
+            this.gironameTextEdit.TabIndex = 21;
+            // 
+            // grpTextBoxEx
+            // 
+            this.grpTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "grp", true));
+            this.grpTextBoxEx.ExAllowEmptyString = true;
+            this.grpTextBoxEx.ExAllowNonDBData = false;
+            this.grpTextBoxEx.ExAutoCheck = true;
+            this.grpTextBoxEx.ExAutoShowResult = false;
+            this.grpTextBoxEx.ExCondition = "";
+            this.grpTextBoxEx.ExDialogTitle = "";
+            this.grpTextBoxEx.ExFieldName = "grp";
+            this.grpTextBoxEx.ExFilterFields = new string[0];
+            this.grpTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.grpTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.grpTextBoxEx.ExLabelContainer = null;
+            this.grpTextBoxEx.ExLabelField = "grpname";
+            this.grpTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Right;
+            this.grpTextBoxEx.ExLabelText = "";
+            this.grpTextBoxEx.ExLabelVisible = true;
+            this.grpTextBoxEx.ExSelectFields = new string[0];
+            this.grpTextBoxEx.ExShowDialog = true;
+            this.grpTextBoxEx.ExSimpleMode = true;
+            this.grpTextBoxEx.ExSqlInstance = null;
+            this.grpTextBoxEx.ExSqlQuery = "";
+            this.grpTextBoxEx.ExTableName = "grp";
+            this.grpTextBoxEx.Location = new System.Drawing.Point(484, 194);
+            this.grpTextBoxEx.Name = "grpTextBoxEx";
+            this.grpTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.grpTextBoxEx.Size = new System.Drawing.Size(90, 20);
+            this.grpTextBoxEx.TabIndex = 23;
+            this.grpTextBoxEx.EditValueChanged += new System.EventHandler(this.grpTextBoxEx_EditValueChanged);
+            // 
+            // kode_areaTextEdit
+            // 
+            this.kode_areaTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "kode_area", true));
+            this.kode_areaTextEdit.Location = new System.Drawing.Point(484, 140);
+            this.kode_areaTextEdit.Name = "kode_areaTextEdit";
+            this.kode_areaTextEdit.Size = new System.Drawing.Size(66, 20);
+            this.kode_areaTextEdit.TabIndex = 25;
+            // 
+            // discustSpinEdit
+            // 
+            this.discustSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "discust", true));
+            this.discustSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.discustSpinEdit.Location = new System.Drawing.Point(484, 114);
+            this.discustSpinEdit.Name = "discustSpinEdit";
+            this.discustSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.discustSpinEdit.Properties.UseCtrlIncrement = false;
+            this.discustSpinEdit.Size = new System.Drawing.Size(66, 20);
+            this.discustSpinEdit.TabIndex = 27;
+            // 
+            // countryTextEdit
+            // 
+            this.countryTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "country", true));
+            this.countryTextEdit.Location = new System.Drawing.Point(92, 121);
+            this.countryTextEdit.Name = "countryTextEdit";
+            this.countryTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.countryTextEdit.TabIndex = 29;
+            // 
+            // subnpwpTextEdit
+            // 
+            this.subnpwpTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "subnpwp", true));
+            this.subnpwpTextEdit.Location = new System.Drawing.Point(92, 198);
+            this.subnpwpTextEdit.Name = "subnpwpTextEdit";
+            this.subnpwpTextEdit.Size = new System.Drawing.Size(138, 20);
+            this.subnpwpTextEdit.TabIndex = 31;
+            // 
+            // subpkpTextEdit
+            // 
+            this.subpkpTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "subpkp", true));
+            this.subpkpTextEdit.Location = new System.Drawing.Point(92, 224);
+            this.subpkpTextEdit.Name = "subpkpTextEdit";
+            this.subpkpTextEdit.Size = new System.Drawing.Size(138, 20);
+            this.subpkpTextEdit.TabIndex = 33;
+            // 
+            // kodefpTextEdit
+            // 
+            this.kodefpTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "kodefp", true));
+            this.kodefpTextEdit.Location = new System.Drawing.Point(92, 248);
+            this.kodefpTextEdit.Name = "kodefpTextEdit";
+            this.kodefpTextEdit.Size = new System.Drawing.Size(39, 20);
+            this.kodefpTextEdit.TabIndex = 35;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(539, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Days";
+            // 
+            // duedateSpinEdit
+            // 
+            this.duedateSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "top", true));
+            this.duedateSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.duedateSpinEdit.Location = new System.Drawing.Point(484, 62);
+            this.duedateSpinEdit.Name = "duedateSpinEdit";
+            this.duedateSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.duedateSpinEdit.Properties.UseCtrlIncrement = false;
+            this.duedateSpinEdit.Size = new System.Drawing.Size(49, 20);
+            this.duedateSpinEdit.TabIndex = 39;
+            // 
+            // subtoBindingSource
+            // 
+            this.subtoBindingSource.DataMember = "subto";
+            this.subtoBindingSource.DataSource = this.casDataSet;
+            // 
+            // subtoTableAdapter
+            // 
+            this.subtoTableAdapter.ClearBeforeFill = true;
+            // 
+            // subTableAdapter
+            // 
+            this.subTableAdapter.ClearBeforeFill = true;
+            // 
+            // addressMemoEdit
+            // 
+            this.addressMemoEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "address", true));
+            this.addressMemoEdit.Location = new System.Drawing.Point(92, 55);
+            this.addressMemoEdit.Name = "addressMemoEdit";
+            this.addressMemoEdit.Size = new System.Drawing.Size(273, 35);
+            this.addressMemoEdit.TabIndex = 40;
+            // 
+            // salesTextBoxEx
+            // 
+            this.salesTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "sales", true));
+            this.salesTextBoxEx.ExAllowEmptyString = true;
+            this.salesTextBoxEx.ExAllowNonDBData = false;
+            this.salesTextBoxEx.ExAutoCheck = true;
+            this.salesTextBoxEx.ExAutoShowResult = false;
+            this.salesTextBoxEx.ExCondition = "";
+            this.salesTextBoxEx.ExDialogTitle = "";
+            this.salesTextBoxEx.ExFieldName = "sales";
+            this.salesTextBoxEx.ExFilterFields = new string[0];
+            this.salesTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.salesTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.salesTextBoxEx.ExLabelContainer = null;
+            this.salesTextBoxEx.ExLabelField = "name";
+            this.salesTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Right;
+            this.salesTextBoxEx.ExLabelText = "";
+            this.salesTextBoxEx.ExLabelVisible = true;
+            this.salesTextBoxEx.ExSelectFields = new string[0];
+            this.salesTextBoxEx.ExShowDialog = true;
+            this.salesTextBoxEx.ExSimpleMode = true;
+            this.salesTextBoxEx.ExSqlInstance = null;
+            this.salesTextBoxEx.ExSqlQuery = "";
+            this.salesTextBoxEx.ExTableName = "sales";
+            this.salesTextBoxEx.Location = new System.Drawing.Point(484, 168);
+            this.salesTextBoxEx.Name = "salesTextBoxEx";
+            this.salesTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.salesTextBoxEx.Size = new System.Drawing.Size(90, 20);
+            this.salesTextBoxEx.TabIndex = 41;
+            // 
+            // gcsubto
+            // 
+            this.gcsubto.BestFitColumn = true;
+            this.gcsubto.ExAutoSize = false;
+            this.gcsubto.Location = new System.Drawing.Point(30, 305);
+            this.gcsubto.Name = "gcsubto";
+            this.gcsubto.Size = new System.Drawing.Size(516, 188);
+            this.gcsubto.TabIndex = 57;
+            // 
+            // kodeposTextEdit
+            // 
+            this.kodeposTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "kodepos", true));
+            this.kodeposTextEdit.Location = new System.Drawing.Point(297, 95);
+            this.kodeposTextEdit.Name = "kodeposTextEdit";
+            this.kodeposTextEdit.Size = new System.Drawing.Size(68, 20);
+            this.kodeposTextEdit.TabIndex = 58;
+            // 
+            // toleransiSpinEdit
+            // 
+            this.toleransiSpinEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "toleransi", true));
+            this.toleransiSpinEdit.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.toleransiSpinEdit.Location = new System.Drawing.Point(484, 218);
+            this.toleransiSpinEdit.Name = "toleransiSpinEdit";
+            this.toleransiSpinEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.toleransiSpinEdit.Properties.UseCtrlIncrement = false;
+            this.toleransiSpinEdit.Size = new System.Drawing.Size(49, 20);
+            this.toleransiSpinEdit.TabIndex = 59;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(539, 223);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.TabIndex = 60;
+            this.label2.Text = "%";
+            // 
+            // curTextBoxEx
+            // 
+            this.curTextBoxEx.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.subBindingSource, "cur", true));
+            this.curTextBoxEx.ExAllowEmptyString = true;
+            this.curTextBoxEx.ExAllowNonDBData = false;
+            this.curTextBoxEx.ExAutoCheck = true;
+            this.curTextBoxEx.ExAutoShowResult = false;
+            this.curTextBoxEx.ExCondition = "";
+            this.curTextBoxEx.ExDialogTitle = "Currency";
+            this.curTextBoxEx.ExFieldName = "Curr";
+            this.curTextBoxEx.ExFilterFields = new string[0];
+            this.curTextBoxEx.ExInvalidBackColor = System.Drawing.Color.Yellow;
+            this.curTextBoxEx.ExInvalidForeColor = System.Drawing.Color.Black;
+            this.curTextBoxEx.ExLabelContainer = null;
+            this.curTextBoxEx.ExLabelField = "Nama";
+            this.curTextBoxEx.ExLabelLocation = KASLibrary.TextBoxEx.LabelLocation.Right;
+            this.curTextBoxEx.ExLabelText = "";
+            this.curTextBoxEx.ExLabelVisible = true;
+            this.curTextBoxEx.ExSelectFields = new string[0];
+            this.curTextBoxEx.ExShowDialog = true;
+            this.curTextBoxEx.ExSimpleMode = true;
+            this.curTextBoxEx.ExSqlInstance = null;
+            this.curTextBoxEx.ExSqlQuery = "Call SP_LookUp(\'cur\')";
+            this.curTextBoxEx.ExTableName = "cur";
+            this.curTextBoxEx.Location = new System.Drawing.Point(484, 244);
+            this.curTextBoxEx.Name = "curTextBoxEx";
+            this.curTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
+            this.curTextBoxEx.Size = new System.Drawing.Size(100, 20);
+            this.curTextBoxEx.TabIndex = 61;
+            // 
+            // kodeinvComboBox
+            // 
+            this.kodeinvComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.subBindingSource, "kodeinv", true));
+            this.kodeinvComboBox.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.kodeinvComboBox.Items.AddRange(new object[] {
+            "Intern",
+            "Kode A",
+            "Kode B"});
+            this.kodeinvComboBox.Location = new System.Drawing.Point(484, 272);
+            this.kodeinvComboBox.Name = "kodeinvComboBox";
+            this.kodeinvComboBox.Size = new System.Drawing.Size(121, 21);
+            this.kodeinvComboBox.TabIndex = 63;
+            // 
+            // FrmMasterCustomer
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ClientSize = new System.Drawing.Size(808, 664);
+            this.MasterBindingSource = this.subBindingSource;
+            this.MasterQuery = "select * from sub where group_=2";
+            this.MasterTable = this.casDataSet.sub;
+            this.Name = "FrmMasterCustomer";
+            this.Text = "Master Customer";
+            this.Load += new System.EventHandler(this.FrmMasterCustomer_Load);
+            this.pnlDetail.ResumeLayout(false);
+            this.pnlDetail.PerformLayout();
+            this.pnlKey.ResumeLayout(false);
+            this.pnlKey.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nameTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phoneTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.faxTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.remarkTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maxkreditSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gironameTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grpTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kode_areaTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discustSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.countryTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subnpwpTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subpkpTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodefpTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duedateSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subtoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addressMemoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.salesTextBoxEx.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodeposTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toleransiSpinEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.curTextBoxEx.Properties)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private casDataSet casDataSet;
+        private System.Windows.Forms.BindingSource subBindingSource;
+        private DevExpress.XtraEditors.TextEdit subTextEdit;
+        private DevExpress.XtraEditors.SpinEdit discustSpinEdit;
+        private DevExpress.XtraEditors.TextEdit kode_areaTextEdit;
+        private KASLibrary.TextBoxEx grpTextBoxEx;
+        private DevExpress.XtraEditors.TextEdit gironameTextEdit;
+        private System.Windows.Forms.CheckBox aktifCheckBox;
+        private DevExpress.XtraEditors.SpinEdit maxkreditSpinEdit;
+        private DevExpress.XtraEditors.TextEdit remarkTextEdit;
+        private DevExpress.XtraEditors.TextEdit faxTextEdit;
+        private DevExpress.XtraEditors.TextEdit phoneTextEdit;
+        private DevExpress.XtraEditors.TextEdit cityTextEdit;
+        private DevExpress.XtraEditors.TextEdit personTextEdit;
+        private DevExpress.XtraEditors.TextEdit nameTextEdit;
+        private DevExpress.XtraEditors.TextEdit countryTextEdit;
+        private DevExpress.XtraEditors.TextEdit kodefpTextEdit;
+        private DevExpress.XtraEditors.TextEdit subpkpTextEdit;
+        private DevExpress.XtraEditors.TextEdit subnpwpTextEdit;
+        private System.Windows.Forms.Label label1;
+        private DevExpress.XtraEditors.SpinEdit duedateSpinEdit;
+        private System.Windows.Forms.BindingSource subtoBindingSource;
+        private CAS.casDataSetTableAdapters.subtoTableAdapter subtoTableAdapter;
+        private KASLibrary.TextBoxEx salesTextBoxEx;
+        private DevExpress.XtraEditors.MemoEdit addressMemoEdit;
+        private CAS.casDataSetTableAdapters.subTableAdapter subTableAdapter;
+        private KASLibrary.GridControlEx gcsubto;
+        private DevExpress.XtraEditors.TextEdit kodeposTextEdit;
+        private System.Windows.Forms.Label label2;
+        private DevExpress.XtraEditors.SpinEdit toleransiSpinEdit;
+        private KASLibrary.TextBoxEx curTextBoxEx;
+        private System.Windows.Forms.ComboBox kodeinvComboBox;
+    }
+}

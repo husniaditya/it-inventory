@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace CAS.Master
+{
+    public partial class FrmMasterSupplier : CAS.Master.BaseMaster
+    {
+        public FrmMasterSupplier()
+        {
+            InitializeComponent();
+            this.grpTextBoxEx.ExSqlInstance = DB.sql;
+
+            casDataSet.sub.Columns["group_"].DefaultValue = 1;
+
+            tsbtnNew.Click += new EventHandler(tsbtnNew_Click);
+            spinTOP.Properties.MinValue = 0;
+            spinTOP.Properties.MaxValue = Int32.MaxValue;
+            
+            txtCur.ExSqlInstance = DB.sql;
+        }
+
+        void tsbtnNew_Click(object sender, EventArgs e)
+        {
+            //open Group Dialog
+            grpTextBoxEx.SendKey(new KeyEventArgs(Keys.Enter));
+        }
+
+        protected override void tsbtnSave_Click(object sender, EventArgs e)
+        {
+            this.ValidateChildren();
+            // check Sub no with Group
+            if (!subTextEdit.Text.StartsWith(grpTextBoxEx.Text))
+            {
+                MessageBox.Show("Supplier No does not match Supplier Group!");
+                return;
+            }
+            ((DataRowView)MasterBindingSource.Current).Row["group_"] = 1;
+            base.tsbtnSave_Click(sender, e);
+        }
+
+        private void FrmMasterSupplier_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grpTextBoxEx_EditValueChanged(object sender, EventArgs e)
+        {
+            // if new record
+            if (MasterBindingSource.Position == MasterTable.Rows.Count)
+            {
+                string query = "select MaxNo('sub','@grp')";
+                query = query.Replace("@grp", grpTextBoxEx.Text.Trim());
+                subTextEdit.EditValue = DB.sql.Select(query).Rows[0][0].ToString();
+                nameTextEdit.Select();
+            }
+        }
+    }
+}
+

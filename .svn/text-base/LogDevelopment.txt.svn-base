@@ -1,0 +1,70 @@
+==========================================================
+04/05/09
+
+PR
+- Satuan = Satuan Input (Persediaan Jasa) *DONE*
+- Keterangan Header
+
+PO
+- Approve tidak perlu *ON PROGRESS*
+- Cetakan Pakai Ukuran F4 *ON PROGRESS*
+- Total Kurang Tebal *DONE*
+
+SPB
+- Send to Gudang
+- Approve
+- SPB Gudang
+
+LPB
+- No Packing List
+- No Container
+- Qty Container
+- Qty Selisih
+
+Pembelian
+- Persediaan dalam Perjalanan
+- Cost Sheet
+
+==========================================================
+
+11/05/09
+
+PO Lokal & Import
+- Currency
+
+SPB
+- Delete Bug
+- Tidak bisa isi Qty Gudang
+
+SPB Gudang
+- Bisa isi qty Gudang
+
+LPB
+- POI - harus isi packing list, no cont, qty selisih, remark
+- Jurnal Bug
+
+Siapkan
+- Qty Minimum
+- Perputaran Persediaan - LifeTime - Stock Minimum
+- Automatic PR
+
+==========================================================
+
+12/05/09
+
+Jurnal Memo
+- Pilihan : Uang Muka, Hutang, Piutang
+- No PIB / Faktur
+- Header Kredit otomatis Detail Debet bgt pula sebaliknya
+- Checkbox PPN
+
+- Kas Kecil Masuk
+- Request For Payment
+- Configurasi Giro set di Group Supplier / Customer
+
+- Pencairan Multiple Giro
+- Laba Rugi Selisih Kurs
+
+- Jasa : PO -> MSK
+- Persediaan dalam Perjalanan !!
+- Biaya Cadangan
