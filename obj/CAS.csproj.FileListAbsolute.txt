@@ -2090,15 +2090,3 @@ D:\MMPBB\Project\erp\it-inventory\bin\Release\CAS BB.pdb
 D:\MMPBB\Project\erp\it-inventory\bin\Release\KASLibrary.dll
 D:\MMPBB\Project\erp\it-inventory\bin\Release\MySql.Data.dll
 D:\MMPBB\Project\erp\it-inventory\bin\Release\VJSharpCodeProvider.dll
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraPivotGrid3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraGrid3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraBars3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraScheduler3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraPrinting3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraNavBar3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.Data3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraEditors3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraReports3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraVerticalGrid3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.XtraTreeList3.xml
-D:\MMPBB\Project\erp\it-inventory\bin\Release\DevExpress.Utils3.xml
