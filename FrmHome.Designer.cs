@@ -180,10 +180,9 @@ namespace CAS
             // 
             this.grpTransactions.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grpTransactions.Controls.Add(this.xtraTabControl1);
-            this.grpTransactions.Location = new System.Drawing.Point(168, 197);
-            this.grpTransactions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grpTransactions.Location = new System.Drawing.Point(112, 128);
             this.grpTransactions.Name = "grpTransactions";
-            this.grpTransactions.Size = new System.Drawing.Size(992, 214);
+            this.grpTransactions.Size = new System.Drawing.Size(661, 139);
             this.grpTransactions.TabIndex = 0;
             this.grpTransactions.Text = "Transactions";
             // 
@@ -191,11 +190,10 @@ namespace CAS
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl1.HeaderAutoFill = DevExpress.Utils.DefaultBoolean.True;
-            this.xtraTabControl1.Location = new System.Drawing.Point(2, 22);
-            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.xtraTabControl1.Location = new System.Drawing.Point(2, 16);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(988, 189);
+            this.xtraTabControl1.Size = new System.Drawing.Size(657, 120);
             this.xtraTabControl1.TabIndex = 0;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -207,9 +205,8 @@ namespace CAS
             // xtraTabPage1
             // 
             this.xtraTabPage1.Controls.Add(this.flowLayoutPanel1);
-            this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(980, 155);
+            this.xtraTabPage1.Size = new System.Drawing.Size(649, 92);
             this.xtraTabPage1.Text = "Pembelian";
             // 
             // flowLayoutPanel1
@@ -223,79 +220,71 @@ namespace CAS
             this.flowLayoutPanel1.Controls.Add(this.btn23a);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(980, 155);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(649, 92);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btn231
             // 
             this.btn231.Appearance.Options.UseTextOptions = true;
             this.btn231.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn231.Location = new System.Drawing.Point(4, 5);
-            this.btn231.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn231.Location = new System.Drawing.Point(3, 3);
             this.btn231.Name = "btn231";
-            this.btn231.Size = new System.Drawing.Size(120, 128);
+            this.btn231.Size = new System.Drawing.Size(80, 83);
             this.btn231.TabIndex = 0;
             this.btn231.Tag = "";
             this.btn231.Text = "PR";
             // 
             // btn232
             // 
-            this.btn232.Location = new System.Drawing.Point(132, 5);
-            this.btn232.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn232.Location = new System.Drawing.Point(89, 3);
             this.btn232.Name = "btn232";
-            this.btn232.Size = new System.Drawing.Size(126, 131);
+            this.btn232.Size = new System.Drawing.Size(84, 85);
             this.btn232.TabIndex = 0;
             this.btn232.Tag = "";
             this.btn232.Text = "PO";
             // 
             // btn235
             // 
-            this.btn235.Location = new System.Drawing.Point(266, 5);
-            this.btn235.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn235.Location = new System.Drawing.Point(179, 3);
             this.btn235.Name = "btn235";
-            this.btn235.Size = new System.Drawing.Size(124, 129);
+            this.btn235.Size = new System.Drawing.Size(83, 84);
             this.btn235.TabIndex = 2;
             this.btn235.Tag = "";
             this.btn235.Text = "POS";
             // 
             // btn23f
             // 
-            this.btn23f.Location = new System.Drawing.Point(398, 5);
-            this.btn23f.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn23f.Location = new System.Drawing.Point(268, 3);
             this.btn23f.Name = "btn23f";
-            this.btn23f.Size = new System.Drawing.Size(129, 131);
+            this.btn23f.Size = new System.Drawing.Size(86, 85);
             this.btn23f.TabIndex = 0;
             this.btn23f.Tag = "";
             this.btn23f.Text = "Invoice";
             // 
             // btn23i
             // 
-            this.btn23i.Location = new System.Drawing.Point(535, 5);
-            this.btn23i.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn23i.Location = new System.Drawing.Point(360, 3);
             this.btn23i.Name = "btn23i";
-            this.btn23i.Size = new System.Drawing.Size(129, 131);
+            this.btn23i.Size = new System.Drawing.Size(86, 85);
             this.btn23i.TabIndex = 1;
             this.btn23i.Tag = "";
             this.btn23i.Text = "SPB Gdg";
             // 
             // btn239
             // 
-            this.btn239.Location = new System.Drawing.Point(672, 5);
-            this.btn239.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn239.Location = new System.Drawing.Point(452, 3);
             this.btn239.Name = "btn239";
-            this.btn239.Size = new System.Drawing.Size(129, 131);
+            this.btn239.Size = new System.Drawing.Size(86, 85);
             this.btn239.TabIndex = 0;
             this.btn239.Tag = "";
             this.btn239.Text = "SPB";
             // 
             // btn23a
             // 
-            this.btn23a.Location = new System.Drawing.Point(809, 5);
-            this.btn23a.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn23a.Location = new System.Drawing.Point(544, 3);
             this.btn23a.Name = "btn23a";
-            this.btn23a.Size = new System.Drawing.Size(129, 131);
+            this.btn23a.Size = new System.Drawing.Size(86, 85);
             this.btn23a.TabIndex = 0;
             this.btn23a.Tag = "";
             this.btn23a.Text = "LPB";
@@ -303,9 +292,8 @@ namespace CAS
             // xtraTabPage2
             // 
             this.xtraTabPage2.Controls.Add(this.flowLayoutPanel2);
-            this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(980, 155);
+            this.xtraTabPage2.Size = new System.Drawing.Size(651, 99);
             this.xtraTabPage2.Text = "Penjualan";
             // 
             // flowLayoutPanel2
@@ -318,71 +306,63 @@ namespace CAS
             this.flowLayoutPanel2.Controls.Add(this.btn25c);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(980, 155);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(651, 99);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // btn251
             // 
-            this.btn251.Location = new System.Drawing.Point(4, 5);
-            this.btn251.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn251.Location = new System.Drawing.Point(3, 3);
             this.btn251.Name = "btn251";
-            this.btn251.Size = new System.Drawing.Size(132, 131);
+            this.btn251.Size = new System.Drawing.Size(88, 85);
             this.btn251.TabIndex = 0;
             this.btn251.Text = "SO";
             // 
             // btn252
             // 
-            this.btn252.Location = new System.Drawing.Point(144, 5);
-            this.btn252.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn252.Location = new System.Drawing.Point(97, 3);
             this.btn252.Name = "btn252";
-            this.btn252.Size = new System.Drawing.Size(132, 131);
+            this.btn252.Size = new System.Drawing.Size(88, 85);
             this.btn252.TabIndex = 0;
             this.btn252.Text = "MO";
             // 
             // btn256
             // 
-            this.btn256.Location = new System.Drawing.Point(284, 5);
-            this.btn256.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn256.Location = new System.Drawing.Point(191, 3);
             this.btn256.Name = "btn256";
-            this.btn256.Size = new System.Drawing.Size(132, 131);
+            this.btn256.Size = new System.Drawing.Size(88, 85);
             this.btn256.TabIndex = 0;
             this.btn256.Text = "SPM Gd";
             // 
             // btn257
             // 
-            this.btn257.Location = new System.Drawing.Point(424, 5);
-            this.btn257.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn257.Location = new System.Drawing.Point(285, 3);
             this.btn257.Name = "btn257";
-            this.btn257.Size = new System.Drawing.Size(132, 131);
+            this.btn257.Size = new System.Drawing.Size(88, 85);
             this.btn257.TabIndex = 0;
             this.btn257.Text = "SPM";
             // 
             // btn258
             // 
-            this.btn258.Location = new System.Drawing.Point(564, 5);
-            this.btn258.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn258.Location = new System.Drawing.Point(379, 3);
             this.btn258.Name = "btn258";
-            this.btn258.Size = new System.Drawing.Size(132, 131);
+            this.btn258.Size = new System.Drawing.Size(88, 85);
             this.btn258.TabIndex = 0;
             this.btn258.Text = "SJL";
             // 
             // btn25c
             // 
-            this.btn25c.Location = new System.Drawing.Point(704, 5);
-            this.btn25c.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn25c.Location = new System.Drawing.Point(473, 3);
             this.btn25c.Name = "btn25c";
-            this.btn25c.Size = new System.Drawing.Size(132, 131);
+            this.btn25c.Size = new System.Drawing.Size(88, 85);
             this.btn25c.TabIndex = 1;
             this.btn25c.Text = "Invoice";
             // 
             // xtraTabPage7
             // 
             this.xtraTabPage7.Controls.Add(this.flowLayoutPanel7);
-            this.xtraTabPage7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(980, 155);
+            this.xtraTabPage7.Size = new System.Drawing.Size(651, 99);
             this.xtraTabPage7.Text = "Persediaan";
             // 
             // flowLayoutPanel7
@@ -394,62 +374,55 @@ namespace CAS
             this.flowLayoutPanel7.Controls.Add(this.simpleButton10);
             this.flowLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel7.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(980, 155);
+            this.flowLayoutPanel7.Size = new System.Drawing.Size(651, 99);
             this.flowLayoutPanel7.TabIndex = 2;
             // 
             // btn276
             // 
-            this.btn276.Location = new System.Drawing.Point(4, 5);
-            this.btn276.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn276.Location = new System.Drawing.Point(3, 3);
             this.btn276.Name = "btn276";
-            this.btn276.Size = new System.Drawing.Size(132, 131);
+            this.btn276.Size = new System.Drawing.Size(88, 85);
             this.btn276.TabIndex = 0;
             this.btn276.Text = "BPPB";
             // 
             // btn277
             // 
-            this.btn277.Location = new System.Drawing.Point(144, 5);
-            this.btn277.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn277.Location = new System.Drawing.Point(97, 3);
             this.btn277.Name = "btn277";
-            this.btn277.Size = new System.Drawing.Size(132, 131);
+            this.btn277.Size = new System.Drawing.Size(88, 85);
             this.btn277.TabIndex = 0;
             this.btn277.Text = "LHP";
             // 
             // btn278
             // 
-            this.btn278.Location = new System.Drawing.Point(284, 5);
-            this.btn278.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn278.Location = new System.Drawing.Point(191, 3);
             this.btn278.Name = "btn278";
-            this.btn278.Size = new System.Drawing.Size(132, 131);
+            this.btn278.Size = new System.Drawing.Size(88, 85);
             this.btn278.TabIndex = 0;
             this.btn278.Text = "BPB";
             // 
             // btn27a
             // 
-            this.btn27a.Location = new System.Drawing.Point(424, 5);
-            this.btn27a.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn27a.Location = new System.Drawing.Point(285, 3);
             this.btn27a.Name = "btn27a";
-            this.btn27a.Size = new System.Drawing.Size(132, 131);
+            this.btn27a.Size = new System.Drawing.Size(88, 85);
             this.btn27a.TabIndex = 0;
             this.btn27a.Text = "HPP";
             // 
             // simpleButton10
             // 
-            this.simpleButton10.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton10.Location = new System.Drawing.Point(379, 3);
             this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton10.Size = new System.Drawing.Size(88, 85);
             this.simpleButton10.TabIndex = 0;
             this.simpleButton10.Text = "simpleButton1";
             // 
             // xtraTabPage8
             // 
             this.xtraTabPage8.Controls.Add(this.flowLayoutPanel8);
-            this.xtraTabPage8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(980, 155);
+            this.xtraTabPage8.Size = new System.Drawing.Size(651, 99);
             this.xtraTabPage8.Text = "Kas && Bank";
             // 
             // flowLayoutPanel8
@@ -460,44 +433,39 @@ namespace CAS
             this.flowLayoutPanel8.Controls.Add(this.btn2ea);
             this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(980, 155);
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(651, 99);
             this.flowLayoutPanel8.TabIndex = 2;
             // 
             // btn2e1
             // 
-            this.btn2e1.Location = new System.Drawing.Point(4, 5);
-            this.btn2e1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn2e1.Location = new System.Drawing.Point(3, 3);
             this.btn2e1.Name = "btn2e1";
-            this.btn2e1.Size = new System.Drawing.Size(132, 131);
+            this.btn2e1.Size = new System.Drawing.Size(88, 85);
             this.btn2e1.TabIndex = 0;
             this.btn2e1.Text = "KKK";
             // 
             // btn2e4
             // 
-            this.btn2e4.Location = new System.Drawing.Point(144, 5);
-            this.btn2e4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn2e4.Location = new System.Drawing.Point(97, 3);
             this.btn2e4.Name = "btn2e4";
-            this.btn2e4.Size = new System.Drawing.Size(132, 131);
+            this.btn2e4.Size = new System.Drawing.Size(88, 85);
             this.btn2e4.TabIndex = 0;
             this.btn2e4.Text = "KBM";
             // 
             // btn2e5
             // 
-            this.btn2e5.Location = new System.Drawing.Point(284, 5);
-            this.btn2e5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn2e5.Location = new System.Drawing.Point(191, 3);
             this.btn2e5.Name = "btn2e5";
-            this.btn2e5.Size = new System.Drawing.Size(132, 131);
+            this.btn2e5.Size = new System.Drawing.Size(88, 85);
             this.btn2e5.TabIndex = 0;
             this.btn2e5.Text = "KBK";
             // 
             // btn2ea
             // 
-            this.btn2ea.Location = new System.Drawing.Point(424, 5);
-            this.btn2ea.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn2ea.Location = new System.Drawing.Point(285, 3);
             this.btn2ea.Name = "btn2ea";
-            this.btn2ea.Size = new System.Drawing.Size(132, 131);
+            this.btn2ea.Size = new System.Drawing.Size(88, 85);
             this.btn2ea.TabIndex = 0;
             this.btn2ea.Text = "CGR";
             // 
@@ -505,10 +473,9 @@ namespace CAS
             // 
             this.grpReports.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.grpReports.Controls.Add(this.xtraTabControl3);
-            this.grpReports.Location = new System.Drawing.Point(168, 471);
-            this.grpReports.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grpReports.Location = new System.Drawing.Point(112, 306);
             this.grpReports.Name = "grpReports";
-            this.grpReports.Size = new System.Drawing.Size(998, 214);
+            this.grpReports.Size = new System.Drawing.Size(665, 139);
             this.grpReports.TabIndex = 0;
             this.grpReports.Text = "Reports";
             // 
@@ -516,11 +483,10 @@ namespace CAS
             // 
             this.xtraTabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl3.HeaderAutoFill = DevExpress.Utils.DefaultBoolean.True;
-            this.xtraTabControl3.Location = new System.Drawing.Point(2, 22);
-            this.xtraTabControl3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.xtraTabControl3.Location = new System.Drawing.Point(2, 16);
             this.xtraTabControl3.Name = "xtraTabControl3";
             this.xtraTabControl3.SelectedTabPage = this.xtraTabPage5;
-            this.xtraTabControl3.Size = new System.Drawing.Size(994, 189);
+            this.xtraTabControl3.Size = new System.Drawing.Size(661, 120);
             this.xtraTabControl3.TabIndex = 0;
             this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage5,
@@ -535,9 +501,8 @@ namespace CAS
             // 
             this.xtraTabPage5.Controls.Add(this.flowLayoutPanel3);
             this.xtraTabPage5.Controls.Add(this.flowLayoutPanel5);
-            this.xtraTabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage5.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage5.Text = "Pembelian";
             // 
             // flowLayoutPanel3
@@ -548,50 +513,45 @@ namespace CAS
             this.flowLayoutPanel3.Controls.Add(this.simpleButton4);
             this.flowLayoutPanel3.Controls.Add(this.simpleButton5);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 71);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 46);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(986, 71);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(653, 46);
             this.flowLayoutPanel3.TabIndex = 1;
             // 
             // btn63112
             // 
             this.btn63112.Appearance.Options.UseTextOptions = true;
             this.btn63112.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn63112.Location = new System.Drawing.Point(4, 5);
-            this.btn63112.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63112.Location = new System.Drawing.Point(3, 3);
             this.btn63112.Name = "btn63112";
-            this.btn63112.Size = new System.Drawing.Size(132, 60);
+            this.btn63112.Size = new System.Drawing.Size(88, 39);
             this.btn63112.TabIndex = 0;
             this.btn63112.Tag = "";
             this.btn63112.Text = "History PR";
             // 
             // btn63126
             // 
-            this.btn63126.Location = new System.Drawing.Point(144, 5);
-            this.btn63126.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63126.Location = new System.Drawing.Point(97, 3);
             this.btn63126.Name = "btn63126";
-            this.btn63126.Size = new System.Drawing.Size(132, 60);
+            this.btn63126.Size = new System.Drawing.Size(88, 39);
             this.btn63126.TabIndex = 0;
             this.btn63126.Tag = "";
             this.btn63126.Text = "Histroy PO";
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(284, 5);
-            this.simpleButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton3.Location = new System.Drawing.Point(191, 3);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton3.Size = new System.Drawing.Size(88, 39);
             this.simpleButton3.TabIndex = 0;
             this.simpleButton3.Tag = "";
             this.simpleButton3.Text = "SPB";
             // 
             // simpleButton4
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(424, 5);
-            this.simpleButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton4.Location = new System.Drawing.Point(285, 3);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton4.Size = new System.Drawing.Size(88, 39);
             this.simpleButton4.TabIndex = 0;
             this.simpleButton4.Tag = "";
             this.simpleButton4.Text = "LPB";
@@ -599,10 +559,9 @@ namespace CAS
             // simpleButton5
             // 
             this.flowLayoutPanel3.SetFlowBreak(this.simpleButton5, true);
-            this.simpleButton5.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton5.Location = new System.Drawing.Point(379, 3);
             this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton5.Size = new System.Drawing.Size(88, 39);
             this.simpleButton5.TabIndex = 0;
             this.simpleButton5.Tag = "";
             this.simpleButton5.Text = "Invoice";
@@ -616,49 +575,44 @@ namespace CAS
             this.flowLayoutPanel5.Controls.Add(this.btn63161);
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(986, 71);
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(653, 46);
             this.flowLayoutPanel5.TabIndex = 0;
             // 
             // btn63111
             // 
             this.btn63111.Appearance.Options.UseTextOptions = true;
             this.btn63111.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn63111.Location = new System.Drawing.Point(4, 5);
-            this.btn63111.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63111.Location = new System.Drawing.Point(3, 3);
             this.btn63111.Name = "btn63111";
-            this.btn63111.Size = new System.Drawing.Size(132, 60);
+            this.btn63111.Size = new System.Drawing.Size(88, 39);
             this.btn63111.TabIndex = 0;
             this.btn63111.Tag = "";
             this.btn63111.Text = "Status PR";
             // 
             // btn63125
             // 
-            this.btn63125.Location = new System.Drawing.Point(144, 5);
-            this.btn63125.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63125.Location = new System.Drawing.Point(97, 3);
             this.btn63125.Name = "btn63125";
-            this.btn63125.Size = new System.Drawing.Size(132, 60);
+            this.btn63125.Size = new System.Drawing.Size(88, 39);
             this.btn63125.TabIndex = 0;
             this.btn63125.Tag = "";
             this.btn63125.Text = "Status PO";
             // 
             // simpleButton18
             // 
-            this.simpleButton18.Location = new System.Drawing.Point(284, 5);
-            this.simpleButton18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton18.Location = new System.Drawing.Point(191, 3);
             this.simpleButton18.Name = "simpleButton18";
-            this.simpleButton18.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton18.Size = new System.Drawing.Size(88, 39);
             this.simpleButton18.TabIndex = 0;
             this.simpleButton18.Tag = "";
             this.simpleButton18.Text = "SPB";
             // 
             // simpleButton19
             // 
-            this.simpleButton19.Location = new System.Drawing.Point(424, 5);
-            this.simpleButton19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton19.Location = new System.Drawing.Point(285, 3);
             this.simpleButton19.Name = "simpleButton19";
-            this.simpleButton19.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton19.Size = new System.Drawing.Size(88, 39);
             this.simpleButton19.TabIndex = 0;
             this.simpleButton19.Tag = "";
             this.simpleButton19.Text = "LPB";
@@ -666,10 +620,9 @@ namespace CAS
             // btn63161
             // 
             this.flowLayoutPanel5.SetFlowBreak(this.btn63161, true);
-            this.btn63161.Location = new System.Drawing.Point(564, 5);
-            this.btn63161.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63161.Location = new System.Drawing.Point(379, 3);
             this.btn63161.Name = "btn63161";
-            this.btn63161.Size = new System.Drawing.Size(132, 60);
+            this.btn63161.Size = new System.Drawing.Size(88, 39);
             this.btn63161.TabIndex = 0;
             this.btn63161.Tag = "";
             this.btn63161.Text = "Invoice";
@@ -678,9 +631,8 @@ namespace CAS
             // 
             this.xtraTabPage6.Controls.Add(this.flowLayoutPanel4);
             this.xtraTabPage6.Controls.Add(this.flowLayoutPanel6);
-            this.xtraTabPage6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage6.Size = new System.Drawing.Size(655, 99);
             this.xtraTabPage6.Text = "Penjualan";
             // 
             // flowLayoutPanel4
@@ -691,50 +643,45 @@ namespace CAS
             this.flowLayoutPanel4.Controls.Add(this.simpleButton7);
             this.flowLayoutPanel4.Controls.Add(this.simpleButton8);
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 71);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 46);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(986, 71);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(655, 46);
             this.flowLayoutPanel4.TabIndex = 3;
             // 
             // btn63316
             // 
             this.btn63316.Appearance.Options.UseTextOptions = true;
             this.btn63316.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn63316.Location = new System.Drawing.Point(4, 5);
-            this.btn63316.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63316.Location = new System.Drawing.Point(3, 3);
             this.btn63316.Name = "btn63316";
-            this.btn63316.Size = new System.Drawing.Size(132, 60);
+            this.btn63316.Size = new System.Drawing.Size(88, 39);
             this.btn63316.TabIndex = 0;
             this.btn63316.Tag = "";
             this.btn63316.Text = "History SO";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(144, 5);
-            this.simpleButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton2.Location = new System.Drawing.Point(97, 3);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton2.Size = new System.Drawing.Size(88, 39);
             this.simpleButton2.TabIndex = 0;
             this.simpleButton2.Tag = "";
             this.simpleButton2.Text = "PO";
             // 
             // simpleButton6
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(284, 5);
-            this.simpleButton6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton6.Location = new System.Drawing.Point(191, 3);
             this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton6.Size = new System.Drawing.Size(88, 39);
             this.simpleButton6.TabIndex = 0;
             this.simpleButton6.Tag = "";
             this.simpleButton6.Text = "SPB";
             // 
             // simpleButton7
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(424, 5);
-            this.simpleButton7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton7.Location = new System.Drawing.Point(285, 3);
             this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton7.Size = new System.Drawing.Size(88, 39);
             this.simpleButton7.TabIndex = 0;
             this.simpleButton7.Tag = "";
             this.simpleButton7.Text = "LPB";
@@ -742,10 +689,9 @@ namespace CAS
             // simpleButton8
             // 
             this.flowLayoutPanel4.SetFlowBreak(this.simpleButton8, true);
-            this.simpleButton8.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton8.Location = new System.Drawing.Point(379, 3);
             this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton8.Size = new System.Drawing.Size(88, 39);
             this.simpleButton8.TabIndex = 0;
             this.simpleButton8.Tag = "";
             this.simpleButton8.Text = "Invoice";
@@ -759,49 +705,44 @@ namespace CAS
             this.flowLayoutPanel6.Controls.Add(this.btn63351);
             this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(986, 71);
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(655, 46);
             this.flowLayoutPanel6.TabIndex = 2;
             // 
             // btn63315
             // 
             this.btn63315.Appearance.Options.UseTextOptions = true;
             this.btn63315.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn63315.Location = new System.Drawing.Point(4, 5);
-            this.btn63315.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63315.Location = new System.Drawing.Point(3, 3);
             this.btn63315.Name = "btn63315";
-            this.btn63315.Size = new System.Drawing.Size(132, 60);
+            this.btn63315.Size = new System.Drawing.Size(88, 39);
             this.btn63315.TabIndex = 0;
             this.btn63315.Tag = "";
             this.btn63315.Text = "Status SO";
             // 
             // simpleButton11
             // 
-            this.simpleButton11.Location = new System.Drawing.Point(144, 5);
-            this.simpleButton11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton11.Location = new System.Drawing.Point(97, 3);
             this.simpleButton11.Name = "simpleButton11";
-            this.simpleButton11.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton11.Size = new System.Drawing.Size(88, 39);
             this.simpleButton11.TabIndex = 0;
             this.simpleButton11.Tag = "";
             this.simpleButton11.Text = "PO";
             // 
             // simpleButton12
             // 
-            this.simpleButton12.Location = new System.Drawing.Point(284, 5);
-            this.simpleButton12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton12.Location = new System.Drawing.Point(191, 3);
             this.simpleButton12.Name = "simpleButton12";
-            this.simpleButton12.Size = new System.Drawing.Size(132, 60);
+            this.simpleButton12.Size = new System.Drawing.Size(88, 39);
             this.simpleButton12.TabIndex = 0;
             this.simpleButton12.Tag = "";
             this.simpleButton12.Text = "SPB";
             // 
             // btn63381
             // 
-            this.btn63381.Location = new System.Drawing.Point(424, 5);
-            this.btn63381.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63381.Location = new System.Drawing.Point(285, 3);
             this.btn63381.Name = "btn63381";
-            this.btn63381.Size = new System.Drawing.Size(132, 60);
+            this.btn63381.Size = new System.Drawing.Size(88, 39);
             this.btn63381.TabIndex = 0;
             this.btn63381.Tag = "";
             this.btn63381.Text = "SJ";
@@ -809,10 +750,9 @@ namespace CAS
             // btn63351
             // 
             this.flowLayoutPanel6.SetFlowBreak(this.btn63351, true);
-            this.btn63351.Location = new System.Drawing.Point(564, 5);
-            this.btn63351.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn63351.Location = new System.Drawing.Point(379, 3);
             this.btn63351.Name = "btn63351";
-            this.btn63351.Size = new System.Drawing.Size(132, 60);
+            this.btn63351.Size = new System.Drawing.Size(88, 39);
             this.btn63351.TabIndex = 0;
             this.btn63351.Tag = "";
             this.btn63351.Text = "Invoice";
@@ -820,9 +760,8 @@ namespace CAS
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.flowLayoutPanel9);
-            this.xtraTabPage3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage3.Size = new System.Drawing.Size(655, 99);
             this.xtraTabPage3.Text = "Keuangan";
             // 
             // flowLayoutPanel9
@@ -834,59 +773,53 @@ namespace CAS
             this.flowLayoutPanel9.Controls.Add(this.btn6571);
             this.flowLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel9.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(986, 155);
+            this.flowLayoutPanel9.Size = new System.Drawing.Size(655, 99);
             this.flowLayoutPanel9.TabIndex = 1;
             // 
             // btn651
             // 
             this.btn651.Appearance.Options.UseTextOptions = true;
             this.btn651.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn651.Location = new System.Drawing.Point(4, 5);
-            this.btn651.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn651.Location = new System.Drawing.Point(3, 3);
             this.btn651.Name = "btn651";
-            this.btn651.Size = new System.Drawing.Size(132, 131);
+            this.btn651.Size = new System.Drawing.Size(88, 85);
             this.btn651.TabIndex = 0;
             this.btn651.Tag = "";
             this.btn651.Text = "Neraca Saldo";
             // 
             // btn6541
             // 
-            this.btn6541.Location = new System.Drawing.Point(144, 5);
-            this.btn6541.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6541.Location = new System.Drawing.Point(97, 3);
             this.btn6541.Name = "btn6541";
-            this.btn6541.Size = new System.Drawing.Size(132, 131);
+            this.btn6541.Size = new System.Drawing.Size(88, 85);
             this.btn6541.TabIndex = 0;
             this.btn6541.Tag = "";
             this.btn6541.Text = "Buku besar Induk";
             // 
             // btn6542
             // 
-            this.btn6542.Location = new System.Drawing.Point(284, 5);
-            this.btn6542.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6542.Location = new System.Drawing.Point(191, 3);
             this.btn6542.Name = "btn6542";
-            this.btn6542.Size = new System.Drawing.Size(132, 131);
+            this.btn6542.Size = new System.Drawing.Size(88, 85);
             this.btn6542.TabIndex = 0;
             this.btn6542.Tag = "";
             this.btn6542.Text = "Buku Besar Detail";
             // 
             // btn6561
             // 
-            this.btn6561.Location = new System.Drawing.Point(424, 5);
-            this.btn6561.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6561.Location = new System.Drawing.Point(285, 3);
             this.btn6561.Name = "btn6561";
-            this.btn6561.Size = new System.Drawing.Size(132, 131);
+            this.btn6561.Size = new System.Drawing.Size(88, 85);
             this.btn6561.TabIndex = 0;
             this.btn6561.Tag = "";
             this.btn6561.Text = "Neraca";
             // 
             // btn6571
             // 
-            this.btn6571.Location = new System.Drawing.Point(564, 5);
-            this.btn6571.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6571.Location = new System.Drawing.Point(379, 3);
             this.btn6571.Name = "btn6571";
-            this.btn6571.Size = new System.Drawing.Size(132, 131);
+            this.btn6571.Size = new System.Drawing.Size(88, 85);
             this.btn6571.TabIndex = 0;
             this.btn6571.Tag = "";
             this.btn6571.Text = "Laba / Rugi";
@@ -894,9 +827,8 @@ namespace CAS
             // xtraTabPage4
             // 
             this.xtraTabPage4.Controls.Add(this.flowLayoutPanel10);
-            this.xtraTabPage4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage4.Size = new System.Drawing.Size(655, 99);
             this.xtraTabPage4.Text = "Hutang / Piutang";
             // 
             // flowLayoutPanel10
@@ -908,59 +840,53 @@ namespace CAS
             this.flowLayoutPanel10.Controls.Add(this.simpleButton17);
             this.flowLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel10.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel10.Name = "flowLayoutPanel10";
-            this.flowLayoutPanel10.Size = new System.Drawing.Size(986, 155);
+            this.flowLayoutPanel10.Size = new System.Drawing.Size(655, 99);
             this.flowLayoutPanel10.TabIndex = 1;
             // 
             // btn681
             // 
             this.btn681.Appearance.Options.UseTextOptions = true;
             this.btn681.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn681.Location = new System.Drawing.Point(4, 5);
-            this.btn681.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn681.Location = new System.Drawing.Point(3, 3);
             this.btn681.Name = "btn681";
-            this.btn681.Size = new System.Drawing.Size(132, 131);
+            this.btn681.Size = new System.Drawing.Size(88, 85);
             this.btn681.TabIndex = 0;
             this.btn681.Tag = "";
             this.btn681.Text = "Saldo Hutang";
             // 
             // btn682
             // 
-            this.btn682.Location = new System.Drawing.Point(144, 5);
-            this.btn682.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn682.Location = new System.Drawing.Point(97, 3);
             this.btn682.Name = "btn682";
-            this.btn682.Size = new System.Drawing.Size(132, 131);
+            this.btn682.Size = new System.Drawing.Size(88, 85);
             this.btn682.TabIndex = 0;
             this.btn682.Tag = "";
             this.btn682.Text = "BP Hutang";
             // 
             // btn689
             // 
-            this.btn689.Location = new System.Drawing.Point(284, 5);
-            this.btn689.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn689.Location = new System.Drawing.Point(191, 3);
             this.btn689.Name = "btn689";
-            this.btn689.Size = new System.Drawing.Size(132, 131);
+            this.btn689.Size = new System.Drawing.Size(88, 85);
             this.btn689.TabIndex = 0;
             this.btn689.Tag = "";
             this.btn689.Text = "Saldo Piutang";
             // 
             // btn68a
             // 
-            this.btn68a.Location = new System.Drawing.Point(424, 5);
-            this.btn68a.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn68a.Location = new System.Drawing.Point(285, 3);
             this.btn68a.Name = "btn68a";
-            this.btn68a.Size = new System.Drawing.Size(132, 131);
+            this.btn68a.Size = new System.Drawing.Size(88, 85);
             this.btn68a.TabIndex = 0;
             this.btn68a.Tag = "";
             this.btn68a.Text = "BP Piutang";
             // 
             // simpleButton17
             // 
-            this.simpleButton17.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton17.Location = new System.Drawing.Point(379, 3);
             this.simpleButton17.Name = "simpleButton17";
-            this.simpleButton17.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton17.Size = new System.Drawing.Size(88, 85);
             this.simpleButton17.TabIndex = 0;
             this.simpleButton17.Tag = "";
             this.simpleButton17.Text = "Invoice";
@@ -968,9 +894,8 @@ namespace CAS
             // xtraTabPage9
             // 
             this.xtraTabPage9.Controls.Add(this.flowLayoutPanel11);
-            this.xtraTabPage9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage9.Size = new System.Drawing.Size(655, 99);
             this.xtraTabPage9.Text = "Persediaan";
             // 
             // flowLayoutPanel11
@@ -982,59 +907,53 @@ namespace CAS
             this.flowLayoutPanel11.Controls.Add(this.simpleButton21);
             this.flowLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel11.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(986, 155);
+            this.flowLayoutPanel11.Size = new System.Drawing.Size(655, 99);
             this.flowLayoutPanel11.TabIndex = 1;
             // 
             // btn6a11
             // 
             this.btn6a11.Appearance.Options.UseTextOptions = true;
             this.btn6a11.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn6a11.Location = new System.Drawing.Point(4, 5);
-            this.btn6a11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6a11.Location = new System.Drawing.Point(3, 3);
             this.btn6a11.Name = "btn6a11";
-            this.btn6a11.Size = new System.Drawing.Size(132, 131);
+            this.btn6a11.Size = new System.Drawing.Size(88, 85);
             this.btn6a11.TabIndex = 0;
             this.btn6a11.Tag = "";
             this.btn6a11.Text = "Kartu Stock";
             // 
             // btn6a13
             // 
-            this.btn6a13.Location = new System.Drawing.Point(144, 5);
-            this.btn6a13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6a13.Location = new System.Drawing.Point(97, 3);
             this.btn6a13.Name = "btn6a13";
-            this.btn6a13.Size = new System.Drawing.Size(132, 131);
+            this.btn6a13.Size = new System.Drawing.Size(88, 85);
             this.btn6a13.TabIndex = 0;
             this.btn6a13.Tag = "";
             this.btn6a13.Text = "Kartu Stock";
             // 
             // btn6ab1
             // 
-            this.btn6ab1.Location = new System.Drawing.Point(284, 5);
-            this.btn6ab1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6ab1.Location = new System.Drawing.Point(191, 3);
             this.btn6ab1.Name = "btn6ab1";
-            this.btn6ab1.Size = new System.Drawing.Size(132, 131);
+            this.btn6ab1.Size = new System.Drawing.Size(88, 85);
             this.btn6ab1.TabIndex = 0;
             this.btn6ab1.Tag = "";
             this.btn6ab1.Text = "LHP";
             // 
             // simpleButton16
             // 
-            this.simpleButton16.Location = new System.Drawing.Point(424, 5);
-            this.simpleButton16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton16.Location = new System.Drawing.Point(285, 3);
             this.simpleButton16.Name = "simpleButton16";
-            this.simpleButton16.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton16.Size = new System.Drawing.Size(88, 85);
             this.simpleButton16.TabIndex = 0;
             this.simpleButton16.Tag = "";
             this.simpleButton16.Text = "LPB";
             // 
             // simpleButton21
             // 
-            this.simpleButton21.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton21.Location = new System.Drawing.Point(379, 3);
             this.simpleButton21.Name = "simpleButton21";
-            this.simpleButton21.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton21.Size = new System.Drawing.Size(88, 85);
             this.simpleButton21.TabIndex = 0;
             this.simpleButton21.Tag = "";
             this.simpleButton21.Text = "Invoice";
@@ -1042,9 +961,8 @@ namespace CAS
             // xtraTabPage10
             // 
             this.xtraTabPage10.Controls.Add(this.flowLayoutPanel12);
-            this.xtraTabPage10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.xtraTabPage10.Name = "xtraTabPage10";
-            this.xtraTabPage10.Size = new System.Drawing.Size(986, 155);
+            this.xtraTabPage10.Size = new System.Drawing.Size(655, 99);
             this.xtraTabPage10.Text = "Kas && Bank";
             // 
             // flowLayoutPanel12
@@ -1056,59 +974,53 @@ namespace CAS
             this.flowLayoutPanel12.Controls.Add(this.simpleButton23);
             this.flowLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel12.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(986, 155);
+            this.flowLayoutPanel12.Size = new System.Drawing.Size(655, 99);
             this.flowLayoutPanel12.TabIndex = 1;
             // 
             // btn6c1
             // 
             this.btn6c1.Appearance.Options.UseTextOptions = true;
             this.btn6c1.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.btn6c1.Location = new System.Drawing.Point(4, 5);
-            this.btn6c1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6c1.Location = new System.Drawing.Point(3, 3);
             this.btn6c1.Name = "btn6c1";
-            this.btn6c1.Size = new System.Drawing.Size(132, 131);
+            this.btn6c1.Size = new System.Drawing.Size(88, 85);
             this.btn6c1.TabIndex = 0;
             this.btn6c1.Tag = "";
             this.btn6c1.Text = "Giro Perkiraan";
             // 
             // btn6c5
             // 
-            this.btn6c5.Location = new System.Drawing.Point(144, 5);
-            this.btn6c5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn6c5.Location = new System.Drawing.Point(97, 3);
             this.btn6c5.Name = "btn6c5";
-            this.btn6c5.Size = new System.Drawing.Size(132, 131);
+            this.btn6c5.Size = new System.Drawing.Size(88, 85);
             this.btn6c5.TabIndex = 0;
             this.btn6c5.Tag = "";
             this.btn6c5.Text = "Mutasi KAS";
             // 
             // simpleButton15
             // 
-            this.simpleButton15.Location = new System.Drawing.Point(284, 5);
-            this.simpleButton15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton15.Location = new System.Drawing.Point(191, 3);
             this.simpleButton15.Name = "simpleButton15";
-            this.simpleButton15.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton15.Size = new System.Drawing.Size(88, 85);
             this.simpleButton15.TabIndex = 0;
             this.simpleButton15.Tag = "";
             this.simpleButton15.Text = "SPB";
             // 
             // simpleButton22
             // 
-            this.simpleButton22.Location = new System.Drawing.Point(424, 5);
-            this.simpleButton22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton22.Location = new System.Drawing.Point(285, 3);
             this.simpleButton22.Name = "simpleButton22";
-            this.simpleButton22.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton22.Size = new System.Drawing.Size(88, 85);
             this.simpleButton22.TabIndex = 0;
             this.simpleButton22.Tag = "";
             this.simpleButton22.Text = "LPB";
             // 
             // simpleButton23
             // 
-            this.simpleButton23.Location = new System.Drawing.Point(564, 5);
-            this.simpleButton23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.simpleButton23.Location = new System.Drawing.Point(379, 3);
             this.simpleButton23.Name = "simpleButton23";
-            this.simpleButton23.Size = new System.Drawing.Size(132, 131);
+            this.simpleButton23.Size = new System.Drawing.Size(88, 85);
             this.simpleButton23.TabIndex = 0;
             this.simpleButton23.Tag = "";
             this.simpleButton23.Text = "Invoice";
@@ -1117,10 +1029,9 @@ namespace CAS
             // 
             this.lblStyle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblStyle.AutoSize = true;
-            this.lblStyle.Location = new System.Drawing.Point(170, 712);
-            this.lblStyle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblStyle.Location = new System.Drawing.Point(113, 463);
             this.lblStyle.Name = "lblStyle";
-            this.lblStyle.Size = new System.Drawing.Size(43, 19);
+            this.lblStyle.Size = new System.Drawing.Size(31, 13);
             this.lblStyle.TabIndex = 2;
             this.lblStyle.TabStop = true;
             this.lblStyle.Text = "Style";
@@ -1131,10 +1042,9 @@ namespace CAS
             this.lblCompanyName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCompanyName.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompanyName.ForeColor = System.Drawing.Color.Olive;
-            this.lblCompanyName.Location = new System.Drawing.Point(480, 48);
-            this.lblCompanyName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCompanyName.Location = new System.Drawing.Point(320, 31);
             this.lblCompanyName.Name = "lblCompanyName";
-            this.lblCompanyName.Size = new System.Drawing.Size(708, 45);
+            this.lblCompanyName.Size = new System.Drawing.Size(472, 29);
             this.lblCompanyName.TabIndex = 3;
             this.lblCompanyName.Text = "Company Name";
             // 
@@ -1143,10 +1053,9 @@ namespace CAS
             this.lblCompanyAddr.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCompanyAddr.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompanyAddr.ForeColor = System.Drawing.Color.Olive;
-            this.lblCompanyAddr.Location = new System.Drawing.Point(484, 109);
-            this.lblCompanyAddr.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCompanyAddr.Location = new System.Drawing.Point(323, 71);
             this.lblCompanyAddr.Name = "lblCompanyAddr";
-            this.lblCompanyAddr.Size = new System.Drawing.Size(900, 29);
+            this.lblCompanyAddr.Size = new System.Drawing.Size(600, 19);
             this.lblCompanyAddr.TabIndex = 3;
             this.lblCompanyAddr.Text = "Company Addr";
             // 
@@ -1293,10 +1202,9 @@ namespace CAS
             // 
             this.linkNotes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.linkNotes.AutoSize = true;
-            this.linkNotes.Location = new System.Drawing.Point(982, 712);
-            this.linkNotes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkNotes.Location = new System.Drawing.Point(655, 463);
             this.linkNotes.Name = "linkNotes";
-            this.linkNotes.Size = new System.Drawing.Size(49, 19);
+            this.linkNotes.Size = new System.Drawing.Size(35, 13);
             this.linkNotes.TabIndex = 2;
             this.linkNotes.TabStop = true;
             this.linkNotes.Text = "Notes";
@@ -1307,8 +1215,7 @@ namespace CAS
             this.picLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picLogo.CausesValidation = false;
             this.picLogo.EditValue = ((object)(resources.GetObject("picLogo.EditValue")));
-            this.picLogo.Location = new System.Drawing.Point(191, -11);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picLogo.Location = new System.Drawing.Point(127, -7);
             this.picLogo.Name = "picLogo";
             this.picLogo.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.picLogo.Properties.Appearance.Options.UseBackColor = true;
@@ -1316,14 +1223,14 @@ namespace CAS
             this.picLogo.Properties.ReadOnly = true;
             this.picLogo.Properties.ShowMenu = false;
             this.picLogo.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.picLogo.Size = new System.Drawing.Size(280, 154);
+            this.picLogo.Size = new System.Drawing.Size(187, 100);
             this.picLogo.TabIndex = 1;
             // 
             // FrmHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1208, 774);
+            this.ClientSize = new System.Drawing.Size(805, 503);
             this.Controls.Add(this.lblCompanyAddr);
             this.Controls.Add(this.lblCompanyName);
             this.Controls.Add(this.linkNotes);
@@ -1332,7 +1239,6 @@ namespace CAS
             this.Controls.Add(this.grpReports);
             this.Controls.Add(this.grpTransactions);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Home";
