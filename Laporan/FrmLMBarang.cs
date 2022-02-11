@@ -25,9 +25,9 @@ namespace CAS.Laporan
             string query;
             dtResult = new DataTable();
             if (checkBox1.Checked)
-                query = "(select inv,inv.name,unit,qtymin,jenis,group_,mtp.name as mtpname from inv left outer join mtp on inv.group_=mtp.mtp where inv.flag=0 and inv between '@invawal' and '@invakhir' order by group_,inv)";
+                query = "select inv,inv.name,unit,qtymin,jenis,group_,mtp.name as mtpname from inv left outer join mtp on inv.group_=mtp.mtp where inv.flag=0 and inv between '@invawal' and '@invakhir' order by group_,inv";
             else
-                query = "(select inv,inv.name,unit,qtymin,jenis,group_,mtp.name as mtpname from inv left outer join mtp on inv.group_=mtp.mtp where  inv between '@invawal' and '@invakhir' order by group_,inv)";
+                query = "select inv,inv.name,unit,qtymin,jenis,group_,mtp.name as mtpname from inv left outer join mtp on inv.group_=mtp.mtp where  inv between '@invawal' and '@invakhir' order by group_,inv";
             
             // replace params
             query = query.Replace("@invawal", invAwal).Replace("@invakhir", invAkhir);

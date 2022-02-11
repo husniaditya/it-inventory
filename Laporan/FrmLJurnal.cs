@@ -34,7 +34,6 @@ namespace CAS.Laporan
                 CollectData();
                 ProcessData();
                 LoadReport();
-                UpdateReport();
                 PreviewReport();
             }
             catch (Exception ex)
