@@ -2110,6 +2110,7 @@
     <None Include="Reports\RepSJPenjualan.repx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Reports\RepStatusPRTanpaNilai.repx" />
     <Content Include="Reports\transferMayBank.repx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
