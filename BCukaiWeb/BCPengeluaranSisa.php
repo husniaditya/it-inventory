@@ -65,7 +65,7 @@ if ($koolajax->isCallback == false)
         if (isset($_POST["btnPreview"]) || isset($_SESSION["searchQuery"]) ) {
             
             echo '<p><strong>LAPORAN BC PENGELUARAN SISA PENGEMAS</strong></p>';
-            echo '<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>';
+            echo '<p>KAWASAN BERIKAT Wage Biro Technic</p>';
             echo '<p>LAPORAN BC PENGELUARAN SISA PENGEMAS</p>';
             echo '<p>PERIODE : ' .$awal. ' - ' .$akhir. '</p>';
 
@@ -122,7 +122,7 @@ if ($koolajax->isCallback == false)
             if ($dnum > 0) {
                 $html = "<table id='expTab' class='table table-striped table-bordered'>";
                 $html .= '<p><strong>LAPORAN BC PENGELUARAN SISA PENGEMAS</strong></p>';
-                $html .= '<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>';
+                $html .= '<p>KAWASAN BERIKAT Wage Biro Technic</p>';
                 $html .= '<p>LAPORAN BC PENGELUARAN SISA PENGEMAS</p>';
                 
                 $html .= "<tr>"                        
@@ -194,7 +194,7 @@ if ($koolajax->isCallback == false)
                 'SELISIH', 'KET');
             
             $header = '<br /><h2><strong>LAPORAN BC PENGELUARAN SISA PENGEMAS</strong></h2>';
-            $header .= '<h3>KAWASAN BERIKAT PT. BARAMUDA BAHARI</h3>';
+            $header .= '<h3>KAWASAN BERIKAT Wage Biro Technic</h3>';
             $header .= '<h3>LAPORAN BC PENGELUARAN SISA PENGEMAS</h3p>';
             $header .= "<h3>PERIODE : " . $awal . " - " . $akhir . "</h3><br /><br />";
                        

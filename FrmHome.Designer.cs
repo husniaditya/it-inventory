@@ -138,6 +138,7 @@ namespace CAS
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.linkNotes = new System.Windows.Forms.LinkLabel();
             this.picLogo = new DevExpress.XtraEditors.PictureEdit();
+            this.lblCopyright = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grpTransactions)).BeginInit();
             this.grpTransactions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -293,7 +294,7 @@ namespace CAS
             // 
             this.xtraTabPage2.Controls.Add(this.flowLayoutPanel2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(651, 99);
+            this.xtraTabPage2.Size = new System.Drawing.Size(649, 92);
             this.xtraTabPage2.Text = "Penjualan";
             // 
             // flowLayoutPanel2
@@ -307,7 +308,7 @@ namespace CAS
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(651, 99);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(649, 92);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // btn251
@@ -362,7 +363,7 @@ namespace CAS
             // 
             this.xtraTabPage7.Controls.Add(this.flowLayoutPanel7);
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(651, 99);
+            this.xtraTabPage7.Size = new System.Drawing.Size(649, 92);
             this.xtraTabPage7.Text = "Persediaan";
             // 
             // flowLayoutPanel7
@@ -375,7 +376,7 @@ namespace CAS
             this.flowLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel7.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(651, 99);
+            this.flowLayoutPanel7.Size = new System.Drawing.Size(649, 92);
             this.flowLayoutPanel7.TabIndex = 2;
             // 
             // btn276
@@ -422,7 +423,7 @@ namespace CAS
             // 
             this.xtraTabPage8.Controls.Add(this.flowLayoutPanel8);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(651, 99);
+            this.xtraTabPage8.Size = new System.Drawing.Size(649, 92);
             this.xtraTabPage8.Text = "Kas && Bank";
             // 
             // flowLayoutPanel8
@@ -434,7 +435,7 @@ namespace CAS
             this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(651, 99);
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(649, 92);
             this.flowLayoutPanel8.TabIndex = 2;
             // 
             // btn2e1
@@ -632,7 +633,7 @@ namespace CAS
             this.xtraTabPage6.Controls.Add(this.flowLayoutPanel4);
             this.xtraTabPage6.Controls.Add(this.flowLayoutPanel6);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(655, 99);
+            this.xtraTabPage6.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage6.Text = "Penjualan";
             // 
             // flowLayoutPanel4
@@ -645,7 +646,7 @@ namespace CAS
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 46);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(655, 46);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(653, 46);
             this.flowLayoutPanel4.TabIndex = 3;
             // 
             // btn63316
@@ -706,7 +707,7 @@ namespace CAS
             this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(655, 46);
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(653, 46);
             this.flowLayoutPanel6.TabIndex = 2;
             // 
             // btn63315
@@ -761,7 +762,7 @@ namespace CAS
             // 
             this.xtraTabPage3.Controls.Add(this.flowLayoutPanel9);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(655, 99);
+            this.xtraTabPage3.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage3.Text = "Keuangan";
             // 
             // flowLayoutPanel9
@@ -774,7 +775,7 @@ namespace CAS
             this.flowLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel9.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(655, 99);
+            this.flowLayoutPanel9.Size = new System.Drawing.Size(653, 92);
             this.flowLayoutPanel9.TabIndex = 1;
             // 
             // btn651
@@ -828,7 +829,7 @@ namespace CAS
             // 
             this.xtraTabPage4.Controls.Add(this.flowLayoutPanel10);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(655, 99);
+            this.xtraTabPage4.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage4.Text = "Hutang / Piutang";
             // 
             // flowLayoutPanel10
@@ -841,7 +842,7 @@ namespace CAS
             this.flowLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel10.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel10.Name = "flowLayoutPanel10";
-            this.flowLayoutPanel10.Size = new System.Drawing.Size(655, 99);
+            this.flowLayoutPanel10.Size = new System.Drawing.Size(653, 92);
             this.flowLayoutPanel10.TabIndex = 1;
             // 
             // btn681
@@ -895,7 +896,7 @@ namespace CAS
             // 
             this.xtraTabPage9.Controls.Add(this.flowLayoutPanel11);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(655, 99);
+            this.xtraTabPage9.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage9.Text = "Persediaan";
             // 
             // flowLayoutPanel11
@@ -908,7 +909,7 @@ namespace CAS
             this.flowLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel11.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(655, 99);
+            this.flowLayoutPanel11.Size = new System.Drawing.Size(653, 92);
             this.flowLayoutPanel11.TabIndex = 1;
             // 
             // btn6a11
@@ -962,7 +963,7 @@ namespace CAS
             // 
             this.xtraTabPage10.Controls.Add(this.flowLayoutPanel12);
             this.xtraTabPage10.Name = "xtraTabPage10";
-            this.xtraTabPage10.Size = new System.Drawing.Size(655, 99);
+            this.xtraTabPage10.Size = new System.Drawing.Size(653, 92);
             this.xtraTabPage10.Text = "Kas && Bank";
             // 
             // flowLayoutPanel12
@@ -975,7 +976,7 @@ namespace CAS
             this.flowLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel12.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(655, 99);
+            this.flowLayoutPanel12.Size = new System.Drawing.Size(653, 92);
             this.flowLayoutPanel12.TabIndex = 1;
             // 
             // btn6c1
@@ -1223,21 +1224,33 @@ namespace CAS
             this.picLogo.Properties.ReadOnly = true;
             this.picLogo.Properties.ShowMenu = false;
             this.picLogo.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.picLogo.Size = new System.Drawing.Size(187, 100);
+            this.picLogo.Size = new System.Drawing.Size(221, 145);
             this.picLogo.TabIndex = 1;
+            // 
+            // lblCopyright
+            // 
+            this.lblCopyright.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblCopyright.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCopyright.ForeColor = System.Drawing.Color.Black;
+            this.lblCopyright.Location = new System.Drawing.Point(570, 491);
+            this.lblCopyright.Name = "lblCopyright";
+            this.lblCopyright.Size = new System.Drawing.Size(600, 19);
+            this.lblCopyright.TabIndex = 4;
+            this.lblCopyright.Text = "CopyRight";
             // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 503);
+            this.Controls.Add(this.lblCopyright);
             this.Controls.Add(this.lblCompanyAddr);
             this.Controls.Add(this.lblCompanyName);
             this.Controls.Add(this.linkNotes);
             this.Controls.Add(this.lblStyle);
-            this.Controls.Add(this.picLogo);
             this.Controls.Add(this.grpReports);
             this.Controls.Add(this.grpTransactions);
+            this.Controls.Add(this.picLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -1396,5 +1409,6 @@ namespace CAS
         private DevExpress.XtraEditors.SimpleButton btn23i;
         private DevExpress.XtraEditors.SimpleButton btn235;
         private DevExpress.XtraEditors.SimpleButton btn25c;
+        private System.Windows.Forms.Label lblCopyright;
     }
 }

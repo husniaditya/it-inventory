@@ -26,8 +26,9 @@ namespace CAS
         private void FrmHome_Load(object sender, EventArgs e)
         {
             this.Dock = DockStyle.Fill;
-            lblCompanyName.Text = Utility.GetConfig("CompanyName");
-            lblCompanyAddr.Text = Utility.GetConfig("CompanyAddr");
+            lblCompanyName.Text = Utility.GetConfig("Appname");
+            lblCompanyAddr.Text = Utility.GetConfig("Slogan");
+            lblCopyright.Text = Utility.GetConfig("Copyright");
             foreach(Control control in this.Controls)
                 GenerateMenu(control);
             //pnlNotes.FloatForm.Top = this.Bottom - pnlNotes.Height;
