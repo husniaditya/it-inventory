@@ -362,6 +362,7 @@ namespace CAS.Transaction
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 126;
             this.label3.Text = "Memo Number";
+            this.label3.Visible = false;
             // 
             // textBoxEx1
             // 
@@ -393,6 +394,7 @@ namespace CAS.Transaction
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
             this.textBoxEx1.Size = new System.Drawing.Size(149, 20);
             this.textBoxEx1.TabIndex = 125;
+            this.textBoxEx1.Visible = false;
             this.textBoxEx1.EditValueChanged += new System.EventHandler(this.textBoxEx1_EditValueChanged);
             // 
             // aprovCheckBox

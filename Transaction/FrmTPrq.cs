@@ -324,8 +324,8 @@ namespace CAS.Transaction
              
                 if (personTextBoxEx.EditValue.ToString() == "")
                     throw new Exception("Harap mengisi Nama Requesition!");
-                if (textBoxEx1.EditValue.ToString() == "")
-                    throw new Exception("Harap mengisi Nomor Memo Ordernya!");
+                //if (textBoxEx1.EditValue.ToString() == "")
+                //    throw new Exception("Harap mengisi Nomor Memo Ordernya!");
 
                 DetailBindingSource.EndEdit();
                 for (int i = 0; i < gcPrq.ExGridView.RowCount; i++)
