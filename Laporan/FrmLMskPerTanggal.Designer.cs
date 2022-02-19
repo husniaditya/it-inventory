@@ -46,7 +46,7 @@ namespace CAS.Laporan
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(864, 82);
+            this.btnClose.Location = new System.Drawing.Point(364, 82);
             this.btnClose.LookAndFeel.SkinName = "";
             this.btnClose.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Skin;
             this.btnClose.LookAndFeel.UseDefaultLookAndFeel = false;
@@ -54,7 +54,7 @@ namespace CAS.Laporan
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(764, 82);
+            this.btnPreview.Location = new System.Drawing.Point(264, 82);
             this.btnPreview.LookAndFeel.SkinName = "";
             this.btnPreview.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Skin;
             this.btnPreview.LookAndFeel.UseDefaultLookAndFeel = false;

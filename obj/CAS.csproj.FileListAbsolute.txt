@@ -2274,9 +2274,6 @@ D:\MMPBB\Project\erp\it-inventory\bin\Debug\Reports\RepPriceList.repx
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\Reports\RepPRRetur.repx
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\Reports\RepRekapPersediaan.repx
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\Reports\RepSJPenjualan.repx
-D:\MMPBB\Project\erp\it-inventory\bin\Debug\CAS BB.exe.config
-D:\MMPBB\Project\erp\it-inventory\bin\Debug\CAS BB.exe
-D:\MMPBB\Project\erp\it-inventory\bin\Debug\CAS BB.pdb
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\KASLibrary.dll
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\MySql.Data.dll
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\VJSharpCodeProvider.dll
@@ -2480,5 +2477,8 @@ D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS.Transaction.FrmTTtf.resources
 D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS.Transaction.FrmTUmh.resources
 D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS.Transaction.GridLookUpUnit.resources
 D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS.csproj.GenerateResource.Cache
-D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS BB.exe
-D:\MMPBB\Project\erp\it-inventory\obj\Debug\CAS BB.pdb
+D:\MMPBB\Project\erp\it-inventory\bin\Debug\WIS.exe.config
+D:\MMPBB\Project\erp\it-inventory\bin\Debug\WIS.exe
+D:\MMPBB\Project\erp\it-inventory\bin\Debug\WIS.pdb
+D:\MMPBB\Project\erp\it-inventory\obj\Debug\WIS.exe
+D:\MMPBB\Project\erp\it-inventory\obj\Debug\WIS.pdb

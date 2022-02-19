@@ -253,7 +253,7 @@ if ($koolajax->isCallback == false)
         if (isset($_POST["btnPreview"]) || isset($_SESSION["searchQuery"]) ) {
             
             echo '<p><strong>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</strong></p>';
-            echo '<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>';
+            echo '<p>KAWASAN BERIKAT Wage Biro Technic</p>';
             echo '<p>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</p>';
             echo '<p>PERIODE : ' .$awal. ' - ' .$akhir. '</p>';
             
@@ -386,7 +386,7 @@ if ($koolajax->isCallback == false)
             if ($num > 0) {
                 $html = "<table id='expTab' class='table table-striped table-bordered'>";
                 $html .= "<tr><p><strong>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</strong></p>";
-                $html .= "<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>";
+                $html .= "<p>KAWASAN BERIKAT Wage Biro Technic</p>";
                 $html .= "<p>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</p>";
                 $html .= "<p>PERIODE : " . $awal . " - " . $akhir . "</p></tr>";
                                           
@@ -434,7 +434,7 @@ if ($koolajax->isCallback == false)
             $pdf->AddPage();
             
             $header = '<br /><br /><h2><strong>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</strong></h2>';
-            $header .= '<h3>KAWASAN BERIKAT PT. BARAMUDA BAHARI</h3>';
+            $header .= '<h3>KAWASAN BERIKAT Wage Biro Technic</h3>';
             $header .= '<h3>LAPORAN PERTANGGUNG JAWABAN MUTASI BAHAN BAKU</h3>';
             $header .= "<h3>PERIODE : " . $awal . " - " . $akhir . "</h3><br /><br /><br />";
                         

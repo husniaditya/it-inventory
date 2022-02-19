@@ -435,7 +435,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
         if (isset($_POST["btnPreview"]) || isset($_SESSION["searchQuery"]) ) {
             
             echo '<p><strong>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</strong></p>';
-            echo '<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>';
+            echo '<p>KAWASAN BERIKAT Wage Biro Technic</p>';
             echo '<p>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</p>';
             echo "<p>PERIODE : " . $awal . " - " . $akhir . "</p></tr>";
                 
@@ -597,7 +597,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
             if ($num > 0) {
                 $html = "<table id='expTab' class='table table-striped table-bordered'>";
                 $html .= '<p><strong>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</strong></p>';
-                $html .= '<p>KAWASAN BERIKAT PT. BARAMUDA BAHARI</p>';
+                $html .= '<p>KAWASAN BERIKAT Wage Biro Technic</p>';
                 $html .= '<p>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</p>';
                 $html .= "<p>PERIODE : " . $awal . " - " . $akhir . "</p></tr>";
                                               
@@ -662,7 +662,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
             $pdf->AddPage();
             
             $header = '<br /><br /><h2><strong>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</strong></h2>';
-            $header .= '<h3>KAWASAN BERIKAT PT. BARAMUDA BAHARI</h3>';
+            $header .= '<h3>KAWASAN BERIKAT Wage Biro Technic</h3>';
             $header .= '<h3>LAPORAN PENGELUARAN BARANG PER DOKUMEN PELABUHAN</h3>';
             $header .= "<h3>PERIODE : " . $awal . " - " . $akhir . "</h3><br /><br />";
                         

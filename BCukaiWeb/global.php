@@ -3,11 +3,12 @@
 // $SERVER = "203.201.172.92";
 // $SERVER = "192.168.10.4";
 $SERVER = "localhost";
-$DATABASE = "cas_1904";
-$USER = "root";
-$PASSWORD = "database";
+$DATABASE = "cas_bb";
+$USER = "it";
+$PASSWORD = "kabelangka8";
 
 ini_set("date.timezone","Asia/Jakarta");
+error_reporting(E_ERROR | E_PARSE);
 
 $db_con = null;
 

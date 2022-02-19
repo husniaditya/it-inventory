@@ -24,7 +24,7 @@ $koolajax->scriptFolder = "KoolAjax";
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>CAS - Bonded Zone PT. Baramuda Bahari</title>
+        <title>CAS - Bonded Zone Wage Biro Technic</title>
         <link rel="icon" href="images/Icon.ico">   
 
         <!-- Bootstrap Core CSS -->
@@ -58,7 +58,7 @@ $koolajax->scriptFolder = "KoolAjax";
                 <?php
                 if (IsUserAlreadyLogin() && stripos($_SERVER['PHP_SELF'], "login.php") == false) {
                     ?>
-                    <a class="navbar-brand" href="default.php">CAS - Bonded Zone PT. Baramuda Bahari</a>
+                    <a class="navbar-brand" href="default.php">CAS - Bonded Zone Wage Biro Technic</a>
                 </div>
                 <!-- /.navbar-header -->
 

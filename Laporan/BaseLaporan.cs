@@ -76,7 +76,50 @@ namespace CAS.Laporan
             if (!System.IO.File.Exists(path))
                 throw new Exception("Error! Report " + reportName + " does not exist!");
 
-            if (reportName == "RepJurnal")
+            if (reportName == "RepSJPajak" | ReportName == "RepBOP")
+            {
+                xrReport = new XtraReport();
+                xrReport.LoadState(path);
+                xrReport.DataSource = dtResult;
+                Image img = Image.FromFile(Application.StartupPath + "\\logo.gif");
+                int lebar = 300;
+                int tinggi = 210;
+                if ((Report.Bands[BandKind.PageHeader] != null && Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"] != null))
+                {
+                    ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                    ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Width = lebar;
+                    ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                    ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                    int left = ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Left;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = img.Width + left + 100;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = img.Width + left + 100;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = img.Width + left + 100;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Width = 1500;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Width = 1200;
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                    Report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyContact");
+                }
+                if (Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"] != null)
+                {
+                    ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                    ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Width = lebar;
+                    ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                    ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                    //int left = ((XRPictureBox)(Report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Left;
+                    //Report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = img.Width + left + 10;
+                    //Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = img.Width + left + 10;
+                    //Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = img.Width + left + 10;
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Width = 500;
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Width = 400;
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyContact");
+
+                }
+            }
+
+            else if (reportName == "RepJurnal")
             {
                 xrReport = new XtraReport();
                 xrReport.LoadState(path);
@@ -110,8 +153,8 @@ namespace CAS.Laporan
                     //Report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = img.Width + left + 10;
                     //Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = img.Width + left + 10;
                     //Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = img.Width + left + 10;
-                    Report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Width = 500;
-                    Report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Width = 400;
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Width = 500;
+                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Width = 400;
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyContact");
@@ -147,10 +190,10 @@ namespace CAS.Laporan
                     ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Width = lebar;
                     ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Height = tinggi;
                     ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-                    int left = ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Left;
-                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Left = lebar + left + 10;
-                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Left = lebar + left + 10;
-                    Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Left = lebar + left + 10;
+                    //int left = ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Left;
+                    //Report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Left = lebar + left + 10;
+                    //Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Left = lebar + left + 10;
+                    //Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Left = lebar + left + 10;
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Width = 500;
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Width = 400;
                     Report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
