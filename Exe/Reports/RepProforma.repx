@@ -642,7 +642,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName id="ref-107">Text</BindingItem0_X_PropertyName>
 <BindingItem0_X_DataMember id="ref-108">net</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-109">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_FormatString id="ref-109">{0:n}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource id="ref-110">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>974</x>
@@ -804,7 +804,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-107"/>
 <BindingItem0_X_DataMember id="ref-123">qty</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-124">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_FormatString id="ref-124">{0:n}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource id="ref-125">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>804</x>
@@ -966,7 +966,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-107"/>
 <BindingItem0_X_DataMember id="ref-138">val</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-139">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_FormatString id="ref-139">{0:n}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource id="ref-140">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1757</x>
@@ -1369,7 +1369,7 @@ BAHARI, PT.</Text>
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-107"/>
 <BindingItem0_X_DataMember id="ref-169">val</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-170">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_FormatString id="ref-170">{0:n}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1672</x>
@@ -1737,9 +1737,9 @@ ppn = Convert.ToDouble(GetCurrentColumnValue(&#34;ppn&#34;));
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-107"/>
-<BindingItem0_X_DataMember id="ref-202">val</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-203">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_PropertyName id="ref-202">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-203">val</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1672</x>

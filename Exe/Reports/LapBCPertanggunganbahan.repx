@@ -1,6 +1,6 @@
 <!--
 AssemblyName=DevExpress%2EXtraReports3%2C%20Version%3D1%2E12%2E3%2E0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4
-AssemblyLocation=D:\Baramuda\Program\CAS BB\DevExpress.XtraReports3.dll
+AssemblyLocation=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports3\1.12.3.0__79868b8147b5eae4\DevExpress.XtraReports3.dll
 TypeName=DevExpress.XtraReports.UI.XtraReport
 Localization=en-US
 -->
@@ -146,7 +146,7 @@ Localization=en-US
 xrTableCell13.Text = Convert.ToString(i);
 i++;
 }</EventsScript_X_OnBeforePrint>
-<Height>67</Height>
+<Height>33</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <PrintOnEmptyDataSource>true</PrintOnEmptyDataSource>
 <MultiColumn_X_ColumnCount>1</MultiColumn_X_ColumnCount>
@@ -343,7 +343,7 @@ private void OnAfterPrint(object sender, System.EventArgs e) {
 <x>25</x>
 <y>0</y>
 <width>1117</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -386,8 +386,8 @@ private void OnAfterPrint(object sender, System.EventArgs e) {
 <Dpi>100</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>108</x>
-<y>55</y>
+<x>94</x>
+<y>65</y>
 <width>525</width>
 <height>17</height>
 </Bounds>
@@ -436,13 +436,13 @@ private void OnAfterPrint(object sender, System.EventArgs e) {
 <Dpi>100</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>42</x>
-<y>22</y>
+<x>27</x>
+<y>33</y>
 <width>625</width>
 <height>33</height>
 </Bounds>
 <Text id="ref-51">LAPORAN PERTANGGUNGJAWABAN MUTASI BAHAN BAKU DAN BAHAN PENOLONG
-KAWASAN BERIKAT</Text>
+KAWASAN BERIKAT  PT. KARYAINDAH ALAM SEJAHTERA</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -487,8 +487,8 @@ KAWASAN BERIKAT</Text>
 <Dpi>100</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>42</x>
-<y>54</y>
+<x>27</x>
+<y>65</y>
 <width>100</width>
 <height>17</height>
 </Bounds>
@@ -513,7 +513,7 @@ KAWASAN BERIKAT</Text>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-55">xrLabel1</Name>
-<Style_X_Font id="ref-56">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-56">Times New Roman, 9pt, style=Bold</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -563,7 +563,7 @@ KAWASAN BERIKAT</Text>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-58">xrLabel2</Name>
-<Style_X_Font id="ref-59">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-59">Times New Roman, 9pt, style=Bold</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -734,7 +734,7 @@ KAWASAN BERIKAT</Text>
 <x>0</x>
 <y>0</y>
 <width>1117</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -848,7 +848,7 @@ KAWASAN BERIKAT</Text>
 <x>0</x>
 <y>0</y>
 <width>40</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-100"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -902,7 +902,7 @@ KAWASAN BERIKAT</Text>
 <x>40</x>
 <y>0</y>
 <width>83</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-106"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -956,7 +956,7 @@ KAWASAN BERIKAT</Text>
 <x>123</x>
 <y>0</y>
 <width>158</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-111"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1010,7 +1010,7 @@ KAWASAN BERIKAT</Text>
 <x>281</x>
 <y>0</y>
 <width>50</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-116"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1064,7 +1064,7 @@ KAWASAN BERIKAT</Text>
 <x>331</x>
 <y>0</y>
 <width>100</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-123"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1118,7 +1118,7 @@ KAWASAN BERIKAT</Text>
 <x>431</x>
 <y>0</y>
 <width>92</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-129"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1172,7 +1172,7 @@ KAWASAN BERIKAT</Text>
 <x>523</x>
 <y>0</y>
 <width>92</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-135"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1226,7 +1226,7 @@ KAWASAN BERIKAT</Text>
 <x>615</x>
 <y>0</y>
 <width>100</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-141"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1280,7 +1280,7 @@ KAWASAN BERIKAT</Text>
 <x>715</x>
 <y>0</y>
 <width>91</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-147"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1334,7 +1334,7 @@ KAWASAN BERIKAT</Text>
 <x>806</x>
 <y>0</y>
 <width>75</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
 <Text id="ref-153"> </Text>
 <NavigateUrl href="#ref-6"/>
@@ -1343,6 +1343,10 @@ KAWASAN BERIKAT</Text>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-154">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+  if (xrTableCell22.Text == &#34;0.00&#34;)
+    xrTableCell22.Text = &#34;&#34;;
+}</EventsScript_X_OnBeforePrint>
 <Multiline>true</Multiline>
 <Angle>0</Angle>
 <Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
@@ -1356,8 +1360,8 @@ KAWASAN BERIKAT</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-154">xrTableCell23</Name>
-<Style_X_Font id="ref-155">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-155">xrTableCell23</Name>
+<Style_X_Font id="ref-156">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1381,22 +1385,26 @@ KAWASAN BERIKAT</Text>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-119"/>
-<BindingItem0_X_DataMember id="ref-156">selisih</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-157">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-158">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataMember id="ref-157">selisih</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString id="ref-158">{0:n2}</BindingItem0_X_FormatString>
+<BindingItem0_X_DataSource id="ref-159">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>881</x>
 <y>0</y>
 <width>84</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
-<Text id="ref-159"> </Text>
+<Text id="ref-160"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-161">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+ if (xrTableCell23.Text == &#34;0.00&#34;)
+    xrTableCell23.Text = &#34;&#34;;
+}</EventsScript_X_OnBeforePrint>
 <Multiline>false</Multiline>
 <Angle>0</Angle>
 <Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
@@ -1410,8 +1418,8 @@ KAWASAN BERIKAT</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-160">xrTableCell24</Name>
-<Style_X_Font id="ref-161">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-162">xrTableCell24</Name>
+<Style_X_Font id="ref-163">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1438,9 +1446,9 @@ KAWASAN BERIKAT</Text>
 <x>965</x>
 <y>0</y>
 <width>152</width>
-<height>67</height>
+<height>33</height>
 </Bounds>
-<Text id="ref-162"> </Text>
+<Text id="ref-164"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1460,8 +1468,8 @@ KAWASAN BERIKAT</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-163">xrTableCell1</Name>
-<Style_X_Font id="ref-164">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-165">xrTableCell1</Name>
+<Style_X_Font id="ref-166">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1490,7 +1498,7 @@ KAWASAN BERIKAT</Text>
 <width>40</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-165">NO</Text>
+<Text id="ref-167">NO</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1510,8 +1518,8 @@ KAWASAN BERIKAT</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-166">xrTableCell6</Name>
-<Style_X_Font id="ref-167">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-168">xrTableCell6</Name>
+<Style_X_Font id="ref-169">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1540,7 +1548,7 @@ KAWASAN BERIKAT</Text>
 <width>83</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-168">KODE BARANG</Text>
+<Text id="ref-170">KODE BARANG</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1560,8 +1568,8 @@ KAWASAN BERIKAT</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-169">xrTableCell4</Name>
-<Style_X_Font id="ref-170">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-171">xrTableCell4</Name>
+<Style_X_Font id="ref-172">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1590,7 +1598,7 @@ KAWASAN BERIKAT</Text>
 <width>158</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-171">NAMA
+<Text id="ref-173">NAMA
 BARANG</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -1611,8 +1619,8 @@ BARANG</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-172">xrTableCell2</Name>
-<Style_X_Font id="ref-173">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-174">xrTableCell2</Name>
+<Style_X_Font id="ref-175">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1641,7 +1649,7 @@ BARANG</Text>
 <width>50</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-174">SAT</Text>
+<Text id="ref-176">SAT</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1661,8 +1669,8 @@ BARANG</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-175">xrTableCell7</Name>
-<Style_X_Font id="ref-176">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-177">xrTableCell7</Name>
+<Style_X_Font id="ref-178">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1691,7 +1699,7 @@ BARANG</Text>
 <width>100</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-177">SALDO 
+<Text id="ref-179">SALDO 
 AWAL</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -1699,6 +1707,9 @@ AWAL</Text>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-180">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+xrTableCell7.Text = &#34;  SALDO       AWAL     &#34; + lblperiod.Text.Substring(0,10);
+}</EventsScript_X_OnBeforePrint>
 <Multiline>true</Multiline>
 <Angle>0</Angle>
 <Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
@@ -1712,8 +1723,8 @@ AWAL</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-178">xrTableCell9</Name>
-<Style_X_Font id="ref-179">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-181">xrTableCell9</Name>
+<Style_X_Font id="ref-182">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1742,7 +1753,7 @@ AWAL</Text>
 <width>92</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-180">PEMASUKAN</Text>
+<Text id="ref-183">PEMASUKAN</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1762,8 +1773,8 @@ AWAL</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-181">xrTableCell3</Name>
-<Style_X_Font id="ref-182">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-184">xrTableCell3</Name>
+<Style_X_Font id="ref-185">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1792,7 +1803,7 @@ AWAL</Text>
 <width>92</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-183">PENGELUARAN</Text>
+<Text id="ref-186">PENGELUARAN</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1812,8 +1823,8 @@ AWAL</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-184">xrTableCell11</Name>
-<Style_X_Font id="ref-185">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-187">xrTableCell11</Name>
+<Style_X_Font id="ref-188">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1842,7 +1853,7 @@ AWAL</Text>
 <width>100</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-186">PENYESUAIAN
+<Text id="ref-189">PENYESUAIAN
 (ADJUSMENT)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -1863,8 +1874,8 @@ AWAL</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-187">xrTableCell10</Name>
-<Style_X_Font id="ref-188">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-190">xrTableCell10</Name>
+<Style_X_Font id="ref-191">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1893,7 +1904,7 @@ AWAL</Text>
 <width>91</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-189">SALDO
+<Text id="ref-192">SALDO
 AKHIR</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -1901,6 +1912,9 @@ AKHIR</Text>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-193">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+xrTableCell10.Text = &#34;  SALDO       AKHIR     &#34; + lblperiod.Text.Substring(13,10);
+}</EventsScript_X_OnBeforePrint>
 <Multiline>true</Multiline>
 <Angle>0</Angle>
 <Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
@@ -1914,8 +1928,8 @@ AKHIR</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-190">xrTableCell5</Name>
-<Style_X_Font id="ref-191">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-194">xrTableCell5</Name>
+<Style_X_Font id="ref-195">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1944,7 +1958,7 @@ AKHIR</Text>
 <width>75</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-192">STOCK 
+<Text id="ref-196">STOCK 
 OPNAME</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -1965,8 +1979,8 @@ OPNAME</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-193">xrTableCell8</Name>
-<Style_X_Font id="ref-194">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-197">xrTableCell8</Name>
+<Style_X_Font id="ref-198">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1995,7 +2009,7 @@ OPNAME</Text>
 <width>84</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-195">SELISIH</Text>
+<Text id="ref-199">SELISIH</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2015,8 +2029,8 @@ OPNAME</Text>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-196">xrTableCell12</Name>
-<Style_X_Font id="ref-197">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-200">xrTableCell12</Name>
+<Style_X_Font id="ref-201">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2045,7 +2059,7 @@ OPNAME</Text>
 <width>152</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-198">KETERANGAN</Text>
+<Text id="ref-202">KETERANGAN</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>

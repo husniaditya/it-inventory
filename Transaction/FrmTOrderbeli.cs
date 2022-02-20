@@ -917,8 +917,8 @@ namespace CAS.Transaction
                     throw new Exception("Harap mengisi Kurs!");
                 if (curcur.EditValue.ToString() == "")
                     throw new Exception("Harap mengisi Currency!");
-                if (personTextBoxEx.EditValue.ToString() == "")
-                    throw new Exception("Harap mengisi Nama Pemesan!");
+                //if (personTextBoxEx.EditValue.ToString() == "")
+                //    throw new Exception("Harap mengisi Nama Pemesan!");
 
                 DetailBindingSource.EndEdit();
 

@@ -827,7 +827,7 @@ Localization=en-US
 <width>634</width>
 <height>25</height>
 </Bounds>
-<Text id="ref-80">Report Corrugated Packaging (Stage 1)</Text>
+<Text id="ref-80">Report Corrugated Packaging (Stage 3)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1061,7 +1061,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-114">xrTableCell1</Name>
-<Style_X_Font id="ref-115">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-115">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1075,7 +1075,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1115,7 +1115,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-119">xrTableCell7</Name>
-<Style_X_Font id="ref-120">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-120">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1129,7 +1129,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1139,7 +1139,7 @@ Localization=en-US
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-116"/>
-<BindingItem0_X_DataMember id="ref-121">inv</BindingItem0_X_DataMember>
+<BindingItem0_X_DataMember id="ref-121">material</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-122">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
@@ -1169,7 +1169,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-123">xrTableCell4</Name>
-<Style_X_Font id="ref-124">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-124">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1183,7 +1183,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1193,7 +1193,7 @@ Localization=en-US
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName href="#ref-116"/>
-<BindingItem0_X_DataMember id="ref-125">name</BindingItem0_X_DataMember>
+<BindingItem0_X_DataMember id="ref-125">matname</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-126">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
@@ -1223,7 +1223,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-127">xrTableCell11</Name>
-<Style_X_Font id="ref-128">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-128">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1237,7 +1237,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1277,7 +1277,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-131">xrTableCell2</Name>
-<Style_X_Font id="ref-132">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-132">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1291,7 +1291,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1331,7 +1331,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-135">xrTableCell8</Name>
-<Style_X_Font id="ref-136">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-136">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1345,7 +1345,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1385,7 +1385,7 @@ Localization=en-US
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-139">xrTableCell5</Name>
-<Style_X_Font id="ref-140">Times New Roman, 9pt</Style_X_Font>
+<Style_X_Font id="ref-140">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1399,7 +1399,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1408,10 +1408,10 @@ Localization=en-US
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-141">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-142">weight</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-143">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-144">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName href="#ref-116"/>
+<BindingItem0_X_DataMember id="ref-141">weight</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-142">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>775</x>
 <y>0</y>
@@ -1438,8 +1438,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-145">xrTableCell9</Name>
-<Style_X_Font id="ref-146">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-143">xrTableCell9</Name>
+<Style_X_Font id="ref-144">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1453,7 +1453,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1461,18 +1461,14 @@ Localization=en-US
 <ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
-<BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-141"/>
-<BindingItem0_X_DataMember id="ref-147">qtypakai</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-148">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-149">dataSource.</BindingItem0_X_DataSource>
+<BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>875</x>
 <y>0</y>
 <width>83</width>
 <height>19</height>
 </Bounds>
-<Text id="ref-150">0</Text>
+<Text id="ref-145">0</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1492,8 +1488,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-151">xrTableCell3</Name>
-<Style_X_Font id="ref-152">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-146">xrTableCell3</Name>
+<Style_X_Font id="ref-147">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1507,7 +1503,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1516,17 +1512,17 @@ Localization=en-US
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-141"/>
-<BindingItem0_X_DataMember id="ref-153">qtyin</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-154">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-155">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName href="#ref-116"/>
+<BindingItem0_X_DataMember id="ref-148">qty</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-149">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>958</x>
 <y>0</y>
 <width>85</width>
 <height>19</height>
 </Bounds>
-<Text href="#ref-151"/>
+<Text href="#ref-146"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1546,8 +1542,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-156">xrTableCell10</Name>
-<Style_X_Font id="ref-157">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-150">xrTableCell10</Name>
+<Style_X_Font id="ref-151">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1561,7 +1557,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1570,17 +1566,17 @@ Localization=en-US
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-141"/>
-<BindingItem0_X_DataMember id="ref-158">qtykg</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-159">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-160">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName href="#ref-116"/>
+<BindingItem0_X_DataMember href="#ref-148"/>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-152">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1043</x>
 <y>0</y>
 <width>82</width>
 <height>19</height>
 </Bounds>
-<Text href="#ref-156"/>
+<Text href="#ref-150"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1600,8 +1596,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-161">xrTableCell6</Name>
-<Style_X_Font id="ref-162">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-153">xrTableCell6</Name>
+<Style_X_Font id="ref-154">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1615,7 +1611,7 @@ Localization=en-US
 <Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
 <Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
 <Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
 <ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
 <ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
 <ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
@@ -1624,17 +1620,17 @@ Localization=en-US
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-141"/>
-<BindingItem0_X_DataMember id="ref-163">val</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-164">{0:n2}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-165">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName id="ref-155">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-156">lpbnilai</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-157">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1125</x>
 <y>0</y>
 <width>100</width>
 <height>19</height>
 </Bounds>
-<Text href="#ref-161"/>
+<Text href="#ref-153"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1654,8 +1650,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-166">xrTableCell12</Name>
-<Style_X_Font id="ref-167">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-158">xrTableCell12</Name>
+<Style_X_Font id="ref-159">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1684,7 +1680,7 @@ Localization=en-US
 <width>167</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-168">Material Group</Text>
+<Text id="ref-160">Material Group</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1704,8 +1700,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-169">xrTableCell13</Name>
-<Style_X_Font id="ref-170">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-161">xrTableCell13</Name>
+<Style_X_Font id="ref-162">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1734,7 +1730,7 @@ Localization=en-US
 <width>75</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-171">Material</Text>
+<Text id="ref-163">Material</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1754,8 +1750,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-172">xrTableCell14</Name>
-<Style_X_Font id="ref-173">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-164">xrTableCell14</Name>
+<Style_X_Font id="ref-165">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1784,7 +1780,7 @@ Localization=en-US
 <width>283</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-174">Material Desc</Text>
+<Text id="ref-166">Material Desc</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1804,8 +1800,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-175">xrTableCell15</Name>
-<Style_X_Font id="ref-176">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-167">xrTableCell15</Name>
+<Style_X_Font id="ref-168">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1834,7 +1830,7 @@ Localization=en-US
 <width>92</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-177">Specification</Text>
+<Text id="ref-169">Specification</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1854,8 +1850,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-178">xrTableCell16</Name>
-<Style_X_Font id="ref-179">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-170">xrTableCell16</Name>
+<Style_X_Font id="ref-171">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1884,7 +1880,7 @@ Localization=en-US
 <width>66</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-180">Ikat/Pcs</Text>
+<Text id="ref-172">Ikat/Pcs</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1904,8 +1900,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-181">xrTableCell17</Name>
-<Style_X_Font id="ref-182">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-173">xrTableCell17</Name>
+<Style_X_Font id="ref-174">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1934,7 +1930,7 @@ Localization=en-US
 <width>92</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-183">Siza (MM)</Text>
+<Text id="ref-175">Siza (MM)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1954,8 +1950,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-184">xrTableCell18</Name>
-<Style_X_Font id="ref-185">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-176">xrTableCell18</Name>
+<Style_X_Font id="ref-177">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1984,7 +1980,7 @@ Localization=en-US
 <width>100</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-186">Average Weight (Kg)/pcs</Text>
+<Text id="ref-178">Average Weight (Kg)/pcs</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2004,8 +2000,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-187">xrTableCell19</Name>
-<Style_X_Font id="ref-188">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-179">xrTableCell19</Name>
+<Style_X_Font id="ref-180">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2034,7 +2030,7 @@ Localization=en-US
 <width>84</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-189">Average Usage
+<Text id="ref-181">Average Usage
 /Month (pcs)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
@@ -2055,8 +2051,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-190">xrTableCell20</Name>
-<Style_X_Font id="ref-191">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-182">xrTableCell20</Name>
+<Style_X_Font id="ref-183">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2085,7 +2081,7 @@ Localization=en-US
 <width>85</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-192">GR Qty (pcs)</Text>
+<Text id="ref-184">GR Qty (pcs)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2105,8 +2101,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-193">xrTableCell21</Name>
-<Style_X_Font id="ref-194">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-185">xrTableCell21</Name>
+<Style_X_Font id="ref-186">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2135,7 +2131,7 @@ Localization=en-US
 <width>81</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-195">GR Qty (Kg)</Text>
+<Text id="ref-187">GR Qty (Kg)</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2155,8 +2151,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-196">xrTableCell22</Name>
-<Style_X_Font id="ref-197">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-188">xrTableCell22</Name>
+<Style_X_Font id="ref-189">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2185,7 +2181,7 @@ Localization=en-US
 <width>100</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-198">GR Value </Text>
+<Text id="ref-190">GR Value </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
