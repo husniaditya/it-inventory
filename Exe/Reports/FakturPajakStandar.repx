@@ -240,7 +240,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 }</EventsScript_X_OnBeforePrint>
 <Height>1016</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
-<ItemCount>8</ItemCount>
+<ItemCount>9</ItemCount>
 <Item0 href="#ref-30"/>
 <Item1 href="#ref-31"/>
 <Item2 href="#ref-32"/>
@@ -249,15 +249,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Item5 href="#ref-35"/>
 <Item6 href="#ref-36"/>
 <Item7 href="#ref-37"/>
+<Item8 href="#ref-38"/>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-38">DevExpress.XtraReports.UI.PageFooterBand</Type_X_TypeName>
+<Type_X_TypeName id="ref-39">DevExpress.XtraReports.UI.PageFooterBand</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-39">PageFooter</Name>
-<Style_X_Font id="ref-40">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-40">PageFooter</Name>
+<Style_X_Font id="ref-41">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -293,31 +294,31 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-41">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-42">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   //xrTableCell3.Text = pageNo.ToString();
 }</EventsScript_X_OnBeforePrint>
 <Height>870</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <ItemCount>10</ItemCount>
-<Item0 href="#ref-42"/>
-<Item1 href="#ref-43"/>
-<Item2 href="#ref-44"/>
-<Item3 href="#ref-45"/>
-<Item4 href="#ref-46"/>
-<Item5 href="#ref-47"/>
-<Item6 href="#ref-48"/>
-<Item7 href="#ref-49"/>
-<Item8 href="#ref-50"/>
-<Item9 href="#ref-51"/>
+<Item0 href="#ref-43"/>
+<Item1 href="#ref-44"/>
+<Item2 href="#ref-45"/>
+<Item3 href="#ref-46"/>
+<Item4 href="#ref-47"/>
+<Item5 href="#ref-48"/>
+<Item6 href="#ref-49"/>
+<Item7 href="#ref-50"/>
+<Item8 href="#ref-51"/>
+<Item9 href="#ref-52"/>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-52">DevExpress.XtraReports.UI.ReportHeaderBand</Type_X_TypeName>
+<Type_X_TypeName id="ref-53">DevExpress.XtraReports.UI.ReportHeaderBand</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-53">ReportHeader</Name>
-<Style_X_Font id="ref-54">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-54">ReportHeader</Name>
+<Style_X_Font id="ref-55">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -359,12 +360,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-55">DevExpress.XtraReports.UI.XRTable</Type_X_TypeName>
+<Type_X_TypeName id="ref-56">DevExpress.XtraReports.UI.XRTable</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-56">xrTable9</Name>
-<Style_X_Font id="ref-57">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-57">xrTable9</Name>
+<Style_X_Font id="ref-58">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -401,16 +402,66 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-58"/>
+<Item0 href="#ref-59"/>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-59">DevExpress.XtraReports.UI.XRLabel</Type_X_TypeName>
+<Type_X_TypeName id="ref-60">DevExpress.XtraReports.UI.XRLabel</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-60">xrLabel2</Name>
-<Style_X_Font id="ref-61">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-61">xrLabel8</Name>
+<Style_X_Font id="ref-62">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>212</x>
+<y>931</y>
+<width>254</width>
+<height>64</height>
+</Bounds>
+<Text href="#ref-61"/>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-60"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-63">xrLabel2</Name>
+<Style_X_Font id="ref-64">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -439,7 +490,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>1312</width>
 <height>43</height>
 </Bounds>
-<Text id="ref-62">Krembangan - Surabaya 60175</Text>
+<Text id="ref-65">Krembangan - Surabaya 60175</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -453,14 +504,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-63">lblNamaKenaPajak</Name>
-<Style_X_Font id="ref-64">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-66">lblNamaKenaPajak</Name>
+<Style_X_Font id="ref-67">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -489,7 +540,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>1333</width>
 <height>63</height>
 </Bounds>
-<Text id="ref-65">PT. KaryaIndah Alam Sejahtera</Text>
+<Text id="ref-68">PT. KaryaIndah Alam Sejahtera</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -503,14 +554,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-66">lblNPWP</Name>
-<Style_X_Font id="ref-67">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-69">lblNPWP</Name>
+<Style_X_Font id="ref-70">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -539,7 +590,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>1333</width>
 <height>63</height>
 </Bounds>
-<Text id="ref-68">01.913.334.7-605.000</Text>
+<Text id="ref-71">01.913.334.7-605.000</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -553,14 +604,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-69">lblAlamatKenaPajak</Name>
-<Style_X_Font id="ref-70">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-72">lblAlamatKenaPajak</Name>
+<Style_X_Font id="ref-73">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -589,7 +640,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>1312</width>
 <height>50</height>
 </Bounds>
-<Text id="ref-71">Jl. Kalisosok Kidul No.2 RT.004 RW.015, Krembangan Selatan</Text>
+<Text id="ref-74">Jl. Kalisosok Kidul No.2 RT.004 RW.015, Krembangan Selatan</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -603,14 +654,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-72">xrTable8</Name>
-<Style_X_Font id="ref-73">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-75">xrTable8</Name>
+<Style_X_Font id="ref-76">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -647,16 +698,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-74"/>
+<Item0 href="#ref-77"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-75">xrTable7</Name>
-<Style_X_Font id="ref-76">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-78">xrTable7</Name>
+<Style_X_Font id="ref-79">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -693,17 +744,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>2</ItemCount>
-<Item0 href="#ref-77"/>
-<Item1 href="#ref-78"/>
+<Item0 href="#ref-80"/>
+<Item1 href="#ref-81"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-79">xrTable6</Name>
-<Style_X_Font id="ref-80">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-82">xrTable6</Name>
+<Style_X_Font id="ref-83">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -740,16 +791,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-81"/>
+<Item0 href="#ref-84"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-38" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-82">xrTable2</Name>
-<Style_X_Font id="ref-83">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-85">xrTable2</Name>
+<Style_X_Font id="ref-86">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -786,16 +837,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-84"/>
+<Item0 href="#ref-87"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-42" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-43" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-85">xrLabel7</Name>
-<Style_X_Font id="ref-86">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-88">xrLabel7</Name>
+<Style_X_Font id="ref-89">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -818,17 +869,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-87">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-88">kmkno</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-90">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-91">kmkno</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-89">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-92">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>550</x>
 <y>743</y>
 <width>1101</width>
 <height>43</height>
 </Bounds>
-<Text href="#ref-85"/>
+<Text href="#ref-88"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -842,14 +893,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-43" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-44" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-90">xrLabel6</Name>
-<Style_X_Font id="ref-91">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-93">xrLabel6</Name>
+<Style_X_Font id="ref-94">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -878,7 +929,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>190</width>
 <height>43</height>
 </Bounds>
-<Text id="ref-92">XXXXXXX</Text>
+<Text id="ref-95">XXXXXXX</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -892,14 +943,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-44" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-45" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-93">xrLabel5</Name>
-<Style_X_Font id="ref-94">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-96">xrLabel5</Name>
+<Style_X_Font id="ref-97">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -928,14 +979,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>551</width>
 <height>43</height>
 </Bounds>
-<Text id="ref-95">XXXXXXXXXXXXXXXX</Text>
+<Text id="ref-98">XXXXXXXXXXXXXXXX</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-96">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-99">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
 
 }</EventsScript_X_OnBeforePrint>
 <Multiline>false</Multiline>
@@ -945,14 +996,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-45" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-46" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-97">xrLabel4</Name>
-<Style_X_Font id="ref-98">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-100">xrLabel4</Name>
+<Style_X_Font id="ref-101">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -975,17 +1026,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-99">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-100">kurs</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-102">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-103">kurs</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-101">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-104">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>249</x>
 <y>746</y>
 <width>170</width>
 <height>42</height>
 </Bounds>
-<Text href="#ref-97"/>
+<Text href="#ref-100"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -999,14 +1050,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-46" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-47" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-102">xrLabel3</Name>
-<Style_X_Font id="ref-103">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-105">xrLabel3</Name>
+<Style_X_Font id="ref-106">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1035,7 +1086,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>156</width>
 <height>42</height>
 </Bounds>
-<Text id="ref-104">Surabaya,</Text>
+<Text id="ref-107">Surabaya,</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1049,14 +1100,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-47" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-48" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-105">lblNama</Name>
-<Style_X_Font id="ref-106">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-108">lblNama</Name>
+<Style_X_Font id="ref-109">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1085,7 +1136,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>677</width>
 <height>63</height>
 </Bounds>
-<Text id="ref-107">Andry Januar Atmadjaja</Text>
+<Text id="ref-110">Andry Januar Atmadjaja</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1099,14 +1150,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-48" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-49" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-108">xrTable3</Name>
-<Style_X_Font id="ref-109">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-111">xrTable3</Name>
+<Style_X_Font id="ref-112">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1143,16 +1194,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-110"/>
+<Item0 href="#ref-113"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-49" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-50" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-111">xrTable5</Name>
-<Style_X_Font id="ref-112">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-114">xrTable5</Name>
+<Style_X_Font id="ref-115">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1189,16 +1240,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-113"/>
+<Item0 href="#ref-116"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-50" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-51" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-59"/>
+<Type_X_TypeName href="#ref-60"/>
 <Visible>false</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-114">xrLabel1</Name>
-<Style_X_Font id="ref-115">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-117">xrLabel1</Name>
+<Style_X_Font id="ref-118">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1227,14 +1278,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>529</width>
 <height>64</height>
 </Bounds>
-<Text id="ref-116">xrLabel2</Text>
+<Text id="ref-119">xrLabel2</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-117">using DevExpress.XtraPrinting;
+<EventsScript_X_OnPrintOnPage id="ref-120">using DevExpress.XtraPrinting;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Native;
 
@@ -1273,14 +1324,14 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-51" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-52" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-55"/>
+<Type_X_TypeName href="#ref-56"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-118">xrTable1</Name>
-<Style_X_Font id="ref-119">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-121">xrTable1</Name>
+<Style_X_Font id="ref-122">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1317,20 +1368,20 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>5</ItemCount>
-<Item0 href="#ref-120"/>
-<Item1 href="#ref-121"/>
-<Item2 href="#ref-122"/>
-<Item3 href="#ref-123"/>
-<Item4 href="#ref-124"/>
+<Item0 href="#ref-123"/>
+<Item1 href="#ref-124"/>
+<Item2 href="#ref-125"/>
+<Item3 href="#ref-126"/>
+<Item4 href="#ref-127"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-58" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-59" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-125">DevExpress.XtraReports.UI.XRTableRow</Type_X_TypeName>
+<Type_X_TypeName id="ref-128">DevExpress.XtraReports.UI.XRTableRow</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-126">xrTableRow10</Name>
-<Style_X_Font id="ref-127">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-129">xrTableRow10</Name>
+<Style_X_Font id="ref-130">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1367,22 +1418,22 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>7</ItemCount>
-<Item0 href="#ref-128"/>
-<Item1 href="#ref-129"/>
-<Item2 href="#ref-130"/>
-<Item3 href="#ref-131"/>
-<Item4 href="#ref-132"/>
-<Item5 href="#ref-133"/>
-<Item6 href="#ref-134"/>
+<Item0 href="#ref-131"/>
+<Item1 href="#ref-132"/>
+<Item2 href="#ref-133"/>
+<Item3 href="#ref-134"/>
+<Item4 href="#ref-135"/>
+<Item5 href="#ref-136"/>
+<Item6 href="#ref-137"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-74" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-77" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-135">xrTableRow8</Name>
-<Style_X_Font id="ref-136">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-138">xrTableRow8</Name>
+<Style_X_Font id="ref-139">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1419,16 +1470,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-137"/>
+<Item0 href="#ref-140"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-77" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-80" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-138">xrTableRow7</Name>
-<Style_X_Font id="ref-139">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-141">xrTableRow7</Name>
+<Style_X_Font id="ref-142">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1465,16 +1516,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-140"/>
+<Item0 href="#ref-143"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-78" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-81" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-141">xrTableRow9</Name>
-<Style_X_Font id="ref-142">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-144">xrTableRow9</Name>
+<Style_X_Font id="ref-145">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1511,16 +1562,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-143"/>
+<Item0 href="#ref-146"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-81" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-84" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-144">xrTableRow6</Name>
-<Style_X_Font id="ref-145">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-147">xrTableRow6</Name>
+<Style_X_Font id="ref-148">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1557,16 +1608,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-146"/>
+<Item0 href="#ref-149"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-84" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-87" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-147">xrTableRow2</Name>
-<Style_X_Font id="ref-148">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-150">xrTableRow2</Name>
+<Style_X_Font id="ref-151">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1603,17 +1654,17 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>2</ItemCount>
-<Item0 href="#ref-149"/>
-<Item1 href="#ref-150"/>
+<Item0 href="#ref-152"/>
+<Item1 href="#ref-153"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-110" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-113" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-151">xrTableRow12</Name>
-<Style_X_Font id="ref-152">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-154">xrTableRow12</Name>
+<Style_X_Font id="ref-155">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1650,16 +1701,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-153"/>
+<Item0 href="#ref-156"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-113" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-116" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-154">xrTableRow14</Name>
-<Style_X_Font id="ref-155">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-157">xrTableRow14</Name>
+<Style_X_Font id="ref-158">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1696,16 +1747,16 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-156"/>
+<Item0 href="#ref-159"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-120" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-123" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-157">xrTableRow1</Name>
-<Style_X_Font id="ref-158">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-160">xrTableRow1</Name>
+<Style_X_Font id="ref-161">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1742,19 +1793,19 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>4</ItemCount>
-<Item0 href="#ref-159"/>
-<Item1 href="#ref-160"/>
-<Item2 href="#ref-161"/>
-<Item3 href="#ref-162"/>
+<Item0 href="#ref-162"/>
+<Item1 href="#ref-163"/>
+<Item2 href="#ref-164"/>
+<Item3 href="#ref-165"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-121" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-124" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-163">xrTableRow3</Name>
-<Style_X_Font id="ref-164">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-166">xrTableRow3</Name>
+<Style_X_Font id="ref-167">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1791,19 +1842,19 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>4</ItemCount>
-<Item0 href="#ref-165"/>
-<Item1 href="#ref-166"/>
-<Item2 href="#ref-167"/>
-<Item3 href="#ref-168"/>
+<Item0 href="#ref-168"/>
+<Item1 href="#ref-169"/>
+<Item2 href="#ref-170"/>
+<Item3 href="#ref-171"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-122" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-125" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-169">xrTableRow4</Name>
-<Style_X_Font id="ref-170">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-172">xrTableRow4</Name>
+<Style_X_Font id="ref-173">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1840,19 +1891,19 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>4</ItemCount>
-<Item0 href="#ref-171"/>
-<Item1 href="#ref-172"/>
-<Item2 href="#ref-173"/>
-<Item3 href="#ref-174"/>
+<Item0 href="#ref-174"/>
+<Item1 href="#ref-175"/>
+<Item2 href="#ref-176"/>
+<Item3 href="#ref-177"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-123" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-126" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-175">xrTableRow5</Name>
-<Style_X_Font id="ref-176">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-178">xrTableRow5</Name>
+<Style_X_Font id="ref-179">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1889,19 +1940,19 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>4</ItemCount>
-<Item0 href="#ref-177"/>
-<Item1 href="#ref-178"/>
-<Item2 href="#ref-179"/>
-<Item3 href="#ref-180"/>
+<Item0 href="#ref-180"/>
+<Item1 href="#ref-181"/>
+<Item2 href="#ref-182"/>
+<Item3 href="#ref-183"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-124" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-127" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-125"/>
+<Type_X_TypeName href="#ref-128"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-181">xrTableRow11</Name>
-<Style_X_Font id="ref-182">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-184">xrTableRow11</Name>
+<Style_X_Font id="ref-185">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1938,19 +1989,19 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>4</ItemCount>
-<Item0 href="#ref-183"/>
-<Item1 href="#ref-184"/>
-<Item2 href="#ref-185"/>
-<Item3 href="#ref-186"/>
+<Item0 href="#ref-186"/>
+<Item1 href="#ref-187"/>
+<Item2 href="#ref-188"/>
+<Item3 href="#ref-189"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-128" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-131" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName id="ref-187">DevExpress.XtraReports.UI.XRTableCell</Type_X_TypeName>
+<Type_X_TypeName id="ref-190">DevExpress.XtraReports.UI.XRTableCell</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-188">cellNo</Name>
-<Style_X_Font id="ref-189">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-191">cellNo</Name>
+<Style_X_Font id="ref-192">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -1986,7 +2037,7 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-190">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-193">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   if (GetCurrentColumnValue(&#34;inv&#34;) != DBNull.Value &#38;&#38; GetCurrentColumnValue(&#34;inv&#34;) != &#34;&#34;)
     cellNo.Text = (++ no).ToString();
   else
@@ -2000,14 +2051,14 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-129" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-132" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-191">xrTableCell21</Name>
-<Style_X_Font id="ref-192">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-194">xrTableCell21</Name>
+<Style_X_Font id="ref-195">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2050,14 +2101,14 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-130" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-133" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-193">xrTableCell20</Name>
-<Style_X_Font id="ref-194">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-196">xrTableCell20</Name>
+<Style_X_Font id="ref-197">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2080,24 +2131,24 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-195">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-196">invname</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-198">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-199">invname</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-197">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-200">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>123</x>
 <y>0</y>
 <width>818</width>
 <height>56</height>
 </Bounds>
-<Text href="#ref-193"/>
+<Text href="#ref-196"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-198">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-201">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   string invname = GetCurrentColumnValue(&#34;invname&#34;).ToString();
   xrTableCell20.Text = invname;
   if (invname.IndexOf(&#34;Subtotal&#34;) &#62; -1)
@@ -2112,7 +2163,7 @@ else
 }
 
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-199">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) { 
+<EventsScript_X_OnPrintOnPage id="ref-202">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) { 
 }</EventsScript_X_OnPrintOnPage>
 <Multiline>false</Multiline>
 <Angle>0</Angle>
@@ -2121,14 +2172,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-131" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-134" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-200">xrTableCell15</Name>
-<Style_X_Font id="ref-201">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-203">xrTableCell15</Name>
+<Style_X_Font id="ref-204">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2157,14 +2208,14 @@ else
 <width>193</width>
 <height>56</height>
 </Bounds>
-<Text href="#ref-200"/>
+<Text href="#ref-203"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-202">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-205">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   if (GetCurrentColumnValue(&#34;qty&#34;) != DBNull.Value)
     xrTableCell15.Text = Convert.ToDouble(GetCurrentColumnValue(&#34;qty&#34;)).ToString(&#34;#,#&#34;);
   else
@@ -2177,14 +2228,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-132" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-135" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-203">xrTableCell14</Name>
-<Style_X_Font id="ref-204">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-206">xrTableCell14</Name>
+<Style_X_Font id="ref-207">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2207,17 +2258,17 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-195"/>
-<BindingItem0_X_DataMember id="ref-205">unit</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-198"/>
+<BindingItem0_X_DataMember id="ref-208">unit</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-206">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-209">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1134</x>
 <y>0</y>
 <width>86</width>
 <height>56</height>
 </Bounds>
-<Text href="#ref-203"/>
+<Text href="#ref-206"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2231,14 +2282,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-133" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-136" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-207">xrTableCell18</Name>
-<Style_X_Font id="ref-208">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-210">xrTableCell18</Name>
+<Style_X_Font id="ref-211">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2274,7 +2325,7 @@ else
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnAfterPrint id="ref-209">private void OnAfterPrint(object sender, System.EventArgs e) {
+<EventsScript_X_OnAfterPrint id="ref-212">private void OnAfterPrint(object sender, System.EventArgs e) {
   if (GetCurrentColumnValue(&#34;invname&#34;).ToString().IndexOf(&#34;Subtotal&#34;) == -1)
 {
     subTotal1 = subTotal1 + (Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;)));
@@ -2284,7 +2335,7 @@ else
   ppn1 = ppn1 + (Convert.ToDouble(GetCurrentColumnValue(&#34;ppn&#34;)));
 }
 }</EventsScript_X_OnAfterPrint>
-<EventsScript_X_OnBeforePrint id="ref-210">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-213">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
  if (Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;)) != 0 &#38;&#38;  Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62;1)
     xrTableCell18.Text = Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;)).ToString(&#34;n2&#34;)+&#34; &#34;+GetCurrentColumnValue(&#34;cur&#34;).ToString();
    // xrTableCell18.Text = &#34;&#34;;  
@@ -2298,14 +2349,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-134" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-137" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-211">xrTableCell16</Name>
-<Style_X_Font id="ref-212">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-214">xrTableCell16</Name>
+<Style_X_Font id="ref-215">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2341,7 +2392,7 @@ else
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnAfterPrint id="ref-213">private void OnAfterPrint(object sender, System.EventArgs e) {
+<EventsScript_X_OnAfterPrint id="ref-216">private void OnAfterPrint(object sender, System.EventArgs e) {
   if (GetCurrentColumnValue(&#34;invname&#34;).ToString().IndexOf(&#34;Subtotal&#34;) == -1)
     subTotal = subTotal + (Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;))*Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)));
   disc = disc + Convert.ToDouble(GetCurrentColumnValue(&#34;disc&#34;));
@@ -2349,7 +2400,7 @@ else
   dpp = dpp + (Convert.ToDouble(GetCurrentColumnValue(&#34;dpp&#34;))*Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)));
   ppn = ppn + (Convert.ToDouble(GetCurrentColumnValue(&#34;ppn&#34;))*Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)));
 }</EventsScript_X_OnAfterPrint>
-<EventsScript_X_OnBeforePrint id="ref-214">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-217">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   if (Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;)) != 0 &#38;&#38; Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)) == 1)
     xrTableCell16.Text = (Convert.ToDouble(GetCurrentColumnValue(&#34;subtotal&#34;))*Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))).ToString(&#34;n2&#34;);
   else
@@ -2362,14 +2413,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-137" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-140" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-215">xrTableCell9</Name>
-<Style_X_Font id="ref-216">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-218">xrTableCell9</Name>
+<Style_X_Font id="ref-219">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2392,71 +2443,17 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-217">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-218">name</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-220">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-221">name</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-219">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-222">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
 <width>1481</width>
 <height>64</height>
 </Bounds>
-<Text id="ref-220">Nama Pembeli</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-140" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-221">xrTableCell8</Name>
-<Style_X_Font id="ref-222">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-13"/>
-<Style_X_BackColor href="#ref-14"/>
-<Style_X_BorderColor href="#ref-13"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>254</Dpi>
-<BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-223">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-224">address</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-225">dataSource.</BindingItem0_X_DataSource>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>0</x>
-<y>0</y>
-<width>1481</width>
-<height>42</height>
-</Bounds>
-<Text id="ref-226">Alamt Pembeli</Text>
+<Text id="ref-223">Nama Pembeli</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2472,12 +2469,12 @@ else
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-143" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-227">xrTableCell6</Name>
-<Style_X_Font id="ref-228">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-224">xrTableCell8</Name>
+<Style_X_Font id="ref-225">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2500,17 +2497,17 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-229">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-230">city</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-226">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-227">address</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-231">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-228">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
 <width>1481</width>
-<height>43</height>
+<height>42</height>
 </Bounds>
-<Text href="#ref-227"/>
+<Text id="ref-229">Alamt Pembeli</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2526,12 +2523,12 @@ else
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-146" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-232">xrTableCell7</Name>
-<Style_X_Font id="ref-233">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-230">xrTableCell6</Name>
+<Style_X_Font id="ref-231">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2554,17 +2551,17 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-223"/>
-<BindingItem0_X_DataMember id="ref-234">subnpwp</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-232">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-233">city</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-235">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-234">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>1418</width>
-<height>63</height>
+<width>1481</width>
+<height>43</height>
 </Bounds>
-<Text id="ref-236">Npwp Pembeli</Text>
+<Text href="#ref-230"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2580,12 +2577,12 @@ else
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-149" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-237">xrTableCell2</Name>
-<Style_X_Font id="ref-238">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-235">xrTableCell7</Name>
+<Style_X_Font id="ref-236">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2608,24 +2605,78 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-239">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-240">nofp</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-226"/>
+<BindingItem0_X_DataMember id="ref-237">subnpwp</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-241">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-238">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>1042</width>
-<height>64</height>
+<width>1418</width>
+<height>63</height>
 </Bounds>
-<Text id="ref-242">No Faktur Pajak</Text>
+<Text id="ref-239">Npwp Pembeli</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-243">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-152" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-190"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-240">xrTableCell2</Name>
+<Style_X_Font id="ref-241">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>1</BindingItemCount>
+<BindingItem0_X_PropertyName id="ref-242">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-243">nofp</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString id="ref-244">{0:}</BindingItem0_X_FormatString>
+<BindingItem0_X_DataSource id="ref-245">dataSource.</BindingItem0_X_DataSource>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+<width>1042</width>
+<height>64</height>
+</Bounds>
+<Text id="ref-246">No Faktur Pajak</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<EventsScript_X_OnPrintOnPage id="ref-247">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
   //pageNo = e.PageNumber;
 }</EventsScript_X_OnPrintOnPage>
 <Multiline>false</Multiline>
@@ -2635,14 +2686,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-150" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-153" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-244">xrTableCell4</Name>
-<Style_X_Font id="ref-245">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-248">xrTableCell4</Name>
+<Style_X_Font id="ref-249">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2665,17 +2716,17 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-246">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-247">invno</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-250">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-251">invno</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-248">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-252">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1042</x>
 <y>0</y>
 <width>333</width>
 <height>64</height>
 </Bounds>
-<Text id="ref-249">No Invoice</Text>
+<Text id="ref-253">No Invoice</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2689,14 +2740,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-153" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-156" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-250">xrTableCell30</Name>
-<Style_X_Font id="ref-251">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-254">xrTableCell30</Name>
+<Style_X_Font id="ref-255">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2719,24 +2770,24 @@ else
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>254</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-252">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-253">fpjdate</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-254">{0:dd MMMM yyyy}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-255">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName id="ref-256">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-257">fpjdate</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString id="ref-258">{0:dd MMMM yyyy}</BindingItem0_X_FormatString>
+<BindingItem0_X_DataSource id="ref-259">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
 <width>487</width>
 <height>61</height>
 </Bounds>
-<Text id="ref-256">xrTableCell35</Text>
+<Text id="ref-260">xrTableCell35</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-257">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-261">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   //xrTableCell30.Text = strfpjDate;
 }</EventsScript_X_OnBeforePrint>
 <Multiline>false</Multiline>
@@ -2746,14 +2797,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-156" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-159" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-258">lblJabatan</Name>
-<Style_X_Font id="ref-259">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-262">lblJabatan</Name>
+<Style_X_Font id="ref-263">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2782,7 +2833,7 @@ else
 <width>677</width>
 <height>61</height>
 </Bounds>
-<Text id="ref-260">Kepala Bagian Akuntansi &#38; Pajak</Text>
+<Text id="ref-264">Kepala Bagian Akuntansi &#38; Pajak</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2796,14 +2847,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-159" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-162" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-261">xrTableCell1</Name>
-<Style_X_Font id="ref-262">Times New Roman, 10pt</Style_X_Font>
+<Name id="ref-265">xrTableCell1</Name>
+<Style_X_Font id="ref-266">Times New Roman, 10pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2839,10 +2890,10 @@ else
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-263">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-267">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   //xrTableCell1.Text = pageNumber1.ToString();
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-264">using DevExpress.XtraPrinting;
+<EventsScript_X_OnPrintOnPage id="ref-268">using DevExpress.XtraPrinting;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Native;
 
@@ -2877,14 +2928,14 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-160" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-163" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-265">xrTableCell10</Name>
-<Style_X_Font id="ref-266">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-269">xrTableCell10</Name>
+<Style_X_Font id="ref-270">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -2913,7 +2964,7 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <width>823</width>
 <height>79</height>
 </Bounds>
-<Text id="ref-267">XXXXXXXXXXXXXXXXXXXXXXXXXXXX</Text>
+<Text id="ref-271">XXXXXXXXXXXXXXXXXXXXXXXXXXXX</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2927,68 +2978,13 @@ private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageE
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-161" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-164" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-268">xrTableCell19</Name>
-<Style_X_Font id="ref-269">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-13"/>
-<Style_X_BackColor href="#ref-14"/>
-<Style_X_BorderColor href="#ref-13"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>254</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1119</x>
-<y>0</y>
-<width>374</width>
-<height>79</height>
-</Bounds>
-<Text id="ref-270"> </Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-271">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
-if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
-  xrTableCell19.Text = subTotal1.ToString(&#34;n2&#34;);    
-   
-}</EventsScript_X_OnPrintOnPage>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-162" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-272">xrTableCell3</Name>
+<Name id="ref-272">xrTableCell19</Name>
 <Style_X_Font id="ref-273">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
@@ -3013,6 +3009,61 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>1119</x>
+<y>0</y>
+<width>374</width>
+<height>79</height>
+</Bounds>
+<Text id="ref-274"> </Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<EventsScript_X_OnPrintOnPage id="ref-275">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
+  xrTableCell19.Text = subTotal1.ToString(&#34;n2&#34;);    
+   
+}</EventsScript_X_OnPrintOnPage>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-165" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-190"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-276">xrTableCell3</Name>
+<Style_X_Font id="ref-277">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1493</x>
 <y>0</y>
 <width>454</width>
@@ -3025,7 +3076,7 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-274">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-278">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
 if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)) &#62; 1)
     xrTableCell13.Text = &#34;&#34;;
 else
@@ -3042,14 +3093,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-165" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-168" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-275">xrTableCell5</Name>
-<Style_X_Font id="ref-276">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-279">xrTableCell5</Name>
+<Style_X_Font id="ref-280">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3092,14 +3143,14 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-166" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-169" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-277">xrTableCell11</Name>
-<Style_X_Font id="ref-278">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-281">xrTableCell11</Name>
+<Style_X_Font id="ref-282">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3128,7 +3179,7 @@ else
 <width>373</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-279"> </Text>
+<Text id="ref-283"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3142,67 +3193,13 @@ else
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-167" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-170" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-280">xrTableCell23</Name>
-<Style_X_Font id="ref-281">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-13"/>
-<Style_X_BackColor href="#ref-14"/>
-<Style_X_BorderColor href="#ref-13"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>254</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1119</x>
-<y>0</y>
-<width>374</width>
-<height>80</height>
-</Bounds>
-<Text id="ref-282"> </Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-283">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
-if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
-  xrTableCell23.Text = disc1.ToString(&#34;n2&#34;);    
-}</EventsScript_X_OnPrintOnPage>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-168" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-284">cellDisc</Name>
+<Name id="ref-284">xrTableCell23</Name>
 <Style_X_Font id="ref-285">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
@@ -3227,22 +3224,76 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1493</x>
+<x>1119</x>
 <y>0</y>
-<width>454</width>
+<width>374</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-286">Potongan Harga</Text>
+<Text id="ref-286"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-287">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {    
+<EventsScript_X_OnPrintOnPage id="ref-287">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
+  xrTableCell23.Text = disc1.ToString(&#34;n2&#34;);    
+}</EventsScript_X_OnPrintOnPage>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-171" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-190"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-288">cellDisc</Name>
+<Style_X_Font id="ref-289">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>1493</x>
+<y>0</y>
+<width>454</width>
+<height>80</height>
+</Bounds>
+<Text id="ref-290">Potongan Harga</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-291">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {    
    
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-288">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-292">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
     int idx = e.PageIndex + 1;
     if (idx == pageNo &#38;&#38; Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)) &#60;= 1)
       cellDisc.Text = disc.ToString(&#34;n2&#34;);
@@ -3256,14 +3307,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-171" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-174" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-289">xrTableCell22</Name>
-<Style_X_Font id="ref-290">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-293">xrTableCell22</Name>
+<Style_X_Font id="ref-294">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3306,14 +3357,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-172" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-175" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-291">xrTableCell12</Name>
-<Style_X_Font id="ref-292">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-295">xrTableCell12</Name>
+<Style_X_Font id="ref-296">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3342,7 +3393,7 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <width>373</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-293"> </Text>
+<Text id="ref-297"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3356,67 +3407,13 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-173" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-176" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-294">xrTableCell25</Name>
-<Style_X_Font id="ref-295">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-13"/>
-<Style_X_BackColor href="#ref-14"/>
-<Style_X_BorderColor href="#ref-13"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>254</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1119</x>
-<y>0</y>
-<width>374</width>
-<height>80</height>
-</Bounds>
-<Text id="ref-296"> </Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-297">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
-if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)  
-xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);    
-}</EventsScript_X_OnPrintOnPage>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-174" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-298">xrTableCell24</Name>
+<Name id="ref-298">xrTableCell25</Name>
 <Style_X_Font id="ref-299">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
@@ -3441,22 +3438,76 @@ xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1493</x>
+<x>1119</x>
 <y>0</y>
-<width>454</width>
+<width>374</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-300">Uang Muka</Text>
+<Text id="ref-300"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-301">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-301">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)  
+xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);    
+}</EventsScript_X_OnPrintOnPage>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-177" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-190"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-302">xrTableCell24</Name>
+<Style_X_Font id="ref-303">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>1493</x>
+<y>0</y>
+<width>454</width>
+<height>80</height>
+</Bounds>
+<Text id="ref-304">Uang Muka</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-305">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-302">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) 
+<EventsScript_X_OnPrintOnPage id="ref-306">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) 
 {
     int idx = e.PageIndex + 1;
     if (idx == pageNo &#38;&#38; Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;)) &#60;= 1)
@@ -3471,14 +3522,14 @@ xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-177" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-180" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-303">xrTableCell26</Name>
-<Style_X_Font id="ref-304">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-307">xrTableCell26</Name>
+<Style_X_Font id="ref-308">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3521,14 +3572,14 @@ xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-178" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-181" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-305">xrTableCell13</Name>
-<Style_X_Font id="ref-306">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-309">xrTableCell13</Name>
+<Style_X_Font id="ref-310">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3557,7 +3608,7 @@ xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);
 <width>373</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-307"> </Text>
+<Text id="ref-311"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3571,67 +3622,13 @@ xrTableCell25.Text = umk1.ToString(&#34;n2&#34;);
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-179" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-182" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-308">xrTableCell31</Name>
-<Style_X_Font id="ref-309">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-13"/>
-<Style_X_BackColor href="#ref-14"/>
-<Style_X_BorderColor href="#ref-13"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>254</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1119</x>
-<y>0</y>
-<width>374</width>
-<height>80</height>
-</Bounds>
-<Text id="ref-310"> </Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-311">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
-if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1) 
- xrTableCell31.Text = dpp1.ToString(&#34;n2&#34;);    
-}</EventsScript_X_OnPrintOnPage>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-180" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-312">xrTableCell27</Name>
+<Name id="ref-312">xrTableCell31</Name>
 <Style_X_Font id="ref-313">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
@@ -3656,22 +3653,76 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1493</x>
+<x>1119</x>
 <y>0</y>
-<width>454</width>
+<width>374</width>
 <height>80</height>
 </Bounds>
-<Text id="ref-314">DPP</Text>
+<Text id="ref-314"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-315">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-315">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1) 
+ xrTableCell31.Text = dpp1.ToString(&#34;n2&#34;);    
+}</EventsScript_X_OnPrintOnPage>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-183" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-18"/>
+<Type_X_TypeName href="#ref-190"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-316">xrTableCell27</Name>
+<Style_X_Font id="ref-317">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-13"/>
+<Style_X_BackColor href="#ref-14"/>
+<Style_X_BorderColor href="#ref-13"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleRight</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>254</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>1493</x>
+<y>0</y>
+<width>454</width>
+<height>80</height>
+</Bounds>
+<Text id="ref-318">DPP</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<EventsScript_X_OnBeforePrint id="ref-319">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
  
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-316">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-320">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
     int idx = e.PageIndex + 1;
     if (idx == pageNo)
       xrTableCell27.Text = dpp.ToString(&#34;n2&#34;);
@@ -3685,14 +3736,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-183" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-186" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-317">xrTableCell28</Name>
-<Style_X_Font id="ref-318">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-321">xrTableCell28</Name>
+<Style_X_Font id="ref-322">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3735,14 +3786,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-184" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-187" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-319">xrTableCell17</Name>
-<Style_X_Font id="ref-320">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-323">xrTableCell17</Name>
+<Style_X_Font id="ref-324">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3771,7 +3822,7 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <width>373</width>
 <height>83</height>
 </Bounds>
-<Text id="ref-321"> </Text>
+<Text id="ref-325"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3785,14 +3836,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-185" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-188" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-322">xrTableCell32</Name>
-<Style_X_Font id="ref-323">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-326">xrTableCell32</Name>
+<Style_X_Font id="ref-327">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3821,14 +3872,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <width>374</width>
 <height>83</height>
 </Bounds>
-<Text id="ref-324"> </Text>
+<Text id="ref-328"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnPrintOnPage id="ref-325">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-329">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
 if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1) 
  xrTableCell32.Text = ppn1.ToString(&#34;n2&#34;);    
 }</EventsScript_X_OnPrintOnPage>
@@ -3839,14 +3890,14 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-186" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-189" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
-<Type_X_TypeName href="#ref-187"/>
+<Type_X_TypeName href="#ref-190"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-326">xrTableCell29</Name>
-<Style_X_Font id="ref-327">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-330">xrTableCell29</Name>
+<Style_X_Font id="ref-331">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-13"/>
 <Style_X_BackColor href="#ref-14"/>
 <Style_X_BorderColor href="#ref-13"/>
@@ -3875,17 +3926,17 @@ if (Convert.ToDouble(GetCurrentColumnValue(&#34;kurs&#34;))&#62; 1)
 <width>454</width>
 <height>83</height>
 </Bounds>
-<Text id="ref-328">PPN</Text>
+<Text id="ref-332">PPN</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-329">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-333">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
  
 }</EventsScript_X_OnBeforePrint>
-<EventsScript_X_OnPrintOnPage id="ref-330">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+<EventsScript_X_OnPrintOnPage id="ref-334">private void OnPrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
     int idx = e.PageIndex + 1;
     if (idx == pageNo)
       xrTableCell29.Text = ppn.ToString(&#34;n2&#34;);

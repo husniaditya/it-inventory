@@ -1135,7 +1135,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <a1:ObjectStorage id="ref-45" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
 <Type_X_TypeName id="ref-115">DevExpress.XtraReports.UI.XRPageInfo</Type_X_TypeName>
-<Visible>false</Visible>
+<Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-116">xrPageInfo2</Name>
@@ -1183,7 +1183,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <a1:ObjectStorage id="ref-46" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
 <Type_X_TypeName href="#ref-61"/>
-<Visible>false</Visible>
+<Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-119">xrLabel9</Name>

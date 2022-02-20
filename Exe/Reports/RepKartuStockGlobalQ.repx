@@ -200,7 +200,7 @@ Localization=en-US
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>20</Height>
+<Height>2</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
@@ -299,7 +299,7 @@ Localization=en-US
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>126</Height>
+<Height>117</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <ItemCount>7</ItemCount>
 <Item0 href="#ref-40"/>
@@ -353,7 +353,7 @@ Localization=en-US
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>35</Height>
+<Height>20</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <Level>0</Level>
 <RepeatEveryPage>false</RepeatEveryPage>
@@ -405,7 +405,7 @@ Localization=en-US
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>89</Height>
+<Height>91</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <Level>1</Level>
 <RepeatEveryPage>true</RepeatEveryPage>
@@ -1163,59 +1163,12 @@ Localization=en-US
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-55" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
-<Type_X_TypeName href="#ref-69"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Bottom</Dock>
-<Name id="ref-114">xrTable6</Name>
-<Style_X_Font id="ref-115">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor id="ref-116">LightSkyBlue</Style_X_BackColor>
-<Style_X_BorderColor href="#ref-16"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Top, Right, Bottom</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>false</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>900</x>
-<y>46</y>
-<width>158</width>
-<height>43</height>
-</Bounds>
-<Text href="#ref-6"/>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<ItemCount>2</ItemCount>
-<Item0 href="#ref-117"/>
-<Item1 href="#ref-118"/>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-56" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-73"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-119">xrLabel12</Name>
-<Style_X_Font id="ref-120">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-114">xrLabel10</Name>
+<Style_X_Font id="ref-115">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
 <Style_X_BorderColor href="#ref-16"/>
@@ -1240,11 +1193,65 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>8</x>
-<y>17</y>
+<y>25</y>
 <width>75</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-121">Lokasi :</Text>
+<Text id="ref-116">Lokasi :</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-56" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-21"/>
+<Type_X_TypeName href="#ref-73"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-117">xrLabel9</Name>
+<Style_X_Font id="ref-118">Times New Roman, 9pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-16"/>
+<Style_X_BackColor href="#ref-17"/>
+<Style_X_BorderColor href="#ref-16"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>1</BindingItemCount>
+<BindingItem0_X_PropertyName id="ref-119">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-120">loc</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource href="#ref-6"/>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>83</x>
+<y>25</y>
+<width>83</width>
+<height>17</height>
+</Bounds>
+<Text id="ref-121">xrLabel10</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1264,7 +1271,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-122">xrLabel11</Name>
+<Name id="ref-122">xrLabel7</Name>
 <Style_X_Font id="ref-123">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -1289,16 +1296,16 @@ Localization=en-US
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
 <BindingItem0_X_PropertyName id="ref-124">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-125">loc</BindingItem0_X_DataMember>
+<BindingItem0_X_DataMember id="ref-125">locname</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>83</x>
-<y>17</y>
-<width>83</width>
+<x>167</x>
+<y>25</y>
+<width>350</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-126">xrLabel10</Text>
+<Text id="ref-126">xrLabel7</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1314,68 +1321,14 @@ Localization=en-US
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-58" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
-<Type_X_TypeName href="#ref-73"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-127">xrLabel10</Name>
-<Style_X_Font id="ref-128">Times New Roman, 9pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-17"/>
-<Style_X_BorderColor href="#ref-16"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-129">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-130">locname</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource href="#ref-6"/>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>167</x>
-<y>17</y>
-<width>350</width>
-<height>17</height>
-</Bounds>
-<Text id="ref-131">xrLabel7</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-59" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-69"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Bottom</Dock>
-<Name id="ref-132">xrTable5</Name>
-<Style_X_Font id="ref-133">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-127">xrTable6</Name>
+<Style_X_Font id="ref-128">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-116"/>
+<Style_X_BackColor id="ref-129">LightSkyBlue</Style_X_BackColor>
 <Style_X_BorderColor href="#ref-16"/>
 <Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Top, Right, Bottom</Style_X_Borders>
 <Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
@@ -1398,7 +1351,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>708</x>
-<y>46</y>
+<y>48</y>
 <width>192</width>
 <height>43</height>
 </Bounds>
@@ -1410,19 +1363,19 @@ Localization=en-US
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>2</ItemCount>
-<Item0 href="#ref-134"/>
-<Item1 href="#ref-135"/>
+<Item0 href="#ref-130"/>
+<Item1 href="#ref-131"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-60" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-59" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-69"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Bottom</Dock>
-<Name id="ref-136">xrTable4</Name>
-<Style_X_Font id="ref-137">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-132">xrTable4</Name>
+<Style_X_Font id="ref-133">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-116"/>
+<Style_X_BackColor href="#ref-129"/>
 <Style_X_BorderColor href="#ref-16"/>
 <Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Top, Right, Bottom</Style_X_Borders>
 <Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
@@ -1445,7 +1398,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>517</x>
-<y>46</y>
+<y>48</y>
 <width>191</width>
 <height>43</height>
 </Bounds>
@@ -1457,17 +1410,17 @@ Localization=en-US
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>2</ItemCount>
-<Item0 href="#ref-138"/>
-<Item1 href="#ref-139"/>
+<Item0 href="#ref-134"/>
+<Item1 href="#ref-135"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-61" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-60" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-73"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-140">xrLabel9</Name>
-<Style_X_Font id="ref-141">Times New Roman, 9pt</Style_X_Font>
+<Name id="ref-136">xrLabel11</Name>
+<Style_X_Font id="ref-137">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
 <Style_X_BorderColor href="#ref-16"/>
@@ -1490,17 +1443,17 @@ Localization=en-US
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-142">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-143">unit</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-138">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-139">unit</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-140">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>650</x>
-<y>0</y>
+<y>8</y>
 <width>67</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-144">xrLabel11</Text>
+<Text href="#ref-136"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1514,6 +1467,53 @@ Localization=en-US
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
+<a1:ObjectStorage id="ref-61" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-21"/>
+<Type_X_TypeName href="#ref-69"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Bottom</Dock>
+<Name id="ref-141">xrTable5</Name>
+<Style_X_Font id="ref-142">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-16"/>
+<Style_X_BackColor href="#ref-129"/>
+<Style_X_BorderColor href="#ref-16"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Top, Right, Bottom</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>false</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>900</x>
+<y>48</y>
+<width>158</width>
+<height>43</height>
+</Bounds>
+<Text href="#ref-6"/>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<ItemCount>2</ItemCount>
+<Item0 href="#ref-143"/>
+<Item1 href="#ref-144"/>
+</a1:ObjectStorage>
 <a1:ObjectStorage id="ref-62" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-69"/>
@@ -1523,7 +1523,7 @@ Localization=en-US
 <Name id="ref-145">xrTable1</Name>
 <Style_X_Font id="ref-146">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-116"/>
+<Style_X_BackColor href="#ref-129"/>
 <Style_X_BorderColor href="#ref-16"/>
 <Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">All</Style_X_Borders>
 <Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
@@ -1546,7 +1546,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>8</x>
-<y>46</y>
+<y>48</y>
 <width>509</width>
 <height>43</height>
 </Bounds>
@@ -1566,7 +1566,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-148">xrLabel8</Name>
+<Name id="ref-148">xrLabel6</Name>
 <Style_X_Font id="ref-149">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -1593,14 +1593,14 @@ Localization=en-US
 <BindingItem0_X_PropertyName id="ref-150">Text</BindingItem0_X_PropertyName>
 <BindingItem0_X_DataMember id="ref-151">inv</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-152">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>83</x>
-<y>0</y>
+<y>7</y>
 <width>83</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-152">xrLabel6</Text>
+<Text href="#ref-148"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1620,7 +1620,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-153">xrLabel7</Name>
+<Name id="ref-153">xrLabel8</Name>
 <Style_X_Font id="ref-154">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -1646,7 +1646,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>8</x>
-<y>0</y>
+<y>7</y>
 <width>75</width>
 <height>17</height>
 </Bounds>
@@ -1670,7 +1670,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-156">xrLabel6</Name>
+<Name id="ref-156">xrLabel12</Name>
 <Style_X_Font id="ref-157">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -1696,7 +1696,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>617</x>
-<y>0</y>
+<y>8</y>
 <width>33</width>
 <height>17</height>
 </Bounds>
@@ -1747,14 +1747,14 @@ Localization=en-US
 <BindingItem0_X_PropertyName id="ref-161">Text</BindingItem0_X_PropertyName>
 <BindingItem0_X_DataMember id="ref-162">invname</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-163">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>167</x>
-<y>0</y>
+<y>7</y>
 <width>425</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-163">xrLabel1</Text>
+<Text href="#ref-159"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1871,7 +1871,7 @@ Localization=en-US
 <Item2 href="#ref-178"/>
 <Item3 href="#ref-179"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-117" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-130" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-164"/>
 <Visible>true</Visible>
@@ -1904,7 +1904,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>158</width>
+<width>192</width>
 <height>22</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -1917,7 +1917,7 @@ Localization=en-US
 <ItemCount>1</ItemCount>
 <Item0 href="#ref-182"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-118" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-131" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-164"/>
 <Visible>true</Visible>
@@ -1950,7 +1950,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>22</y>
-<width>158</width>
+<width>192</width>
 <height>21</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -1969,7 +1969,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-186">xrTableRow6</Name>
+<Name id="ref-186">xrTableRow4</Name>
 <Style_X_Font id="ref-187">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -1996,7 +1996,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>192</width>
+<width>191</width>
 <height>22</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -2015,7 +2015,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-189">xrTableRow7</Name>
+<Name id="ref-189">xrTableRow5</Name>
 <Style_X_Font id="ref-190">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -2042,7 +2042,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>22</y>
-<width>192</width>
+<width>191</width>
 <height>21</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -2055,13 +2055,13 @@ Localization=en-US
 <ItemCount>1</ItemCount>
 <Item0 href="#ref-191"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-138" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-143" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-164"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-192">xrTableRow4</Name>
+<Name id="ref-192">xrTableRow6</Name>
 <Style_X_Font id="ref-193">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -2088,7 +2088,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>191</width>
+<width>158</width>
 <height>22</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -2101,13 +2101,13 @@ Localization=en-US
 <ItemCount>1</ItemCount>
 <Item0 href="#ref-194"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-139" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-144" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-21"/>
 <Type_X_TypeName href="#ref-164"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-195">xrTableRow5</Name>
+<Name id="ref-195">xrTableRow7</Name>
 <Style_X_Font id="ref-196">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -2134,7 +2134,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>22</y>
-<width>191</width>
+<width>158</width>
 <height>21</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -2753,108 +2753,8 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-256">xrTableCell15</Name>
+<Name id="ref-256">xrTableCell26</Name>
 <Style_X_Font id="ref-257">Times New Roman, 9pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-17"/>
-<Style_X_BorderColor href="#ref-16"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>0</x>
-<y>0</y>
-<width>158</width>
-<height>22</height>
-</Bounds>
-<Text id="ref-258">Saldo</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-185" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-21"/>
-<Type_X_TypeName href="#ref-203"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-259">xrTableCell16</Name>
-<Style_X_Font id="ref-260">Times New Roman, 9pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-16"/>
-<Style_X_BackColor href="#ref-17"/>
-<Style_X_BorderColor href="#ref-16"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Right, Bottom</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>false</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>0</x>
-<y>0</y>
-<width>158</width>
-<height>21</height>
-</Bounds>
-<Text id="ref-261">Qty</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-188" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-21"/>
-<Type_X_TypeName href="#ref-203"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-262">xrTableCell10</Name>
-<Style_X_Font id="ref-263">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
 <Style_X_BorderColor href="#ref-16"/>
@@ -2883,7 +2783,107 @@ Localization=en-US
 <width>192</width>
 <height>22</height>
 </Bounds>
-<Text id="ref-264">Kredit</Text>
+<Text id="ref-258">Kredit</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-185" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-21"/>
+<Type_X_TypeName href="#ref-203"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-259">xrTableCell27</Name>
+<Style_X_Font id="ref-260">Times New Roman, 9pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-16"/>
+<Style_X_BackColor href="#ref-17"/>
+<Style_X_BorderColor href="#ref-16"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Right, Bottom</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>false</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+<width>192</width>
+<height>21</height>
+</Bounds>
+<Text id="ref-261">Qty</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-188" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-21"/>
+<Type_X_TypeName href="#ref-203"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-262">xrTableCell8</Name>
+<Style_X_Font id="ref-263">Times New Roman, 9pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-16"/>
+<Style_X_BackColor href="#ref-17"/>
+<Style_X_BorderColor href="#ref-16"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleCenter</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+<width>191</width>
+<height>22</height>
+</Bounds>
+<Text id="ref-264">Debet</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2930,7 +2930,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>192</width>
+<width>191</width>
 <height>21</height>
 </Bounds>
 <Text id="ref-267">Qty</Text>
@@ -2953,7 +2953,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-268">xrTableCell8</Name>
+<Name id="ref-268">xrTableCell9</Name>
 <Style_X_Font id="ref-269">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -2980,10 +2980,10 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>191</width>
+<width>158</width>
 <height>22</height>
 </Bounds>
-<Text id="ref-270">Debet</Text>
+<Text id="ref-270">Saldo</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3003,7 +3003,7 @@ Localization=en-US
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-271">xrTableCell9</Name>
+<Name id="ref-271">xrTableCell10</Name>
 <Style_X_Font id="ref-272">Times New Roman, 9pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-16"/>
 <Style_X_BackColor href="#ref-17"/>
@@ -3030,7 +3030,7 @@ Localization=en-US
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
 <y>0</y>
-<width>191</width>
+<width>158</width>
 <height>21</height>
 </Bounds>
 <Text id="ref-273">Qty</Text>
