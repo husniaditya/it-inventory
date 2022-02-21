@@ -642,17 +642,17 @@ namespace CAS.Transaction
         {
 
             string txtsjlnya = ludSeri.Text + "-" + txtPeriod.Text + "-" + txtNo.Text;
-            string strbtnSMU = "select left(nopoc,1) as nopoc from sjd,sjh,inv where sjh.sjh='" + txtsjlnya + "' and sjd.sjh=sjh.sjh and sjh.sub='1110003' and trim(sjd.mor)='' and sjd.inv=inv.inv and trim(inv.oldinv1)<>''";
-            DataTable dtSMU = DB.sql.Select(strbtnSMU);
-            string txtnopocnya = "";
-            if (dtSMU.Rows.Count > 0)
-            {
-                txtnopocnya = dtSMU.Rows[0]["nopoc"].ToString();
-            }
-            if (dtSMU.Rows.Count > 0 && ctrlSub.txtSub.Text.Trim() == "1110003")
-                buttonCallSMU.Enabled = true;
-            else
-                buttonCallSMU.Enabled = false;
+            //string strbtnSMU = "select left(nopoc,1) as nopoc from sjd,sjh,inv where sjh.sjh='" + txtsjlnya + "' and sjd.sjh=sjh.sjh and sjh.sub='1110003' and trim(sjd.mor)='' and sjd.inv=inv.inv and trim(inv.oldinv1)<>''";
+            //DataTable dtSMU = DB.sql.Select(strbtnSMU);
+            //string txtnopocnya = "";
+            //if (dtSMU.Rows.Count > 0)
+            //{
+            //    txtnopocnya = dtSMU.Rows[0]["nopoc"].ToString();
+            //}
+            //if (dtSMU.Rows.Count > 0 && ctrlSub.txtSub.Text.Trim() == "1110003")
+            //    buttonCallSMU.Enabled = true;
+            //else
+            //    buttonCallSMU.Enabled = false;
 
 
           }

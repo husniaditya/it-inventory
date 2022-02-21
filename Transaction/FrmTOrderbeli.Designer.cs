@@ -135,12 +135,10 @@ namespace CAS.Transaction
             // 
             // txtNo
             // 
-            this.txtNo.Size = new System.Drawing.Size(85, 26);
             this.txtNo.EditValueChanged += new System.EventHandler(this.txtNo_EditValueChanged);
             // 
             // txtPeriod
             // 
-            this.txtPeriod.Size = new System.Drawing.Size(43, 26);
             // 
             // ludSeri
             // 
@@ -184,7 +182,7 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(this.duedateDateEdit);
             this.pnlDetail.Controls.Add(this.gcOmd);
             this.pnlDetail.Controls.Add(this.pnlTotal);
-            this.pnlDetail.Size = new System.Drawing.Size(911, 585);
+            this.pnlDetail.Size = new System.Drawing.Size(911, 600);
             this.pnlDetail.Controls.SetChildIndex(this.pnlTotal, 0);
             this.pnlDetail.Controls.SetChildIndex(this.gcOmd, 0);
             this.pnlDetail.Controls.SetChildIndex(this.duedateDateEdit, 0);
@@ -248,7 +246,6 @@ namespace CAS.Transaction
             this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy";
             this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
-            this.dateDate.Size = new System.Drawing.Size(100, 26);
             // 
             // dateLabel
             // 
@@ -268,7 +265,6 @@ namespace CAS.Transaction
             this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
             this.curcur.Properties.Appearance.Options.UseBackColor = true;
             this.curcur.Properties.Appearance.Options.UseForeColor = true;
-            this.curcur.Size = new System.Drawing.Size(57, 26);
             // 
             // curLabel1
             // 
@@ -289,7 +285,7 @@ namespace CAS.Transaction
             duedateLabel.AutoSize = true;
             duedateLabel.Location = new System.Drawing.Point(453, 59);
             duedateLabel.Name = "duedateLabel";
-            duedateLabel.Size = new System.Drawing.Size(40, 19);
+            duedateLabel.Size = new System.Drawing.Size(27, 13);
             duedateLabel.TabIndex = 9;
             duedateLabel.Text = "TOP";
             // 
@@ -298,7 +294,7 @@ namespace CAS.Transaction
             ppnLabel.AutoSize = true;
             ppnLabel.Location = new System.Drawing.Point(-110, 120);
             ppnLabel.Name = "ppnLabel";
-            ppnLabel.Size = new System.Drawing.Size(42, 19);
+            ppnLabel.Size = new System.Drawing.Size(29, 13);
             ppnLabel.TabIndex = 11;
             ppnLabel.Text = "ppn:";
             // 
@@ -307,7 +303,7 @@ namespace CAS.Transaction
             discLabel.AutoSize = true;
             discLabel.Location = new System.Drawing.Point(523, 84);
             discLabel.Name = "discLabel";
-            discLabel.Size = new System.Drawing.Size(38, 19);
+            discLabel.Size = new System.Drawing.Size(26, 13);
             discLabel.TabIndex = 12;
             discLabel.Text = "Disc";
             discLabel.Visible = false;
@@ -317,7 +313,7 @@ namespace CAS.Transaction
             label2.AutoSize = true;
             label2.Location = new System.Drawing.Point(11, 146);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(112, 19);
+            label2.Size = new System.Drawing.Size(79, 13);
             label2.TabIndex = 44;
             label2.Text = "Keterangan PR";
             // 
@@ -326,7 +322,7 @@ namespace CAS.Transaction
             label10.AutoSize = true;
             label10.Location = new System.Drawing.Point(13, 55);
             label10.Name = "label10";
-            label10.Size = new System.Drawing.Size(70, 19);
+            label10.Size = new System.Drawing.Size(48, 13);
             label10.TabIndex = 107;
             label10.Text = "Discount";
             label10.Visible = false;
@@ -336,7 +332,7 @@ namespace CAS.Transaction
             label9.AutoSize = true;
             label9.Location = new System.Drawing.Point(206, 51);
             label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(45, 19);
+            label9.Size = new System.Drawing.Size(31, 13);
             label9.TabIndex = 105;
             label9.Text = "Total";
             // 
@@ -345,7 +341,7 @@ namespace CAS.Transaction
             label8.AutoSize = true;
             label8.Location = new System.Drawing.Point(206, 30);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(38, 19);
+            label8.Size = new System.Drawing.Size(26, 13);
             label8.TabIndex = 104;
             label8.Text = "PPN";
             // 
@@ -354,7 +350,7 @@ namespace CAS.Transaction
             label6.AutoSize = true;
             label6.Location = new System.Drawing.Point(206, 8);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(77, 19);
+            label6.Size = new System.Drawing.Size(52, 13);
             label6.TabIndex = 102;
             label6.Text = "Sub Total";
             // 
@@ -363,7 +359,7 @@ namespace CAS.Transaction
             label7.AutoSize = true;
             label7.Location = new System.Drawing.Point(547, 59);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(43, 19);
+            label7.Size = new System.Drawing.Size(31, 13);
             label7.TabIndex = 110;
             label7.Text = "Days";
             // 
@@ -372,7 +368,7 @@ namespace CAS.Transaction
             ppnLabel1.AutoSize = true;
             ppnLabel1.Location = new System.Drawing.Point(453, 90);
             ppnLabel1.Name = "ppnLabel1";
-            ppnLabel1.Size = new System.Drawing.Size(38, 19);
+            ppnLabel1.Size = new System.Drawing.Size(26, 13);
             ppnLabel1.TabIndex = 110;
             ppnLabel1.Text = "PPN";
             // 
@@ -381,7 +377,7 @@ namespace CAS.Transaction
             closedLabel.AutoSize = true;
             closedLabel.Location = new System.Drawing.Point(666, 116);
             closedLabel.Name = "closedLabel";
-            closedLabel.Size = new System.Drawing.Size(47, 19);
+            closedLabel.Size = new System.Drawing.Size(33, 13);
             closedLabel.TabIndex = 111;
             closedLabel.Text = "Close";
             // 
@@ -390,7 +386,7 @@ namespace CAS.Transaction
             jenispoLabel.AutoSize = true;
             jenispoLabel.Location = new System.Drawing.Point(431, 146);
             jenispoLabel.Name = "jenispoLabel";
-            jenispoLabel.Size = new System.Drawing.Size(70, 19);
+            jenispoLabel.Size = new System.Drawing.Size(48, 13);
             jenispoLabel.TabIndex = 112;
             jenispoLabel.Text = "Jenis PO";
             jenispoLabel.Visible = false;
@@ -400,7 +396,7 @@ namespace CAS.Transaction
             label3.AutoSize = true;
             label3.Location = new System.Drawing.Point(27, 124);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(88, 19);
+            label3.Size = new System.Drawing.Size(60, 13);
             label3.TabIndex = 117;
             label3.Text = "No Kontrak";
             // 
@@ -409,7 +405,7 @@ namespace CAS.Transaction
             label4.AutoSize = true;
             label4.Location = new System.Drawing.Point(11, 180);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(114, 19);
+            label4.Size = new System.Drawing.Size(80, 13);
             label4.TabIndex = 119;
             label4.Text = "Keterangan PO";
             // 
@@ -418,16 +414,17 @@ namespace CAS.Transaction
             personLabel.AutoSize = true;
             personLabel.Location = new System.Drawing.Point(406, 183);
             personLabel.Name = "personLabel";
-            personLabel.Size = new System.Drawing.Size(109, 19);
+            personLabel.Size = new System.Drawing.Size(75, 13);
             personLabel.TabIndex = 122;
             personLabel.Text = "User Pemesan";
+            personLabel.Visible = false;
             // 
             // aprovby1Label
             // 
             aprovby1Label.AutoSize = true;
             aprovby1Label.Location = new System.Drawing.Point(424, 141);
             aprovby1Label.Name = "aprovby1Label";
-            aprovby1Label.Size = new System.Drawing.Size(83, 19);
+            aprovby1Label.Size = new System.Drawing.Size(57, 13);
             aprovby1Label.TabIndex = 126;
             aprovby1Label.Text = "Approv By";
             // 
@@ -436,7 +433,7 @@ namespace CAS.Transaction
             label5.AutoSize = true;
             label5.Location = new System.Drawing.Point(675, 10);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(63, 19);
+            label5.Size = new System.Drawing.Size(43, 13);
             label5.TabIndex = 129;
             label5.Text = "Shipper";
             // 
@@ -445,7 +442,7 @@ namespace CAS.Transaction
             label12.AutoSize = true;
             label12.Location = new System.Drawing.Point(525, 90);
             label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(47, 19);
+            label12.Size = new System.Drawing.Size(32, 13);
             label12.TabIndex = 132;
             label12.Text = "PPNP";
             // 
@@ -454,7 +451,7 @@ namespace CAS.Transaction
             label11.AutoSize = true;
             label11.Location = new System.Drawing.Point(613, 90);
             label11.Name = "label11";
-            label11.Size = new System.Drawing.Size(124, 19);
+            label11.Size = new System.Drawing.Size(84, 13);
             label11.TabIndex = 134;
             label11.Text = "PPN Dibebaskan";
             // 
@@ -463,7 +460,7 @@ namespace CAS.Transaction
             label13.AutoSize = true;
             label13.Location = new System.Drawing.Point(10, 10);
             label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(47, 19);
+            label13.Size = new System.Drawing.Size(32, 13);
             label13.TabIndex = 109;
             label13.Text = "PPNP";
             // 
@@ -472,7 +469,7 @@ namespace CAS.Transaction
             label14.AutoSize = true;
             label14.Location = new System.Drawing.Point(10, 37);
             label14.Name = "label14";
-            label14.Size = new System.Drawing.Size(38, 19);
+            label14.Size = new System.Drawing.Size(26, 13);
             label14.TabIndex = 111;
             label14.Text = "PPH";
             // 
@@ -482,7 +479,7 @@ namespace CAS.Transaction
             cpoLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             cpoLabel.Location = new System.Drawing.Point(675, 51);
             cpoLabel.Name = "cpoLabel";
-            cpoLabel.Size = new System.Drawing.Size(215, 22);
+            cpoLabel.Size = new System.Drawing.Size(141, 14);
             cpoLabel.TabIndex = 136;
             cpoLabel.Text = "Non Commercial Value";
             // 
@@ -506,7 +503,7 @@ namespace CAS.Transaction
             this.duedateDateEdit.Name = "duedateDateEdit";
             this.duedateDateEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.duedateDateEdit.Size = new System.Drawing.Size(100, 26);
+            this.duedateDateEdit.Size = new System.Drawing.Size(100, 23);
             this.duedateDateEdit.TabIndex = 10;
             this.duedateDateEdit.Visible = false;
             // 
@@ -523,7 +520,7 @@ namespace CAS.Transaction
             this.spinDisc.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.spinDisc.Properties.UseCtrlIncrement = false;
-            this.spinDisc.Size = new System.Drawing.Size(100, 26);
+            this.spinDisc.Size = new System.Drawing.Size(100, 20);
             this.spinDisc.TabIndex = 13;
             this.spinDisc.Visible = false;
             this.spinDisc.EditValueChanged += new System.EventHandler(this.spinDisc_EditValueChanged);
@@ -550,7 +547,7 @@ namespace CAS.Transaction
             this.txtDisc.Name = "txtDisc";
             this.txtDisc.Properties.Appearance.Options.UseTextOptions = true;
             this.txtDisc.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtDisc.Size = new System.Drawing.Size(121, 26);
+            this.txtDisc.Size = new System.Drawing.Size(121, 20);
             this.txtDisc.TabIndex = 106;
             this.txtDisc.Visible = false;
             // 
@@ -562,7 +559,7 @@ namespace CAS.Transaction
             this.txtTotal.Properties.Appearance.Options.UseFont = true;
             this.txtTotal.Properties.Appearance.Options.UseTextOptions = true;
             this.txtTotal.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtTotal.Size = new System.Drawing.Size(121, 27);
+            this.txtTotal.Size = new System.Drawing.Size(121, 20);
             this.txtTotal.TabIndex = 101;
             // 
             // txtPPN
@@ -573,7 +570,7 @@ namespace CAS.Transaction
             this.txtPPN.Properties.Appearance.Options.UseFont = true;
             this.txtPPN.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPPN.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPPN.Size = new System.Drawing.Size(121, 27);
+            this.txtPPN.Size = new System.Drawing.Size(121, 20);
             this.txtPPN.TabIndex = 100;
             // 
             // txtSubtotal
@@ -584,7 +581,7 @@ namespace CAS.Transaction
             this.txtSubtotal.Properties.Appearance.Options.UseFont = true;
             this.txtSubtotal.Properties.Appearance.Options.UseTextOptions = true;
             this.txtSubtotal.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtSubtotal.Size = new System.Drawing.Size(121, 27);
+            this.txtSubtotal.Size = new System.Drawing.Size(121, 20);
             this.txtSubtotal.TabIndex = 98;
             // 
             // spinTOP
@@ -599,7 +596,7 @@ namespace CAS.Transaction
             this.spinTOP.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.spinTOP.Properties.UseCtrlIncrement = false;
-            this.spinTOP.Size = new System.Drawing.Size(56, 26);
+            this.spinTOP.Size = new System.Drawing.Size(56, 20);
             this.spinTOP.TabIndex = 109;
             // 
             // cbPPN
@@ -657,7 +654,7 @@ namespace CAS.Transaction
             this.pnlTotal.Controls.Add(label10);
             this.pnlTotal.Controls.Add(this.txtPPNP);
             this.pnlTotal.Controls.Add(label13);
-            this.pnlTotal.Location = new System.Drawing.Point(486, 507);
+            this.pnlTotal.Location = new System.Drawing.Point(486, 522);
             this.pnlTotal.Name = "pnlTotal";
             this.pnlTotal.Size = new System.Drawing.Size(404, 75);
             this.pnlTotal.TabIndex = 115;
@@ -670,7 +667,7 @@ namespace CAS.Transaction
             this.txtPPH.Properties.Appearance.Options.UseFont = true;
             this.txtPPH.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPPH.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPPH.Size = new System.Drawing.Size(121, 27);
+            this.txtPPH.Size = new System.Drawing.Size(121, 20);
             this.txtPPH.TabIndex = 110;
             // 
             // txtPPNP
@@ -681,7 +678,7 @@ namespace CAS.Transaction
             this.txtPPNP.Properties.Appearance.Options.UseFont = true;
             this.txtPPNP.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPPNP.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPPNP.Size = new System.Drawing.Size(121, 27);
+            this.txtPPNP.Size = new System.Drawing.Size(121, 20);
             this.txtPPNP.TabIndex = 108;
             // 
             // gcOmd
@@ -694,7 +691,7 @@ namespace CAS.Transaction
             this.gcOmd.Location = new System.Drawing.Point(20, 242);
             this.gcOmd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcOmd.Name = "gcOmd";
-            this.gcOmd.Size = new System.Drawing.Size(888, 259);
+            this.gcOmd.Size = new System.Drawing.Size(888, 274);
             this.gcOmd.TabIndex = 18;
             // 
             // no_kon
@@ -728,7 +725,7 @@ namespace CAS.Transaction
             this.no_kon.Properties.Appearance.Options.UseForeColor = true;
             this.no_kon.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.no_kon.Size = new System.Drawing.Size(140, 26);
+            this.no_kon.Size = new System.Drawing.Size(140, 20);
             this.no_kon.TabIndex = 116;
             this.no_kon.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.no_kon_ButtonClick);
             this.no_kon.EditValueChanged += new System.EventHandler(this.no_kon_EditValueChanged);
@@ -779,8 +776,9 @@ namespace CAS.Transaction
             this.personTextBoxEx.Name = "personTextBoxEx";
             this.personTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.personTextBoxEx.Size = new System.Drawing.Size(99, 26);
+            this.personTextBoxEx.Size = new System.Drawing.Size(99, 20);
             this.personTextBoxEx.TabIndex = 123;
+            this.personTextBoxEx.Visible = false;
             // 
             // lblprint
             // 
@@ -791,7 +789,7 @@ namespace CAS.Transaction
             this.lblprint.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.lblprint.Location = new System.Drawing.Point(589, 13);
             this.lblprint.Name = "lblprint";
-            this.lblprint.Size = new System.Drawing.Size(127, 31);
+            this.lblprint.Size = new System.Drawing.Size(86, 21);
             this.lblprint.TabIndex = 113;
             this.lblprint.Text = "PRINTED";
             this.lblprint.Visible = false;
@@ -811,7 +809,7 @@ namespace CAS.Transaction
             this.aprovby1TextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.omsBindingSource, "aprovby", true));
             this.aprovby1TextEdit.Location = new System.Drawing.Point(487, 138);
             this.aprovby1TextEdit.Name = "aprovby1TextEdit";
-            this.aprovby1TextEdit.Size = new System.Drawing.Size(212, 26);
+            this.aprovby1TextEdit.Size = new System.Drawing.Size(212, 20);
             this.aprovby1TextEdit.TabIndex = 127;
             this.aprovby1TextEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.aprovby1TextEdit_KeyPress);
             // 
@@ -849,7 +847,7 @@ namespace CAS.Transaction
             this.shipperTextBoxEx.Properties.Appearance.Options.UseForeColor = true;
             this.shipperTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.shipperTextBoxEx.Size = new System.Drawing.Size(140, 26);
+            this.shipperTextBoxEx.Size = new System.Drawing.Size(140, 20);
             this.shipperTextBoxEx.TabIndex = 128;
             // 
             // cbPPNGanti

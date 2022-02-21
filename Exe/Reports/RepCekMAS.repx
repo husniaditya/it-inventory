@@ -340,7 +340,7 @@ Localization=en-US
 <BindingItem0_X_DataSource id="ref-46">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1204</x>
-<y>1635</y>
+<y>1617</y>
 <width>1141</width>
 <height>42</height>
 </Bounds>
@@ -660,7 +660,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1204</x>
-<y>1640</y>
+<y>1622</y>
 <width>1101</width>
 <height>45</height>
 </Bounds>
@@ -713,8 +713,8 @@ Localization=en-US
 <BindingItem0_X_FormatString id="ref-82">{0:&#39;#&#39;#,#&#39;#&#39;}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource id="ref-83">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1585</x>
-<y>1730</y>
+<x>1651</x>
+<y>1699</y>
 <width>466</width>
 <height>42</height>
 </Bounds>
@@ -767,8 +767,8 @@ Localization=en-US
 <BindingItem0_X_FormatString id="ref-88">{0:dd/MM/yyyy}</BindingItem0_X_FormatString>
 <BindingItem0_X_DataSource id="ref-89">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1828</x>
-<y>1508</y>
+<x>1717</x>
+<y>1482</y>
 <width>254</width>
 <height>44</height>
 </Bounds>

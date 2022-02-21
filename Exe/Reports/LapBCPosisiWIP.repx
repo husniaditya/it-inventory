@@ -1,6 +1,6 @@
 <!--
 AssemblyName=DevExpress%2EXtraReports3%2C%20Version%3D1%2E12%2E3%2E0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4
-AssemblyLocation=D:\Baramuda\Program\CAS BB\DevExpress.XtraReports3.dll
+AssemblyLocation=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports3\1.12.3.0__79868b8147b5eae4\DevExpress.XtraReports3.dll
 TypeName=DevExpress.XtraReports.UI.XtraReport
 Localization=en-US
 -->
@@ -492,7 +492,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>384</width>
 <height>25</height>
 </Bounds>
-<Text id="ref-55">KAWASAN  BERIKAT  PT. BARAMUDA BAHARI</Text>
+<Text id="ref-55">KAWASAN  BERIKAT  PT. KARYAINDAH ALAM SEJAHTERA</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>

@@ -339,9 +339,9 @@ Localization=en-US
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-46">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1114</x>
+<x>1204</x>
 <y>1614</y>
-<width>1223</width>
+<width>1141</width>
 <height>42</height>
 </Bounds>
 <Text href="#ref-42"/>
@@ -659,9 +659,9 @@ Localization=en-US
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1114</x>
+<x>1204</x>
 <y>1619</y>
-<width>1180</width>
+<width>1101</width>
 <height>45</height>
 </Bounds>
 <Text id="ref-77">xrTerbilang1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</Text>
@@ -768,9 +768,9 @@ Localization=en-US
 <BindingItem0_X_DataSource id="ref-89">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1828</x>
-<y>1484</y>
+<y>1479</y>
 <width>254</width>
-<height>48</height>
+<height>44</height>
 </Bounds>
 <Text href="#ref-84"/>
 <NavigateUrl href="#ref-6"/>

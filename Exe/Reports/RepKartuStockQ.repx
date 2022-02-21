@@ -1,6 +1,6 @@
 <!--
 AssemblyName=DevExpress%2EXtraReports3%2C%20Version%3D1%2E12%2E3%2E0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4
-AssemblyLocation=D:\Baramuda\Program\CAS BB\DevExpress.XtraReports3.dll
+AssemblyLocation=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports3\1.12.3.0__79868b8147b5eae4\DevExpress.XtraReports3.dll
 TypeName=DevExpress.XtraReports.UI.XtraReport
 Localization=en-US
 -->
@@ -146,7 +146,7 @@ Localization=en-US
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>46</Height>
+<Height>21</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <PrintOnEmptyDataSource>true</PrintOnEmptyDataSource>
 <MultiColumn_X_ColumnCount>1</MultiColumn_X_ColumnCount>
@@ -566,7 +566,7 @@ Localization=en-US
 <x>8</x>
 <y>0</y>
 <width>692</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -1761,7 +1761,7 @@ Localization=en-US
 <x>0</x>
 <y>0</y>
 <width>692</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -1967,7 +1967,7 @@ Localization=en-US
 <x>0</x>
 <y>0</y>
 <width>67</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-188"/>
 <NavigateUrl href="#ref-6"/>
@@ -2021,7 +2021,7 @@ Localization=en-US
 <x>67</x>
 <y>0</y>
 <width>110</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-194"/>
 <NavigateUrl href="#ref-6"/>
@@ -2075,7 +2075,7 @@ Localization=en-US
 <x>177</x>
 <y>0</y>
 <width>222</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-198"/>
 <NavigateUrl href="#ref-6"/>
@@ -2129,7 +2129,7 @@ Localization=en-US
 <x>399</x>
 <y>0</y>
 <width>101</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-202"/>
 <NavigateUrl href="#ref-6"/>
@@ -2187,7 +2187,7 @@ Localization=en-US
 <x>500</x>
 <y>0</y>
 <width>90</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-207"/>
 <NavigateUrl href="#ref-6"/>
@@ -2245,7 +2245,7 @@ Localization=en-US
 <x>590</x>
 <y>0</y>
 <width>102</width>
-<height>46</height>
+<height>21</height>
 </Bounds>
 <Text href="#ref-212"/>
 <NavigateUrl href="#ref-6"/>

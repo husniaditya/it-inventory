@@ -3,7 +3,7 @@
 // $SERVER = "203.201.172.92";
 // $SERVER = "192.168.10.4";
 $SERVER = "localhost";
-$DATABASE = "cas_bb";
+$DATABASE = "wis_inventory";
 $USER = "it";
 $PASSWORD = "kabelangka8";
 

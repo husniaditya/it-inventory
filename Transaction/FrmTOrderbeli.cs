@@ -561,14 +561,14 @@ namespace CAS.Transaction
         {
             DetailTable = DB.PopulateUnitBase(DetailTable, "Unit Base");
             //DetailTable = DB.PopulateDateNeed(DetailTable, "Tgl Dibutuhkan");
-            DataTable dtreprint = DB.sql.Select("select * from printed where jurnal ='" + NoDocument.ToString() + "'");
-            if (dtreprint != null)
-            {
-                if (dtreprint.Rows.Count > 0)
-                    lblprint.Visible = true;
-                else
-                    lblprint.Visible = false;
-            }
+            //DataTable dtreprint = DB.sql.Select("select * from printed where jurnal ='" + NoDocument.ToString() + "'");
+            //if (dtreprint != null)
+            //{
+            //    if (dtreprint.Rows.Count > 0)
+            //        lblprint.Visible = true;
+            //    else
+            //        lblprint.Visible = false;
+            //}
         }
 
         void ExGridView_cctColumnEdit_Enter(object sender, EventArgs e)
@@ -917,8 +917,8 @@ namespace CAS.Transaction
                     throw new Exception("Harap mengisi Kurs!");
                 if (curcur.EditValue.ToString() == "")
                     throw new Exception("Harap mengisi Currency!");
-                if (personTextBoxEx.EditValue.ToString() == "")
-                    throw new Exception("Harap mengisi Nama Pemesan!");
+                //if (personTextBoxEx.EditValue.ToString() == "")
+                //    throw new Exception("Harap mengisi Nama Pemesan!");
 
                 DetailBindingSource.EndEdit();
 
@@ -926,16 +926,30 @@ namespace CAS.Transaction
                 string cct = gcOmd.ExGridView.GetFocusedRowCellValue("cct").ToString();
                 double total = 0;
                 double budget = 0;
+                double totalbudget = 0;
                 double val = Convert.ToDouble(txtTotal.Text);
-                DataTable dtTpb = DB.sql.Select("SELECT (cct.budget - SUM(omd.val)) AS total, cct.budget FROM omd,oms,cct WHERE oms.oms=omd.oms AND omd.cct = cct.cct and left(omd.inv,2) != 11 and left(omd.inv,2) != 41 and left(omd.inv,2) != 51 and (oms.cmv = 0 or oms.cmv is null) and oms.delete = 0 and oms.aprov = 1 AND oms.period = '" + txtPeriod.Text + "' AND omd.cct = '" + cct + "' GROUP BY cct.cct");
-                foreach (DataRow drTpb in dtTpb.Rows)
+                if (this.mode == Mode.Edit)
                 {
-                    total = Convert.ToDouble(drTpb["total"]);
-                    budget = Convert.ToDouble(drTpb["budget"]);
+                    DataTable dtTpb = DB.sql.Select("CALL sp_Budgeting('" + cct + "','" + NoDocument + "','" + txtPeriod.Text + "','2')");
+                    foreach (DataRow drTpb in dtTpb.Rows)
+                    {
+                        total = Convert.ToDouble(drTpb["total"]);
+                        budget = Convert.ToDouble(drTpb["budget"]);
+                        totalbudget = budget - total;
+                    }
                 }
-
-                if ((total - val) <= 0 && budget > 0)
-                    throw new Exception("Transaksi tidak dapat diproses dikarenakan telah melebihi budget. Sisa budget saat ini : '" + total + "'");
+                else
+                {
+                    DataTable dtTpba = DB.sql.Select("CALL sp_Budgeting('" + cct + "','" + NoDocument + "','" + txtPeriod.Text + "','1')");
+                    foreach (DataRow drTpba in dtTpba.Rows)
+                    {
+                        total = Convert.ToDouble(drTpba["total"]);
+                        budget = Convert.ToDouble(drTpba["budget"]);
+                        totalbudget = budget - total;
+                    }
+                }
+                if ((totalbudget - val) <= 0 && budget > 0)
+                    throw new Exception("Transaksi tidak dapat diproses dikarenakan telah melebihi budget. Sisa budget saat ini : '" + totalbudget + "'");
                 //END CEK NILAI BUDGET
 
                 double totVal = 0;

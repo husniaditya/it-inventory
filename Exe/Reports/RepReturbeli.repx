@@ -316,7 +316,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
-<Height>1010</Height>
+<Height>1052</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <ItemCount>1</ItemCount>
 <Item0 href="#ref-35"/>
@@ -453,7 +453,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>64</x>
 <y>64</y>
 <width>1904</width>
-<height>946</height>
+<height>963</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -769,7 +769,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>0</x>
 <y>226</y>
 <width>1904</width>
-<height>50</height>
+<height>92</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -816,7 +816,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>276</y>
+<y>318</y>
 <width>1904</width>
 <height>49</height>
 </Bounds>
@@ -865,9 +865,9 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>325</y>
+<y>367</y>
 <width>1904</width>
-<height>50</height>
+<height>25</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -914,7 +914,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>375</y>
+<y>392</y>
 <width>1904</width>
 <height>63</height>
 </Bounds>
@@ -964,7 +964,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>438</y>
+<y>455</y>
 <width>1904</width>
 <height>64</height>
 </Bounds>
@@ -1014,7 +1014,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>502</y>
+<y>519</y>
 <width>1904</width>
 <height>64</height>
 </Bounds>
@@ -1063,7 +1063,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>566</y>
+<y>583</y>
 <width>1904</width>
 <height>43</height>
 </Bounds>
@@ -1113,7 +1113,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>609</y>
+<y>626</y>
 <width>1904</width>
 <height>42</height>
 </Bounds>
@@ -1162,7 +1162,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>651</y>
+<y>668</y>
 <width>1904</width>
 <height>63</height>
 </Bounds>
@@ -1211,7 +1211,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>714</y>
+<y>731</y>
 <width>1904</width>
 <height>43</height>
 </Bounds>
@@ -1261,7 +1261,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>757</y>
+<y>774</y>
 <width>1904</width>
 <height>64</height>
 </Bounds>
@@ -1310,7 +1310,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>821</y>
+<y>838</y>
 <width>1904</width>
 <height>40</height>
 </Bounds>
@@ -1361,7 +1361,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>861</y>
+<y>878</y>
 <width>1904</width>
 <height>42</height>
 </Bounds>
@@ -1412,7 +1412,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>903</y>
+<y>920</y>
 <width>1904</width>
 <height>43</height>
 </Bounds>
@@ -2934,7 +2934,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>0</x>
 <y>0</y>
 <width>401</width>
-<height>50</height>
+<height>92</height>
 </Bounds>
 <Text id="ref-320">   Alamat</Text>
 <NavigateUrl href="#ref-6"/>
@@ -2984,7 +2984,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>401</x>
 <y>0</y>
 <width>24</width>
-<height>50</height>
+<height>92</height>
 </Bounds>
 <Text id="ref-323">:</Text>
 <NavigateUrl href="#ref-6"/>
@@ -3033,17 +3033,18 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>425</x>
 <y>0</y>
-<width>1153</width>
-<height>50</height>
+<width>1152</width>
+<height>92</height>
 </Bounds>
-<Text id="ref-326">Jl. Raya Sukomulyo KM.24 Kav.3, Manayar-Gresik-Jawa Timur</Text>
+<Text id="ref-326">Jl. Kalisosok Kidul No.2 RT.004 RW.015, Krembangan Selatan , 
+Krembangan, Surabaya 60175  </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
+<Multiline>true</Multiline>
 <Angle>0</Angle>
 <Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
 <Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
@@ -3081,10 +3082,10 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1578</x>
+<x>1577</x>
 <y>0</y>
-<width>326</width>
-<height>50</height>
+<width>327</width>
+<height>92</height>
 </Bounds>
 <Text href="#ref-306"/>
 <NavigateUrl href="#ref-6"/>
@@ -3334,9 +3335,9 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>0</x>
 <y>0</y>
 <width>401</width>
-<height>50</height>
+<height>25</height>
 </Bounds>
-<Text id="ref-342">   Tgl. Pengukuhan PKP</Text>
+<Text id="ref-342"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3384,7 +3385,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>401</x>
 <y>0</y>
 <width>24</width>
-<height>50</height>
+<height>25</height>
 </Bounds>
 <Text id="ref-345">:</Text>
 <NavigateUrl href="#ref-6"/>
@@ -3434,9 +3435,9 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>425</x>
 <y>0</y>
 <width>1153</width>
-<height>50</height>
+<height>25</height>
 </Bounds>
-<Text id="ref-348">09 April 2007</Text>
+<Text id="ref-348"> </Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -3484,7 +3485,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <x>1578</x>
 <y>0</y>
 <width>326</width>
-<height>50</height>
+<height>25</height>
 </Bounds>
 <Text href="#ref-306"/>
 <NavigateUrl href="#ref-6"/>

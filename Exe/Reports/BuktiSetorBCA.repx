@@ -344,7 +344,7 @@ Localization=en-US
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>397</y>
+<y>381</y>
 <width>656</width>
 <height>84</height>
 </Bounds>
@@ -398,7 +398,7 @@ Localization=en-US
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1598</x>
-<y>534</y>
+<y>542</y>
 <width>310</width>
 <height>43</height>
 </Bounds>
@@ -452,7 +452,7 @@ Localization=en-US
 <BindingItem0_X_DataSource id="ref-61">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1164</x>
-<y>405</y>
+<y>392</y>
 <width>254</width>
 <height>42</height>
 </Bounds>
@@ -506,7 +506,7 @@ Localization=en-US
 <BindingItem0_X_DataSource href="#ref-6"/>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1598</x>
-<y>405</y>
+<y>392</y>
 <width>310</width>
 <height>43</height>
 </Bounds>
@@ -606,7 +606,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>548</y>
+<y>542</y>
 <width>444</width>
 <height>40</height>
 </Bounds>
@@ -656,7 +656,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>831</x>
-<y>548</y>
+<y>542</y>
 <width>233</width>
 <height>45</height>
 </Bounds>
@@ -710,7 +710,7 @@ Localization=en-US
 <BindingItem0_X_DataSource id="ref-81">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>318</y>
+<y>299</y>
 <width>720</width>
 <height>51</height>
 </Bounds>
@@ -759,8 +759,8 @@ Localization=en-US
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>738</x>
-<y>598</y>
+<x>466</x>
+<y>640</y>
 <width>487</width>
 <height>42</height>
 </Bounds>
@@ -810,7 +810,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>511</y>
+<y>505</y>
 <width>444</width>
 <height>37</height>
 </Bounds>
@@ -860,7 +860,7 @@ Localization=en-US
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>474</y>
+<y>468</y>
 <width>635</width>
 <height>42</height>
 </Bounds>
@@ -964,7 +964,7 @@ Localization=en-US
 <BindingItem0_X_DataSource id="ref-98">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>360</y>
+<y>341</y>
 <width>804</width>
 <height>58</height>
 </Bounds>
@@ -985,7 +985,7 @@ Localization=en-US
 <a1:ObjectStorage id="ref-38" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
 <Type_X_TypeName href="#ref-45"/>
-<Visible>false</Visible>
+<Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-100">xrLabel1</Name>
