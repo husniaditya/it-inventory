@@ -335,12 +335,12 @@ if ($koolajax->isCallback == false)
     <div class="panel-default">
         <?php
         if (isset($_POST["btnPreview"]) || isset($_POST["btnCSV"] ) || isset($_POST["btnPDF"] )) {
-            $tglAwal = new DateTime($_POST["tglAwal"]);
-            $period = $tglAwal->format("ym");
-            $awal = $tglAwal->format("d/m/Y");
-            $tglAwal = $tglAwal->format("Ymd");
+            $tglAwal  = new DateTime($_POST["tglAwal"]);
+            $period   = $tglAwal->format("ym");
+            $awal     = $tglAwal->format("d/m/Y");
+            $tglAwal  = $tglAwal->format("Ymd");
             $tglAkhir = new DateTime($_POST["tglAkhir"]);
-            $akhir = $tglAkhir->format("d/m/Y");
+            $akhir    = $tglAkhir->format("d/m/Y");
             $tglAkhir = $tglAkhir->format("Ymd");
 
             $query = "SELECT @num := @num + 1 AS no,

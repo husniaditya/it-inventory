@@ -12,7 +12,7 @@ body {
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: #c9c4bf;
 }
 @media (min-width: 768px) {
   #page-wrapper {
@@ -73,10 +73,10 @@ body {
   padding-right: 0;
 }
 .sidebar .sidebar-search {
-  padding: 15px;
+  padding: 5px;
 }
 .sidebar ul li {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #a8a39e;
 }
 .sidebar ul li a.active {
   background-color: #eeeeee;
@@ -105,7 +105,7 @@ body {
     z-index: 1;
     position: absolute;
     width: 250px;
-    margin-top: 51px;
+    margin-top: 0px;
   }
   .navbar-top-links .dropdown-messages,
   .navbar-top-links .dropdown-tasks,
