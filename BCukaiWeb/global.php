@@ -2,9 +2,9 @@
 
 // $SERVER = "203.201.172.92";
 // $SERVER = "192.168.10.4";
-$SERVER = "localhost";
+$SERVER   = "localhost";
 $DATABASE = "wis_inventory";
-$USER = "it";
+$USER     = "it";
 $PASSWORD = "kabelangka8";
 
 ini_set("date.timezone","Asia/Jakarta");
@@ -164,14 +164,14 @@ function GetPOST($name, $empty) {
 }
 
 function CreateDatePicker($id, $value) {
-    $dp = new KoolDatePicker($id);
+    $dp               = new KoolDatePicker($id);
     $dp->scriptFolder = "KoolCalendar";
-    $dp->styleFolder = "KoolCalendar/styles/default";
-    $dp->DateFormat = "d M Y";
+    $dp->styleFolder  = "KoolCalendar/styles/default";
+    $dp->DateFormat   = "d M Y";
 
     if ($value == "") {
-        $date = new DateTime();
-        $value = $date->format('d M Y');
+        $date      = new DateTime();
+        $value     = $date->format('d M Y');
         $dp->Value = $value;
     } else if ($value == " ") {
         /* space means I want an empty value */
