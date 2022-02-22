@@ -517,30 +517,40 @@ namespace CAS.Transaction
                 double packaging = (double)gcOkl.ExGridView.GetFocusedRowCellValue("packaging");
                 double qty1 = (double)gcOkl.ExGridView.GetFocusedRowCellValue("qty1");
                 string spesifikasi = gcOkl.ExGridView.GetFocusedRowCellValue("spesifikasi").ToString();
-                spesifikasi = spesifikasi.Substring(spesifikasi.Length-1,1);
                 double qty = (double)gcOkl.ExGridView.GetFocusedRowCellValue("qty");
                 double disc = (double)gcOkl.ExGridView.GetFocusedRowCellValue("disc");
-                double spek = 0;
-
-                int n;
-                bool isNumeric = int.TryParse(spesifikasi, out n);
-
-                if (isNumeric == true)
-                {
-                    spek = double.Parse(spesifikasi, CultureInfo.InvariantCulture);
-                }
-                else {
-                    spek = 1;
-                }
-
                 double val = 0;
-                if (kategori == "51101")
+
+
+                if (spesifikasi == "")
                 {
                     val = (price + packaging) * qty * ((100 - disc) / 100);
                 }
                 else
                 {
-                    val = (qty * price) + (packaging * qty1 * spek) * ((100 - disc) / 100);
+                    spesifikasi = spesifikasi.Substring(spesifikasi.Length - 1, 1);
+                    double spek = 0;
+
+                    int n;
+                    bool isNumeric = int.TryParse(spesifikasi, out n);
+
+                    if (isNumeric == true)
+                    {
+                        spek = double.Parse(spesifikasi, CultureInfo.InvariantCulture);
+                    }
+                    else
+                    {
+                        spek = 1;
+                    }
+
+                    if (kategori == "51101")
+                    {
+                        val = (price + packaging) * qty * ((100 - disc) / 100);
+                    }
+                    else
+                    {
+                        val = (qty * price) + (packaging * qty1 * spek) * ((100 - disc) / 100);
+                    }
                 }
 
                 gcOkl.ExGridView.SetFocusedRowCellValue(gcOkl.ExGridView.Columns["val"], val);
