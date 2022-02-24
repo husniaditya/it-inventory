@@ -141,9 +141,9 @@ if ($koolajax->isCallback == false)
             $akhir = $tglAkhir->format("d/m/Y");
             $tglAkhir = $tglAkhir->format("Ymd");
                         
-            $query = "SELECT @num := @num + 1 AS no,temp.* from (select invname,inv,date,jurnal,'' rem, sum(s_awal) s_awal, sum(qdebet) qdebet, sum(qkredit) qkredit, ";
-            $query .= "   sum(qadjust) qadjust, sum(ifnull(qopn,0)) selisih, max(unit) unit,  sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust) as sakhir, ";
-            $query .= "   if(sum(ifnull(round(qopn,2),0)) <> 0 , sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust) + sum(ifnull(qopn,0)),0) as opname, '-' as ket from ";
+            $query = "SELECT @num := @num + 1 AS no,temp.* from (select invname,inv,date,jurnal,'' rem, format(sum(s_awal),2) s_awal, format(sum(qdebet),2) qdebet, format(sum(qkredit),2) qkredit, ";
+            $query .= "   format(sum(qadjust),2) qadjust, format(sum(ifnull(qopn,0)),2) selisih, max(unit) unit,  format(sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust),2) as sakhir, ";
+            $query .= "   format(if(sum(ifnull(round(qopn,2),0)) <> 0 , sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust) + sum(ifnull(qopn,0)),0),2) as opname, '-' as ket from ";
             $query .= "( ";
             $query .= "select name as invname,inv,convert('' using latin1) as loc, date(" . $tglAwal . ") as `date`, convert('' using latin1) as jurnal, ";
             $query .= " convert('BALANCE' using latin1) as rem, sum(qlast) as s_awal,  0 as qdebet, 0 as qkredit, ";
@@ -428,7 +428,7 @@ if ($koolajax->isCallback == false)
             
             $pdf->brgscrapTbl($tablehead, $sData);
        
-            $pdf->Output('BC_Laporan_PertanggungJawaban_Mutasi_Barang_Jadi', 'D');
+            $pdf->Output('BC_Laporan_PertanggungJawaban_Mutasi_Barang_Jadi.pdf', 'D');
         }
         
         ?>	      

@@ -356,9 +356,9 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                                  bckeluar.inv,
                                  bckeluar.remark,
                                  bckeluar.unit, 
-                                 bckeluar.qty,
+                                 cast(format(bckeluar.qty,2) as char) as qty,
                                  nodsg,
-                                 bckeluar.val, 
+                                 cast(format(bckeluar.val,3) as char) as val, 
                                  bckeluar.qty1, 
                                  bckeluar.sub, 
                                  bckeluar.loc 
@@ -656,8 +656,8 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
             require_once dirname(__FILE__) . '/Lib/tcpdf/tcpdf.php';
             require_once dirname(__FILE__) . '/Lib/tcpdf/config/lang/eng.php';
 
-            $pdf = new PDF("L", PDF_UNIT, "A4", true, 'UTF-8', false); 
-            $pdf->SetFont('times', '', 10, '', 'false');
+            $pdf = new PDF("L", PDF_UNIT, 'A4', true, 'UTF-8', false); 
+            $pdf->SetFont('times', '', 6, '', 'false');
             // add a page
             $pdf->AddPage();
             
@@ -690,8 +690,8 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
             }
             //print_r($sData);
             
-            $tablehead = array('NO', 'JENIS  DOK', 'NO DOK PABEAN', 'NO PENDAFTARAN', 'TGL DOK PABEAN',
-                'NO BUKTI PENGELUARAN', 'TGL BUKTI PENGELUARAN', 'NO SURAT JALAN', 'TGL SURAT JALAN', 'PEMASOK',
+            $tablehead = array('NO', 'JENIS  DOK', 'NO DOK PABEAN', 'NO DAFTAR', 'TGL PABEAN',
+                'NO PENGELUARAN', 'TGL PENGELUARAN', 'NO SURAT JALAN', 'TGL SURAT JALAN', 'PEMASOK',
                 'KODE BARANG', 'NAMA BARANG', 'SAT', 'QTY', 'KODE BATCH', 'NILAI BARANG');
             
             $pdf->writeHTML($header, true, false, true, false, '');

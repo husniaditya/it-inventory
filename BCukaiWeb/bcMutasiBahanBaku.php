@@ -143,9 +143,9 @@ if ($koolajax->isCallback == false)
             $tglAkhir = $tglAkhir->format("Ymd");
 
             $query = "select @num := @num + 1 AS no, temp.* from ( ";
-            $query .= "select invname,inv,date,jurnal,'' rem, round(sum(s_awal),2) s_awal, sum(qdebet) qdebet, sum(qkredit) qkredit, ";
-            $query .= " sum(qadjust) qadjust, sum(qopn) selisih, max(unit) unit,  round(sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust),0) as sakhir, ";
-            $query .= "   if(sum(qopn) <> 0 , sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust) + sum(qopn),0) as opname,'-' as ket from ";
+            $query .= "select invname,inv,date,jurnal,'' rem, format(sum(s_awal),2) s_awal, format(sum(qdebet),2) qdebet, format(sum(qkredit),2) qkredit, ";
+            $query .= " format(sum(qadjust),2) qadjust, format(sum(qopn),2) selisih, max(unit) unit,  format(sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust),2) as sakhir, ";
+            $query .= "   format(if(sum(qopn) <> 0 , sum(s_awal) + sum(qdebet) - sum(qkredit) +  sum(qadjust) + sum(qopn),0),2) as opname,'-' as ket from ";
             $query .= "( ";
             $query .= " select name as invname,inv,'' as loc, date(" . $tglAwal . ") as `date`, '' as jurnal, ";
             $query .= " convert('BALANCE' using latin1) as rem, sum(qlast) as s_awal,  0 as qdebet, 0 as qkredit, ";
@@ -465,7 +465,7 @@ if ($koolajax->isCallback == false)
             
             $pdf->brgscrapTbl($tablehead, $sData);
        
-            $pdf->Output('BC_Laporan_PertanggungJawaban_Mutasi_Bahan_Baku', 'D');     
+            $pdf->Output('BC_Laporan_PertanggungJawaban_Mutasi_Bahan_Baku.pdf', 'D');     
         }
                 
         ?>	      

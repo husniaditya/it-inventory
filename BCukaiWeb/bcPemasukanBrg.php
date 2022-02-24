@@ -357,9 +357,9 @@ if ($koolajax->isCallback == false)
                                     bcmasuk.inv,
                                     bcmasuk.remark,
                                     bcmasuk.unit,
-                                    bcmasuk.qty,
+                                    cast(format(bcmasuk.qty,2) as char) as qty,
                                     nodsg,
-                                    bcmasuk.val,
+                                    cast(format(bcmasuk.val,3) as char) as val,
                                     bcmasuk.sub
                         FROM bcmasuk";
             $query .= "      JOIN (SELECT @num :=0) AS n ON 1=1";
@@ -655,7 +655,7 @@ if ($koolajax->isCallback == false)
             require_once dirname(__FILE__) . '/Lib/tcpdf/config/lang/eng.php';
 
             $pdf = new PDF("L", PDF_UNIT, "A4", true, 'UTF-8', false); 
-            $pdf->SetFont('times', '', 10, '', 'false');
+            $pdf->SetFont('times', '', 6, '', 'false');
             // add a page
             $pdf->AddPage();
             

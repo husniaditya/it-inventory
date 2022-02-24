@@ -235,7 +235,7 @@ if ($koolajax->isCallback == false)
                 $num++;
             }
             
-            $tablehead = array('NO', 'NAMA BARANG', 'KODE BARANG', 'SATUAN',
+            $tablehead = array('NO', 'KODE BARANG', 'NAMA BARANG', 'SATUAN',
                 'JUMLAH', 'UNIT PACKING', 'KET');
             
             $pdf->writeHTML($header, true, false, true, false, '');
