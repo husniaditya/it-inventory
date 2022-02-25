@@ -2,6 +2,14 @@
 require("header.php");
 require "Lib/tcpdf/PDF.php";
 
+$txtInvA = "";
+$txtInvZ = "";
+
+if (isset($_POST["btnPreview"])) {
+    $txtInvA = $_POST["txtInvA"];
+    $txtInvZ = $_POST["txtInvZ"];
+}
+
 if ($koolajax->isCallback == false)
     unset($_SESSION["searchQuery"]);
 ?>
@@ -25,7 +33,7 @@ if ($koolajax->isCallback == false)
                         </thead>
                          <tbody>
                             <?php
-                            $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 ;');
+                            $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 and left(inv,2) = 51 ;');
                             while ($r = mysql_fetch_array($sql)) {
                                 ?>
                                 <tr class="pilihIA" datainv="<?php echo $r['Kode']; ?>">
@@ -60,7 +68,7 @@ if ($koolajax->isCallback == false)
                         </thead>
                         <tbody>
                             <?php
-                            $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 ;'); 
+                            $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 and left(inv,2) = 51 ;'); 
                             while ($r = mysql_fetch_array($sql)) {
                                 ?>
                                 <tr class="pilihIZ" datainv="<?php echo $r['Kode']; ?>">
@@ -107,13 +115,13 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" />
+                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" value="<?php echo $txtInvA;?>"/>
                             <span class="input-group-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvA"><i class="glyphicon glyphicon-search"></i></button></span>                        </span>
                         </div>
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ" />
+                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ" value="<?php echo $txtInvZ;?>"/>
                             <span class="input-group-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvZ"><i class="glyphicon glyphicon-search"></i></button></span>
                         </div>
                     </div>                    
@@ -152,21 +160,21 @@ if ($koolajax->isCallback == false)
             $query .= "  ( ";
             $query .= "     select rin.inv,inv.name, rin.qlast, rin.vlast,rin.nodsg,inv.unit2,inv.unit ";
             $query .= "       from rin left outer join inv on rin.inv=inv.inv ";
-            $query .= "      where rin.period='" . $period . "' and left(rin.inv,1)='5' ";
+            $query .= "      where rin.period='" . $period . "' and left(rin.inv,2)='51' ";
             $query .= "     union all ";
             $query .= "     select bckeluar.inv,bckeluar.remark, bckeluar.qty as qlast , bckeluar.val as vlast, ";
             $query .= "     '',inv.unit2,inv.unit ";
             $query .= "       from bckeluar left outer join inv on bckeluar.inv=inv.inv ";
-            $query .= "      where sjhdate < " . $tglAwal . " and month(sjhdate)=month(" . $tglAwal . ") and year(sjhdate)=year(" . $tglAwal . ") and left(bckeluar.inv,1)='5' ";
+            $query .= "      where sjhdate < " . $tglAwal . " and month(sjhdate)=month(" . $tglAwal . ") and year(sjhdate)=year(" . $tglAwal . ") and left(bckeluar.inv,2)='51' ";
             $query .= "  ) as oawal ";
             if ($_POST["txtInvA"] == "") {
                 if ($_POST["txtInvZ"] == "")
                     $query .= " where (inv BETWEEN '' and 'zzz') ";
                 else
-                    $query .= " where (inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+                    $query .= " where (inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             else {
-                if ($_POST["invZ"] == "")
+                if ($_POST["txtInvZ"] == "")
                     $query .= " where (inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
                 else
                     $query .= " where (inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
@@ -182,15 +190,15 @@ if ($koolajax->isCallback == false)
             $query .= "       ind.dk as dk, inv.unit, if (ind.subjurnal='OPN' , 2 , 1)  as urut,ind.nodsg ";
             $query .= "       from ind ";
             $query .= "       left outer join inv on ind.inv=inv.inv ";
-            $query .= "       where left(ind.inv,1) = '5' and (ind.date>=" . $tglAwal . " and ind.date<adddate(" . $tglAkhir . ",1)) ";
-            if ($_POST["inv"] == "") {
-                if ($_POST["invZ"] == "")
+            $query .= "       where left(ind.inv,2) = '51' and (ind.date>=" . $tglAwal . " and ind.date<adddate(" . $tglAkhir . ",1)) ";
+            if ($_POST["txtInvA"] == "") {
+                if ($_POST["txtInvZ"] == "")
                     $query .= " AND (ind.inv BETWEEN '' and 'zzz') ";
                 else
-                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             else {
-                if ($_POST["invZ"] == "")
+                if ($_POST["txtInvZ"] == "")
                     $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
                 else
                     $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
@@ -203,20 +211,20 @@ if ($koolajax->isCallback == false)
             $query .= " 'K' as dk,bckeluar.unit,1 as urut,'' as nodsg  " ;
             $query .= " from bckeluar  " ;
             $query .= " where bckeluar.nodoc between '' and 'z'  " ;
-             if ($_POST["inv"] == "") {
-                if ($_POST["invZ"] == "")
+             if ($_POST["txtInvA"] == "") {
+                if ($_POST["txtInvZ"] == "")
                     $query .= " AND (bckeluar.inv BETWEEN '' and 'zzz') ";
                 else
-                    $query .= " AND (bckeluar.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+                    $query .= " AND (bckeluar.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             else {
-                if ($_POST["invZ"] == "")
+                if ($_POST["txtInvZ"] == "")
                     $query .= " AND (bckeluar.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
                 else
                     $query .= " AND (bckeluar.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             $query .= "  and sjhdate >=" . $tglAwal . " and sjhdate < adddate(" . $tglAkhir . ",1) ";
-            $query .= "  and  (left(bckeluar.inv,1) = '4' or inv ='911010001') " ;
+            $query .= "  and  (left(bckeluar.inv,2) = '41' or inv ='911010001') " ;
             $query .= ") as x group by inv "; 
             $query .= "order by  inv ) as temp left outer JOIN (SELECT @num :=0) AS n ON 1=1";
 

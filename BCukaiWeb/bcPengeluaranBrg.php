@@ -2,6 +2,22 @@
 require("header.php");
 require "Lib/tcpdf/PDF.php";
 
+$txtInvA = "";
+$txtInvZ = "";
+$txtSupA = "";
+$txtSupZ = "";
+$txtDocA = "";
+$txtDocZ = "";
+
+if (isset($_POST["btnPreview"])) {
+    $txtInvA = $_POST["txtInvA"];
+    $txtInvZ = $_POST["txtInvZ"];
+    $txtSupA = $_POST["txtSupA"];
+    $txtSupZ = $_POST["txtSupZ"];
+    $txtDocA = $_POST["txtDocA"];
+    $txtDocZ = $_POST["txtDocZ"];
+}
+
 if ($koolajax->isCallback == false)
 
     unset($_SESSION["searchQuery"]);
@@ -17,21 +33,21 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
     <div class="modal fade" id="mdlSupA" tabindex="-1" role="dialog" aria-labelledby="mdlSupA" aria-hidden="true">
         <div class="modal-dialog" style="width:800px">
             <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="mdlSupA">Lookup Supplier</h4>
+                    <h4 class="modal-title" id="mdlSupA">Lookup Customer</h4>
                 </div>
                 <div class="modal-body">
                     <table id="lookupSA" class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
                                 <th>Kode</th>
-                                <th>Supplier</th>
+                                <th>Customer</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            $sql = mysql_query('SELECT sub AS Kode, name AS Supplier FROM sub WHERE group_ = 1 AND aktif = 1;');
+                            $sql = mysql_query('SELECT sub AS Kode, name AS Supplier FROM sub WHERE group_ = 2 AND aktif = 1;');
                             while ($r = mysql_fetch_array($sql)) {
                                 ?>
                                 <tr class="pilihSA" datasupl="<?php echo $r['Kode']; ?>">
@@ -54,19 +70,19 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="mdlSupZ">Lookup Supplier</h4>
+                    <h4 class="modal-title" id="mdlSupZ">Lookup Customer</h4>
                 </div>
                 <div class="modal-body">
                     <table id="lookupSZ" class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
                                 <th>Kode</th>
-                                <th>Supplier</th>
+                                <th>Customer</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            $sql = mysql_query('SELECT sub AS Kode, name AS Supplier FROM sub WHERE group_ = 1 AND aktif = 1;');
+                            $sql = mysql_query('SELECT sub AS Kode, name AS Supplier FROM sub WHERE group_ = 2 AND aktif = 1;');
                             while ($r = mysql_fetch_array($sql)) {
                                 ?>
                                 <tr class="pilihSZ" datasupl="<?php echo $r['Kode']; ?>">
@@ -250,11 +266,11 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                 <br />
                 <div class="row">
                     <div class="col-md-1">
-                        <label for="varchar">Supplier</label>
+                        <label for="varchar">Customer</label>
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtSupA" id="txtSupA" />
+                            <input type="text" class="form-control" name="txtSupA" id="txtSupA" value="<?php echo $txtSupA;?>"/>
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlSupA"><i class="glyphicon glyphicon-search"></i></button>
                             </span>  
@@ -262,7 +278,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtSupZ" id="txtSupZ"  />
+                            <input type="text" class="form-control" name="txtSupZ" id="txtSupZ" value="<?php echo $txtSupZ;?>"  />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlSupZ"><i class="glyphicon glyphicon-search"></i></button>
                             </span>     
@@ -273,7 +289,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" />
+                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" value="<?php echo $txtInvA;?>" />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvA"><i class="glyphicon glyphicon-search"></i></button>
                             </span>  
@@ -281,7 +297,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ"  />
+                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ" value="<?php echo $txtInvZ;?>"  />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvZ"><i class="glyphicon glyphicon-search"></i></button>
                             </span>    
@@ -295,18 +311,19 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtDocA" id="txtDocA"  />
+                            <input type="text" class="form-control" name="txtDocA" id="txtDocA" value="<?php echo $txtDocA;?>" />
                          <!--   <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlDocA"><i class="glyphicon glyphicon-search"></i></button>
-                            </span>    -->  
-                        </div> 
+                            </span>    
+                         -->
+                        </div>
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtDocZ" id="txtDocZ"  />
-                       <!--     <span class="input-group-btn">
+                            <input type="text" class="form-control" name="txtDocZ" id="txtDocZ" value="<?php echo $txtDocZ;?>" />
+                         <!--   <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlDocZ"><i class="glyphicon glyphicon-search"></i></button>
-                            </span>  -->
+                            </span> -->
                         </div>
                     </div>  
                     <div class="col-md-1">
@@ -386,7 +403,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                 if ($_POST["txtInvZ"] == "")
                     $query .= "AND (bckeluar.inv BETWEEN '' and 'zzz') ";
                 else
-                    $query .= "AND (bckeluar.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+                    $query .= "AND (bckeluar.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             else {
                 if ($_POST["txtInvZ"] == "")
@@ -399,7 +416,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                 if ($_POST["txtDocZ"] == "")
                     $query .= "AND (ifnull(bckeluar.nodoc,'') BETWEEN '' and 'zzz') ";
                 else
-                    $query .= "AND (bckeluar.nodoc BETWEEN '" . $_POST["txtDocA"] . "' and '" . $_POST["txtDocZ"] . "') ";
+                    $query .= "AND (bckeluar.nodoc BETWEEN '" . $_POST["txtDocZ"] . "' and '" . $_POST["txtDocZ"] . "') ";
             }
             else {
                 if ($_POST["txtDocZ"] == "")
@@ -412,7 +429,7 @@ $jns_inputZ = BuildComboBox($db_con, "SELECT jnsp AS jnsZ, remmark FROM jnsp;", 
                 if ($_POST["jnsZ"] == "")
                     $query .= "AND (ifnull(bckeluar.jenis,'') BETWEEN '' and 'zzz')";
                 else
-                    $query .= "AND (bckeluar.jenis BETWEEN '" . $_POST["jnsA"] . "' and '" . $_POST["jnsZ"] . "') ";
+                    $query .= "AND (bckeluar.jenis BETWEEN '" . $_POST["jnsZ"] . "' and '" . $_POST["jnsZ"] . "') ";
             }
             else {
                 if ($_POST["jnsZ"] == "")

@@ -2,9 +2,91 @@
 require("header.php");
 require "Lib/tcpdf/PDF.php";
 
+$txtInvA = "";
+$txtInvZ = "";
+
+if (isset($_POST["btnPreview"])) {
+    $txtInvA = $_POST["txtInvA"];
+    $txtInvZ = $_POST["txtInvZ"];
+}
+
 if ($koolajax->isCallback == false)
     unset($_SESSION["searchQuery"]);
 ?>
+
+<!-- Modal -->
+<!-- Persediaan A -->    
+<div class="modal fade" id="mdlInvA" tabindex="-1" role="dialog" aria-labelledby="mdlInvA" aria-hidden="true">
+    <div class="modal-dialog" style="width:800px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="mdlInvA">Lookup Persediaan</h4>
+            </div>
+            <div class="modal-body">
+                <table id="lookupIA" class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Kode</th>
+                            <th>Persediaan</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                        <?php
+                        $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 and left(inv,2) = 41 ;');
+                        while ($r = mysql_fetch_array($sql)) {
+                            ?>
+                            <tr class="pilihIA" datainv="<?php echo $r['Kode']; ?>">
+                                <td><?php echo $r['Kode']; ?></td>
+                                <td><?php echo $r['Persediaan']; ?></td>
+                            </tr>
+                            <?php
+                        }
+                        ?>
+                    </tbody>
+                </table>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Persediaan Z -->    
+<div class="modal fade" id="mdlInvZ" tabindex="-1" role="dialog" aria-labelledby="mdlInvZ" aria-hidden="true">
+    <div class="modal-dialog" style="width:800px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="mdlInvZ">Lookup Persediaan</h4>
+            </div>
+            <div class="modal-body">
+                <table id="lookupIZ" class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Kode</th>
+                            <th>Persediaan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        $sql = mysql_query('SELECT inv AS Kode, name AS Persediaan FROM inv WHERE flag = 0 and left(inv,2) = 41 ;'); 
+                        while ($r = mysql_fetch_array($sql)) {
+                            ?>
+                            <tr class="pilihIZ" datainv="<?php echo $r['Kode']; ?>">
+                                <td><?php echo $r['Kode']; ?></td>
+                                <td><?php echo $r['Persediaan']; ?></td>
+                            </tr>
+                            <?php
+                        }
+                        ?>
+                    </tbody>
+                </table>  
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal -->
+
+
 <div id="page-wrapper">   
     <div class="row">
         <div class="col-lg-12">
@@ -25,6 +107,24 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <?php echo(CreateDatePicker("tglAkhir", "")); ?>                       
+                    </div>                    
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="varchar">Persediaan</label>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" value="<?php echo $txtInvA;?>"/>
+                            <span class="input-group-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvA"><i class="glyphicon glyphicon-search"></i></button></span>                        </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ" value="<?php echo $txtInvZ;?>"/>
+                            <span class="input-group-btn"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvZ"><i class="glyphicon glyphicon-search"></i></button></span>
+                        </div>
                     </div>                    
                 </div>
                 <br /><br />
@@ -59,12 +159,36 @@ if ($koolajax->isCallback == false)
             $query .= "  from  ( ";
             $query .= "     select rin.inv,inv.name, rin.qlast, rin.vlast,rin.nodsg,inv.unit2,inv.unit ";
             $query .= "       from rin left outer join inv on rin.inv=inv.inv ";
-            $query .= "      where rin.period='" . $period . "' and left(rin.inv,1)='4'";
+            $query .= "      where rin.period='" . $period . "' and left(rin.inv,2)='41'";
+            if ($_POST["txtInvA"] == "") {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (rin.inv BETWEEN '' and 'zzz') ";
+                else
+                    $query .= " AND (rin.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
+            else {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (rin.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
+                else
+                    $query .= " AND (rin.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
             $query .= "     union all ";
             $query .= "     select ind.inv,inv.name, qty*if(dk='D',1,-1) as qlast , val*if(dk='D',1,-1) as vlast,ind.nodsg,inv.unit2,inv.unit ";
             $query .= "       from ind left outer join inv on ind.inv=inv.inv ";
             $query .= "      where ind.period='" . $period . "' and ind.date < " . $tglAwal . "";
-            $query .= "       and left(ind.inv,1)='4'";
+            if ($_POST["txtInvA"] == "") {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (ind.inv BETWEEN '' and 'zzz') ";
+                else
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
+            else {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
+                else
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
+            $query .= "       and left(ind.inv,2)='41'";
             $query .= "  ) as oawal  group by inv,nodsg ";
             $query .= "  union all ";
             $query .= " select inv.name as invname, ind.inv, '' as loc,inv.unit2, ";
@@ -77,7 +201,19 @@ if ($koolajax->isCallback == false)
             $query .= "       from ind ";
             $query .= "       left outer join inv on ind.inv=inv.inv ";
             $query .= "       where (ind.date>=" . $tglAwal . " and ind.date<adddate(" . $tglAkhir . ",1)) ";
-            $query .= "       and  left(ind.inv,1) = '4' ";
+            if ($_POST["txtInvA"] == "") {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (ind.inv BETWEEN '' and 'zzz') ";
+                else
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
+            else {
+                if ($_POST["txtInvZ"] == "")
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvA"] . "') ";
+                else
+                    $query .= " AND (ind.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+            }
+            $query .= "       and  left(ind.inv,2) = '41' ";
             $query .= " ) as x ";
           
             $query .= " left outer join konversi on x.inv=konversi.inv and konversi.unit=x.unit2 and konversi.unit in ('POUCH','JRG','DOS','BOTOL','BOX') ";             
@@ -251,6 +387,31 @@ if ($koolajax->isCallback == false)
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="datatables/jquery.dataTables.js"></script>
     <script src="datatables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).on('click', '.pilihIA', function (e) {
+            document.getElementById("txtInvA").value = $(this).attr('datainv');
+            $('#mdlInvA').hide();
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+        });
+
+        $(function () {
+            $("#lookupIA").dataTable();
+        });
+
+        $(document).on('click', '.pilihIZ', function (e) {
+            document.getElementById("txtInvZ").value = $(this).attr('datainv');
+            $('#mdlInvZ').hide();
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+        });
+
+        $(function () {
+            $("#lookupIZ").dataTable();
+        });
+                            
+    </script> 
 </div>
 <?php
 require("footer.php");
