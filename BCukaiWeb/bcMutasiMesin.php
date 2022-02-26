@@ -262,7 +262,7 @@ if ($koolajax->isCallback == false)
                 $sData[$num]['pemasukan'] = $row['masuk'];
                 $sData[$num]['pengeluaran'] = $row['keluar'];
                 $sData[$num]['adjust'] = $row['jin'];
-                $sData[$num]['saldoakhir'] = $row['glast'];
+                $sData[$num]['saldoakhir'] = $row['qlast'];
                 $sData[$num]['opname'] = $row['opn'];
                 $sData[$num]['selisih'] = $row['selisih'];
                 $sData[$num]['ket'] = $row['remark'];

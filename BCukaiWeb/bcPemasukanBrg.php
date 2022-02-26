@@ -2,6 +2,22 @@
 require("header.php");
 require "Lib/tcpdf/PDF.php";
 
+$txtInvA = "";
+$txtInvZ = "";
+$txtSupA = "";
+$txtSupZ = "";
+$txtDocA = "";
+$txtDocZ = "";
+
+if (isset($_POST["btnPreview"])) {
+    $txtInvA = $_POST["txtInvA"];
+    $txtInvZ = $_POST["txtInvZ"];
+    $txtSupA = $_POST["txtSupA"];
+    $txtSupZ = $_POST["txtSupZ"];
+    $txtDocA = $_POST["txtDocA"];
+    $txtDocZ = $_POST["txtDocZ"];
+}
+
 if ($koolajax->isCallback == false)
     unset($_SESSION["searchQuery"]);
     $jnsA="";
@@ -254,7 +270,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtSupA" id="txtSupA" />
+                            <input type="text" class="form-control" name="txtSupA" id="txtSupA" value="<?php echo $txtSupA;?>"/>
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlSupA"><i class="glyphicon glyphicon-search"></i></button>
                             </span>  
@@ -262,7 +278,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtSupZ" id="txtSupZ"  />
+                            <input type="text" class="form-control" name="txtSupZ" id="txtSupZ" value="<?php echo $txtSupZ;?>"  />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlSupZ"><i class="glyphicon glyphicon-search"></i></button>
                             </span>     
@@ -273,7 +289,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" />
+                            <input type="text" class="form-control" name="txtInvA" id="txtInvA" value="<?php echo $txtInvA;?>" />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvA"><i class="glyphicon glyphicon-search"></i></button>
                             </span>  
@@ -281,7 +297,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ"  />
+                            <input type="text" class="form-control" name="txtInvZ" id="txtInvZ" value="<?php echo $txtInvZ;?>"  />
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlInvZ"><i class="glyphicon glyphicon-search"></i></button>
                             </span>    
@@ -295,7 +311,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtDocA" id="txtDocA"  />
+                            <input type="text" class="form-control" name="txtDocA" id="txtDocA" value="<?php echo $txtDocA;?>" />
                          <!--   <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlDocA"><i class="glyphicon glyphicon-search"></i></button>
                             </span>    
@@ -304,7 +320,7 @@ if ($koolajax->isCallback == false)
                     </div>
                     <div class="col-sm-2">
                         <div class="input-group input-group-sm">
-                            <input type="text" class="form-control" name="txtDocZ" id="txtDocZ"  />
+                            <input type="text" class="form-control" name="txtDocZ" id="txtDocZ" value="<?php echo $txtDocZ;?>" />
                          <!--   <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdlDocZ"><i class="glyphicon glyphicon-search"></i></button>
                             </span> -->
@@ -357,9 +373,9 @@ if ($koolajax->isCallback == false)
                                     bcmasuk.inv,
                                     bcmasuk.remark,
                                     bcmasuk.unit,
-                                    bcmasuk.qty,
+                                    cast(format(bcmasuk.qty,2) as char) as qty,
                                     nodsg,
-                                    bcmasuk.val,
+                                    cast(format(bcmasuk.val,3) as char) as val,
                                     bcmasuk.sub
                         FROM bcmasuk";
             $query .= "      JOIN (SELECT @num :=0) AS n ON 1=1";
@@ -384,7 +400,7 @@ if ($koolajax->isCallback == false)
                 if ($_POST["txtInvZ"] == "")
                     $query .= "AND (bcmasuk.inv BETWEEN '' and 'zzz') ";
                 else
-                    $query .= "AND (bcmasuk.inv BETWEEN '" . $_POST["txtInvA"] . "' and '" . $_POST["txtInvZ"] . "') ";
+                    $query .= "AND (bcmasuk.inv BETWEEN '" . $_POST["txtInvZ"] . "' and '" . $_POST["txtInvZ"] . "') ";
             }
             else {
                 if ($_POST["txtInvZ"] == "")
@@ -397,7 +413,7 @@ if ($koolajax->isCallback == false)
                 if ($_POST["txtDocZ"] == "")
                     $query .= "AND (bcmasuk.nodoc BETWEEN '' and 'zzz') ";
                 else
-                    $query .= "AND (bcmasuk.nodoc BETWEEN '" . $_POST["txtDocA"] . "' and '" . $_POST["txtDocZ"] . "') ";
+                    $query .= "AND (bcmasuk.nodoc BETWEEN '" . $_POST["txtDocZ"] . "' and '" . $_POST["txtDocZ"] . "') ";
             }
             else {
                 if ($_POST["txtDocZ"] == "")
@@ -410,7 +426,7 @@ if ($koolajax->isCallback == false)
                 if ($_POST["jnsZ"] == "")
                     $query .= "AND (bcmasuk.jenis BETWEEN '' and 'zzz')";
                 else
-                    $query .= "AND (bcmasuk.jenis BETWEEN '" . $_POST["jnsA"] . "' and '" . $_POST["jnsZ"] . "') ";
+                    $query .= "AND (bcmasuk.jenis BETWEEN '" . $_POST["jnsZ"] . "' and '" . $_POST["jnsZ"] . "') ";
             }
             else {
                 if ($_POST["jnsZ"] == "")
@@ -655,7 +671,7 @@ if ($koolajax->isCallback == false)
             require_once dirname(__FILE__) . '/Lib/tcpdf/config/lang/eng.php';
 
             $pdf = new PDF("L", PDF_UNIT, "A4", true, 'UTF-8', false); 
-            $pdf->SetFont('times', '', 10, '', 'false');
+            $pdf->SetFont('times', '', 6, '', 'false');
             // add a page
             $pdf->AddPage();
             
