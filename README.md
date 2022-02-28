@@ -1,17 +1,18 @@
-App development requirements :
-1. Microsoft Visual Studio 2005 (HDD Mas Fikar)
-2. XAMPP : https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.27/
-3. MySQL v.5.0.18 : https://downloads.mysql.com/archives/community/
-4. MySQL ODBC 5.1.4 : Folder Access to MySQL Github
-5. MS Access to MySQL : Folder Access to MySQL Github
-6. Git : https://git-scm.com/downloads
-7. Visual Studio Code : https://code.visualstudio.com/download
+Wage Inventory System (WIS) - ERP IT Inventory
+-------------------------
+Available Modules :
+1. Accounting Management
+    - To manage cash flow, accounts payable, payments, and other transactions. Available features like asset management, currency management, invoice management, billing, etc.
+2. Inventory Management
+    - track goods, control the stock of goods in the warehouse, order goods to suppliers, and so on. The features available are: stock management, warehouse management, supplier management, and order tracking.
+3. Sales & Distribution
+    - To manage sales leads to customers. Available features are: creating quotes and invoices, monitoring sales cycles, and sales reports.
+4. Manufacturing Management
+    - For production planning, monitoring the amount of stock of raw materials and finished materials, and others.
+5. Purchasing Management
+    - To manage the purchase of goods to suppliers.
+6. Warehouse Management
+    - To manage warehouse stock, monitor work, and provide accurate and real-time information about inventory.
 
-a. Setelah Install Visual Studio 2005, open aplikasi cas lalu rebuild solution dulu
-b. xampp berfungsi untuk lokal server develop web it inventory
-c. mysql 5.0.18 support untuk database cas
-d. mysql odbc berfungsi sebagai connector untuk convert ms access database ke MySQL untuk import database PEB (data Export untuk bea cukai)
-    - Install vcredist dulu, setelah itu install mysql connector odbc
-e. MS Access to MySQL(Bullzip) aplikasi untuk convert dan import database ms access ke MySQL
-f. GIT berfungsi untuk command atau action penghubung direktori lokal dari windows ke web github atau sebaliknya
-g. Visual Studio Code berfungsi untuk develop web app it inventory
+-------------------------
+Copyright © 2022 Wage Biro Technic
