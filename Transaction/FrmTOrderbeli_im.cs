@@ -152,13 +152,12 @@ namespace CAS.Transaction
         {
             if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
             {
-                string path = Application.StartupPath + "\\Reports\\" + "RepPO_im" + ".repx";
-                XtraReport report = new XtraReport();
-                report.LoadState(path);
-                report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-             //   report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-                //report.Bands[BandKind.GroupFooter].Controls["lblUser"].Text = DB.casUser.Name;
-                report.ShowPreview();
+                
+
+                this.ReportName = "RepPO_im";
+                this.PrintQuery = "Call SP_Print('" + this.Name + "','" + this.NoDocument + "')";
+
+                PrintReport();
             }
             else
                 MessageBox.Show("PO belum di-approve");

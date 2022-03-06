@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="sjrBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>500, 17</value>
+    <value>387, 17</value>
   </metadata>
   <metadata name="casDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>357, 17</value>
+    <value>276, 17</value>
   </metadata>
   <data name="nopoTextEdit.ExSqlQuery" xml:space="preserve">
     <value>SELECT omd.oms,sub.name,oms.date,omd.inv,omd.remark,omd.qty,omd.price,omd.qty1,omd.unit,omd.val FROM oms, omd, sub WHERE oms.oms = omd.oms AND oms.sub = sub.sub and oms.`close` = 0 AND oms.`DELETE` = 0</value>
@@ -148,16 +148,16 @@
     <value>False</value>
   </metadata>
   <metadata name="sjrdBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>691, 17</value>
+    <value>530, 17</value>
   </metadata>
   <metadata name="sjrTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>893, 17</value>
+    <value>680, 17</value>
   </metadata>
   <metadata name="spmBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 65</value>
+    <value>17, 56</value>
   </metadata>
   <metadata name="spmTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>224, 65</value>
+    <value>171, 56</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>46</value>

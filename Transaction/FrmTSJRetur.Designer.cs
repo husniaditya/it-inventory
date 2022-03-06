@@ -90,11 +90,9 @@ namespace CAS.Transaction
             // 
             // txtNo
             // 
-            this.txtNo.Size = new System.Drawing.Size(85, 26);
             // 
             // txtPeriod
             // 
-            this.txtPeriod.Size = new System.Drawing.Size(43, 26);
             // 
             // ludSeri
             // 
@@ -122,8 +120,8 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(shiptonameLabel);
             this.pnlDetail.Controls.Add(this.shiptonameTextEdit);
             this.pnlDetail.Controls.Add(this.spmTextBoxEx);
-            this.pnlDetail.Location = new System.Drawing.Point(0, 88);
-            this.pnlDetail.Size = new System.Drawing.Size(943, 536);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 81);
+            this.pnlDetail.Size = new System.Drawing.Size(943, 551);
             this.pnlDetail.Controls.SetChildIndex(this.dateDate, 0);
             this.pnlDetail.Controls.SetChildIndex(this.dateLabel, 0);
             this.pnlDetail.Controls.SetChildIndex(this.curcur, 0);
@@ -171,7 +169,7 @@ namespace CAS.Transaction
             this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy HH:mm:ss";
             this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
-            this.dateDate.Size = new System.Drawing.Size(122, 26);
+            this.dateDate.Size = new System.Drawing.Size(122, 23);
             this.dateDate.EditValueChanged += new System.EventHandler(this.dateDate_EditValueChanged);
             // 
             // dateLabel
@@ -190,7 +188,6 @@ namespace CAS.Transaction
             this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
             this.curcur.Properties.Appearance.Options.UseBackColor = true;
             this.curcur.Properties.Appearance.Options.UseForeColor = true;
-            this.curcur.Size = new System.Drawing.Size(57, 26);
             this.curcur.Visible = false;
             // 
             // curLabel1
@@ -212,7 +209,7 @@ namespace CAS.Transaction
             remarkLabel.AutoSize = true;
             remarkLabel.Location = new System.Drawing.Point(28, 165);
             remarkLabel.Name = "remarkLabel";
-            remarkLabel.Size = new System.Drawing.Size(88, 19);
+            remarkLabel.Size = new System.Drawing.Size(63, 13);
             remarkLabel.TabIndex = 58;
             remarkLabel.Text = "Keterangan";
             // 
@@ -221,7 +218,7 @@ namespace CAS.Transaction
             shiptonameLabel.AutoSize = true;
             shiptonameLabel.Location = new System.Drawing.Point(429, 90);
             shiptonameLabel.Name = "shiptonameLabel";
-            shiptonameLabel.Size = new System.Drawing.Size(59, 19);
+            shiptonameLabel.Size = new System.Drawing.Size(40, 13);
             shiptonameLabel.TabIndex = 54;
             shiptonameLabel.Text = "Ship to";
             // 
@@ -230,7 +227,7 @@ namespace CAS.Transaction
             angkutanLabel.AutoSize = true;
             angkutanLabel.Location = new System.Drawing.Point(416, 64);
             angkutanLabel.Name = "angkutanLabel";
-            angkutanLabel.Size = new System.Drawing.Size(77, 19);
+            angkutanLabel.Size = new System.Drawing.Size(53, 13);
             angkutanLabel.TabIndex = 63;
             angkutanLabel.Text = "Angkutan";
             // 
@@ -239,7 +236,7 @@ namespace CAS.Transaction
             nopolLabel.AutoSize = true;
             nopolLabel.Location = new System.Drawing.Point(421, 38);
             nopolLabel.Name = "nopolLabel";
-            nopolLabel.Size = new System.Drawing.Size(71, 19);
+            nopolLabel.Size = new System.Drawing.Size(46, 13);
             nopolLabel.TabIndex = 62;
             nopolLabel.Text = "No Polisi";
             // 
@@ -248,7 +245,7 @@ namespace CAS.Transaction
             label5.AutoSize = true;
             label5.Location = new System.Drawing.Point(286, 12);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(40, 19);
+            label5.Size = new System.Drawing.Size(27, 13);
             label5.TabIndex = 60;
             label5.Text = "TOP";
             label5.Visible = false;
@@ -258,7 +255,7 @@ namespace CAS.Transaction
             tglproformaLabel.AutoSize = true;
             tglproformaLabel.Location = new System.Drawing.Point(695, 16);
             tglproformaLabel.Name = "tglproformaLabel";
-            tglproformaLabel.Size = new System.Drawing.Size(151, 19);
+            tglproformaLabel.Size = new System.Drawing.Size(101, 13);
             tglproformaLabel.TabIndex = 136;
             tglproformaLabel.Text = "Tgl Rekam Beacukai";
             // 
@@ -267,7 +264,7 @@ namespace CAS.Transaction
             nopoLabel.AutoSize = true;
             nopoLabel.Location = new System.Drawing.Point(744, 67);
             nopoLabel.Name = "nopoLabel";
-            nopoLabel.Size = new System.Drawing.Size(55, 19);
+            nopoLabel.Size = new System.Drawing.Size(37, 13);
             nopoLabel.TabIndex = 139;
             nopoLabel.Text = "No PO";
             // 
@@ -295,7 +292,7 @@ namespace CAS.Transaction
             this.shiptonameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjrBindingSource, "shiptoname", true));
             this.shiptonameTextEdit.Location = new System.Drawing.Point(477, 87);
             this.shiptonameTextEdit.Name = "shiptonameTextEdit";
-            this.shiptonameTextEdit.Size = new System.Drawing.Size(191, 26);
+            this.shiptonameTextEdit.Size = new System.Drawing.Size(191, 20);
             this.shiptonameTextEdit.TabIndex = 56;
             // 
             // spmTextBoxEx
@@ -330,7 +327,7 @@ namespace CAS.Transaction
             this.spmTextBoxEx.Properties.Appearance.Options.UseForeColor = true;
             this.spmTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.spmTextBoxEx.Size = new System.Drawing.Size(140, 26);
+            this.spmTextBoxEx.Size = new System.Drawing.Size(140, 20);
             this.spmTextBoxEx.TabIndex = 46;
             this.spmTextBoxEx.EditValueChanged += new System.EventHandler(this.spmTextBoxEx_EditValueChanged);
             this.spmTextBoxEx.ButtonPressed += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.spmTextBoxEx_ButtonPressed);
@@ -340,7 +337,7 @@ namespace CAS.Transaction
             this.nopolTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjrBindingSource, "nopol", true));
             this.nopolTextEdit.Location = new System.Drawing.Point(477, 35);
             this.nopolTextEdit.Name = "nopolTextEdit";
-            this.nopolTextEdit.Size = new System.Drawing.Size(100, 26);
+            this.nopolTextEdit.Size = new System.Drawing.Size(100, 20);
             this.nopolTextEdit.TabIndex = 64;
             // 
             // spinTOP
@@ -355,7 +352,7 @@ namespace CAS.Transaction
             this.spinTOP.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.spinTOP.Properties.UseCtrlIncrement = false;
-            this.spinTOP.Size = new System.Drawing.Size(66, 26);
+            this.spinTOP.Size = new System.Drawing.Size(66, 20);
             this.spinTOP.TabIndex = 61;
             this.spinTOP.Visible = false;
             // 
@@ -369,7 +366,7 @@ namespace CAS.Transaction
             this.gcxSjrd.Location = new System.Drawing.Point(12, 217);
             this.gcxSjrd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxSjrd.Name = "gcxSjrd";
-            this.gcxSjrd.Size = new System.Drawing.Size(919, 313);
+            this.gcxSjrd.Size = new System.Drawing.Size(919, 328);
             this.gcxSjrd.TabIndex = 66;
             // 
             // sjrdBindingSource
@@ -401,7 +398,7 @@ namespace CAS.Transaction
             this.linkToForm1.FormName = "FrmTSpm";
             this.linkToForm1.Location = new System.Drawing.Point(42, 12);
             this.linkToForm1.Name = "linkToForm1";
-            this.linkToForm1.Size = new System.Drawing.Size(64, 19);
+            this.linkToForm1.Size = new System.Drawing.Size(43, 13);
             this.linkToForm1.TabIndex = 129;
             this.linkToForm1.TabStop = true;
             this.linkToForm1.Text = "No SPM";
@@ -438,7 +435,7 @@ namespace CAS.Transaction
             this.txtAlias.Name = "txtAlias";
             this.txtAlias.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.txtAlias.Size = new System.Drawing.Size(22, 26);
+            this.txtAlias.Size = new System.Drawing.Size(22, 20);
             this.txtAlias.TabIndex = 132;
             this.txtAlias.Visible = false;
             this.txtAlias.EditValueChanged += new System.EventHandler(this.txtAlias_EditValueChanged);
@@ -457,7 +454,7 @@ namespace CAS.Transaction
             this.angkutanTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.sjrBindingSource, "angkutan", true));
             this.angkutanTextEdit.Location = new System.Drawing.Point(477, 61);
             this.angkutanTextEdit.Name = "angkutanTextEdit";
-            this.angkutanTextEdit.Size = new System.Drawing.Size(191, 26);
+            this.angkutanTextEdit.Size = new System.Drawing.Size(191, 20);
             this.angkutanTextEdit.TabIndex = 133;
             // 
             // tglbc
@@ -473,7 +470,7 @@ namespace CAS.Transaction
             this.tglbc.Properties.EditFormat.FormatString = "d";
             this.tglbc.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.tglbc.Properties.Mask.EditMask = "dd/MM/yyyy";
-            this.tglbc.Size = new System.Drawing.Size(100, 26);
+            this.tglbc.Size = new System.Drawing.Size(100, 23);
             this.tglbc.TabIndex = 137;
             // 
             // button1
@@ -485,6 +482,7 @@ namespace CAS.Transaction
             this.button1.TabIndex = 11;
             this.button1.Text = "Send To LPB PSSA";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // nopoTextEdit
@@ -519,7 +517,7 @@ namespace CAS.Transaction
             this.nopoTextEdit.Properties.Appearance.Options.UseForeColor = true;
             this.nopoTextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.nopoTextEdit.Size = new System.Drawing.Size(140, 26);
+            this.nopoTextEdit.Size = new System.Drawing.Size(140, 20);
             this.nopoTextEdit.TabIndex = 141;
             // 
             // FrmTSJRetur

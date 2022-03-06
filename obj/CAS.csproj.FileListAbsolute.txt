@@ -2482,13 +2482,11 @@ D:\MMPBB\Project\erp\it-inventory\bin\Debug\WIS.exe
 D:\MMPBB\Project\erp\it-inventory\bin\Debug\WIS.pdb
 D:\MMPBB\Project\erp\it-inventory\obj\Debug\WIS.exe
 D:\MMPBB\Project\erp\it-inventory\obj\Debug\WIS.pdb
-D:\laragon\www\it-inventory\bin\Debug\WIS.exe.config
-D:\laragon\www\it-inventory\obj\Debug\WIS.exe
-D:\laragon\www\it-inventory\obj\Debug\WIS.pdb
 D:\laragon\www\it-inventory\bin\Debug\Reports\repkkj.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepCostAll.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepCekBca.repx
 D:\laragon\www\it-inventory\bin\Debug\Icon.ico
+D:\laragon\www\it-inventory\bin\Debug\logo.gif
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepKlr.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\BKK.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\Invoice.repx
@@ -2667,7 +2665,7 @@ D:\laragon\www\it-inventory\bin\Debug\Reports\RepPriceList.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepPRRetur.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepRekapPersediaan.repx
 D:\laragon\www\it-inventory\bin\Debug\Reports\RepSJPenjualan.repx
-D:\laragon\www\it-inventory\bin\Debug\logo.gif
+D:\laragon\www\it-inventory\bin\Debug\WIS.exe.config
 D:\laragon\www\it-inventory\bin\Debug\WIS.exe
 D:\laragon\www\it-inventory\bin\Debug\WIS.pdb
 D:\laragon\www\it-inventory\bin\Debug\KASLibrary.dll
@@ -2873,3 +2871,5 @@ D:\laragon\www\it-inventory\obj\Debug\CAS.Transaction.FrmTTtf.resources
 D:\laragon\www\it-inventory\obj\Debug\CAS.Transaction.FrmTUmh.resources
 D:\laragon\www\it-inventory\obj\Debug\CAS.Transaction.GridLookUpUnit.resources
 D:\laragon\www\it-inventory\obj\Debug\CAS.csproj.GenerateResource.Cache
+D:\laragon\www\it-inventory\obj\Debug\WIS.exe
+D:\laragon\www\it-inventory\obj\Debug\WIS.pdb

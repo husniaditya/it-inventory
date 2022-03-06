@@ -21,12 +21,12 @@ namespace CAS.Transaction
         {
             InitializeComponent();
 
-            ToolStripMenuItem tsmiPrintPreview = new ToolStripMenuItem("Print Preview", null, new EventHandler(tsmiPrintPreview_Click));
-            ToolStripMenuItem tsmiPrintDirectly = new ToolStripMenuItem("Print Directly", null, new EventHandler(tsmiPrintDirectly_Click));
-            ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly);
-            tsbtnPrint.Image = MasterNavigator.Items["tsbtnPrint"].Image;
-            MasterNavigator.Items.Insert(MasterNavigator.Items.IndexOfKey("tsbtnPrint"), tsbtnPrint);
-            MasterNavigator.Items.RemoveByKey("tsbtnPrint");
+            //ToolStripMenuItem tsmiPrintPreview = new ToolStripMenuItem("Print Preview", null, new EventHandler(tsmiPrintPreview_Click));
+            //ToolStripMenuItem tsmiPrintDirectly = new ToolStripMenuItem("Print Directly", null, new EventHandler(tsmiPrintDirectly_Click));
+            //ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly);
+            //tsbtnPrint.Image = MasterNavigator.Items["tsbtnPrint"].Image;
+            //MasterNavigator.Items.Insert(MasterNavigator.Items.IndexOfKey("tsbtnPrint"), tsbtnPrint);
+            //MasterNavigator.Items.RemoveByKey("tsbtnPrint");
 
             DetailTable.Columns.Add("Unit Base Diterima", typeof(String));
            // DetailTable.Columns.Add("Qty Selisih", typeof(Double));
@@ -44,7 +44,7 @@ namespace CAS.Transaction
             tsbtnEdit.Click += new EventHandler(tsbtnEdit_Click);
             SetGridViewSetting();
 
-            //tsbtnPrint.Click += new EventHandler(tsbtnPrint_Click);
+            tsbtnPrint.Click += new EventHandler(tsbtnPrint_Click);
 
             DevExpress.XtraEditors.Controls.EditorButton btnReload = new DevExpress.XtraEditors.Controls.EditorButton();
             btnReload.Kind = DevExpress.XtraEditors.Controls.ButtonPredefines.Redo;
@@ -101,26 +101,12 @@ namespace CAS.Transaction
             report.Print();
         }
 
-        void tsmiPrintPreview_Click(object sender, EventArgs e)
+        void tsbtnPrint_Click(object sender, EventArgs e)
         {
-            string path = Application.StartupPath + "\\Reports\\" + "RepLpb" + ".repx";
-            XtraReport report = new XtraReport();
-            report.LoadState(path);
-            report.DataSource = DB.sql.Select("call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')");
-            report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-           /*
-            report.Bands[BandKind.PageFooter].Controls["lblSummary"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblSummary2"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUMText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUM"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPPText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPP"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPNText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPN"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblTotal"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["xrLblKet"].Text = "Ket: " + remarkMemoEdit.Text;
-           */
-            report.ShowPreview();
+            this.ReportName = "RepLpb";
+            this.PrintQuery = "call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')";
+
+            PrintReport();
         }
 
         void MasterBindingSource_PositionChanged(object sender, EventArgs e)

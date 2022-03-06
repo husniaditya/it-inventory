@@ -31,15 +31,6 @@ namespace CAS.Transaction
         public FrmTOrderbeli()
         {
             InitializeComponent();
-            ToolStripMenuItem tsmiPrintPreview = new ToolStripMenuItem("Print Preview", null, new EventHandler(tsmiPrintPreview_Click));
-            ToolStripMenuItem tsmiPrintDirectly = new ToolStripMenuItem("Print Directly", null, new EventHandler(tsmiPrintDirectly_Click));
-          //  ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly);
-            ToolStripMenuItem tsmiPrintPdf = new ToolStripMenuItem("Print PDF", null, new EventHandler(tsmiPrintPdf_Clik));
-            ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly, tsmiPrintPdf);
-
-            tsbtnPrint.Image = MasterNavigator.Items["tsbtnPrint"].Image;
-            MasterNavigator.Items.Insert(MasterNavigator.Items.IndexOfKey("tsbtnPrint"), tsbtnPrint);
-            MasterNavigator.Items.RemoveByKey("tsbtnPrint");
 
             //   no_kon.ExSqlQuery = "Call SP_LookUpnokon('" + ctrlSub.txtSub.Text + "')";
             Thread.CurrentThread.CurrentCulture = new CultureInfo("id-ID");
@@ -195,7 +186,7 @@ namespace CAS.Transaction
             spinTOP.Properties.MinValue = 0;
             spinTOP.Properties.MaxValue = Int32.MaxValue;
 
-         //   tsbtnPrint.Click += new EventHandler(tsbtnPrint_Click);
+            tsbtnPrint.Click += new EventHandler(tsbtnPrint_Click);
         }
 
         void ExGridView_InoColumnEdit_Enter(object sender, EventArgs e)
@@ -220,76 +211,76 @@ namespace CAS.Transaction
         }
 
 
-        void tsmiPrintPdf_Clik(object sender, EventArgs e)
-        {
-            if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
-            {
-                string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
-                XtraReport report = new XtraReport();
-                report.LoadState(path);
-                DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                DataTable dtRep = dt.Clone();
-                dtRep.Columns.Add("pageno", typeof(string));
-                //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                int recordsCount = 0;
-                int pageno = 1;
-                DataRow drRep;
-                double subtotal = 0;
-                foreach (DataRow dr in dt.Rows)
-                {
-                    recordsCount++;
-                    string remark = dr["remark"].ToString() + " - " + dr["etd"].ToString();
-                    //1 row kolom nama barang max 30 karakter
-                    while (remark.Length > 30)
-                    {
-                        recordsCount++;
-                        remark = remark.Substring(0, 30);
-                    }
-                    if ((recordsCount > 50 && pageno == 1) || (recordsCount > 50 && pageno > 1))
-                    {
-                        pageno++;
-                        recordsCount = 1;
-                    }
-                    //saldo dipindahkan
-                    if (pageno > 1 && recordsCount == 1)
-                    {
-                        drRep = dtRep.NewRow();
-                        drRep["remark"] = "Dipindahkan";
-                        drRep["val"] = subtotal;
-                        drRep["pageno"] = pageno;
-                        dtRep.Rows.Add(drRep);
-                        recordsCount++;
-                    }
-                    drRep = dtRep.NewRow();
-                    foreach (DataColumn col in dt.Columns)
-                        drRep[col.ColumnName] = dr[col.ColumnName];
-                    drRep["pageno"] = pageno;
-                    dtRep.Rows.Add(drRep);
-                    subtotal = subtotal + Convert.ToDouble(dr["val"]);
-                }
-                report.DataSource = dtRep;
-                // report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-                //  report.Bands[BandKind.PageFooter].Controls["xrLblTotalPage"].Text = pageno.ToString();
-                report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
-                report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
+        //void tsmiPrintPdf_Clik(object sender, EventArgs e)
+        //{
+        //    if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
+        //    {
+        //        string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
+        //        XtraReport report = new XtraReport();
+        //        report.LoadState(path);
+        //        DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        DataTable dtRep = dt.Clone();
+        //        dtRep.Columns.Add("pageno", typeof(string));
+        //        //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        int recordsCount = 0;
+        //        int pageno = 1;
+        //        DataRow drRep;
+        //        double subtotal = 0;
+        //        foreach (DataRow dr in dt.Rows)
+        //        {
+        //            recordsCount++;
+        //            string remark = dr["remark"].ToString() + " - " + dr["etd"].ToString();
+        //            //1 row kolom nama barang max 30 karakter
+        //            while (remark.Length > 30)
+        //            {
+        //                recordsCount++;
+        //                remark = remark.Substring(0, 30);
+        //            }
+        //            if ((recordsCount > 50 && pageno == 1) || (recordsCount > 50 && pageno > 1))
+        //            {
+        //                pageno++;
+        //                recordsCount = 1;
+        //            }
+        //            //saldo dipindahkan
+        //            if (pageno > 1 && recordsCount == 1)
+        //            {
+        //                drRep = dtRep.NewRow();
+        //                drRep["remark"] = "Dipindahkan";
+        //                drRep["val"] = subtotal;
+        //                drRep["pageno"] = pageno;
+        //                dtRep.Rows.Add(drRep);
+        //                recordsCount++;
+        //            }
+        //            drRep = dtRep.NewRow();
+        //            foreach (DataColumn col in dt.Columns)
+        //                drRep[col.ColumnName] = dr[col.ColumnName];
+        //            drRep["pageno"] = pageno;
+        //            dtRep.Rows.Add(drRep);
+        //            subtotal = subtotal + Convert.ToDouble(dr["val"]);
+        //        }
+        //        report.DataSource = dtRep;
+        //        // report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
+        //        //  report.Bands[BandKind.PageFooter].Controls["xrLblTotalPage"].Text = pageno.ToString();
+        //        report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
+        //        report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
 
-                report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect, DevExpress.XtraPrinting.CommandVisibility.None);
-                report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
+        //        report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect, DevExpress.XtraPrinting.CommandVisibility.None);
+        //        report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
 
-                report.ShowPreview();
-               // string dir = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                string dir = "E:\\PO";
-                string nama = dtRep.Rows[0]["name"].ToString().Replace(" ", "_").PadRight(25, ' ').Substring(0, 25).Trim();
-                string filename = dir + "\\PO_KIAS_" + NoDocument.Replace("-", "") + "_" + nama + ".pdf";
-                report.CreatePdfDocument(GetNextFileName(filename));
-                //report.RunDesigner();
-                DB.sql.Execute("insert into printed values ('" + NoDocument + "','" + DateTime.Now.ToString("dd/MM/yyyy HH:mm") + "',1)");
-                lblprint.Visible = true;
+        //        report.ShowPreview();
+        //       // string dir = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        //        string dir = "E:\\PO";
+        //        string nama = dtRep.Rows[0]["name"].ToString().Replace(" ", "_").PadRight(25, ' ').Substring(0, 25).Trim();
+        //        string filename = dir + "\\PO_KIAS_" + NoDocument.Replace("-", "") + "_" + nama + ".pdf";
+        //        report.CreatePdfDocument(GetNextFileName(filename));
+        //        //report.RunDesigner();
+        //        DB.sql.Execute("insert into printed values ('" + NoDocument + "','" + DateTime.Now.ToString("dd/MM/yyyy HH:mm") + "',1)");
+        //        lblprint.Visible = true;
              
-            }
-            else
-                MessageBox.Show("PO belum di-approve");
-        }
+        //    }
+        //    else
+        //        MessageBox.Show("PO belum di-approve");
+        //}
 
         private string GetNextFileName(string fileName)
         {
@@ -306,7 +297,7 @@ namespace CAS.Transaction
             return fileName;
         }
 
-        void tsmiPrintPreview_Click(object sender, EventArgs e)
+        void tsbtnPrint_Click(object sender, EventArgs e)
         {
         //    if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
         //    {
@@ -390,11 +381,47 @@ namespace CAS.Transaction
                     subtotal = subtotal + Convert.ToDouble(dr["val"]) + Convert.ToDouble(dr["PPHTotal"]);
                 }
                 report.DataSource = dtRep;
+
                 //report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
                 report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
                 report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect, DevExpress.XtraPrinting.CommandVisibility.None);
-               report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
-            
+                report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
+
+                Image img = Image.FromFile(Application.StartupPath + "\\logo.gif");
+                int lebar = 240;
+                int tinggi = 210;
+                if ((report.Bands[BandKind.PageHeader] != null && report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"] != null))
+                {
+                    ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                    ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Width = lebar;
+                    ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                    ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                    //int left = ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Left;
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = 250;
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = 250;
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = 250;
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyName");
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                    report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyContact");
+                }
+                if (report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"] != null)
+                {
+                    ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                    ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Width = lebar;
+                    ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                    ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                    //int left = ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Left;
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Left = 250;
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Left = 250;
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Left = 250;
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyName");
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                    report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyContact");
+
+                }
+                //report.Bands[BandKind.PageFooter].Controls["xrLabel22"].Visible = false;
+                //report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
+
                 report.ShowPreview();
                 //report.RunDesigner();
             //}
@@ -402,156 +429,156 @@ namespace CAS.Transaction
             //    MessageBox.Show("PO belum di-approve");
         }
 
-        void tsmiPrintDirectly_Click(object sender, EventArgs e)
-        {
-            /*
-            if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
-            {
-                string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
-                XtraReport report = new XtraReport();
-                report.LoadState(path);
-                DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                DataTable dtRep = dt.Clone();
-                dtRep.Columns.Add("pageno", typeof(Int32));
-                //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                int remarkcount = memoEdit1.Lines.Length;
-                int line = 45 - remarkcount;
-                int recordsCount = 0;
-                int pageno = 1;
-                DataRow drRep;
-                double subtotal = 0;
-                foreach (DataRow dr in dt.Rows)
-                {
-                    recordsCount++;
-                    string remark = dr["remark"].ToString() + " - " + dr["etd"].ToString();
-                    //1 row kolom nama barang max 30 karakter
-                    while (remark.Length > 30)
-                    {
-                        recordsCount++;
-                        remark = remark.Substring(0, 30);
-                    }
-                    if ((recordsCount > line && pageno == 1) || (recordsCount > line && pageno > 1))
-                    {
-                        pageno++;
-                        recordsCount = 1;
-                    }
-                    //saldo dipindahkan
-                    if (pageno > 1 && recordsCount == 1)
-                    {
-                        drRep = dtRep.NewRow();
-                        drRep["remark"] = "Dipindahkan";
-                        drRep["val"] = subtotal;
-                        drRep["pageno"] = pageno;
-                        dtRep.Rows.Add(drRep);
-                        recordsCount++;
-                    }
-                    drRep = dtRep.NewRow();
-                    foreach (DataColumn col in dt.Columns)
-                        drRep[col.ColumnName] = dr[col.ColumnName];
-                    drRep["pageno"] = pageno;
-                    dtRep.Rows.Add(drRep);
-                    subtotal = subtotal + Convert.ToDouble(dr["val"]);
-                }
-                report.DataSource = dtRep;
-                report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
-                report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
-            */
-            if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
-            {
-                string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
-                XtraReport report = new XtraReport();
-                report.LoadState(path);
-                DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                DataTable dtRep = dt.Clone();
-                dtRep.Columns.Add("pageno", typeof(int));
-                dtRep.Columns.Add("length", typeof(int));
-                //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-                int remarkcount = memoEdit1.Lines.Length;
-                if (remarkcount < 3)
-                    remarkcount = 3;
-                //      int line = 45-remarkcount;
-                int line = 50;
-                int recordsCount = 0;
-                int pageno = 1;
-                int counter = 0;
-                DataRow drRep;
-                double subtotal = 0;
-                double pphtotal = 0;
-                foreach (DataRow dr in dt.Rows)
-                {
-                    counter++;
-                    string remark = dr["remark"].ToString().Trim();
-                    if (dr["etd"].ToString().Trim() != "")
-                        remark = remark + " - " + dr["etd"].ToString().Trim();
+        //void tsmiPrintDirectly_Click(object sender, EventArgs e)
+        //{
+        //    /*
+        //    if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
+        //    {
+        //        string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
+        //        XtraReport report = new XtraReport();
+        //        report.LoadState(path);
+        //        DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        DataTable dtRep = dt.Clone();
+        //        dtRep.Columns.Add("pageno", typeof(Int32));
+        //        //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        int remarkcount = memoEdit1.Lines.Length;
+        //        int line = 45 - remarkcount;
+        //        int recordsCount = 0;
+        //        int pageno = 1;
+        //        DataRow drRep;
+        //        double subtotal = 0;
+        //        foreach (DataRow dr in dt.Rows)
+        //        {
+        //            recordsCount++;
+        //            string remark = dr["remark"].ToString() + " - " + dr["etd"].ToString();
+        //            //1 row kolom nama barang max 30 karakter
+        //            while (remark.Length > 30)
+        //            {
+        //                recordsCount++;
+        //                remark = remark.Substring(0, 30);
+        //            }
+        //            if ((recordsCount > line && pageno == 1) || (recordsCount > line && pageno > 1))
+        //            {
+        //                pageno++;
+        //                recordsCount = 1;
+        //            }
+        //            //saldo dipindahkan
+        //            if (pageno > 1 && recordsCount == 1)
+        //            {
+        //                drRep = dtRep.NewRow();
+        //                drRep["remark"] = "Dipindahkan";
+        //                drRep["val"] = subtotal;
+        //                drRep["pageno"] = pageno;
+        //                dtRep.Rows.Add(drRep);
+        //                recordsCount++;
+        //            }
+        //            drRep = dtRep.NewRow();
+        //            foreach (DataColumn col in dt.Columns)
+        //                drRep[col.ColumnName] = dr[col.ColumnName];
+        //            drRep["pageno"] = pageno;
+        //            dtRep.Rows.Add(drRep);
+        //            subtotal = subtotal + Convert.ToDouble(dr["val"]);
+        //        }
+        //        report.DataSource = dtRep;
+        //        report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
+        //        report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
+        //    */
+        //    if (Convert.ToUInt64(((DataRowView)MasterBindingSource.Current).Row["aprov"]) == 1)
+        //    {
+        //        string path = Application.StartupPath + "\\Reports\\" + "RepPO" + ".repx";
+        //        XtraReport report = new XtraReport();
+        //        report.LoadState(path);
+        //        DataTable dt = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        DataTable dtRep = dt.Clone();
+        //        dtRep.Columns.Add("pageno", typeof(int));
+        //        dtRep.Columns.Add("length", typeof(int));
+        //        //report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
+        //        int remarkcount = memoEdit1.Lines.Length;
+        //        if (remarkcount < 3)
+        //            remarkcount = 3;
+        //        //      int line = 45-remarkcount;
+        //        int line = 50;
+        //        int recordsCount = 0;
+        //        int pageno = 1;
+        //        int counter = 0;
+        //        DataRow drRep;
+        //        double subtotal = 0;
+        //        double pphtotal = 0;
+        //        foreach (DataRow dr in dt.Rows)
+        //        {
+        //            counter++;
+        //            string remark = dr["remark"].ToString().Trim();
+        //            if (dr["etd"].ToString().Trim() != "")
+        //                remark = remark + " - " + dr["etd"].ToString().Trim();
 
-                    //1 row kolom nama barang max 30 karakter
-                    if (remark.Length <= 30)
-                    {
-                        recordsCount++;
-                    }
-                    if (remark.Length > 30)
-                    {
-                        for (int j = 0; j < remark.Length / 30; j++)
-                        {
-                            recordsCount++;
-                        }
-                        if (remark.Length % 30 > 0)
-                        {
-                            recordsCount++;
-                        }
+        //            //1 row kolom nama barang max 30 karakter
+        //            if (remark.Length <= 30)
+        //            {
+        //                recordsCount++;
+        //            }
+        //            if (remark.Length > 30)
+        //            {
+        //                for (int j = 0; j < remark.Length / 30; j++)
+        //                {
+        //                    recordsCount++;
+        //                }
+        //                if (remark.Length % 30 > 0)
+        //                {
+        //                    recordsCount++;
+        //                }
 
-                        //       remark = remark.Substring(0, 30);
-                    }
-                    if ((recordsCount > line && pageno >= 1))
-                    {
-                        pageno++;
-                        recordsCount = 1;
-                    }
-                    //saldo dipindahkan
-                    if (pageno > 1 && recordsCount == 1)
-                    {
-                        drRep = dtRep.NewRow();
-                        drRep["name"] = dr["name"].ToString();
-                        drRep["address"] = dr["address"].ToString();
-                        drRep["date"] = dr["date"].ToString();
-                        drRep["cur"] = dr["cur"].ToString();
-                        drRep["top"] = dr["top"].ToString();
+        //                //       remark = remark.Substring(0, 30);
+        //            }
+        //            if ((recordsCount > line && pageno >= 1))
+        //            {
+        //                pageno++;
+        //                recordsCount = 1;
+        //            }
+        //            //saldo dipindahkan
+        //            if (pageno > 1 && recordsCount == 1)
+        //            {
+        //                drRep = dtRep.NewRow();
+        //                drRep["name"] = dr["name"].ToString();
+        //                drRep["address"] = dr["address"].ToString();
+        //                drRep["date"] = dr["date"].ToString();
+        //                drRep["cur"] = dr["cur"].ToString();
+        //                drRep["top"] = dr["top"].ToString();
 
-                        drRep["remark"] = "Dipindahkan";
-                        drRep["val"] = subtotal;
-                        drRep["PPHTotal"] = pphtotal;
-                        drRep["pageno"] = pageno;
-                        dtRep.Rows.Add(drRep);
-                        recordsCount++;
-                    }
-                    drRep = dtRep.NewRow();
-                    foreach (DataColumn col in dt.Columns)
-                    {
-                        drRep[col.ColumnName] = dr[col.ColumnName];
+        //                drRep["remark"] = "Dipindahkan";
+        //                drRep["val"] = subtotal;
+        //                drRep["PPHTotal"] = pphtotal;
+        //                drRep["pageno"] = pageno;
+        //                dtRep.Rows.Add(drRep);
+        //                recordsCount++;
+        //            }
+        //            drRep = dtRep.NewRow();
+        //            foreach (DataColumn col in dt.Columns)
+        //            {
+        //                drRep[col.ColumnName] = dr[col.ColumnName];
 
-                    }
-                    if (dt.Rows.Count != counter)
-                        drRep["addnote"] = "";
-                    drRep["length"] = remark.Length;
-                    drRep["pageno"] = pageno;
-                    dtRep.Rows.Add(drRep);
-                    subtotal = subtotal + Convert.ToDouble(dr["val"]) + Convert.ToDouble(dr["PPHTotal"]);
-                }
-                report.DataSource = dtRep;
-                report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
-                report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
+        //            }
+        //            if (dt.Rows.Count != counter)
+        //                drRep["addnote"] = "";
+        //            drRep["length"] = remark.Length;
+        //            drRep["pageno"] = pageno;
+        //            dtRep.Rows.Add(drRep);
+        //            subtotal = subtotal + Convert.ToDouble(dr["val"]) + Convert.ToDouble(dr["PPHTotal"]);
+        //        }
+        //        report.DataSource = dtRep;
+        //        report.Controls[6].Controls["lblUser"].Text = DB.casUser.Name;
+        //        report.Controls[6].Controls["xrLblTotalPage"].Text = pageno.ToString();
 
-                //report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect, DevExpress.XtraPrinting.CommandVisibility.None);
-                //report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
+        //        //report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect, DevExpress.XtraPrinting.CommandVisibility.None);
+        //        //report.PrintingSystem.SetCommandVisibility(DevExpress.XtraPrinting.PrintingSystemCommand.Print, DevExpress.XtraPrinting.CommandVisibility.None);
 
-                report.Print();
-                DB.sql.Execute("insert into printed values ('" + NoDocument + "','" + DateTime.Now.ToString("dd/MM/yyyy HH:mm") + "',1)");
-                lblprint.Visible = true;
-                             //report.RunDesigner();
-            }
-            else
-                MessageBox.Show("PO belum di-approve");
-        }
+        //        report.Print();
+        //        DB.sql.Execute("insert into printed values ('" + NoDocument + "','" + DateTime.Now.ToString("dd/MM/yyyy HH:mm") + "',1)");
+        //        lblprint.Visible = true;
+        //                     //report.RunDesigner();
+        //    }
+        //    else
+        //        MessageBox.Show("PO belum di-approve");
+        //}
         void unitColumnEdit_Enter(object sender, EventArgs e)
         {
             qtyOldValue = Convert.ToDouble(gcOmd.ExGridView.GetFocusedRowCellValue("qty"));

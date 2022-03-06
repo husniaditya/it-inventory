@@ -97,52 +97,18 @@ namespace CAS.Transaction
 
         void tsmiPrintDirectly_Click(object sender, EventArgs e)
         {
-            string path = Application.StartupPath + "\\Reports\\" + "RepLpb" + ".repx";
-            XtraReport report = new XtraReport();
-            report.LoadState(path);
-            report.DataSource = DB.sql.Select("call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')");
-            report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-            /*
-            report.Bands[BandKind.PageFooter].Controls["lblSummary"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblSummary2"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUMText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUM"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPPText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPP"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPNText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPN"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblTotal"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["xrLblKet"].Text = "Ket: " + remarkMemoEdit.Text;
-            report.PrintingSystem.ShowMarginsWarning = false;
-            //report.PrintingSystem.Document.PrintingSystem.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.Custom;
-            //report.PrintingSystem.Document.PrintingSystem.PageSettings.PaperName = "1/2A4";
-            //report.PrintingSystem.Document.PrintingSystem.PageSettings.RightMargin = 0;
-             */
-            report.PaperName = "1/2A4";
-            report.PrintingSystem.ShowMarginsWarning = false;
-            report.Print();
+            this.ReportName = "RepLpb";
+            this.PrintQuery = "call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')";
+
+            PrintDirect();
         }
 
         void tsmiPrintPreview_Click(object sender, EventArgs e)
         {
-            string path = Application.StartupPath + "\\Reports\\" + "RepLpb" + ".repx";
-            XtraReport report = new XtraReport();
-            report.LoadState(path);
-            report.DataSource = DB.sql.Select("call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')");
-            report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-           /*
-            report.Bands[BandKind.PageFooter].Controls["lblSummary"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblSummary2"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUMText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblUM"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPPText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblDPP"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPNText"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblPPN"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["lblTotal"].Visible = false;
-            report.Bands[BandKind.PageFooter].Controls["xrLblKet"].Text = "Ket: " + remarkMemoEdit.Text;
-           */
-            report.ShowPreview();
+            this.ReportName = "RepLpb";
+            this.PrintQuery = "call SP_Print('Transaction.FrmTLpb','" + this.NoDocument + "')";
+
+            PrintReport();
         }
 
         void MasterBindingSource_PositionChanged(object sender, EventArgs e)

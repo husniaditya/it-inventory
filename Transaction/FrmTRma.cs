@@ -222,12 +222,11 @@ namespace CAS.Transaction
 
         void tsbtnPrint_Click(object sender, EventArgs e)
         {
-            string path = Application.StartupPath + "\\Reports\\" + "RepPRRetur" + ".repx";
-            XtraReport report = new XtraReport();
-            report.LoadState(path);
-            report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-            report.Bands[BandKind.GroupFooter].Controls["lblUser"].Text = DB.casUser.Name;
-            report.ShowPreview();
+
+            this.ReportName = "RepPRRetur";
+            this.PrintQuery = "Call SP_Print('" + this.Name + "','" + this.NoDocument + "')";
+
+            PrintReport();
 
         }
 

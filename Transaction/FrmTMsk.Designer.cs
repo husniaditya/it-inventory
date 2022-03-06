@@ -123,13 +123,11 @@ namespace CAS.Transaction
             // txtNo
             // 
             this.txtNo.Location = new System.Drawing.Point(215, 21);
-            this.txtNo.Size = new System.Drawing.Size(85, 26);
             this.txtNo.EditValueChanged += new System.EventHandler(this.txtNo_EditValueChanged);
             // 
             // txtPeriod
             // 
             this.txtPeriod.Location = new System.Drawing.Point(166, 21);
-            this.txtPeriod.Size = new System.Drawing.Size(43, 26);
             // 
             // ludSeri
             // 
@@ -152,8 +150,8 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(this.remarkMemoEdit);
             this.pnlDetail.Controls.Add(label2);
             this.pnlDetail.Controls.Add(duedateLabel);
-            this.pnlDetail.Location = new System.Drawing.Point(0, 88);
-            this.pnlDetail.Size = new System.Drawing.Size(775, 553);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 81);
+            this.pnlDetail.Size = new System.Drawing.Size(775, 568);
             this.pnlDetail.Controls.SetChildIndex(this.dateDate, 0);
             this.pnlDetail.Controls.SetChildIndex(this.dateLabel, 0);
             this.pnlDetail.Controls.SetChildIndex(this.curcur, 0);
@@ -187,7 +185,7 @@ namespace CAS.Transaction
             this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy HH:mm:ss";
             this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
-            this.dateDate.Size = new System.Drawing.Size(120, 26);
+            this.dateDate.Size = new System.Drawing.Size(120, 23);
             this.dateDate.EditValueChanged += new System.EventHandler(this.dateDate_EditValueChanged);
             // 
             // dateLabel
@@ -206,7 +204,6 @@ namespace CAS.Transaction
             this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
             this.curcur.Properties.Appearance.Options.UseBackColor = true;
             this.curcur.Properties.Appearance.Options.UseForeColor = true;
-            this.curcur.Size = new System.Drawing.Size(57, 26);
             this.curcur.EditValueChanged += new System.EventHandler(this.curcur_EditValueChanged);
             // 
             // curLabel1
@@ -235,7 +232,7 @@ namespace CAS.Transaction
             duedateLabel.AutoSize = true;
             duedateLabel.Location = new System.Drawing.Point(440, 58);
             duedateLabel.Name = "duedateLabel";
-            duedateLabel.Size = new System.Drawing.Size(40, 19);
+            duedateLabel.Size = new System.Drawing.Size(27, 13);
             duedateLabel.TabIndex = 32;
             duedateLabel.Text = "TOP";
             // 
@@ -244,7 +241,7 @@ namespace CAS.Transaction
             label2.AutoSize = true;
             label2.Location = new System.Drawing.Point(404, 83);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(88, 19);
+            label2.Size = new System.Drawing.Size(63, 13);
             label2.TabIndex = 63;
             label2.Text = "Keterangan";
             // 
@@ -253,7 +250,7 @@ namespace CAS.Transaction
             label6.AutoSize = true;
             label6.Location = new System.Drawing.Point(10, 5);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(77, 19);
+            label6.Size = new System.Drawing.Size(52, 13);
             label6.TabIndex = 92;
             label6.Text = "Sub Total";
             // 
@@ -262,7 +259,7 @@ namespace CAS.Transaction
             label7.AutoSize = true;
             label7.Location = new System.Drawing.Point(10, 26);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(88, 19);
+            label7.Size = new System.Drawing.Size(60, 13);
             label7.TabIndex = 93;
             label7.Text = "Uang Muka";
             // 
@@ -271,7 +268,7 @@ namespace CAS.Transaction
             label8.AutoSize = true;
             label8.Location = new System.Drawing.Point(10, 48);
             label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(38, 19);
+            label8.Size = new System.Drawing.Size(26, 13);
             label8.TabIndex = 94;
             label8.Text = "PPN";
             // 
@@ -280,7 +277,7 @@ namespace CAS.Transaction
             label9.AutoSize = true;
             label9.Location = new System.Drawing.Point(11, 95);
             label9.Name = "label9";
-            label9.Size = new System.Drawing.Size(45, 19);
+            label9.Size = new System.Drawing.Size(31, 13);
             label9.TabIndex = 95;
             label9.Text = "Total";
             // 
@@ -289,7 +286,7 @@ namespace CAS.Transaction
             label11.AutoSize = true;
             label11.Location = new System.Drawing.Point(532, 57);
             label11.Name = "label11";
-            label11.Size = new System.Drawing.Size(43, 19);
+            label11.Size = new System.Drawing.Size(31, 13);
             label11.TabIndex = 112;
             label11.Text = "Days";
             // 
@@ -298,7 +295,7 @@ namespace CAS.Transaction
             label12.AutoSize = true;
             label12.Location = new System.Drawing.Point(569, 58);
             label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(102, 19);
+            label12.Size = new System.Drawing.Size(69, 13);
             label12.TabIndex = 123;
             label12.Text = "Jatuh Tempo";
             // 
@@ -307,7 +304,7 @@ namespace CAS.Transaction
             label3.AutoSize = true;
             label3.Location = new System.Drawing.Point(11, 71);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(38, 19);
+            label3.Size = new System.Drawing.Size(26, 13);
             label3.TabIndex = 115;
             label3.Text = "PPH";
             // 
@@ -318,16 +315,17 @@ namespace CAS.Transaction
             bsaLabel.ForeColor = System.Drawing.Color.Red;
             bsaLabel.Location = new System.Drawing.Point(14, 5);
             bsaLabel.Name = "bsaLabel";
-            bsaLabel.Size = new System.Drawing.Size(105, 21);
+            bsaLabel.Size = new System.Drawing.Size(69, 13);
             bsaLabel.TabIndex = 139;
             bsaLabel.Text = "Bisnis Area";
+            bsaLabel.Visible = false;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new System.Drawing.Point(577, 414);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(38, 19);
+            label4.Size = new System.Drawing.Size(26, 13);
             label4.TabIndex = 142;
             label4.Text = "Disc";
             // 
@@ -360,7 +358,7 @@ namespace CAS.Transaction
             this.tabDetails.Location = new System.Drawing.Point(12, 150);
             this.tabDetails.Name = "tabDetails";
             this.tabDetails.SelectedTabPage = this.tabPO;
-            this.tabDetails.Size = new System.Drawing.Size(751, 279);
+            this.tabDetails.Size = new System.Drawing.Size(751, 294);
             this.tabDetails.TabIndex = 86;
             this.tabDetails.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.tabPO,
@@ -380,7 +378,7 @@ namespace CAS.Transaction
             this.tabPO.Controls.Add(this.btnDeleteOms);
             this.tabPO.Controls.Add(this.btnAddOms);
             this.tabPO.Name = "tabPO";
-            this.tabPO.Size = new System.Drawing.Size(743, 245);
+            this.tabPO.Size = new System.Drawing.Size(743, 266);
             this.tabPO.Text = "List PO/PR";
             // 
             // chkPR
@@ -388,7 +386,7 @@ namespace CAS.Transaction
             this.chkPR.AutoSize = true;
             this.chkPR.Location = new System.Drawing.Point(22, 26);
             this.chkPR.Name = "chkPR";
-            this.chkPR.Size = new System.Drawing.Size(54, 23);
+            this.chkPR.Size = new System.Drawing.Size(39, 17);
             this.chkPR.TabIndex = 4;
             this.chkPR.Text = "PR";
             this.chkPR.UseVisualStyleBackColor = true;
@@ -403,7 +401,7 @@ namespace CAS.Transaction
             this.gcxMsl.Location = new System.Drawing.Point(173, 3);
             this.gcxMsl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxMsl.Name = "gcxMsl";
-            this.gcxMsl.Size = new System.Drawing.Size(555, 239);
+            this.gcxMsl.Size = new System.Drawing.Size(555, 260);
             this.gcxMsl.TabIndex = 3;
             this.gcxMsl.Load += new System.EventHandler(this.gcxMsl_Load);
             // 
@@ -437,7 +435,7 @@ namespace CAS.Transaction
             // 
             this.tabInvoice.Controls.Add(this.gcxMsd);
             this.tabInvoice.Name = "tabInvoice";
-            this.tabInvoice.Size = new System.Drawing.Size(743, 245);
+            this.tabInvoice.Size = new System.Drawing.Size(743, 251);
             this.tabInvoice.Text = "Invoice";
             // 
             // gcxMsd
@@ -448,14 +446,14 @@ namespace CAS.Transaction
             this.gcxMsd.Location = new System.Drawing.Point(0, 0);
             this.gcxMsd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxMsd.Name = "gcxMsd";
-            this.gcxMsd.Size = new System.Drawing.Size(743, 245);
+            this.gcxMsd.Size = new System.Drawing.Size(743, 251);
             this.gcxMsd.TabIndex = 83;
             // 
             // tabJurnal
             // 
             this.tabJurnal.Controls.Add(this.gcxMsx);
             this.tabJurnal.Name = "tabJurnal";
-            this.tabJurnal.Size = new System.Drawing.Size(743, 245);
+            this.tabJurnal.Size = new System.Drawing.Size(743, 251);
             this.tabJurnal.Text = "Jurnal";
             // 
             // gcxMsx
@@ -466,14 +464,14 @@ namespace CAS.Transaction
             this.gcxMsx.Location = new System.Drawing.Point(0, 0);
             this.gcxMsx.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxMsx.Name = "gcxMsx";
-            this.gcxMsx.Size = new System.Drawing.Size(743, 245);
+            this.gcxMsx.Size = new System.Drawing.Size(743, 251);
             this.gcxMsx.TabIndex = 0;
             // 
             // tabBarang
             // 
             this.tabBarang.Controls.Add(this.gcxLpd);
             this.tabBarang.Name = "tabBarang";
-            this.tabBarang.Size = new System.Drawing.Size(743, 245);
+            this.tabBarang.Size = new System.Drawing.Size(743, 251);
             this.tabBarang.Text = "Penerimaan Barang";
             // 
             // gcxLpd
@@ -484,14 +482,14 @@ namespace CAS.Transaction
             this.gcxLpd.Location = new System.Drawing.Point(0, 0);
             this.gcxLpd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxLpd.Name = "gcxLpd";
-            this.gcxLpd.Size = new System.Drawing.Size(743, 245);
+            this.gcxLpd.Size = new System.Drawing.Size(743, 251);
             this.gcxLpd.TabIndex = 0;
             // 
             // tabUangMuka
             // 
             this.tabUangMuka.Controls.Add(this.gcxUmkp);
             this.tabUangMuka.Name = "tabUangMuka";
-            this.tabUangMuka.Size = new System.Drawing.Size(743, 245);
+            this.tabUangMuka.Size = new System.Drawing.Size(743, 251);
             this.tabUangMuka.Text = "Uang Muka";
             // 
             // gcxUmkp
@@ -502,7 +500,7 @@ namespace CAS.Transaction
             this.gcxUmkp.Location = new System.Drawing.Point(0, 0);
             this.gcxUmkp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcxUmkp.Name = "gcxUmkp";
-            this.gcxUmkp.Size = new System.Drawing.Size(743, 245);
+            this.gcxUmkp.Size = new System.Drawing.Size(743, 251);
             this.gcxUmkp.TabIndex = 0;
             // 
             // txtSubTotal
@@ -512,7 +510,7 @@ namespace CAS.Transaction
             this.txtSubTotal.Name = "txtSubTotal";
             this.txtSubTotal.Properties.Appearance.Options.UseTextOptions = true;
             this.txtSubTotal.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtSubTotal.Size = new System.Drawing.Size(121, 26);
+            this.txtSubTotal.Size = new System.Drawing.Size(121, 20);
             this.txtSubTotal.TabIndex = 88;
             // 
             // txtUangMuka
@@ -522,7 +520,7 @@ namespace CAS.Transaction
             this.txtUangMuka.Name = "txtUangMuka";
             this.txtUangMuka.Properties.Appearance.Options.UseTextOptions = true;
             this.txtUangMuka.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtUangMuka.Size = new System.Drawing.Size(121, 26);
+            this.txtUangMuka.Size = new System.Drawing.Size(121, 20);
             this.txtUangMuka.TabIndex = 89;
             // 
             // spinTOP
@@ -537,7 +535,7 @@ namespace CAS.Transaction
             this.spinTOP.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.spinTOP.Properties.UseCtrlIncrement = false;
-            this.spinTOP.Size = new System.Drawing.Size(56, 26);
+            this.spinTOP.Size = new System.Drawing.Size(56, 20);
             this.spinTOP.TabIndex = 111;
             this.spinTOP.EditValueChanged += new System.EventHandler(this.spinTOP_EditValueChanged);
             // 
@@ -573,7 +571,7 @@ namespace CAS.Transaction
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Properties.Appearance.Options.UseTextOptions = true;
             this.txtTotal.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtTotal.Size = new System.Drawing.Size(121, 26);
+            this.txtTotal.Size = new System.Drawing.Size(121, 20);
             this.txtTotal.TabIndex = 113;
             // 
             // txtPPN
@@ -584,7 +582,7 @@ namespace CAS.Transaction
             this.txtPPN.Name = "txtPPN";
             this.txtPPN.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPPN.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPPN.Size = new System.Drawing.Size(121, 26);
+            this.txtPPN.Size = new System.Drawing.Size(121, 20);
             this.txtPPN.TabIndex = 114;
             // 
             // ctrlSub
@@ -610,7 +608,7 @@ namespace CAS.Transaction
             this.pnlTotal.Controls.Add(label7);
             this.pnlTotal.Controls.Add(label8);
             this.pnlTotal.Controls.Add(label9);
-            this.pnlTotal.Location = new System.Drawing.Point(544, 435);
+            this.pnlTotal.Location = new System.Drawing.Point(544, 450);
             this.pnlTotal.Name = "pnlTotal";
             this.pnlTotal.Size = new System.Drawing.Size(200, 125);
             this.pnlTotal.TabIndex = 116;
@@ -622,7 +620,7 @@ namespace CAS.Transaction
             this.txtPPH.Name = "txtPPH";
             this.txtPPH.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPPH.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPPH.Size = new System.Drawing.Size(121, 26);
+            this.txtPPH.Size = new System.Drawing.Size(121, 20);
             this.txtPPH.TabIndex = 116;
             // 
             // dateJatuhTempo
@@ -632,7 +630,7 @@ namespace CAS.Transaction
             this.dateJatuhTempo.Name = "dateJatuhTempo";
             this.dateJatuhTempo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateJatuhTempo.Size = new System.Drawing.Size(100, 26);
+            this.dateJatuhTempo.Size = new System.Drawing.Size(100, 23);
             this.dateJatuhTempo.TabIndex = 122;
             // 
             // bsaTextBoxEx
@@ -663,8 +661,9 @@ namespace CAS.Transaction
             this.bsaTextBoxEx.Name = "bsaTextBoxEx";
             this.bsaTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 26);
+            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 20);
             this.bsaTextBoxEx.TabIndex = 140;
+            this.bsaTextBoxEx.Visible = false;
             // 
             // txtDisc
             // 
@@ -673,7 +672,7 @@ namespace CAS.Transaction
             this.txtDisc.Name = "txtDisc";
             this.txtDisc.Properties.Appearance.Options.UseTextOptions = true;
             this.txtDisc.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtDisc.Size = new System.Drawing.Size(121, 26);
+            this.txtDisc.Size = new System.Drawing.Size(121, 20);
             this.txtDisc.TabIndex = 141;
             // 
             // FrmTMsk

@@ -143,7 +143,7 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(this.remarkMemoEdit);
             this.pnlDetail.Controls.Add(remarkLabel);
             this.pnlDetail.Location = new System.Drawing.Point(0, 69);
-            this.pnlDetail.Size = new System.Drawing.Size(816, 375);
+            this.pnlDetail.Size = new System.Drawing.Size(816, 363);
             this.pnlDetail.Controls.SetChildIndex(remarkLabel, 0);
             this.pnlDetail.Controls.SetChildIndex(this.remarkMemoEdit, 0);
             this.pnlDetail.Controls.SetChildIndex(angkutanLabel, 0);
@@ -424,7 +424,7 @@ namespace CAS.Transaction
             this.gcSpm.Location = new System.Drawing.Point(12, 188);
             this.gcSpm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcSpm.Name = "gcSpm";
-            this.gcSpm.Size = new System.Drawing.Size(792, 179);
+            this.gcSpm.Size = new System.Drawing.Size(792, 167);
             this.gcSpm.TabIndex = 101;
             // 
             // sendgdCheckBox
@@ -465,6 +465,7 @@ namespace CAS.Transaction
             this.button1.TabIndex = 106;
             this.button1.Text = "Check Flow Meter";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // cpoCheckBox
@@ -620,7 +621,7 @@ namespace CAS.Transaction
             // 
             this.txtTotalqty.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.spmBindingSource, "totqty", true));
             this.txtTotalqty.Location = new System.Drawing.Point(787, 159);
-            this.txtTotalqty.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTotalqty.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotalqty.Name = "txtTotalqty";
             this.txtTotalqty.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.txtTotalqty.Properties.Appearance.Options.UseFont = true;
@@ -664,7 +665,7 @@ namespace CAS.Transaction
             // 
             this.txtTotalqtykemasan.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.spmBindingSource, "totqtykemasan", true));
             this.txtTotalqtykemasan.Location = new System.Drawing.Point(648, 159);
-            this.txtTotalqtykemasan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTotalqtykemasan.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotalqtykemasan.Name = "txtTotalqtykemasan";
             this.txtTotalqtykemasan.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.txtTotalqtykemasan.Properties.Appearance.Options.UseFont = true;

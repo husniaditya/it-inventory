@@ -894,7 +894,7 @@ namespace CAS.Transaction
             this.xtraTabPage2.Controls.Add(paymentLabel);
             this.xtraTabPage2.Controls.Add(this.paymentTextEdit);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(857, 268);
+            this.xtraTabPage2.Size = new System.Drawing.Size(857, 283);
             this.xtraTabPage2.Text = "Payment Terms";
             // 
             // down_paySpinEdit
@@ -1020,7 +1020,7 @@ namespace CAS.Transaction
             this.xtraTabPage3.Controls.Add(shippingdocLabel);
             this.xtraTabPage3.Controls.Add(this.shippingdocMemoEdit);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(857, 268);
+            this.xtraTabPage3.Size = new System.Drawing.Size(857, 283);
             this.xtraTabPage3.Text = "Shipping Instructions and Additional Notes";
             // 
             // addnoteMemoEdit
@@ -1065,7 +1065,7 @@ namespace CAS.Transaction
             this.xtraTabPage4.Controls.Add(pay1Label);
             this.xtraTabPage4.Controls.Add(this.pay1SpinEdit);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(857, 268);
+            this.xtraTabPage4.Size = new System.Drawing.Size(857, 283);
             this.xtraTabPage4.Text = "Payment date and Spec";
             // 
             // memoEdit1
@@ -1383,6 +1383,7 @@ namespace CAS.Transaction
             this.button2.TabIndex = 120;
             this.button2.Text = "error solution for user update";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // jenisradioGroup

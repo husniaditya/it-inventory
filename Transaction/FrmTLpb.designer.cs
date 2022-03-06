@@ -77,12 +77,10 @@ namespace CAS.Transaction
             // txtNo
             // 
             this.txtNo.Location = new System.Drawing.Point(206, 19);
-            this.txtNo.Size = new System.Drawing.Size(85, 26);
             // 
             // txtPeriod
             // 
             this.txtPeriod.Location = new System.Drawing.Point(157, 19);
-            this.txtPeriod.Size = new System.Drawing.Size(43, 26);
             // 
             // ludSeri
             // 
@@ -107,8 +105,8 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(this.remarkMemoEdit);
             this.pnlDetail.Controls.Add(nopolLabel);
             this.pnlDetail.Controls.Add(this.nopolTextEdit);
-            this.pnlDetail.Location = new System.Drawing.Point(0, 88);
-            this.pnlDetail.Size = new System.Drawing.Size(712, 398);
+            this.pnlDetail.Location = new System.Drawing.Point(0, 81);
+            this.pnlDetail.Size = new System.Drawing.Size(712, 413);
             this.pnlDetail.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlDetail_Paint);
             this.pnlDetail.Controls.SetChildIndex(this.dateDate, 0);
             this.pnlDetail.Controls.SetChildIndex(this.dateLabel, 0);
@@ -145,7 +143,6 @@ namespace CAS.Transaction
             this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy";
             this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
-            this.dateDate.Size = new System.Drawing.Size(100, 26);
             // 
             // dateLabel
             // 
@@ -163,7 +160,6 @@ namespace CAS.Transaction
             this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
             this.curcur.Properties.Appearance.Options.UseBackColor = true;
             this.curcur.Properties.Appearance.Options.UseForeColor = true;
-            this.curcur.Size = new System.Drawing.Size(57, 26);
             this.curcur.Visible = false;
             // 
             // curLabel1
@@ -190,7 +186,7 @@ namespace CAS.Transaction
             nopolLabel.AutoSize = true;
             nopolLabel.Location = new System.Drawing.Point(373, 120);
             nopolLabel.Name = "nopolLabel";
-            nopolLabel.Size = new System.Drawing.Size(76, 19);
+            nopolLabel.Size = new System.Drawing.Size(50, 13);
             nopolLabel.TabIndex = 52;
             nopolLabel.Text = "No. Polisi";
             // 
@@ -199,7 +195,7 @@ namespace CAS.Transaction
             remarkLabel1.AutoSize = true;
             remarkLabel1.Location = new System.Drawing.Point(363, 144);
             remarkLabel1.Name = "remarkLabel1";
-            remarkLabel1.Size = new System.Drawing.Size(88, 19);
+            remarkLabel1.Size = new System.Drawing.Size(63, 13);
             remarkLabel1.TabIndex = 75;
             remarkLabel1.Text = "Keterangan";
             // 
@@ -208,7 +204,7 @@ namespace CAS.Transaction
             label2.AutoSize = true;
             label2.Location = new System.Drawing.Point(361, 64);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(92, 19);
+            label2.Size = new System.Drawing.Size(62, 13);
             label2.TabIndex = 86;
             label2.Text = "Packing List";
             // 
@@ -217,7 +213,7 @@ namespace CAS.Transaction
             label3.AutoSize = true;
             label3.Location = new System.Drawing.Point(353, 90);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(102, 19);
+            label3.Size = new System.Drawing.Size(70, 13);
             label3.TabIndex = 88;
             label3.Text = "No Container";
             label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -229,9 +225,10 @@ namespace CAS.Transaction
             bsaLabel.ForeColor = System.Drawing.Color.Red;
             bsaLabel.Location = new System.Drawing.Point(3, 5);
             bsaLabel.Name = "bsaLabel";
-            bsaLabel.Size = new System.Drawing.Size(105, 21);
+            bsaLabel.Size = new System.Drawing.Size(69, 13);
             bsaLabel.TabIndex = 137;
             bsaLabel.Text = "Bisnis Area";
+            bsaLabel.Visible = false;
             // 
             // lphBindingSource
             // 
@@ -250,7 +247,7 @@ namespace CAS.Transaction
             this.nopolTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lphBindingSource, "nopol", true));
             this.nopolTextEdit.Location = new System.Drawing.Point(432, 117);
             this.nopolTextEdit.Name = "nopolTextEdit";
-            this.nopolTextEdit.Size = new System.Drawing.Size(116, 26);
+            this.nopolTextEdit.Size = new System.Drawing.Size(116, 20);
             this.nopolTextEdit.TabIndex = 53;
             // 
             // remarkMemoEdit
@@ -271,7 +268,7 @@ namespace CAS.Transaction
             this.gcLpd.Location = new System.Drawing.Point(12, 199);
             this.gcLpd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcLpd.Name = "gcLpd";
-            this.gcLpd.Size = new System.Drawing.Size(688, 193);
+            this.gcLpd.Size = new System.Drawing.Size(688, 208);
             this.gcLpd.TabIndex = 77;
             // 
             // omsTextEdit
@@ -279,7 +276,7 @@ namespace CAS.Transaction
             this.omsTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lphBindingSource, "oms", true));
             this.omsTextEdit.Location = new System.Drawing.Point(80, 52);
             this.omsTextEdit.Name = "omsTextEdit";
-            this.omsTextEdit.Size = new System.Drawing.Size(132, 26);
+            this.omsTextEdit.Size = new System.Drawing.Size(132, 20);
             this.omsTextEdit.TabIndex = 78;
             this.omsTextEdit.Tag = "";
             // 
@@ -315,7 +312,7 @@ namespace CAS.Transaction
             this.spbTextBoxEx.Properties.Appearance.Options.UseForeColor = true;
             this.spbTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.spbTextBoxEx.Size = new System.Drawing.Size(132, 26);
+            this.spbTextBoxEx.Size = new System.Drawing.Size(132, 20);
             this.spbTextBoxEx.TabIndex = 79;
             this.spbTextBoxEx.EditValueChanged += new System.EventHandler(this.spbTextBoxEx_EditValueChanged);
             this.spbTextBoxEx.ButtonPressed += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.spbTextBoxEx_ButtonPressed);
@@ -346,7 +343,7 @@ namespace CAS.Transaction
             this.linkToOms.FormName = "";
             this.linkToOms.Location = new System.Drawing.Point(19, 55);
             this.linkToOms.Name = "linkToOms";
-            this.linkToOms.Size = new System.Drawing.Size(80, 19);
+            this.linkToOms.Size = new System.Drawing.Size(55, 13);
             this.linkToOms.TabIndex = 84;
             this.linkToOms.TabStop = true;
             this.linkToOms.Text = "No. Order";
@@ -358,7 +355,7 @@ namespace CAS.Transaction
             this.linkToSpb.FormName = "";
             this.linkToSpb.Location = new System.Drawing.Point(26, 30);
             this.linkToSpb.Name = "linkToSpb";
-            this.linkToSpb.Size = new System.Drawing.Size(66, 19);
+            this.linkToSpb.Size = new System.Drawing.Size(45, 13);
             this.linkToSpb.TabIndex = 85;
             this.linkToSpb.TabStop = true;
             this.linkToSpb.Text = "No. SPB";
@@ -369,7 +366,7 @@ namespace CAS.Transaction
             this.textEditPList.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lphBindingSource, "plist", true));
             this.textEditPList.Location = new System.Drawing.Point(431, 61);
             this.textEditPList.Name = "textEditPList";
-            this.textEditPList.Size = new System.Drawing.Size(260, 26);
+            this.textEditPList.Size = new System.Drawing.Size(260, 20);
             this.textEditPList.TabIndex = 87;
             // 
             // textEditNoCont
@@ -377,7 +374,7 @@ namespace CAS.Transaction
             this.textEditNoCont.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.lphBindingSource, "container", true));
             this.textEditNoCont.Location = new System.Drawing.Point(431, 87);
             this.textEditNoCont.Name = "textEditNoCont";
-            this.textEditNoCont.Size = new System.Drawing.Size(260, 26);
+            this.textEditNoCont.Size = new System.Drawing.Size(260, 20);
             this.textEditNoCont.TabIndex = 89;
             // 
             // bsaTextBoxEx
@@ -408,8 +405,9 @@ namespace CAS.Transaction
             this.bsaTextBoxEx.Name = "bsaTextBoxEx";
             this.bsaTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 26);
+            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 20);
             this.bsaTextBoxEx.TabIndex = 138;
+            this.bsaTextBoxEx.Visible = false;
             // 
             // FrmTLpb
             // 

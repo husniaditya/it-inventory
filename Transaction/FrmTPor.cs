@@ -25,12 +25,12 @@ namespace CAS.Transaction
         {
             InitializeComponent();
 
-            ToolStripMenuItem tsmiPrintPreview = new ToolStripMenuItem("Print Preview", null, new EventHandler(tsmiPrintPreview_Click));
-            ToolStripMenuItem tsmiPrintDirectly = new ToolStripMenuItem("Print Directly", null, new EventHandler(tsmiPrintDirectly_Click));
-            ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly);
-            tsbtnPrint.Image = MasterNavigator.Items["tsbtnPrint"].Image;
-            MasterNavigator.Items.Insert(MasterNavigator.Items.IndexOfKey("tsbtnPrint"), tsbtnPrint);
-            MasterNavigator.Items.RemoveByKey("tsbtnPrint");
+            //ToolStripMenuItem tsmiPrintPreview = new ToolStripMenuItem("Print Preview", null, new EventHandler(tsmiPrintPreview_Click));
+            //ToolStripMenuItem tsmiPrintDirectly = new ToolStripMenuItem("Print Directly", null, new EventHandler(tsmiPrintDirectly_Click));
+            //ToolStripDropDownButton tsbtnPrint = new ToolStripDropDownButton("Print", null, tsmiPrintPreview, tsmiPrintDirectly);
+            //tsbtnPrint.Image = MasterNavigator.Items["tsbtnPrint"].Image;
+            //MasterNavigator.Items.Insert(MasterNavigator.Items.IndexOfKey("tsbtnPrint"), tsbtnPrint);
+            //MasterNavigator.Items.RemoveByKey("tsbtnPrint");
 
             DetailTable.Columns.Add("Unit Base", typeof(String));
             MasterBindingSource.PositionChanged += new EventHandler(MasterBindingSource_PositionChanged);
@@ -128,7 +128,7 @@ namespace CAS.Transaction
 
             tsbtnNew.Click += new EventHandler(tsbtnNew_Click);
             tsbtnEdit.Click += new EventHandler(tsbtnEdit_Click);
-            tsbtnPrint.Click += new EventHandler(tsbtnPrint_Click);
+            tsbtnPrint.Click += new EventHandler(tsmiPrintPreview_Click);
 
        //     gcxRmd.ExGridView.Columns["Unit Base"].VisibleIndex = DetailTable.Columns.IndexOf("qty");
             gcxRmd.ExGridView.Columns["Unit Base"].OptionsColumn.AllowEdit = false;
@@ -741,6 +741,41 @@ namespace CAS.Transaction
                 subtotal = subtotal + Convert.ToDouble(dr["val"]);
             }
             report.DataSource = dtRep;
+
+            Image img = Image.FromFile(Application.StartupPath + "\\logo.gif");
+            int lebar = 100;
+            int tinggi = 70;
+
+            if ((report.Bands[BandKind.PageHeader] != null && report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"] != null))
+            {
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Width = lebar;
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                //int left = ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Left;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = 110;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = 110;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = 110;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
+                report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyContact");
+            }
+            if (report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"] != null)
+            {
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Width = lebar;
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                //int left = ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Left;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Left = 110;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Left = 110;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Left = 110;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyName");
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyContact");
+
+            }
+
             report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
             report.Bands[BandKind.PageFooter].Controls["xrLblTotalPage"].Text = pageno.ToString();
          //   report.Bands[BandKind.PageFooter].Text = pageno.ToString();

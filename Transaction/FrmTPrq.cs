@@ -119,12 +119,12 @@ namespace CAS.Transaction
         {
             if (aprov2CheckBox.Checked)
             {
-                string path = Application.StartupPath + "\\Reports\\" + "RepPrq" + ".repx";
-                XtraReport report = new XtraReport();
-                report.LoadState(path);
-                report.DataSource = DB.sql.Select("call SP_Print('Transaction.FrmTPrq','" + this.NoDocument + "')");
-                report.Bands[BandKind.PageFooter].Controls["lblUser"].Text = DB.casUser.Name;
-                report.ShowPreview();
+
+                this.ReportName = "RepPrq";
+                this.PrintQuery = "call SP_Print('Transaction.FrmTPrq','" + this.NoDocument + "')";
+                
+                PrintReport();
+
             }
             else
                 MessageBox.Show("PR tidak dapat di cetak bila belum ada approval 2");

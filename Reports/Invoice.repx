@@ -1,8 +1,8 @@
 <!--
 AssemblyName=DevExpress%2EXtraReports3%2C%20Version%3D1%2E12%2E3%2E0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4
-AssemblyLocation=C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports3\1.12.3.0__79868b8147b5eae4\DevExpress.XtraReports3.dll
+AssemblyLocation=D:\laragon\www\it-inventory\Exe\DevExpress.XtraReports3.dll
 TypeName=DevExpress.XtraReports.UI.XtraReport
-Localization=en-US
+Localization=en-GB
 -->
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -206,7 +206,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<Height>550</Height>
+<Height>593</Height>
 <PageBreak xsi:type="a3:PageBreak" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</PageBreak>
 <ItemCount>37</ItemCount>
 <Item0 href="#ref-33"/>
@@ -446,7 +446,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>783</x>
+<x>995</x>
 <y>0</y>
 <width>656</width>
 <height>42</height>
@@ -819,8 +819,8 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>487</x>
-<y>32</y>
+<x>212</x>
+<y>42</y>
 <width>973</width>
 <height>64</height>
 </Bounds>
@@ -869,7 +869,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>487</x>
+<x>212</x>
 <y>106</y>
 <width>952</width>
 <height>43</height>
@@ -919,7 +919,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Dpi>254</Dpi>
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>487</x>
+<x>212</x>
 <y>148</y>
 <width>952</width>
 <height>42</height>
@@ -970,7 +970,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>466</x>
-<y>487</y>
+<y>529</y>
 <width>296</width>
 <height>42</height>
 </Bounds>
@@ -1020,7 +1020,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>466</y>
+<y>508</y>
 <width>2138</width>
 <height>21</height>
 </Bounds>
@@ -1068,7 +1068,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1799</x>
-<y>487</y>
+<y>529</y>
 <width>211</width>
 <height>43</height>
 </Bounds>
@@ -1118,7 +1118,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1460</x>
-<y>487</y>
+<y>529</y>
 <width>296</width>
 <height>43</height>
 </Bounds>
@@ -1168,7 +1168,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>931</x>
-<y>487</y>
+<y>529</y>
 <width>360</width>
 <height>43</height>
 </Bounds>
@@ -1218,7 +1218,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>106</x>
-<y>487</y>
+<y>529</y>
 <width>233</width>
 <height>43</height>
 </Bounds>
@@ -1268,7 +1268,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>21</x>
-<y>487</y>
+<y>529</y>
 <width>74</width>
 <height>42</height>
 </Bounds>
@@ -1318,7 +1318,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>529</y>
+<y>572</y>
 <width>2138</width>
 <height>21</height>
 </Bounds>
@@ -1366,7 +1366,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>402</y>
+<y>444</y>
 <width>2138</width>
 <height>21</height>
 </Bounds>
@@ -1414,7 +1414,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>0</x>
-<y>360</y>
+<y>381</y>
 <width>2138</width>
 <height>21</height>
 </Bounds>
@@ -1675,8 +1675,8 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-191">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>1736</x>
-<y>423</y>
+<x>1820</x>
+<y>466</y>
 <width>275</width>
 <height>42</height>
 </Bounds>
@@ -1730,7 +1730,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-195">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1728</x>
-<y>381</y>
+<y>402</y>
 <width>280</width>
 <height>43</height>
 </Bounds>
@@ -1784,7 +1784,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-199">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>1291</x>
-<y>423</y>
+<y>466</y>
 <width>120</width>
 <height>43</height>
 </Bounds>
@@ -1837,8 +1837,8 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-203">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>698</x>
-<y>423</y>
+<x>1228</x>
+<y>466</y>
 <width>580</width>
 <height>43</height>
 </Bounds>
@@ -1892,7 +1892,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-207">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>381</x>
-<y>423</y>
+<y>466</y>
 <width>300</width>
 <height>43</height>
 </Bounds>
@@ -1946,7 +1946,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-211">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>85</x>
-<y>423</y>
+<y>466</y>
 <width>283</width>
 <height>42</height>
 </Bounds>
@@ -1999,8 +1999,8 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-215">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>698</x>
-<y>381</y>
+<x>1016</x>
+<y>402</y>
 <width>580</width>
 <height>41</height>
 </Bounds>
@@ -2054,7 +2054,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-219">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>381</x>
-<y>381</y>
+<y>402</y>
 <width>300</width>
 <height>41</height>
 </Bounds>
@@ -2108,7 +2108,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_DataSource id="ref-223">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>127</x>
-<y>381</y>
+<y>402</y>
 <width>240</width>
 <height>41</height>
 </Bounds>
@@ -2323,7 +2323,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-240">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>254</x>
+<x>127</x>
 <y>275</y>
 <width>550</width>
 <height>82</height>
@@ -2377,7 +2377,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-244">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>254</x>
+<x>466</x>
 <y>233</y>
 <width>520</width>
 <height>42</height>
@@ -2399,7 +2399,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <a1:ObjectStorage id="ref-65" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-18"/>
 <Type_X_TypeName href="#ref-96"/>
-<Visible>true</Visible>
+<Visible>false</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
 <Name id="ref-245">xrLabel4</Name>
@@ -2431,7 +2431,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItem0_X_FormatString href="#ref-6"/>
 <BindingItem0_X_DataSource id="ref-248">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>85</x>
+<x>0</x>
 <y>233</y>
 <width>169</width>
 <height>42</height>

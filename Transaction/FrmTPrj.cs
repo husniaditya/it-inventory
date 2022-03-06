@@ -223,10 +223,47 @@ namespace CAS.Transaction
         void tsbtnPrint_Click(object sender, EventArgs e)
         {
             string path = Application.StartupPath + "\\Reports\\" + "RepPRJasa" + ".repx";
+            if (!System.IO.File.Exists(path))
+                throw new Exception("Error! Report " + "RepPRJasa" + " does not exist!");
+
             XtraReport report = new XtraReport();
             report.LoadState(path);
             report.DataSource = DB.sql.Select("Call SP_Print('" + this.Name + "','" + this.NoDocument + "')");
-            report.Bands[BandKind.GroupFooter].Controls["lblUser"].Text = DB.casUser.Name;
+
+            Image img = Image.FromFile(Application.StartupPath + "\\logo.gif");
+            int lebar = 100;
+            int tinggi = 70;
+
+            if ((report.Bands[BandKind.PageHeader] != null && report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"] != null))
+            {
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Width = lebar;
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                //int left = ((XRPictureBox)(report.Bands[BandKind.PageHeader].Controls["xrPictureBox1"])).Left;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Left = 120;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Left = 120;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Left = 120;
+                report.Bands[BandKind.PageHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyName");
+                report.Bands[BandKind.PageHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                report.Bands[BandKind.PageHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyContact");
+            }
+            if (report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"] != null)
+            {
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).ImageUrl = (Application.StartupPath + "\\logo.gif");
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Width = lebar;
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Height = tinggi;
+                ((XRPictureBox)(report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+                //int left = ((XRPictureBox)(Report.Bands[BandKind.ReportHeader].Controls["xrPictureBox1"])).Left;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Left = 120;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Left = 120;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Left = 120;
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel3"].Text = Utility.GetConfig("CompanyName");
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel4"].Text = Utility.GetConfig("CompanyAddr");
+                report.Bands[BandKind.ReportHeader].Controls["xrLabel5"].Text = Utility.GetConfig("CompanyContact");
+
+            }
+
             report.ShowPreview();
 
         }

@@ -613,7 +613,7 @@ Localization=en-US
 <width>341</width>
 <height>33</height>
 </Bounds>
-<Text id="ref-88">PT. Baramuda Bahari</Text>
+<Text id="ref-88"></Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>

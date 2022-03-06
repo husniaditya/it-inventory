@@ -36,9 +36,9 @@ namespace CAS.Transaction
             this.cctLabel = new System.Windows.Forms.Label();
             this.locLabel = new System.Windows.Forms.Label();
             this.remarkTextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.jinBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.casDataSet = new CAS.casDataSet();
             this.jinBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.casDataSet = new CAS.casDataSet();
+            this.jinBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.cctTextBoxEx = new KASLibrary.TextBoxEx();
             this.locTextBoxEx = new KASLibrary.TextBoxEx();
             this.gcjin = new KASLibrary.GridControlEx();
@@ -63,9 +63,9 @@ namespace CAS.Transaction
             ((System.ComponentModel.ISupportInitialize)(this.curkurs.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.curcur.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.remarkTextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cctTextBoxEx.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.locTextBoxEx.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.jidBindingSource)).BeginInit();
@@ -74,11 +74,9 @@ namespace CAS.Transaction
             // 
             // txtNo
             // 
-            this.txtNo.Size = new System.Drawing.Size(85, 26);
             // 
             // txtPeriod
             // 
-            this.txtPeriod.Size = new System.Drawing.Size(43, 26);
             // 
             // ludSeri
             // 
@@ -100,7 +98,7 @@ namespace CAS.Transaction
             this.pnlDetail.Controls.Add(this.cctTextBoxEx);
             this.pnlDetail.Controls.Add(remarkLabel);
             this.pnlDetail.Controls.Add(this.remarkTextEdit);
-            this.pnlDetail.Size = new System.Drawing.Size(706, 415);
+            this.pnlDetail.Size = new System.Drawing.Size(706, 430);
             this.pnlDetail.Controls.SetChildIndex(this.dateDate, 0);
             this.pnlDetail.Controls.SetChildIndex(this.dateLabel, 0);
             this.pnlDetail.Controls.SetChildIndex(this.curcur, 0);
@@ -142,7 +140,7 @@ namespace CAS.Transaction
             this.dateDate.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.dateDate.Properties.Mask.EditMask = "dd/MM/yyyy HH:mm:ss";
             this.dateDate.Properties.Mask.IgnoreMaskBlank = false;
-            this.dateDate.Size = new System.Drawing.Size(150, 26);
+            this.dateDate.Size = new System.Drawing.Size(150, 23);
             // 
             // dateLabel
             // 
@@ -160,7 +158,6 @@ namespace CAS.Transaction
             this.curcur.Properties.Appearance.ForeColor = System.Drawing.Color.Black;
             this.curcur.Properties.Appearance.Options.UseBackColor = true;
             this.curcur.Properties.Appearance.Options.UseForeColor = true;
-            this.curcur.Size = new System.Drawing.Size(57, 26);
             this.curcur.Visible = false;
             // 
             // curLabel1
@@ -178,7 +175,7 @@ namespace CAS.Transaction
             remarkLabel.AutoSize = true;
             remarkLabel.Location = new System.Drawing.Point(24, 104);
             remarkLabel.Name = "remarkLabel";
-            remarkLabel.Size = new System.Drawing.Size(88, 19);
+            remarkLabel.Size = new System.Drawing.Size(63, 13);
             remarkLabel.TabIndex = 32;
             remarkLabel.Text = "Keterangan";
             // 
@@ -187,7 +184,7 @@ namespace CAS.Transaction
             jenisLabel.AutoSize = true;
             jenisLabel.Location = new System.Drawing.Point(519, 111);
             jenisLabel.Name = "jenisLabel";
-            jenisLabel.Size = new System.Drawing.Size(123, 19);
+            jenisLabel.Size = new System.Drawing.Size(85, 13);
             jenisLabel.TabIndex = 43;
             jenisLabel.Text = "Moving Average";
             // 
@@ -196,7 +193,7 @@ namespace CAS.Transaction
             plantLabel.AutoSize = true;
             plantLabel.Location = new System.Drawing.Point(24, 59);
             plantLabel.Name = "plantLabel";
-            plantLabel.Size = new System.Drawing.Size(44, 19);
+            plantLabel.Size = new System.Drawing.Size(31, 13);
             plantLabel.TabIndex = 45;
             plantLabel.Text = "Plant";
             // 
@@ -207,7 +204,7 @@ namespace CAS.Transaction
             bsaLabel.ForeColor = System.Drawing.Color.Red;
             bsaLabel.Location = new System.Drawing.Point(24, 10);
             bsaLabel.Name = "bsaLabel";
-            bsaLabel.Size = new System.Drawing.Size(105, 21);
+            bsaLabel.Size = new System.Drawing.Size(69, 13);
             bsaLabel.TabIndex = 139;
             bsaLabel.Text = "Bisnis Area";
             // 
@@ -216,7 +213,7 @@ namespace CAS.Transaction
             this.cctLabel.AutoSize = true;
             this.cctLabel.Location = new System.Drawing.Point(24, 32);
             this.cctLabel.Name = "cctLabel";
-            this.cctLabel.Size = new System.Drawing.Size(91, 19);
+            this.cctLabel.Size = new System.Drawing.Size(65, 13);
             this.cctLabel.TabIndex = 33;
             this.cctLabel.Text = "Cost Center";
             // 
@@ -225,7 +222,7 @@ namespace CAS.Transaction
             this.locLabel.AutoSize = true;
             this.locLabel.Location = new System.Drawing.Point(24, 82);
             this.locLabel.Name = "locLabel";
-            this.locLabel.Size = new System.Drawing.Size(64, 19);
+            this.locLabel.Size = new System.Drawing.Size(44, 13);
             this.locLabel.TabIndex = 34;
             this.locLabel.Text = "Gudang";
             // 
@@ -234,13 +231,14 @@ namespace CAS.Transaction
             this.remarkTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.jinBindingSource, "remark", true));
             this.remarkTextEdit.Location = new System.Drawing.Point(96, 104);
             this.remarkTextEdit.Name = "remarkTextEdit";
-            this.remarkTextEdit.Size = new System.Drawing.Size(370, 26);
+            this.remarkTextEdit.Size = new System.Drawing.Size(370, 20);
             this.remarkTextEdit.TabIndex = 33;
             // 
-            // jinBindingSource1
+            // jinBindingSource
             // 
-            this.jinBindingSource1.DataMember = "jin";
-            this.jinBindingSource1.DataSource = this.casDataSet;
+            this.jinBindingSource.DataMember = "jin";
+            this.jinBindingSource.DataSource = this.casDataSet;
+            this.jinBindingSource.Filter = "group_=1";
             // 
             // casDataSet
             // 
@@ -248,11 +246,10 @@ namespace CAS.Transaction
             this.casDataSet.Locale = new System.Globalization.CultureInfo("id-ID");
             this.casDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // jinBindingSource
+            // jinBindingSource1
             // 
-            this.jinBindingSource.DataMember = "jin";
-            this.jinBindingSource.DataSource = this.casDataSet;
-            this.jinBindingSource.Filter = "group_=1";
+            this.jinBindingSource1.DataMember = "jin";
+            this.jinBindingSource1.DataSource = this.casDataSet;
             // 
             // cctTextBoxEx
             // 
@@ -282,7 +279,7 @@ namespace CAS.Transaction
             this.cctTextBoxEx.Name = "cctTextBoxEx";
             this.cctTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.cctTextBoxEx.Size = new System.Drawing.Size(100, 26);
+            this.cctTextBoxEx.Size = new System.Drawing.Size(100, 20);
             this.cctTextBoxEx.TabIndex = 34;
             // 
             // locTextBoxEx
@@ -313,7 +310,7 @@ namespace CAS.Transaction
             this.locTextBoxEx.Name = "locTextBoxEx";
             this.locTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.locTextBoxEx.Size = new System.Drawing.Size(100, 26);
+            this.locTextBoxEx.Size = new System.Drawing.Size(100, 20);
             this.locTextBoxEx.TabIndex = 35;
             // 
             // gcjin
@@ -326,7 +323,7 @@ namespace CAS.Transaction
             this.gcjin.Location = new System.Drawing.Point(24, 125);
             this.gcjin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gcjin.Name = "gcjin";
-            this.gcjin.Size = new System.Drawing.Size(670, 284);
+            this.gcjin.Size = new System.Drawing.Size(670, 299);
             this.gcjin.TabIndex = 36;
             // 
             // jinTableAdapter
@@ -370,6 +367,7 @@ namespace CAS.Transaction
             this.button1.TabIndex = 46;
             this.button1.Text = "update price 0";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // plantComboBox
@@ -378,7 +376,7 @@ namespace CAS.Transaction
             this.plantComboBox.FormattingEnabled = true;
             this.plantComboBox.Location = new System.Drawing.Point(96, 56);
             this.plantComboBox.Name = "plantComboBox";
-            this.plantComboBox.Size = new System.Drawing.Size(121, 28);
+            this.plantComboBox.Size = new System.Drawing.Size(121, 21);
             this.plantComboBox.TabIndex = 46;
             // 
             // bsaTextBoxEx
@@ -409,7 +407,7 @@ namespace CAS.Transaction
             this.bsaTextBoxEx.Name = "bsaTextBoxEx";
             this.bsaTextBoxEx.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "", -1, true, true, false, DevExpress.Utils.HorzAlignment.Center, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.F4))});
-            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 26);
+            this.bsaTextBoxEx.Size = new System.Drawing.Size(81, 20);
             this.bsaTextBoxEx.TabIndex = 140;
             // 
             // FrmTJin
@@ -433,9 +431,9 @@ namespace CAS.Transaction
             ((System.ComponentModel.ISupportInitialize)(this.curkurs.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.curcur.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.remarkTextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.casDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jinBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cctTextBoxEx.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.locTextBoxEx.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jidBindingSource)).EndInit();

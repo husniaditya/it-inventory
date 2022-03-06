@@ -1,8 +1,8 @@
 <!--
 AssemblyName=DevExpress%2EXtraReports3%2C%20Version%3D1%2E12%2E3%2E0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4
-AssemblyLocation=D:\Baramuda\Program\CAS BB\DevExpress.XtraReports3.dll
+AssemblyLocation=D:\laragon\www\it-inventory\Exe\DevExpress.XtraReports3.dll
 TypeName=DevExpress.XtraReports.UI.XtraReport
-Localization=en-US
+Localization=en-GB
 -->
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -421,163 +421,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-64">DevExpress.XtraReports.UI.XRLabel</Type_X_TypeName>
+<Type_X_TypeName id="ref-64">DevExpress.XtraReports.UI.XRPictureBox</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-65">xrLabel5</Name>
-<Style_X_Font id="ref-66">Times New Roman, 9pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-14"/>
-<Style_X_BackColor href="#ref-15"/>
-<Style_X_BorderColor href="#ref-14"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>108</x>
-<y>58</y>
-<width>341</width>
-<height>17</height>
-</Bounds>
-<Text id="ref-67">
-</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>true</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-68">xrLabel4</Name>
-<Style_X_Font id="ref-69">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-14"/>
-<Style_X_BackColor href="#ref-15"/>
-<Style_X_BorderColor href="#ref-14"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>108</x>
-<y>42</y>
-<width>375</width>
-<height>17</height>
-</Bounds>
-<Text id="ref-70">Desa Wonokoyo, Kec. Beji, Pasuruan 67154, Indonesia</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-71">xrLabel3</Name>
-<Style_X_Font id="ref-72">Times New Roman, 16pt, style=Bold</Style_X_Font>
-<Style_X_ForeColor href="#ref-14"/>
-<Style_X_BackColor href="#ref-15"/>
-<Style_X_BorderColor href="#ref-14"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>0</BindingItemCount>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>108</x>
-<y>17</y>
-<width>341</width>
-<height>33</height>
-</Bounds>
-<Text id="ref-73">PT. Baramuda Bahari</Text>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-74">DevExpress.XtraReports.UI.XRPictureBox</Type_X_TypeName>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-75">xrPictureBox1</Name>
-<Style_X_Font id="ref-76">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-65">xrPictureBox1</Name>
+<Style_X_Font id="ref-66">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -602,9 +451,9 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <BindingItemCount>0</BindingItemCount>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>25</x>
-<y>8</y>
-<width>75</width>
-<height>67</height>
+<y>0</y>
+<width>134</width>
+<height>75</height>
 </Bounds>
 <Text href="#ref-6"/>
 <NavigateUrl href="#ref-6"/>
@@ -613,18 +462,168 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
-<Image href="#ref-77"/>
+<Image href="#ref-67"/>
 <Sizing xsi:type="a4:ImageSizeMode" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">StretchImage</Sizing>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-19"/>
+<Type_X_TypeName id="ref-68">DevExpress.XtraReports.UI.XRLabel</Type_X_TypeName>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-69">xrLabel5</Name>
+<Style_X_Font id="ref-70">Times New Roman, 18pt, style=Bold</Style_X_Font>
+<Style_X_ForeColor id="ref-71">128, 64, 0</Style_X_ForeColor>
+<Style_X_BackColor href="#ref-15"/>
+<Style_X_BorderColor href="#ref-14"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">TopLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>false</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>158</x>
+<y>50</y>
+<width>383</width>
+<height>25</height>
+</Bounds>
+<Text id="ref-72">PT. Wage Biro Technic</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-19"/>
+<Type_X_TypeName href="#ref-68"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-73">xrLabel4</Name>
+<Style_X_Font id="ref-74">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-14"/>
+<Style_X_BackColor href="#ref-15"/>
+<Style_X_BorderColor href="#ref-14"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>158</x>
+<y>33</y>
+<width>375</width>
+<height>17</height>
+</Bounds>
+<Text id="ref-75">Jl. Kartini No.16, Beji, Pasuruan - Jawa Timur</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-19"/>
+<Type_X_TypeName href="#ref-68"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-76">xrLabel3</Name>
+<Style_X_Font id="ref-77">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-14"/>
+<Style_X_BackColor href="#ref-15"/>
+<Style_X_BorderColor href="#ref-14"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>false</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>false</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>0</BindingItemCount>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>158</x>
+<y>50</y>
+<width>375</width>
+<height>17</height>
+</Bounds>
+<Text id="ref-78">Phone: +62812 3456 789</Text>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-78">xrLabel26</Name>
-<Style_X_Font id="ref-79">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-79">xrLabel26</Name>
+<Style_X_Font id="ref-80">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -647,17 +646,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-80">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-81">date</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString id="ref-82">{0:dd/MM/yyyy}</BindingItem0_X_FormatString>
-<BindingItem0_X_DataSource id="ref-83">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_PropertyName id="ref-81">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-82">date</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString id="ref-83">{0:dd/MM/yyyy}</BindingItem0_X_FormatString>
+<BindingItem0_X_DataSource id="ref-84">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>683</x>
 <y>100</y>
 <width>117</width>
 <height>16</height>
 </Bounds>
-<Text href="#ref-78"/>
+<Text href="#ref-79"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -673,12 +672,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-84">xrLabel22</Name>
-<Style_X_Font id="ref-85">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-85">xrLabel22</Name>
+<Style_X_Font id="ref-86">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -707,7 +706,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>9</width>
 <height>16</height>
 </Bounds>
-<Text id="ref-86">:</Text>
+<Text id="ref-87">:</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -723,12 +722,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-87">xrLabel19</Name>
-<Style_X_Font id="ref-88">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-88">xrLabel19</Name>
+<Style_X_Font id="ref-89">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -757,7 +756,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>58</width>
 <height>16</height>
 </Bounds>
-<Text id="ref-89">Tanggal :</Text>
+<Text id="ref-90">Tanggal :</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -773,12 +772,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-90">xrLabel11</Name>
-<Style_X_Font id="ref-91">Times New Roman, 12pt, style=Bold</Style_X_Font>
+<Name id="ref-91">xrLabel11</Name>
+<Style_X_Font id="ref-92">Times New Roman, 12pt, style=Bold</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -801,17 +800,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName id="ref-92">Text</BindingItem0_X_PropertyName>
-<BindingItem0_X_DataMember id="ref-93">rma</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName id="ref-93">Text</BindingItem0_X_PropertyName>
+<BindingItem0_X_DataMember id="ref-94">rma</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-94">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-95">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>575</x>
 <y>33</y>
 <width>225</width>
 <height>25</height>
 </Bounds>
-<Text href="#ref-90"/>
+<Text href="#ref-91"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -827,12 +826,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-95">DevExpress.XtraReports.UI.XRLine</Type_X_TypeName>
+<Type_X_TypeName id="ref-96">DevExpress.XtraReports.UI.XRLine</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-96">xrLine1</Name>
-<Style_X_Font id="ref-97">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-97">xrLine1</Name>
+<Style_X_Font id="ref-98">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -875,12 +874,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-98">xrLabel2</Name>
-<Style_X_Font id="ref-99">Times New Roman, 14pt, style=Bold</Style_X_Font>
+<Name id="ref-99">xrLabel2</Name>
+<Style_X_Font id="ref-100">Times New Roman, 14pt, style=Bold</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -909,7 +908,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>241</width>
 <height>25</height>
 </Bounds>
-<Text id="ref-100">PR JASA</Text>
+<Text id="ref-101">PR JASA</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -929,8 +928,8 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-101">xrTable2</Name>
-<Style_X_Font id="ref-102">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-102">xrTable2</Name>
+<Style_X_Font id="ref-103">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -967,16 +966,16 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
 <ItemCount>1</ItemCount>
-<Item0 href="#ref-103"/>
+<Item0 href="#ref-104"/>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-39" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-104">DevExpress.XtraReports.UI.XRControl</Type_X_TypeName>
+<Type_X_TypeName id="ref-105">DevExpress.XtraReports.UI.XRControl</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-105">xrControl1</Name>
-<Style_X_Font id="ref-106">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-106">xrControl1</Name>
+<Style_X_Font id="ref-107">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1016,12 +1015,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-49" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>false</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-107">lblUser</Name>
-<Style_X_Font id="ref-108">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-108">lblUser</Name>
+<Style_X_Font id="ref-109">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1050,7 +1049,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>100</width>
 <height>17</height>
 </Bounds>
-<Text id="ref-109">user</Text>
+<Text id="ref-110">user</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1066,12 +1065,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-50" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-110">DevExpress.XtraReports.UI.XRPageInfo</Type_X_TypeName>
+<Type_X_TypeName id="ref-111">DevExpress.XtraReports.UI.XRPageInfo</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-111">xrPageInfo2</Name>
-<Style_X_Font id="ref-112">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-112">xrPageInfo2</Name>
+<Style_X_Font id="ref-113">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1108,18 +1107,18 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <PageInfo xsi:type="a4:PageInfo" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">NumberOfTotal</PageInfo>
-<Format id="ref-113">Page {0} / {1}</Format>
+<Format id="ref-114">Page {0} / {1}</Format>
 <StartPageNumber>1</StartPageNumber>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-51" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-114">lblPrint</Name>
-<Style_X_Font id="ref-115">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-115">lblPrint</Name>
+<Style_X_Font id="ref-116">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1155,7 +1154,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-116">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-117">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   lblPrint.Text = &#34;Printed by: &#34; + lblUser.Text + &#34; &#34; + DateTime.Now.ToString(&#34;dd/MM/yyyy HH:mm:ss&#34;);
 }</EventsScript_X_OnBeforePrint>
 <Multiline>false</Multiline>
@@ -1167,12 +1166,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-52" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-117">xrLabel39</Name>
-<Style_X_Font id="ref-118">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-118">xrLabel39</Name>
+<Style_X_Font id="ref-119">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1201,7 +1200,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>125</width>
 <height>16</height>
 </Bounds>
-<Text id="ref-119">DIPERIKSA OLEH</Text>
+<Text id="ref-120">DIPERIKSA OLEH</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1217,12 +1216,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-53" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-120">xrLabel37</Name>
-<Style_X_Font id="ref-121">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-121">xrLabel37</Name>
+<Style_X_Font id="ref-122">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1251,7 +1250,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>125</width>
 <height>16</height>
 </Bounds>
-<Text id="ref-122">DIBUAT OLEH</Text>
+<Text id="ref-123">DIBUAT OLEH</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1267,12 +1266,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-54" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-95"/>
+<Type_X_TypeName href="#ref-96"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-123">xrLine20</Name>
-<Style_X_Font id="ref-124">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-124">xrLine20</Name>
+<Style_X_Font id="ref-125">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1315,12 +1314,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-55" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-64"/>
+<Type_X_TypeName href="#ref-68"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-125">xrLabel36</Name>
-<Style_X_Font id="ref-126">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-126">xrLabel36</Name>
+<Style_X_Font id="ref-127">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1349,7 +1348,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>66</width>
 <height>16</height>
 </Bounds>
-<Text id="ref-127">Catatan  :</Text>
+<Text id="ref-128">Catatan  :</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1365,12 +1364,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-56" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-95"/>
+<Type_X_TypeName href="#ref-96"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-128">xrLine18</Name>
-<Style_X_Font id="ref-129">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-129">xrLine18</Name>
+<Style_X_Font id="ref-130">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1413,12 +1412,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-57" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-95"/>
+<Type_X_TypeName href="#ref-96"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-130">xrLine17</Name>
-<Style_X_Font id="ref-131">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-131">xrLine17</Name>
+<Style_X_Font id="ref-132">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1461,13 +1460,13 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-58" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-95"/>
+<Type_X_TypeName href="#ref-96"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-132">xrLine15</Name>
-<Style_X_Font id="ref-133">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor id="ref-134">ButtonFace</Style_X_ForeColor>
+<Name id="ref-133">xrLine15</Name>
+<Style_X_Font id="ref-134">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor id="ref-135">ButtonFace</Style_X_ForeColor>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
 <Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">All</Style_X_Borders>
@@ -1509,13 +1508,13 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-59" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-95"/>
+<Type_X_TypeName href="#ref-96"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-135">xrLine16</Name>
-<Style_X_Font id="ref-136">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-134"/>
+<Name id="ref-136">xrLine16</Name>
+<Style_X_Font id="ref-137">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-135"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
 <Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">All</Style_X_Borders>
@@ -1557,12 +1556,12 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-63" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-137">DevExpress.XtraReports.UI.XRTableRow</Type_X_TypeName>
+<Type_X_TypeName id="ref-138">DevExpress.XtraReports.UI.XRTableRow</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-138">xrTableRow1</Name>
-<Style_X_Font id="ref-139">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-139">xrTableRow1</Name>
+<Style_X_Font id="ref-140">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1599,24 +1598,24 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>6</ItemCount>
-<Item0 href="#ref-140"/>
-<Item1 href="#ref-141"/>
-<Item2 href="#ref-142"/>
-<Item3 href="#ref-143"/>
-<Item4 href="#ref-144"/>
-<Item5 href="#ref-145"/>
+<Item0 href="#ref-141"/>
+<Item1 href="#ref-142"/>
+<Item2 href="#ref-143"/>
+<Item3 href="#ref-144"/>
+<Item4 href="#ref-145"/>
+<Item5 href="#ref-146"/>
 </a1:ObjectStorage>
-<a2:Bitmap id="ref-77" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<Data href="#ref-146"/>
+<a2:Bitmap id="ref-67" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Data href="#ref-147"/>
 </a2:Bitmap>
-<a1:ObjectStorage id="ref-103" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-104" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-137"/>
+<Type_X_TypeName href="#ref-138"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-147">xrTableRow2</Name>
-<Style_X_Font id="ref-148">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-148">xrTableRow2</Name>
+<Style_X_Font id="ref-149">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1653,21 +1652,21 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <WordWrap>true</WordWrap>
 <KeepTogether>true</KeepTogether>
 <ItemCount>6</ItemCount>
-<Item0 href="#ref-149"/>
-<Item1 href="#ref-150"/>
-<Item2 href="#ref-151"/>
-<Item3 href="#ref-152"/>
-<Item4 href="#ref-153"/>
-<Item5 href="#ref-154"/>
+<Item0 href="#ref-150"/>
+<Item1 href="#ref-151"/>
+<Item2 href="#ref-152"/>
+<Item3 href="#ref-153"/>
+<Item4 href="#ref-154"/>
+<Item5 href="#ref-155"/>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-140" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-141" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName id="ref-155">DevExpress.XtraReports.UI.XRTableCell</Type_X_TypeName>
+<Type_X_TypeName id="ref-156">DevExpress.XtraReports.UI.XRTableCell</Type_X_TypeName>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-156">xrTableCell7</Name>
-<Style_X_Font id="ref-157">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-157">xrTableCell7</Name>
+<Style_X_Font id="ref-158">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1703,7 +1702,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <CanShrink>false</CanShrink>
 <WordWrap>true</WordWrap>
 <KeepTogether>false</KeepTogether>
-<EventsScript_X_OnBeforePrint id="ref-158">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+<EventsScript_X_OnBeforePrint id="ref-159">private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
   no = no + 1;
   xrTableCell7.Text = no.ToString();
 }</EventsScript_X_OnBeforePrint>
@@ -1714,14 +1713,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-141" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-142" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-159">xrTableCell1</Name>
-<Style_X_Font id="ref-160">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-160">xrTableCell1</Name>
+<Style_X_Font id="ref-161">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1744,68 +1743,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-92"/>
-<BindingItem0_X_DataMember id="ref-161">inv</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-93"/>
+<BindingItem0_X_DataMember id="ref-162">inv</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-162">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-163">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>50</x>
 <y>0</y>
 <width>125</width>
-<height>20</height>
-</Bounds>
-<Text href="#ref-6"/>
-<NavigateUrl href="#ref-6"/>
-<Target href="#ref-6"/>
-<CanGrow>true</CanGrow>
-<CanShrink>false</CanShrink>
-<WordWrap>true</WordWrap>
-<KeepTogether>false</KeepTogether>
-<Multiline>false</Multiline>
-<Angle>0</Angle>
-<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
-<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
-<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
-<ItemCount>0</ItemCount>
-</a1:ObjectStorage>
-<a1:ObjectStorage id="ref-142" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
-<Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
-<Visible>true</Visible>
-<Tag href="#ref-6"/>
-<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-163">xrTableCell5</Name>
-<Style_X_Font id="ref-164">Times New Roman, 9.75pt</Style_X_Font>
-<Style_X_ForeColor href="#ref-14"/>
-<Style_X_BackColor href="#ref-15"/>
-<Style_X_BorderColor href="#ref-14"/>
-<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
-<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
-<Style_X_BorderWidth>1</Style_X_BorderWidth>
-<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
-<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
-<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
-<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
-<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
-<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
-<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
-<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
-<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
-<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
-<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
-<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
-<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
-<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
-<Dpi>100</Dpi>
-<BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-92"/>
-<BindingItem0_X_DataMember id="ref-165">namabarang</BindingItem0_X_DataMember>
-<BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-166">dataSource.</BindingItem0_X_DataSource>
-<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
-<x>175</x>
-<y>0</y>
-<width>292</width>
 <height>20</height>
 </Bounds>
 <Text href="#ref-6"/>
@@ -1824,12 +1769,66 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 </a1:ObjectStorage>
 <a1:ObjectStorage id="ref-143" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-167">xrTableCell2</Name>
-<Style_X_Font id="ref-168">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-164">xrTableCell5</Name>
+<Style_X_Font id="ref-165">Times New Roman, 9.75pt</Style_X_Font>
+<Style_X_ForeColor href="#ref-14"/>
+<Style_X_BackColor href="#ref-15"/>
+<Style_X_BorderColor href="#ref-14"/>
+<Style_X_Borders xsi:type="a4:BorderSide" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Style_X_Borders>
+<Style_X_TextAlignment xsi:type="a4:TextAlignment" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraPrinting/DevExpress.Utils3%2C%20Version%3D3.2.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">MiddleLeft</Style_X_TextAlignment>
+<Style_X_BorderWidth>1</Style_X_BorderWidth>
+<Style_X_StyleUsing_X_UseFont>true</Style_X_StyleUsing_X_UseFont>
+<Style_X_StyleUsing_X_UseForeColor>true</Style_X_StyleUsing_X_UseForeColor>
+<Style_X_StyleUsing_X_UseBackColor>true</Style_X_StyleUsing_X_UseBackColor>
+<Style_X_StyleUsing_X_UseBorderColor>true</Style_X_StyleUsing_X_UseBorderColor>
+<Style_X_StyleUsing_X_UseBorders>true</Style_X_StyleUsing_X_UseBorders>
+<Style_X_StyleUsing_X_UseBorderWidth>true</Style_X_StyleUsing_X_UseBorderWidth>
+<Style_X_StyleUsing_X_UseTextAlignment>false</Style_X_StyleUsing_X_UseTextAlignment>
+<ParentStyleUsing_X_UseFont>true</ParentStyleUsing_X_UseFont>
+<ParentStyleUsing_X_UseForeColor>true</ParentStyleUsing_X_UseForeColor>
+<ParentStyleUsing_X_UseBackColor>true</ParentStyleUsing_X_UseBackColor>
+<ParentStyleUsing_X_UseBorderColor>true</ParentStyleUsing_X_UseBorderColor>
+<ParentStyleUsing_X_UseBorders>true</ParentStyleUsing_X_UseBorders>
+<ParentStyleUsing_X_UseBorderWidth>true</ParentStyleUsing_X_UseBorderWidth>
+<ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
+<Dpi>100</Dpi>
+<BindingItemCount>1</BindingItemCount>
+<BindingItem0_X_PropertyName href="#ref-93"/>
+<BindingItem0_X_DataMember id="ref-166">namabarang</BindingItem0_X_DataMember>
+<BindingItem0_X_FormatString href="#ref-6"/>
+<BindingItem0_X_DataSource id="ref-167">dataSource.</BindingItem0_X_DataSource>
+<Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>175</x>
+<y>0</y>
+<width>292</width>
+<height>20</height>
+</Bounds>
+<Text href="#ref-6"/>
+<NavigateUrl href="#ref-6"/>
+<Target href="#ref-6"/>
+<CanGrow>true</CanGrow>
+<CanShrink>false</CanShrink>
+<WordWrap>true</WordWrap>
+<KeepTogether>false</KeepTogether>
+<Multiline>false</Multiline>
+<Angle>0</Angle>
+<Summary_X_Func xsi:type="a3:SummaryFunc" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">Sum</Summary_X_Func>
+<Summary_X_Running xsi:type="a3:SummaryRunning" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Summary_X_Running>
+<Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
+<ItemCount>0</ItemCount>
+</a1:ObjectStorage>
+<a1:ObjectStorage id="ref-144" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<Type_X_AssemblyName href="#ref-19"/>
+<Type_X_TypeName href="#ref-156"/>
+<Visible>true</Visible>
+<Tag href="#ref-6"/>
+<Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
+<Name id="ref-168">xrTableCell2</Name>
+<Style_X_Font id="ref-169">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1852,10 +1851,10 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-92"/>
-<BindingItem0_X_DataMember id="ref-169">qty1</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-93"/>
+<BindingItem0_X_DataMember id="ref-170">qty1</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-170">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-171">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>467</x>
 <y>0</y>
@@ -1876,14 +1875,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-144" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-145" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-171">xrTableCell6</Name>
-<Style_X_Font id="ref-172">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-172">xrTableCell6</Name>
+<Style_X_Font id="ref-173">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1906,10 +1905,10 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-92"/>
-<BindingItem0_X_DataMember id="ref-173">unit</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-93"/>
+<BindingItem0_X_DataMember id="ref-174">unit</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-174">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-175">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>542</x>
 <y>0</y>
@@ -1930,14 +1929,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-145" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-146" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-175">xrTableCell3</Name>
-<Style_X_Font id="ref-176">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-176">xrTableCell3</Name>
+<Style_X_Font id="ref-177">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -1960,17 +1959,17 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <ParentStyleUsing_X_UseTextAlignment>false</ParentStyleUsing_X_UseTextAlignment>
 <Dpi>100</Dpi>
 <BindingItemCount>1</BindingItemCount>
-<BindingItem0_X_PropertyName href="#ref-92"/>
-<BindingItem0_X_DataMember id="ref-177">etd</BindingItem0_X_DataMember>
+<BindingItem0_X_PropertyName href="#ref-93"/>
+<BindingItem0_X_DataMember id="ref-178">etd</BindingItem0_X_DataMember>
 <BindingItem0_X_FormatString href="#ref-6"/>
-<BindingItem0_X_DataSource id="ref-178">dataSource.</BindingItem0_X_DataSource>
+<BindingItem0_X_DataSource id="ref-179">dataSource.</BindingItem0_X_DataSource>
 <Bounds xsi:type="a2:Rectangle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
 <x>600</x>
 <y>0</y>
 <width>187</width>
 <height>20</height>
 </Bounds>
-<Text href="#ref-175"/>
+<Text href="#ref-176"/>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -1984,15 +1983,15 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<SOAP-ENC:Array id="ref-146" xsi:type="SOAP-ENC:base64">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</SOAP-ENC:Array>
-<a1:ObjectStorage id="ref-149" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<SOAP-ENC:Array id="ref-147" xsi:type="SOAP-ENC:base64">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</SOAP-ENC:Array>
+<a1:ObjectStorage id="ref-150" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-179">xrTableCell8</Name>
-<Style_X_Font id="ref-180">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-180">xrTableCell8</Name>
+<Style_X_Font id="ref-181">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2021,7 +2020,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>50</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-181">No</Text>
+<Text id="ref-182">No</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2035,14 +2034,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-150" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-151" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-182">xrTableCell10</Name>
-<Style_X_Font id="ref-183">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-183">xrTableCell10</Name>
+<Style_X_Font id="ref-184">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2071,7 +2070,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>125</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-184">Kode Barang</Text>
+<Text id="ref-185">Kode Barang</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2085,14 +2084,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-151" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-152" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-185">xrTableCell11</Name>
-<Style_X_Font id="ref-186">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-186">xrTableCell11</Name>
+<Style_X_Font id="ref-187">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2121,7 +2120,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>292</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-187">Nama Barang</Text>
+<Text id="ref-188">Nama Barang</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2135,14 +2134,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-152" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-153" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-188">xrTableCell12</Name>
-<Style_X_Font id="ref-189">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-189">xrTableCell12</Name>
+<Style_X_Font id="ref-190">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2171,7 +2170,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>75</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-190">Qty</Text>
+<Text id="ref-191">Qty</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2185,14 +2184,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-153" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-154" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-191">xrTableCell13</Name>
-<Style_X_Font id="ref-192">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-192">xrTableCell13</Name>
+<Style_X_Font id="ref-193">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2221,7 +2220,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>58</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-193">Satuan</Text>
+<Text id="ref-194">Satuan</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
@@ -2235,14 +2234,14 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <Summary_X_IgnoreNullValues>false</Summary_X_IgnoreNullValues>
 <ItemCount>0</ItemCount>
 </a1:ObjectStorage>
-<a1:ObjectStorage id="ref-154" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
+<a1:ObjectStorage id="ref-155" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.Serialization/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">
 <Type_X_AssemblyName href="#ref-19"/>
-<Type_X_TypeName href="#ref-155"/>
+<Type_X_TypeName href="#ref-156"/>
 <Visible>true</Visible>
 <Tag href="#ref-6"/>
 <Dock xsi:type="a3:XRDockStyle" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/DevExpress.XtraReports.UI/DevExpress.XtraReports3%2C%20Version%3D1.12.3.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D79868b8147b5eae4">None</Dock>
-<Name id="ref-194">xrTableCell14</Name>
-<Style_X_Font id="ref-195">Times New Roman, 9.75pt</Style_X_Font>
+<Name id="ref-195">xrTableCell14</Name>
+<Style_X_Font id="ref-196">Times New Roman, 9.75pt</Style_X_Font>
 <Style_X_ForeColor href="#ref-14"/>
 <Style_X_BackColor href="#ref-15"/>
 <Style_X_BorderColor href="#ref-14"/>
@@ -2271,7 +2270,7 @@ private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs
 <width>187</width>
 <height>28</height>
 </Bounds>
-<Text id="ref-196">Keterangan</Text>
+<Text id="ref-197">Keterangan</Text>
 <NavigateUrl href="#ref-6"/>
 <Target href="#ref-6"/>
 <CanGrow>true</CanGrow>
